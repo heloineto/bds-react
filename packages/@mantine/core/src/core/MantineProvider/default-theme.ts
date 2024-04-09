@@ -4,7 +4,7 @@ import { DEFAULT_COLORS } from './default-colors';
 import type { MantineTheme } from './theme.types';
 
 const DEFAULT_FONT_FAMILY =
-  '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji';
+  'Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji';
 
 export const DEFAULT_THEME: MantineTheme = {
   scale: 1,
@@ -24,7 +24,7 @@ export const DEFAULT_THEME: MantineTheme = {
   respectReducedMotion: false,
   cursorType: 'default',
   defaultGradient: { from: 'blue', to: 'cyan', deg: 45 },
-  defaultRadius: 'sm',
+  defaultRadius: 'md',
   activeClassName: 'mantine-active',
   focusClassName: '',
 
