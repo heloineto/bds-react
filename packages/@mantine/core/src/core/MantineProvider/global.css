@@ -355,7 +355,7 @@ body {
   --mantine-color-secondary-hover: #242424;
   --mantine-color-secondary-active: #1e1e1e;
   --mantine-color-tertiary: transparent;
-  --mantine-color-tertiary-color: var(--mantine-color-content-default);
+  --mantine-color-tertiary-color: white;
   --mantine-color-tertiary-hover: #242424;
   --mantine-color-tertiary-active: #1e1e1e;
   --mantine-color-tertiary-border: #595959;

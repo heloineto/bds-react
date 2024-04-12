@@ -7,6 +7,6 @@
   {
     "fileName": "DropdownOptionsAnimation.module.css",
     "language": "css",
-    "code": "@keyframes option-animation {\n  from {\n    opacity: 0;\n    transform: translateX(rem(-20px));\n  }\n\n  to {\n    opacity: 1;\n    transform: translateX(0);\n  }\n}\n\n.animateOption {\n  opacity: 0;\n  animation: option-animation 200ms ease;\n  animation-fill-mode: forwards;\n}\n"
+    "code": "@keyframes option-animation {\n  from {\n    opacity: 0;\n    transform: translateX(-20px);\n  }\n\n  to {\n    opacity: 1;\n    transform: translateX(0);\n  }\n}\n\n.animateOption {\n  opacity: 0;\n  animation: option-animation 200ms ease;\n  animation-fill-mode: forwards;\n}\n"
   }
 ]
