@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Group, useMantineColorScheme } from '@mantine/core';
+import { Button, Group, useMantineColorScheme } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useMantineColorScheme, Button, Group } from '@mantine/core';
+import { useMantineColorScheme, Button, Group } from '@bds-react/core';
 
 function Demo() {
   const { setColorScheme, clearColorScheme } = useMantineColorScheme();

@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import { Box, TextInput } from '@mantine/core';
+import { Box, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useEffect } from 'react';
 import { useForm } from '@mantine/form';
-import { TextInput, Box } from '@mantine/core';
+import { TextInput, Box } from '@bds-react/core';
 
 function Demo() {
   const form = useForm({

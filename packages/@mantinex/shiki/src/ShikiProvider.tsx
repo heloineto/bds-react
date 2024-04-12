@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import { useComputedColorScheme } from '@bds-react/core';
 import type { HighlighterGeneric } from 'shiki';
-import { useComputedColorScheme } from '@mantine/core';
 import { dark, light } from './themes';
 import { ShikiLanguage } from './types';
 import classes from './Shiki.module.css';

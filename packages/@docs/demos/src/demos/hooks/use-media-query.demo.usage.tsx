@@ -1,10 +1,10 @@
 import React from 'react';
-import { Badge, em } from '@mantine/core';
+import { Badge, em } from '@bds-react/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 import { useMediaQuery } from '@mantine/hooks';
 
 function Demo() {

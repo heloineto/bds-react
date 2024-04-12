@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { notifications } from '@mantine/notifications';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Notifications.demo.customize.module.css';
 
 const code = `
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { notifications } from '@mantine/notifications';
 import classes from './Demo.module.css';
 

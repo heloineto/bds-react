@@ -12,7 +12,7 @@ import {
   Tooltip,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { CopyIcon } from './CopyIcon';
 import { useShiki } from './ShikiProvider';
 import { ShikiLanguage } from './types';
@@ -122,5 +122,5 @@ export const CodeHighlight = factory<CodeHighlightFactory>((_props, ref) => {
   );
 });
 
-CodeHighlight.displayName = '@mantine/core/CodeHighlight';
+CodeHighlight.displayName = '@bds-react/core/CodeHighlight';
 CodeHighlight.classes = classes;

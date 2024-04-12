@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, Group, TextInput } from '@mantine/core';
+import { Button, Group, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { randomId } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm } from '@mantine/form';
-import { TextInput, Button, Group } from '@mantine/core';
+import { TextInput, Button, Group } from '@bds-react/core';
 import { randomId } from '@mantine/hooks';
 
 function Demo() {

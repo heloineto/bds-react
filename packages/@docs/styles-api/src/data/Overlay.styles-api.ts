@@ -1,4 +1,4 @@
-import type { OverlayFactory } from '@mantine/core';
+import type { OverlayFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const OverlayStylesApi: StylesApiData<OverlayFactory> = {

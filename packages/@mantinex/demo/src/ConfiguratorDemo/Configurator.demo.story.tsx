@@ -1,10 +1,10 @@
 import React from 'react';
-import { Highlight, HighlightProps } from '@mantine/core';
+import { Highlight, HighlightProps } from '@bds-react/core';
 import { ConfiguratorDemo } from './ConfiguratorDemo';
 
 export default { title: 'DS/ConfiguratorDemo' };
 
-const code = `import { Highlight } from '@mantine/core';
+const code = `import { Highlight } from '@bds-react/core';
 
 function Demo() {
   return (

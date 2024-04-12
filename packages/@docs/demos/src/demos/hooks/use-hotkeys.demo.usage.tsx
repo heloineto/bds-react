@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { getHotkeyHandler, useHotkeys } from '@mantine/hooks';
 import { notifications } from '@mantine/notifications';
 import { MantineDemo } from '@mantinex/demo';
@@ -8,7 +8,7 @@ const code = `
 import { useState } from 'react';
 import { getHotkeyHandler } from '@mantine/hooks';
 import { notifications } from '@mantine/notifications';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 
 function Demo() {
   const [value, setValue] = useState("I've just used a hotkey to send a message");

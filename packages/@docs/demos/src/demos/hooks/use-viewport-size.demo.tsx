@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import { useViewportSize } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 

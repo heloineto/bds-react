@@ -1,10 +1,10 @@
 import React from 'react';
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 import { useIdle } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const eventsCode = `
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 import { useIdle } from '@mantine/hooks';
 
 function Demo() {

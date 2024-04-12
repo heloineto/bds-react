@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Group, Text } from '@mantine/core';
+import { Button, Group, Text } from '@bds-react/core';
 import { useCounter } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Group, Button, Text } from '@mantine/core';
+import { Group, Button, Text } from '@bds-react/core';
 import { useCounter } from '@mantine/hooks';
 
 function Demo() {

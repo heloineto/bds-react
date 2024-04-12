@@ -1,11 +1,11 @@
 import React from 'react';
+import { Button, rem } from '@bds-react/core';
 import { IconCheck } from '@tabler/icons-react';
-import { Button, rem } from '@mantine/core';
 import { notifications } from '@mantine/notifications';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, rem } from '@mantine/core';
+import { Button, rem } from '@bds-react/core';
 import { notifications } from '@mantine/notifications';
 import { IconCheck } from '@tabler/icons-react';
 

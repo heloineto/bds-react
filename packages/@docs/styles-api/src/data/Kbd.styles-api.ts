@@ -1,4 +1,4 @@
-import type { KbdFactory } from '@mantine/core';
+import type { KbdFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const KbdStylesApi: StylesApiData<KbdFactory> = {

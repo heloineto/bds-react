@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Code, Group, Text } from '@mantine/core';
+import { Button, Code, Group, Text } from '@bds-react/core';
 import { randomId, useHash } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useHash, randomId } from '@mantine/hooks';
-import { Button, Text, Code } from '@mantine/core';
+import { Button, Text, Code } from '@bds-react/core';
 
 function Demo() {
   const [hash, setHash] = useHash();

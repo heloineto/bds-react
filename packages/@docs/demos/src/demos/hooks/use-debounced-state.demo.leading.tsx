@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Text, TextInput } from '@mantine/core';
+import { Box, Text, TextInput } from '@bds-react/core';
 import { useDebouncedState } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDebouncedState } from '@mantine/hooks';
-import { TextInput, Text } from '@mantine/core';
+import { TextInput, Text } from '@bds-react/core';
 
 function Demo() {
   const [value, setValue] = useDebouncedState('', 200, { leading: true });

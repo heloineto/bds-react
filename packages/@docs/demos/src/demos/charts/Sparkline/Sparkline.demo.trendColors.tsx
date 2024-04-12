@@ -1,6 +1,6 @@
 import React from 'react';
+import { Stack, Text } from '@bds-react/core';
 import { Sparkline } from '@mantine/charts';
-import { Stack, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const positiveTrend = [10, 20, 40, 20, 40, 10, 50];
@@ -9,7 +9,7 @@ const neutralTrend = [10, 20, 40, 20, 40, 10, 50, 5, 10];
 
 const code = `
 import { Sparkline } from '@mantine/charts';
-import { Stack, Text } from '@mantine/core';
+import { Stack, Text } from '@bds-react/core';
 
 const positiveTrend = [10, 20, 40, 20, 40, 10, 50];
 const negativeTrend = [50, 40, 20, 40, 20, 40, 10];

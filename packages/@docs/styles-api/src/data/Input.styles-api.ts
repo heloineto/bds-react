@@ -1,4 +1,4 @@
-import type { InputFactory, InputWrapperFactory } from '@mantine/core';
+import type { InputFactory, InputWrapperFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const InputStylesApi: StylesApiData<InputFactory> = {

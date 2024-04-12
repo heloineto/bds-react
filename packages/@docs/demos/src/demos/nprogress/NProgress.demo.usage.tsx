@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { NavigationProgress, nprogress } from '@mantine/nprogress';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { nprogress, NavigationProgress } from '@mantine/nprogress';
 
 function Demo() {

@@ -1,7 +1,7 @@
 import React from 'react';
+import { BoxProps, ElementProps, Group, rem, Text, UnstyledButton } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
 import cx from 'clsx';
-import { BoxProps, ElementProps, Group, rem, Text, UnstyledButton } from '@mantine/core';
 import classes from './SearchControl.module.css';
 
 interface SearchControlProps extends BoxProps, ElementProps<'button'> {}

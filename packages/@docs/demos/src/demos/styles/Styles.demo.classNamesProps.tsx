@@ -1,12 +1,12 @@
 import React from 'react';
+import { createTheme, MantineThemeProvider, TextInput } from '@bds-react/core';
 import cx from 'clsx';
-import { createTheme, MantineThemeProvider, TextInput } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Styles.demo.classNamesProps.module.css';
 
 const code = `
 import cx from 'clsx';
-import { MantineProvider, createTheme, TextInput } from '@mantine/core';
+import { MantineProvider, createTheme, TextInput } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

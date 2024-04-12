@@ -1,9 +1,9 @@
 import React from 'react';
-import { Checkbox, Radio, Stack } from '@mantine/core';
+import { Checkbox, Radio, Stack } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Radio, Checkbox, Stack } from '@mantine/core';
+import { Radio, Checkbox, Stack } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -3,7 +3,7 @@ import { CodeHighlightTabs } from '@mantine/code-highlight';
 import { MantineDemo } from '@mantinex/demo';
 
 const tsxCode = `
-import { Group, Button, MantineProvider, createTheme } from '@mantine/core';
+import { Group, Button, MantineProvider, createTheme } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

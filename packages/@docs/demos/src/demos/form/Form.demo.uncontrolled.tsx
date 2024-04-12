@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Button, Code, Text, TextInput } from '@mantine/core';
+import { Button, Code, Text, TextInput } from '@bds-react/core';
 import { hasLength, isEmail, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Button, Code, Text, TextInput } from '@mantine/core';
+import { Button, Code, Text, TextInput } from '@bds-react/core';
 import { hasLength, isEmail, useForm } from '@mantine/form';
 
 function Demo() {

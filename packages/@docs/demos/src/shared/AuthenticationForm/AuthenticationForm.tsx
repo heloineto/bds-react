@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IconAt, IconLock } from '@tabler/icons-react';
 import {
   Anchor,
   Button,
@@ -10,7 +9,8 @@ import {
   PasswordInput,
   Text,
   TextInput,
-} from '@mantine/core';
+} from '@bds-react/core';
+import { IconAt, IconLock } from '@tabler/icons-react';
 import { useForm } from '@mantine/form';
 
 export interface AuthenticationFormProps {

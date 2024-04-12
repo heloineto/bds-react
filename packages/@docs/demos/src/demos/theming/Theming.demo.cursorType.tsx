@@ -1,9 +1,9 @@
 import React from 'react';
-import { Checkbox, createTheme, MantineThemeProvider } from '@mantine/core';
+import { Checkbox, createTheme, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MantineProvider, createTheme, Checkbox } from '@mantine/core';
+import { MantineProvider, createTheme, Checkbox } from '@bds-react/core';
 
 const theme = createTheme({
   cursorType: 'pointer',

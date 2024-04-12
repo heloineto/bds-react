@@ -1,4 +1,4 @@
-import { MantineColor, parseThemeColor, useMantineTheme } from '@mantine/core';
+import { MantineColor, parseThemeColor, useMantineTheme } from '@bds-react/core';
 
 export type MantineLogoVariant = 'mantine.dev' | 'ui.mantine.dev';
 

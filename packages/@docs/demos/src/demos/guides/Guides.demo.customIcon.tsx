@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { AddressBookIcon } from './_CustomIcon';
 
 const code = `
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { AddressBookIcon } from './AddressBookIcon';
 
 function Demo() {
@@ -13,7 +13,7 @@ function Demo() {
 `;
 
 const iconCode = `
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 interface AddressBookIconProps extends React.ComponentPropsWithoutRef<'svg'> {
   size?: number | string;

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Group, Text } from '@mantine/core';
+import { Button, Group, Text } from '@bds-react/core';
 import { useWindowScroll } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useWindowScroll } from '@mantine/hooks';
-import { Button, Text, Group } from '@mantine/core';
+import { Button, Text, Group } from '@bds-react/core';
 
 function Demo() {
   const [scroll, scrollTo] = useWindowScroll();

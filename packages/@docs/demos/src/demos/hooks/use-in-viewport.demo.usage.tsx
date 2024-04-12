@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Text } from '@mantine/core';
+import { Box, Text } from '@bds-react/core';
 import { useInViewport } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Box, Text } from '@mantine/core';
+import { Box, Text } from '@bds-react/core';
 import { useInViewport } from '@mantine/hooks';
 
 function Demo() {

@@ -1,4 +1,4 @@
-import type { PaginationFactory } from '@mantine/core';
+import type { PaginationFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const PaginationStylesApi: StylesApiData<PaginationFactory> = {

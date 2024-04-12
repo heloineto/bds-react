@@ -1,4 +1,4 @@
-import type { ComboboxFactory, ComboboxLikeStylesNames } from '@mantine/core';
+import type { ComboboxFactory, ComboboxLikeStylesNames } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const ComboboxStylesApi: StylesApiData<ComboboxFactory> = {

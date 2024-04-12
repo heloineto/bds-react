@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { LogoProps, useMantineLogoColors } from './use-mantine-logo-colors';
 
 export function MantineLogoRounded({

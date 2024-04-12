@@ -36,7 +36,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@mantine/core": "workspace:*",
+    "@bds-react/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }

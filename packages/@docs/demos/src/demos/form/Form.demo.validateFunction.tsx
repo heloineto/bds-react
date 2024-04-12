@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Box, Button, Group, NumberInput, TextInput } from '@mantine/core';
+import { Box, Button, Group, NumberInput, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm } from '@mantine/form';
-import { Box, TextInput, NumberInput, Button, Group } from '@mantine/core';
+import { Box, TextInput, NumberInput, Button, Group } from '@bds-react/core';
 
 function Demo() {
   const form = useForm<{ name: string; age: number | undefined }>({

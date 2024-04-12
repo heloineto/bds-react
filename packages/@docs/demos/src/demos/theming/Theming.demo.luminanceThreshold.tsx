@@ -6,11 +6,11 @@ import {
   parseThemeColor,
   Stack,
   useMantineTheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = (props: Record<string, any>) => `
-import { Button, createTheme, MantineProvider, Stack } from '@mantine/core';
+import { Button, createTheme, MantineProvider, Stack } from '@bds-react/core';
 
 const theme = createTheme({
   autoContrast: true,

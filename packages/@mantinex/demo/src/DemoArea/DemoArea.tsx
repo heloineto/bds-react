@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, rem } from '@mantine/core';
+import { Box, rem } from '@bds-react/core';
 import classes from './DemoArea.module.css';
 
 export interface DemoAreaProps {

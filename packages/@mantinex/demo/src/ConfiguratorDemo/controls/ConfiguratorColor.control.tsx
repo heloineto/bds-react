@@ -11,7 +11,7 @@ import {
   Popover,
   TextInput,
   UnstyledButton,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { ColorWheelIcon } from './ColorWheelIcon';
 import { getControlLabel } from './get-control-label';
 import { ConfiguratorControl } from './types';

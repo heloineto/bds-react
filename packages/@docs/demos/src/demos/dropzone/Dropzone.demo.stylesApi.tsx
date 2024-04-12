@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Dropzone.demo.stylesApi.module.css';
@@ -27,7 +27,7 @@ const cssCode = `
 `;
 
 const code = `
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 import classes from './Demo.module.css';
 

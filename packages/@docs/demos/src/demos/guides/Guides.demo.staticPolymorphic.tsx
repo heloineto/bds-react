@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
-import { Button, ButtonProps } from '@mantine/core';
+import { Button, ButtonProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { forwardRef } from 'react';
-import { Button, ButtonProps } from '@mantine/core';
+import { Button, ButtonProps } from '@bds-react/core';
 
 interface LinkButtonProps
   extends ButtonProps,

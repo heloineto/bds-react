@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { useLogger } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { useLogger } from '@mantine/hooks';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   const [count, setCount] = useState(0);

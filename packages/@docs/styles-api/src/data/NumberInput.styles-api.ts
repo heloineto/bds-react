@@ -1,4 +1,4 @@
-import type { NumberInputFactory } from '@mantine/core';
+import type { NumberInputFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 import { InputStylesApi, InputWrapperStylesApi } from './Input.styles-api';
 

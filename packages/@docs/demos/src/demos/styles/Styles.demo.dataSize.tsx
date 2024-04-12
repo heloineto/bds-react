@@ -1,10 +1,10 @@
 import React from 'react';
-import { createTheme, Input, MantineThemeProvider } from '@mantine/core';
+import { createTheme, Input, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Styles.demo.dataSize.module.css';
 
 const code = `
-import { Input, createTheme, MantineProvider } from '@mantine/core';
+import { Input, createTheme, MantineProvider } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

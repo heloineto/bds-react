@@ -1,6 +1,6 @@
 import React from 'react';
+import { MantineProvider, MantineProviderProps, MantineThemeOverride } from '@bds-react/core';
 import { act, RenderResult, render as testingLibraryRender } from '@testing-library/react';
-import { MantineProvider, MantineProviderProps, MantineThemeOverride } from '@mantine/core';
 
 export function render(
   ui: React.ReactNode,

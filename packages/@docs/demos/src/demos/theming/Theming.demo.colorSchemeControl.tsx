@@ -1,12 +1,12 @@
 import React from 'react';
+import { ActionIcon, useComputedColorScheme, useMantineColorScheme } from '@bds-react/core';
 import { IconMoon, IconSun } from '@tabler/icons-react';
 import cx from 'clsx';
-import { ActionIcon, useComputedColorScheme, useMantineColorScheme } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Theming.demo.colorSchemeControl.module.css';
 
 const code = `
-import { ActionIcon, useMantineColorScheme, useComputedColorScheme } from '@mantine/core';
+import { ActionIcon, useMantineColorScheme, useComputedColorScheme } from '@bds-react/core';
 import { IconSun, IconMoon } from '@tabler/icons-react';
 import cx from 'clsx';
 import classes from './Demo.module.css';

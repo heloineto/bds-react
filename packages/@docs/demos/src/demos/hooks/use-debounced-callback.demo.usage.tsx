@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Loader, Text, TextInput } from '@mantine/core';
+import { Loader, Text, TextInput } from '@bds-react/core';
 import { useDebouncedCallback } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Loader, Text, TextInput } from '@mantine/core';
+import { Loader, Text, TextInput } from '@bds-react/core';
 import { useDebouncedCallback } from '@mantine/hooks';
 
 function getSearchResults(query: string): Promise<{ id: number; title: string }[]> {

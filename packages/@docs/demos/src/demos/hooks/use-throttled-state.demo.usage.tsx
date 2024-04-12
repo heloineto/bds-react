@@ -1,10 +1,10 @@
 import React from 'react';
-import { Text, TextInput } from '@mantine/core';
+import { Text, TextInput } from '@bds-react/core';
 import { useThrottledState } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Text, TextInput } from '@mantine/core';
+import { Text, TextInput } from '@bds-react/core';
 import { useThrottledState } from '@mantine/hooks';
 
 function Demo() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 interface ExpandIconProps extends React.ComponentPropsWithoutRef<'svg'> {
   expanded: boolean;

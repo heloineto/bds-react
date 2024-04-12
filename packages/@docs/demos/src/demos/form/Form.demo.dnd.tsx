@@ -1,13 +1,13 @@
 import React from 'react';
+import { Button, Center, Group, TextInput } from '@bds-react/core';
 import { DragDropContext, Draggable, Droppable } from '@hello-pangea/dnd';
 import { IconGripVertical } from '@tabler/icons-react';
-import { Button, Center, Group, TextInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { randomId } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Group, TextInput, Button, Center } from '@mantine/core';
+import { Group, TextInput, Button, Center } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { randomId } from '@mantine/hooks';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';

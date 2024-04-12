@@ -40,7 +40,7 @@
     "@mantine/carousel": "workspace:*",
     "@mantine/charts": "workspace:*",
     "@mantine/code-highlight": "workspace:*",
-    "@mantine/core": "workspace:*",
+    "@bds-react/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
     "@mantine/notifications": "workspace:*",

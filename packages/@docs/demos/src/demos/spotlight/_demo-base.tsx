@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { createSpotlight, Spotlight, SpotlightProps } from '@mantine/spotlight';
 
 export function SpotlightDemoBase(props: Partial<SpotlightProps>) {

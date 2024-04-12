@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, rem, Text, useMantineTheme } from '@mantine/core';
+import { Group, rem, Text, useMantineTheme } from '@bds-react/core';
 import { useElementSize } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useElementSize } from '@mantine/hooks';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 function Demo() {
   const { ref, width, height } = useElementSize();

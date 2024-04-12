@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, rem } from '@mantine/core';
+import { Button, rem } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, rem } from '@mantine/core';
+import { Button, rem } from '@bds-react/core';
 
 function Demo() {
   const gradient =

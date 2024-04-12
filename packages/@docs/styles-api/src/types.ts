@@ -1,5 +1,5 @@
+import type { FactoryPayload, TransformVars } from '@bds-react/core';
 import type { EmptyObject } from 'type-fest';
-import type { FactoryPayload, TransformVars } from '@mantine/core';
 
 export interface Modifier<StylesNames extends string> {
   modifier: string;

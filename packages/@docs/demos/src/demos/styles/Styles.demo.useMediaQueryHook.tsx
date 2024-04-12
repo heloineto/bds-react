@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, em, Tooltip } from '@mantine/core';
+import { Button, em, Tooltip } from '@bds-react/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Tooltip, Button, em } from '@mantine/core';
+import { Tooltip, Button, em } from '@bds-react/core';
 import { useMediaQuery } from '@mantine/hooks';
 
 function Demo() {

@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Button, TextInput } from '@mantine/core';
+import { Button, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm } from '@mantine/form';
-import { TextInput, Button } from '@mantine/core';
+import { TextInput, Button } from '@bds-react/core';
 
 function Demo() {
   const form = useForm({

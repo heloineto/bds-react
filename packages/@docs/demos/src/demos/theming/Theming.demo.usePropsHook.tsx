@@ -1,9 +1,9 @@
 import React from 'react';
-import { createTheme, MantineThemeProvider, useProps } from '@mantine/core';
+import { createTheme, MantineThemeProvider, useProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useProps, MantineThemeProvider, createTheme } from '@mantine/core';
+import { useProps, MantineThemeProvider, createTheme } from '@bds-react/core';
 
 interface CustomComponentProps {
   color?: string;

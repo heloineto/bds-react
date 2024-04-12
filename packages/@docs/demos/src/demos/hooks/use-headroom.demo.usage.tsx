@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Portal, rem, Text } from '@mantine/core';
+import { Box, Portal, rem, Text } from '@bds-react/core';
 import { useHeadroom } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Box, Portal, rem, Text } from '@mantine/core';
+import { Box, Portal, rem, Text } from '@bds-react/core';
 import { useHeadroom } from '@mantine/hooks';
 
 function Demo() {

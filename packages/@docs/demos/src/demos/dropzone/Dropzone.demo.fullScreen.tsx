@@ -1,13 +1,13 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 import { MantineDemo } from '@mantinex/demo';
 import { DropzoneDemoChildren } from './_base';
 
 const code = `
 import { useState } from 'react';
-import { Group, Text, Button, rem } from '@mantine/core';
+import { Group, Text, Button, rem } from '@bds-react/core';
 import { IconUpload, IconPhoto, IconX } from '@tabler/icons-react';
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 

@@ -2,7 +2,7 @@ import { MantineDemo } from '@mantinex/demo';
 import { BaseDemo } from './_base';
 
 const code = `
-import { Group, Text, rem } from '@mantine/core';
+import { Group, Text, rem } from '@bds-react/core';
 import { IconUpload, IconPhoto, IconX } from '@tabler/icons-react';
 import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 

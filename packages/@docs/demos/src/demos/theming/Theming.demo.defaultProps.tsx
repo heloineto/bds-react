@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, createTheme, Group, MantineThemeProvider } from '@mantine/core';
+import { Button, createTheme, Group, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MantineProvider, Button, Group, createTheme } from '@mantine/core';
+import { MantineProvider, Button, Group, createTheme } from '@bds-react/core';
 
 const theme = createTheme({
   components: {

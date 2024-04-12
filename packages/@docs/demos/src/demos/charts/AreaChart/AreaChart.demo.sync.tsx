@@ -1,11 +1,11 @@
 import React from 'react';
+import { Text } from '@bds-react/core';
 import { AreaChart } from '@mantine/charts';
-import { Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { data, dataCode } from './_data';
 
 const code = `
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import { AreaChart } from '@mantine/charts';
 import { data } from './data';
 

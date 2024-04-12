@@ -1,10 +1,10 @@
 import React from 'react';
-import { Code, Text } from '@mantine/core';
+import { Code, Text } from '@bds-react/core';
 import { useOrientation } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Code, Text } from '@mantine/core';
+import { Code, Text } from '@bds-react/core';
 import { useOrientation } from '@mantine/hooks';
 
 function Demo() {

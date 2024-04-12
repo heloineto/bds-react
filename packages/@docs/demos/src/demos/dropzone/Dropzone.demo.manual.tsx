@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { BaseDemo } from './_base';
 
 const code = `
 import { useRef } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { Dropzone } from '@mantine/dropzone';
 
 function Demo() {

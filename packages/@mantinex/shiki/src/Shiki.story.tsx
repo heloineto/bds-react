@@ -6,7 +6,7 @@ export default { title: 'X/Shiki' };
 
 const tsxCode = `
 import { forwardRef } from 'react';
-import { Group, Avatar, Text, Select } from '@mantine/core';
+import { Group, Avatar, Text, Select } from '@bds-react/core';
 
 // Data for select
 // You can use any data structure you want

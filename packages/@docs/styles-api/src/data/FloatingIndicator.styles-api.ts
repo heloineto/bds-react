@@ -1,4 +1,4 @@
-import type { FloatingIndicatorFactory } from '@mantine/core';
+import type { FloatingIndicatorFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const FloatingIndicatorStylesApi: StylesApiData<FloatingIndicatorFactory> = {

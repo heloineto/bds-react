@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Box, Button, Checkbox, Group, TextInput } from '@mantine/core';
+import { Box, Button, Checkbox, Group, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TextInput, Checkbox, Button, Group, Box } from '@mantine/core';
+import { TextInput, Checkbox, Button, Group, Box } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 
 function Demo() {

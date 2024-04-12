@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Button, Group, Paper, Text } from '@mantine/core';
+import { Box, Button, Group, Paper, Text } from '@bds-react/core';
 import { useScrollIntoView } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useScrollIntoView } from '@mantine/hooks';
-import { Button, Text, Group, Paper, Box } from '@mantine/core';
+import { Button, Text, Group, Paper, Box } from '@bds-react/core';
 
 function Demo() {
   const { scrollIntoView, targetRef, scrollableRef } = useScrollIntoView<

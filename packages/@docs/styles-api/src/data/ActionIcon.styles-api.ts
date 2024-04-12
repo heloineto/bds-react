@@ -1,4 +1,4 @@
-import type { ActionIconFactory, ActionIconGroupFactory } from '@mantine/core';
+import type { ActionIconFactory, ActionIconGroupFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const ActionIconStylesApi: StylesApiData<ActionIconFactory> = {

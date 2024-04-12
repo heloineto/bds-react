@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, ButtonFactory, Group, PartialVarsResolver, rem } from '@mantine/core';
+import { Button, ButtonFactory, Group, PartialVarsResolver, rem } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const inlineCode = `
-import { Button, rem, PartialVarsResolver, ButtonFactory, Group } from '@mantine/core';
+import { Button, rem, PartialVarsResolver, ButtonFactory, Group } from '@bds-react/core';
 
 const varsResolver: PartialVarsResolver<ButtonFactory> = (theme, props) => {
   if (props.size === 'xxl') {
@@ -44,7 +44,7 @@ function Demo() {
 `;
 
 const providerCode = `
-import { Button, rem, Group, MantineProvider, createTheme } from '@mantine/core';
+import { Button, rem, Group, MantineProvider, createTheme } from '@bds-react/core';
 
 const theme = createTheme({
   components: {

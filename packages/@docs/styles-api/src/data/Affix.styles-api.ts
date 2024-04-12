@@ -1,4 +1,4 @@
-import type { AffixFactory } from '@mantine/core';
+import type { AffixFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const AffixStylesApi: StylesApiData<AffixFactory> = {

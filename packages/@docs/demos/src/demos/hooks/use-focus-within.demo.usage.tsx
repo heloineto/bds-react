@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Button, Text, TextInput } from '@mantine/core';
+import { Box, Button, Text, TextInput } from '@bds-react/core';
 import { useFocusWithin } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useFocusWithin } from '@mantine/hooks';
-import { TextInput, Button, Box, Text } from '@mantine/core';
+import { TextInput, Button, Box, Text } from '@bds-react/core';
 
 function Demo() {
   const { ref, focused } = useFocusWithin();

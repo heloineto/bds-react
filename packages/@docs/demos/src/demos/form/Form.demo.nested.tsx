@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Checkbox, TextInput } from '@mantine/core';
+import { Box, Checkbox, TextInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm } from '@mantine/form';
-import { Box, Checkbox, TextInput } from '@mantine/core';
+import { Box, Checkbox, TextInput } from '@bds-react/core';
 
 function Demo() {
   const form = useForm({

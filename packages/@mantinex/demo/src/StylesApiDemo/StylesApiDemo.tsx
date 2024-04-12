@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, UnstyledButton } from '@mantine/core';
+import { Text, UnstyledButton } from '@bds-react/core';
 import { DemoAreaProps } from '../DemoArea';
 import { DemoCode } from '../DemoCode';
 import { DemoColumns } from '../DemoColumns';

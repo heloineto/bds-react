@@ -1,4 +1,4 @@
-import type { ImageFactory } from '@mantine/core';
+import type { ImageFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const ImageStylesApi: StylesApiData<ImageFactory> = {

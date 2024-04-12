@@ -1,4 +1,4 @@
-import type { ModalFactory } from '@mantine/core';
+import type { ModalFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const ModalStylesApi: StylesApiData<ModalFactory> = {

@@ -1,4 +1,4 @@
-import type { ProgressFactory } from '@mantine/core';
+import type { ProgressFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const ProgressStylesApi: StylesApiData<ProgressFactory> = {

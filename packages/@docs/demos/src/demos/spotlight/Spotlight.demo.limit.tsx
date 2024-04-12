@@ -1,13 +1,13 @@
 /* eslint-disable no-console */
 import React from 'react';
+import { rem } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { rem } from '@mantine/core';
 import { SpotlightActionData } from '@mantine/spotlight';
 import { MantineDemo } from '@mantinex/demo';
 import { SpotlightDemoBase } from './_demo-base';
 
 const code = `
-import { rem, Button } from '@mantine/core';
+import { rem, Button } from '@bds-react/core';
 import { Spotlight, SpotlightActionData, spotlight } from '@mantine/spotlight';
 import { IconSearch } from '@tabler/icons-react';
 

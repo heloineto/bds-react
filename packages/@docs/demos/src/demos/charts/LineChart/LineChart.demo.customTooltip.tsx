@@ -1,12 +1,12 @@
 import React from 'react';
+import { Paper, Text } from '@bds-react/core';
 import { LineChart } from '@mantine/charts';
-import { Paper, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { data, dataCode } from './_data';
 
 const code = `
 import { LineChart } from '@mantine/charts';
-import { Paper, Text } from '@mantine/core';
+import { Paper, Text } from '@bds-react/core';
 import { data } from './data';
 
 interface ChartTooltipProps {

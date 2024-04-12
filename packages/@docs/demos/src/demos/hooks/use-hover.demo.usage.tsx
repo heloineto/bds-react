@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem, Text } from '@mantine/core';
+import { rem, Text } from '@bds-react/core';
 import { useHover } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 

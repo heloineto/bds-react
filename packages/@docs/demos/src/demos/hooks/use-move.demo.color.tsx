@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { useMove } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { useMove } from '@mantine/hooks';
 
 function Demo() {

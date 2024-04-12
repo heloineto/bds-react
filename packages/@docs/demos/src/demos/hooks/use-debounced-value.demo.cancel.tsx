@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Box, Button, Group, Text, TextInput } from '@mantine/core';
+import { Box, Button, Group, Text, TextInput } from '@bds-react/core';
 import { useDebouncedValue } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { useDebouncedValue } from '@mantine/hooks';
-import { TextInput, Text, Button } from '@mantine/core';
+import { TextInput, Text, Button } from '@bds-react/core';
 
 function Demo() {
   const [value, setValue] = useState('');

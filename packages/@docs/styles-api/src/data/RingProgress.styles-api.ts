@@ -1,4 +1,4 @@
-import type { RingProgressFactory } from '@mantine/core';
+import type { RingProgressFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const RingProgressStylesApi: StylesApiData<RingProgressFactory> = {

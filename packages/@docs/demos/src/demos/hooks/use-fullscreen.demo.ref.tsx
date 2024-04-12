@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Stack } from '@mantine/core';
+import { Button, Stack } from '@bds-react/core';
 import { useFullscreen } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const refCode = `
 import { useFullscreen } from '@mantine/hooks';
-import { Button, Stack } from '@mantine/core';
+import { Button, Stack } from '@bds-react/core';
 
 function RefDemo() {
   const { ref, toggle, fullscreen } = useFullscreen();

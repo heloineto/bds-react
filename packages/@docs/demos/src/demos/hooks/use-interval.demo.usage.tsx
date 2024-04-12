@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Stack, Text } from '@mantine/core';
+import { Button, Stack, Text } from '@bds-react/core';
 import { useInterval } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState, useEffect } from 'react';
 import { useInterval } from '@mantine/hooks';
-import { Stack, Button, Text } from '@mantine/core';
+import { Stack, Button, Text } from '@bds-react/core';
 
 function Demo() {
   const [seconds, setSeconds] = useState(0);

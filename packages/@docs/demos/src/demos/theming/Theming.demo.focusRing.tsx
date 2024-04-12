@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Code, Group, MantineThemeProvider, Text } from '@mantine/core';
+import { Button, Code, Group, MantineThemeProvider, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Demo() {

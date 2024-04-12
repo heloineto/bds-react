@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineThemeProvider, Title } from '@mantine/core';
+import { MantineThemeProvider, Title } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Theming.demo.headingStyles.module.css';
 
 const code = `
-import { Title, MantineProvider } from '@mantine/core';
+import { Title, MantineProvider } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

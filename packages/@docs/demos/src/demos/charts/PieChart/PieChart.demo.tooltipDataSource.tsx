@@ -1,11 +1,11 @@
 import React from 'react';
+import { Group, Text } from '@bds-react/core';
 import { PieChart } from '@mantine/charts';
-import { Group, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { data, dataCode } from './_data';
 
 const code = `
-import { Group, Text } from '@mantine/core';
+import { Group, Text } from '@bds-react/core';
 import { PieChart } from '@mantine/charts';
 import { data } from './data';
 

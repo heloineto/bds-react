@@ -1,12 +1,12 @@
 import React from 'react';
+import { ActionIcon, Group, Table } from '@bds-react/core';
 import { IconPlus, IconTrash } from '@tabler/icons-react';
-import { ActionIcon, Group, Table } from '@mantine/core';
 import { useMap } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { IconPlus, IconTrash } from '@tabler/icons-react';
-import { ActionIcon, Group, Table } from '@mantine/core';
+import { ActionIcon, Group, Table } from '@bds-react/core';
 import { useMap } from '@mantine/hooks';
 
 function Demo() {

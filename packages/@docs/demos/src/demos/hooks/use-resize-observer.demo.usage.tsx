@@ -1,10 +1,10 @@
 import React from 'react';
-import { Code, Group, rem, Text, useMantineTheme } from '@mantine/core';
+import { Code, Group, rem, Text, useMantineTheme } from '@bds-react/core';
 import { useResizeObserver } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Text, Code, rem } from '@mantine/core';
+import { Text, Code, rem } from '@bds-react/core';
 import { useResizeObserver } from '@mantine/hooks';
 
 function Demo() {

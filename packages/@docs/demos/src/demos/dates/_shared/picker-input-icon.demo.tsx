@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import { rem } from '@bds-react/core';
 import { IconCalendar } from '@tabler/icons-react';
-import { rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const getCode = (name: string) => `
 import { useState } from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { IconCalendar } from '@tabler/icons-react';
 import { ${name} } from '@mantine/dates';
 

@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
+import { ActionIcon, rem } from '@bds-react/core';
 import { IconClock } from '@tabler/icons-react';
-import { ActionIcon, rem } from '@mantine/core';
 import { TimeInput } from '@mantine/dates';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useRef } from 'react';
-import { ActionIcon, rem } from '@mantine/core';
+import { ActionIcon, rem } from '@bds-react/core';
 import { TimeInput } from '@mantine/dates';
 import { IconClock } from '@tabler/icons-react';
 

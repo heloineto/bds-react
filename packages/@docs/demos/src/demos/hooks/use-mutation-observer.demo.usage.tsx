@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Button, Text } from '@mantine/core';
+import { Button, Text } from '@bds-react/core';
 import { useMutationObserver } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Button, Text } from '@mantine/core';
+import { Button, Text } from '@bds-react/core';
 import { useMutationObserver } from '@mantine/hooks';
 
 function Demo() {

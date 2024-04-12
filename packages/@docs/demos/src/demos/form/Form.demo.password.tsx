@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Box, Button, Group, PasswordInput } from '@mantine/core';
+import { Box, Button, Group, PasswordInput } from '@bds-react/core';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm } from '@mantine/form';
-import { PasswordInput, Group, Button, Box } from '@mantine/core';
+import { PasswordInput, Group, Button, Box } from '@bds-react/core';
 
 function Demo() {
   const form = useForm({

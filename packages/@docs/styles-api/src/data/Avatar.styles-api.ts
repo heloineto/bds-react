@@ -1,4 +1,4 @@
-import type { AvatarFactory, AvatarGroupFactory } from '@mantine/core';
+import type { AvatarFactory, AvatarGroupFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const AvatarStylesApi: StylesApiData<AvatarFactory> = {

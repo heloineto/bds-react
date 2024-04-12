@@ -1,4 +1,4 @@
-import type { CardFactory } from '@mantine/core';
+import type { CardFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 
 export const CardStylesApi: StylesApiData<CardFactory> = {

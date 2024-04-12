@@ -9,7 +9,7 @@ import {
   rem,
   rgba,
   VariantColorsResolver,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
@@ -23,7 +23,7 @@ import {
   rem,
   rgba,
   darken,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 const variantColorResolver: VariantColorsResolver = (input) => {
   const defaultResolvedColors = defaultVariantColorsResolver(input);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BoxProps, Group, Tooltip } from '@mantine/core';
+import { BoxProps, Group, Tooltip } from '@bds-react/core';
 import { ColorSchemeControl } from './ColorSchemeControl';
 import { DirectionControl } from './DirectionControl';
 import { DiscordControl } from './DiscordControl';

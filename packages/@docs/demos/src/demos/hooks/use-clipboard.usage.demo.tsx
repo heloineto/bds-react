@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { useClipboard } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { useClipboard } from '@mantine/hooks';
 
 function Demo() {

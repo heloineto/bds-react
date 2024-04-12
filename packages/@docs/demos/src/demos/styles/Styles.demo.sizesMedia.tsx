@@ -1,10 +1,10 @@
 import React from 'react';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Styles.demo.sizesMedia.module.css';
 
 const code = `
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

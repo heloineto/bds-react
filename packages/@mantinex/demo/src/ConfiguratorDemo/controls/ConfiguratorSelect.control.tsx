@@ -1,5 +1,5 @@
 import React from 'react';
-import { BoxProps, ElementProps, NativeSelect } from '@mantine/core';
+import { BoxProps, ElementProps, NativeSelect } from '@bds-react/core';
 import { getControlLabel } from './get-control-label';
 import { SelectData, transformSelectData } from './transform-select-data';
 import { ConfiguratorControl } from './types';

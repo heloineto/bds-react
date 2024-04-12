@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group } from '@mantine/core';
+import { Group } from '@bds-react/core';
 import { DatePicker } from '@mantine/dates';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Group } from '@mantine/core';
+import { Group } from '@bds-react/core';
 import { DatePicker } from '@mantine/dates';
 
 function Demo() {

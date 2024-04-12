@@ -51,7 +51,7 @@ export const VisuallyHidden = factory<VisuallyHiddenFactory>((_props, ref) => {
 });
 
 VisuallyHidden.classes = classes;
-VisuallyHidden.displayName = '@mantine/core/VisuallyHidden';
+VisuallyHidden.displayName = '@bds-react/core/VisuallyHidden';
 `;
 
 const code = `

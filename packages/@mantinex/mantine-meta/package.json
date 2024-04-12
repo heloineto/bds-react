@@ -33,14 +33,14 @@
     "directory": "packages/@mantinex/mantine-meta"
   },
   "peerDependencies": {
-    "@mantine/core": ">=7.0.0",
+    "@bds-react/core": ">=7.0.0",
     "@mantine/hooks": ">=7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@mantine-tests/core": "workspace:*",
-    "@mantine/core": "workspace:*",
+    "@bds-react/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }

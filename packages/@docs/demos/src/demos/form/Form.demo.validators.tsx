@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Group, NumberInput, TextInput } from '@mantine/core';
+import { Button, Group, NumberInput, TextInput } from '@bds-react/core';
 import { hasLength, isEmail, isInRange, isNotEmpty, matches, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useForm, isNotEmpty, isEmail, isInRange, hasLength, matches } from '@mantine/form';
-import { Button, Group, TextInput, NumberInput } from '@mantine/core';
+import { Button, Group, TextInput, NumberInput } from '@bds-react/core';
 
 function Demo() {
   const form = useForm({

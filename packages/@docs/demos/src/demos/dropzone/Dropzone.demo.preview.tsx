@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Image, SimpleGrid, Text } from '@mantine/core';
+import { Image, SimpleGrid, Text } from '@bds-react/core';
 import { Dropzone, FileWithPath, IMAGE_MIME_TYPE } from '@mantine/dropzone';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Text, Image, SimpleGrid } from '@mantine/core';
+import { Text, Image, SimpleGrid } from '@bds-react/core';
 import { Dropzone, IMAGE_MIME_TYPE, FileWithPath } from '@mantine/dropzone';
 
 function Demo() {

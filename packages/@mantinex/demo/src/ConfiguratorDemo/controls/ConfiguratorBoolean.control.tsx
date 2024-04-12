@@ -1,5 +1,5 @@
 import React from 'react';
-import { BoxProps, ElementProps, Switch } from '@mantine/core';
+import { BoxProps, ElementProps, Switch } from '@bds-react/core';
 import { getControlLabel } from './get-control-label';
 import { ConfiguratorControl } from './types';
 

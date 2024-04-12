@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 export function ColorWheelIcon() {
   return (

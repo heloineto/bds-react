@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, rem } from '@mantine/core';
+import { Box, rem } from '@bds-react/core';
 import { DevIconProps } from './types';
 
 export function CssIcon({ size, style, ...others }: DevIconProps) {

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Code, Stack, TextInput } from '@mantine/core';
+import { Code, Stack, TextInput } from '@bds-react/core';
 import { useSet } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Code, Stack, TextInput } from '@mantine/core';
+import { Code, Stack, TextInput } from '@bds-react/core';
 import { useSet } from '@mantine/hooks';
 
 function Demo() {

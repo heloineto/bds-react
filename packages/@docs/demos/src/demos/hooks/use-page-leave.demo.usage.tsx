@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import { usePageLeave } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 

@@ -1,14 +1,14 @@
 /* eslint-disable no-console */
 import React, { useMemo, useState } from 'react';
+import { Badge, Button, Center, Group, Text } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { Badge, Button, Center, Group, Text } from '@mantine/core';
 import { createSpotlight, Spotlight } from '@mantine/spotlight';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { Spotlight, spotlight } from '@mantine/spotlight';
-import { Badge, Button, Center, Group, Text } from '@mantine/core';
+import { Badge, Button, Center, Group, Text } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
 
 const data = [

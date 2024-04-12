@@ -1,4 +1,4 @@
-import type { CheckboxFactory, CheckboxGroupFactory } from '@mantine/core';
+import type { CheckboxFactory, CheckboxGroupFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 import { InputWrapperStylesApi } from './Input.styles-api';
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, createTheme, MantineThemeProvider } from '@mantine/core';
+import { Button, createTheme, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MantineProvider, createTheme, Button } from '@mantine/core';
+import { MantineProvider, createTheme, Button } from '@bds-react/core';
 
 const theme = createTheme({
   defaultGradient: {

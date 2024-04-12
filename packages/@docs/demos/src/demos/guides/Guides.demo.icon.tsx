@@ -1,10 +1,10 @@
 import React from 'react';
+import { rem } from '@bds-react/core';
 import { IconBrandMantine } from '@tabler/icons-react';
-import { rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { IconBrandMantine } from '@tabler/icons-react';
 
 function Demo() {

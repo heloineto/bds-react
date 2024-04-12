@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Text, TextInput } from '@mantine/core';
+import { Box, Text, TextInput } from '@bds-react/core';
 import { useValidatedState } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TextInput, Text, Box } from '@mantine/core';
+import { TextInput, Text, Box } from '@bds-react/core';
 import { useValidatedState } from '@mantine/hooks';
 
 function Demo() {

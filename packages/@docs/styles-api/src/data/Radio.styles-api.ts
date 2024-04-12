@@ -1,4 +1,4 @@
-import type { RadioFactory, RadioGroupFactory } from '@mantine/core';
+import type { RadioFactory, RadioGroupFactory } from '@bds-react/core';
 import type { StylesApiData } from '../types';
 import { InputWrapperStylesApi } from './Input.styles-api';
 
