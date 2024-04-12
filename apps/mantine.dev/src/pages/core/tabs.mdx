@@ -14,7 +14,7 @@ To control Tabs state, use `value` and `onChange` props:
 
 ```tsx
 import { useState } from 'react';
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   const [activeTab, setActiveTab] = useState<string | null>('first');
@@ -38,7 +38,7 @@ function Demo() {
 If you do not need to subscribe to Tabs state changes, use `defaultValue`:
 
 ```tsx
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -109,7 +109,7 @@ This is useful when you want to render components that impact performance inside
 components that are rendered inside `Tabs.Panel` will reset their state on each mount (tab change).
 
 ```tsx
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 // Second tab panel will be mounted only when user activates second tab
 function Demo() {
@@ -131,7 +131,7 @@ function Demo() {
 
 ```tsx
 import { useRef } from 'react';
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   const secondTabRef = useRef<HTMLButtonElement>(null);
@@ -158,7 +158,7 @@ function Demo() {
 
 ```tsx
 import { useNavigate, useParams } from 'react-router-dom';
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   const navigate = useNavigate();
@@ -183,7 +183,7 @@ function Demo() {
 ```tsx
 // For file /tabs/[activeTab].tsx
 import { useRouter } from 'next/router';
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   const router = useRouter();
@@ -219,7 +219,7 @@ or use [VisuallyHidden](/core/visually-hidden) component:
 
 ```tsx
 import { IconCoin } from '@tabler/icons-react';
-import { Tabs, VisuallyHidden } from '@mantine/core';
+import { Tabs, VisuallyHidden } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -248,7 +248,7 @@ function Demo() {
 To set tabs list label, set `aria-label` on `Tabs.List` component, it will be announced by screen reader:
 
 ```tsx
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   return (

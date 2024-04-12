@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './InputFocusStyles.demo.module.css';
 
@@ -10,7 +10,7 @@ const cssCode = `.input {
 }`;
 
 const code = `
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 
 function Demo() {
   return (

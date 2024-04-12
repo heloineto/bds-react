@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Checkbox, Code, Table, Text } from '@mantine/core';
+import { Checkbox, Code, Table, Text } from '@bds-react/core';
 import { MdxInstallScript } from '../MdxInstallScript/MdxInstallScript';
 import { MdxParagraph } from '../MdxTypography/MdxTypography';
 import { PACKAGES_DATA } from './data';
@@ -12,7 +12,7 @@ function getPackagesList(selection: string[], extraPackages: string[]) {
   }, []);
 
   const unique = Array.from(
-    new Set(['@mantine/core', '@mantine/hooks', ...packages, ...extraPackages])
+    new Set(['@bds-react/core', '@mantine/hooks', ...packages, ...extraPackages])
   );
   return unique.join(' ');
 }
@@ -22,7 +22,7 @@ interface MdxPackagesInstallation {
 }
 
 export function MdxPackagesInstallation({ extraPackages = [] }: MdxPackagesInstallation) {
-  const [selection, setSelection] = useState(['@mantine/core', '@mantine/hooks']);
+  const [selection, setSelection] = useState(['@bds-react/core', '@mantine/hooks']);
   const toggleSelection = (item: string) =>
     setSelection((current) =>
       current.includes(item) ? current.filter((i) => i !== item) : [...current, item]

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Head, Html, Main, NextScript } from 'next/document';
-import { ColorSchemeScript } from '@mantine/core';
+import { ColorSchemeScript } from '@bds-react/core';
 
 export default function Document() {
   return (

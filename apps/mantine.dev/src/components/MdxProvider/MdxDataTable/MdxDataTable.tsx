@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem, Table } from '@mantine/core';
+import { rem, Table } from '@bds-react/core';
 import { DocsSection } from '@/components/DocsSection';
 
 interface DataTableProps {

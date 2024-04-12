@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
+import { Box, Container, Grid, rem, Text, UnstyledButton, useMantineTheme } from '@bds-react/core';
 import { IconForms } from '@tabler/icons-react';
-import { Box, Container, Grid, rem, Text, UnstyledButton, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { SectionTitle } from '../SectionTitle/SectionTitle';
 import classes from './DemoTabs.module.css';

@@ -23,7 +23,7 @@ export default Layout(meta);
 To get color scheme value in component use `useMantineColorScheme` hook:
 
 ```tsx
-import { useMantineColorScheme } from '@mantine/core';
+import { useMantineColorScheme } from '@bds-react/core';
 
 function Demo() {
   // colorScheme is `'dark' | 'light' | 'auto'`
@@ -35,7 +35,7 @@ If you want to get computed color scheme, use `useComputedColorScheme` hook inst
 It will resolve `auto` value to `dark` or `light` based on user preferences:
 
 ```tsx
-import { useComputedColorScheme } from '@mantine/core';
+import { useComputedColorScheme } from '@bds-react/core';
 
 function Demo() {
   // colorScheme is `'dark' | 'light'`
@@ -53,7 +53,7 @@ To get color scheme value outside of component, create an utility function
 that will parse color scheme value from `data-mantine-color-scheme` attribute:
 
 ```tsx
-import { MantineColorScheme } from '@mantine/core';
+import { MantineColorScheme } from '@bds-react/core';
 
 export function getColorScheme() {
   return document.documentElement.getAttribute(
@@ -79,7 +79,7 @@ For example, if you want to conditionally render some elements based on color sc
 you will get hydration mismatch or other error:
 
 ```tsx
-import { useComputedColorScheme } from '@mantine/core';
+import { useComputedColorScheme } from '@bds-react/core';
 import { getColorScheme } from './getColorScheme';
 
 // ❌ Not compatible with SSR

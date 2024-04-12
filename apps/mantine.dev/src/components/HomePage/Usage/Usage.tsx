@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space } from '@mantine/core';
+import { Space } from '@bds-react/core';
 import { FrameworksGuides } from '../../FrameworksGuides';
 import { PageSection } from '../PageSection/PageSection';
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import { CloseButton, Container, Text, TextInput, Title } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { CloseButton, Container, Text, TextInput, Title } from '@mantine/core';
 import classes from './QuestionsListHeader.module.css';
 
 interface QuestionsListHeaderProps {

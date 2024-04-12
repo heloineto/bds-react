@@ -5,7 +5,7 @@ export default Layout(MDX_DATA.ColorFunctions);
 
 # Color functions
 
-`@mantine/core` package exports several functions that can be used to manipulate colors
+`@bds-react/core` package exports several functions that can be used to manipulate colors
 or extract information before using them as CSS value.
 
 ## darken and lighten
@@ -14,7 +14,7 @@ or extract information before using them as CSS value.
 they accept color in any format as first argument and the amount of lightness to add/remove as second argument.
 
 ```tsx
-import { darken, lighten } from '@mantine/core';
+import { darken, lighten } from '@bds-react/core';
 
 lighten('#228BE6', 0.1); // lighten by 10%
 // -> rgba(56, 151, 233, 1)
@@ -38,7 +38,7 @@ Note that `color-mix` is not supported in some older browsers, you can check [ca
 for more information.
 
 ```tsx
-import { alpha } from '@mantine/core';
+import { alpha } from '@bds-react/core';
 
 alpha('#4578FC', 0.45); // -> rgba(69, 120, 252, 0.45)
 alpha('var(--mantine-color-gray-4)', 0.74);
@@ -99,7 +99,7 @@ import {
   MantineColor,
   parseThemeColor,
   useMantineTheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 interface DemoProps {
   color: MantineColor;
@@ -127,7 +127,7 @@ function Demo({ color }: DemoProps) {
 as first argument and theme object as second argument. It returns parsed color value or CSS variable:
 
 ```tsx
-import { getThemeColor, useMantineTheme } from '@mantine/core';
+import { getThemeColor, useMantineTheme } from '@bds-react/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -144,7 +144,7 @@ function Demo() {
 `getGradient` function transforms given `MantineGradient` object to CSS gradient string:
 
 ```tsx
-import { getGradient, useMantineTheme } from '@mantine/core';
+import { getGradient, useMantineTheme } from '@bds-react/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -159,7 +159,7 @@ function Demo() {
 `isLightColor` function can be used to achieve better contrast between text and background:
 
 ```tsx
-import { Box, isLightColor } from '@mantine/core';
+import { Box, isLightColor } from '@bds-react/core';
 
 interface DemoProps {
   color: string;
@@ -179,7 +179,7 @@ export function Demo({ color }: DemoProps) {
 `luminance` function returns color luminance, it can be used to check colors contrast:
 
 ```tsx
-import { luminance } from '@mantine/core';
+import { luminance } from '@bds-react/core';
 
 luminance('#fff'); // -> 1
 luminance('#000'); // -> 0

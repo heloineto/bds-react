@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Combobox, Input, InputBase, useCombobox } from '@mantine/core';
+import { Combobox, Input, InputBase, useCombobox } from '@bds-react/core';
 import classes from './SelectGroupsStyles.module.css';
 
 export function SelectGroupsStyles() {

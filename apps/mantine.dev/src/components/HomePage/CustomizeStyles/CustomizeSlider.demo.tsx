@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import classes from './CustomizeSlider.demo.module.css';
 
 const marks = [
@@ -13,7 +13,7 @@ export function CustomizeSliderDemo() {
 }
 
 const tsxCode = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const marks = [

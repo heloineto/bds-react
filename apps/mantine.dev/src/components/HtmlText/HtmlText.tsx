@@ -1,5 +1,5 @@
 import React from 'react';
-import { ElementProps, Text, TextProps } from '@mantine/core';
+import { ElementProps, Text, TextProps } from '@bds-react/core';
 import classes from './HtmlText.module.css';
 
 interface HtmlTextProps extends TextProps, ElementProps<'span', 'color'> {

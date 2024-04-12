@@ -1,6 +1,6 @@
 import React from 'react';
+import { ColorSwatch, Group, isLightColor } from '@bds-react/core';
 import chroma from 'chroma-js';
-import { ColorSwatch, Group, isLightColor } from '@mantine/core';
 import classes from './ColorsList.module.css';
 
 interface ColorsListProps {

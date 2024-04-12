@@ -58,7 +58,7 @@ To shared [theme object](/theming/theme-object) between your application and Sto
 
 ```tsx
 // src/theme.ts
-import { createTheme } from '@mantine/core';
+import { createTheme } from '@bds-react/core';
 
 export const theme = createTheme({
   fontFamily: 'serif',
@@ -71,7 +71,7 @@ Then you will be able to use the same theme both in your application and Storybo
 ```tsx
 // In your application
 
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 import { theme } from './theme';
 
 function App() {
@@ -87,7 +87,7 @@ the following content:
 ```tsx
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 
 import React, { useEffect } from 'react';
 import { addons } from '@storybook/preview-api';
@@ -95,7 +95,7 @@ import { DARK_MODE_EVENT_NAME } from 'storybook-dark-mode';
 import {
   MantineProvider,
   useMantineColorScheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 // theme.ts file from previous step
 import { theme } from '../src/theme';
 

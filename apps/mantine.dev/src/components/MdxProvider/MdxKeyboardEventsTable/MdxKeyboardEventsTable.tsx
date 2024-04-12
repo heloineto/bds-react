@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Kbd, rem, Table } from '@mantine/core';
+import { Code, Kbd, rem, Table } from '@bds-react/core';
 
 interface KeyboardEventsTableProps {
   data: { key: string; description: string; condition: string }[];

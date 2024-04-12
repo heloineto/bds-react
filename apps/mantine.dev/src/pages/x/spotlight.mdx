@@ -38,7 +38,7 @@ These actions can be passed to event listeners or used anywhere in your applicat
 (not limited to React components):
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { spotlight } from '@mantine/spotlight';
 
 function Demo() {
@@ -66,7 +66,7 @@ toggleSpotlight(); // same as spotlight.toggle()
 in your application. In case you need multiple spotlights, you need to create your own store for each of them:
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { createSpotlight, Spotlight } from '@mantine/spotlight';
 
 // You can import `firstSpotlight` and `secondSpotlight` anywhere
@@ -178,7 +178,7 @@ For example, with compound components pattern you can customize actions contents
 package to lock scroll. To properly size these `elements` add a `className` to them ([documentation](https://github.com/theKashey/react-remove-scroll#positionfixed-elements)):
 
 ```tsx
-import { RemoveScroll } from '@mantine/core';
+import { RemoveScroll } from '@bds-react/core';
 
 function Demo() {
   return (

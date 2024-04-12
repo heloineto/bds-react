@@ -1,6 +1,6 @@
 import React from 'react';
+import { Box, Container, Group, RemoveScroll, Text } from '@bds-react/core';
 import cx from 'clsx';
-import { Box, Container, Group, RemoveScroll, Text } from '@mantine/core';
 import { Logo } from '../Logo/Logo';
 import { DiscordButton, TwitterButton } from '../SocialButton';
 import { FOOTER_LINKS_DATA } from './data';

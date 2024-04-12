@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useDirection } from '@mantine/core';
+import { useDirection } from '@bds-react/core';
 import { Shell } from '@/components/Shell';
 import { ComboboxNavbar } from './ComboboxNavbar/ComboboxNavbar';
 import classes from './ComboboxShell.module.css';

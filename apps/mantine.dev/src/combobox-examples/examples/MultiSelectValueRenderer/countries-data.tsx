@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 const flagProps = {
   xmlns: 'http://www.w3.org/2000/svg',

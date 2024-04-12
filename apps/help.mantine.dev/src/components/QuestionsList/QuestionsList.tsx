@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container } from '@mantine/core';
+import { Container } from '@bds-react/core';
 import { Frontmatter } from '@/types';
 import { getGroupedQuestions } from './get-grouped-questions';
 import { NothingFound } from './NothingFound/NothingFound';

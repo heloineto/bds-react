@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppShell, Burger, Group, UnstyledButton } from '@mantine/core';
+import { AppShell, Burger, Group, UnstyledButton } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineLogo } from '@mantinex/mantine-logo';
 import classes from './MobileNavbar.module.css';

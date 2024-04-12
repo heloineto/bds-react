@@ -5,7 +5,7 @@ import { MdxTitle } from '../MdxTitle/MdxTitle';
 import { MdxCode, MdxParagraph } from '../MdxTypography/MdxTypography';
 
 const getPortalCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return <${component} comboboxProps={{ withinPortal: false }} data={[]} />;
@@ -13,7 +13,7 @@ function Demo() {
 `;
 
 const getZIndexCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return <${component} comboboxProps={{ zIndex: 1000 }} data={[]} />;

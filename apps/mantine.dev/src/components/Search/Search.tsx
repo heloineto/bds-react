@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { rem } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { rem } from '@mantine/core';
 import { createSpotlight, Spotlight } from '@mantine/spotlight';
 import { SEARCH_MDX_PAGES } from '@/mdx';
 

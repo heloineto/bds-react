@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { Badge, RemoveScroll, Text } from '@bds-react/core';
 import cx from 'clsx';
-import { Badge, RemoveScroll, Text } from '@mantine/core';
 import { getCodeFileIcon } from '@mantinex/dev-icons';
 import { CodeHighlightTabs } from '@mantinex/shiki';
 import { COMBOBOX_EXAMPLES_DATA } from '../combobox-examples-data';

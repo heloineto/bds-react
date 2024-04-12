@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Table, Text } from '@mantine/core';
+import { Code, Table, Text } from '@bds-react/core';
 import classes from './CssVariablesGroup.module.css';
 
 interface CssVariableData {

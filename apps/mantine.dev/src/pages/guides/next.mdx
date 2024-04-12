@@ -56,10 +56,10 @@ Add styles imports and [MantineProvider](/theming/mantine-provider) to the `page
 ```tsx
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 
 import type { AppProps } from 'next/app';
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   /** Put your mantine theme override here */
@@ -79,7 +79,7 @@ Note that it is required even if you use only one color scheme in your applicati
 
 ```tsx
 import { Head, Html, Main, NextScript } from 'next/document';
-import { ColorSchemeScript } from '@mantine/core';
+import { ColorSchemeScript } from '@bds-react/core';
 
 export default function Document() {
   return (
@@ -110,9 +110,9 @@ and styles imports to the `app/layout.tsx` file:
 ```tsx
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { ColorSchemeScript, MantineProvider } from '@bds-react/core';
 
 export const metadata = {
   title: 'My Mantine app',
@@ -156,7 +156,7 @@ With Next.js 12 and below:
 
 ```tsx
 import Link from 'next/link';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -171,7 +171,7 @@ With Next.js 13 and above:
 
 ```tsx
 import Link from 'next/link';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -200,7 +200,7 @@ Instead, use `ComponentXXX` syntax or add `'use client';` directive to the top o
 Example that will not work in server components:
 
 ```tsx
-import { Popover } from '@mantine/core';
+import { Popover } from '@bds-react/core';
 
 // This will throw an error
 export default function Page() {
@@ -218,7 +218,7 @@ Example with `'use client';` directive:
 ```tsx
 'use client';
 
-import { Popover } from '@mantine/core';
+import { Popover } from '@bds-react/core';
 
 // No error
 export default function Page() {
@@ -238,7 +238,7 @@ import {
   Popover,
   PopoverDropdown,
   PopoverTarget,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 // No error
 export default function Page() {
@@ -260,7 +260,7 @@ your `next.config.mjs`:
 export default {
   // ...other configuration
   experimental: {
-    optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
+    optimizePackageImports: ['@bds-react/core', '@mantine/hooks'],
   },
 };
 ```

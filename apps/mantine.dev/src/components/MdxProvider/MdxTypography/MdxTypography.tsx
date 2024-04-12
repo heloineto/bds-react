@@ -1,6 +1,6 @@
 import React from 'react';
+import { Code } from '@bds-react/core';
 import cx from 'clsx';
-import { Code } from '@mantine/core';
 import classes from './MdxTypography.module.css';
 
 export function MdxParagraph({ className, ...others }: React.ComponentPropsWithoutRef<'p'>) {

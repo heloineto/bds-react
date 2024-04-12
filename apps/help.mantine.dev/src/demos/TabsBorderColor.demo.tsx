@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './TabsBorderColor.demo.module.css';
 
@@ -24,7 +24,7 @@ const cssCode = `.root {
 }`;
 
 const code = `
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

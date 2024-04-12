@@ -93,7 +93,7 @@ Example of code that will throw this error:
 
 ```tsx
 // ❌ This will throw an error
-import { CopyButton } from '@mantine/core';
+import { CopyButton } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -114,7 +114,7 @@ Example of code that will work:
 // ✅ No error
 'use client';
 
-import { CopyButton } from '@mantine/core';
+import { CopyButton } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -162,7 +162,7 @@ function Demo() {
 
 ## Error: compound components in server component
 
-<ErrorMessage error="Could not find the module 'x/node_modules/@mantine/core/esm/components/Popover/Popover.mjs#Popover#Target' in the React Client Manifest. This is probably a bug in the React Server Components bundler." />
+<ErrorMessage error="Could not find the module 'x/node_modules/@bds-react/core/esm/components/Popover/Popover.mjs#Popover#Target' in the React Client Manifest. This is probably a bug in the React Server Components bundler." />
 
 The error above occurs when you try to use compound component (`<Tabs.Tab />`, `<Popover.Dropdown />`, etc.) in server component.
 To fix it, add `'use client';` directive to the top of the file or replace compound components with regular components (`TabsTab`, `PopoverDropdown`, etc.).
@@ -171,7 +171,7 @@ Example of code that will throw this error:
 
 ```tsx
 // ❌ This will throw an error
-import { Popover } from '@mantine/core';
+import { Popover } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -190,7 +190,7 @@ Solution 1: add `'use client';` directive to the top of the file:
 // ✅ No error
 'use client';
 
-import { Popover } from '@mantine/core';
+import { Popover } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -207,7 +207,7 @@ Solution 2: replace compound components with regular components:
 
 ```tsx
 // ✅ No error, 'use client' directive is not required
-import { Popover, PopoverTarget } from '@mantine/core';
+import { Popover, PopoverTarget } from '@bds-react/core';
 
 function Demo() {
   return (

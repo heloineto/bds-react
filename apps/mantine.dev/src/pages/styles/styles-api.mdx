@@ -1,4 +1,4 @@
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { StylesDemos } from '@docs/demos';
 import { ButtonStylesApi } from '@docs/styles-api';
 import {
@@ -37,7 +37,7 @@ Example of [Button](/core/button) component selectors:
 You can use these selectors in `classNames` and `styles` in, both, component props and `theme.components`:
 
 ```tsx
-import { Button, createTheme, MantineProvider } from '@mantine/core';
+import { Button, createTheme, MantineProvider } from '@bds-react/core';
 
 function ClassNamesDemo() {
   return (
@@ -111,7 +111,7 @@ import {
   createTheme,
   MantineProvider,
   TextInput,
-} from '@mantine/core';
+} from '@bds-react/core';
 // Styles are the same as in previous example
 import classes from './Demo.module.css';
 
@@ -215,7 +215,7 @@ find the classes of [Button](/core/button) in `Button.classes`:
 You can use these classes to create components with the same styles as Mantine components:
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return <button type="button" className={Button.classes.root} />;

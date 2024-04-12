@@ -1,4 +1,4 @@
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 import '@mantine/dates/styles.css';
 import '@mantine/notifications/styles.css';
 import '@mantine/code-highlight/styles.css';
@@ -17,7 +17,7 @@ import '@docs/demos/styles.css';
 import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { DirectionProvider, MantineProvider } from '@mantine/core';
+import { DirectionProvider, MantineProvider } from '@bds-react/core';
 import { useHotkeys, useLocalStorage } from '@mantine/hooks';
 import { Notifications } from '@mantine/notifications';
 import { ShikiProvider } from '@mantinex/shiki';

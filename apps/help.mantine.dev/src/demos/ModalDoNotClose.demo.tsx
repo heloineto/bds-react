@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button, Modal } from '@mantine/core';
+import { Button, Modal } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { useDisclosure } from '@mantine/hooks';
-import { Button, Modal } from '@mantine/core';
+import { Button, Modal } from '@bds-react/core';
 
 function operation() {
   return new Promise((resolve) => {

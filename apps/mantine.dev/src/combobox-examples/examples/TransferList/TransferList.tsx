@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { ActionIcon, Checkbox, Combobox, Group, TextInput, useCombobox } from '@bds-react/core';
 import { IconChevronRight } from '@tabler/icons-react';
-import { ActionIcon, Checkbox, Combobox, Group, TextInput, useCombobox } from '@mantine/core';
 import classes from './TransferList.module.css';
 
 const fruits = ['🍎 Apples', '🍌 Bananas', '🍓 Strawberries'];

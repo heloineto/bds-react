@@ -4,7 +4,7 @@ import { MdxTitle } from '../MdxTitle/MdxTitle';
 import { MdxCode, MdxLi, MdxParagraph, MdxUl } from '../MdxTypography/MdxTypography';
 
 const getCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return <${component} wrapperProps={{ 'data-testid': 'wrapper' }} data-testid="input" />;

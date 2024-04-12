@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IconMessageCircle, IconPhoto, IconSettings } from '@tabler/icons-react';
 import {
   Box,
   Button,
@@ -14,7 +13,8 @@ import {
   Stepper,
   Tabs,
   Text,
-} from '@mantine/core';
+} from '@bds-react/core';
+import { IconMessageCircle, IconPhoto, IconSettings } from '@tabler/icons-react';
 import { AuthenticationForm, HoverCardHomePageDemo } from '@docs/demos';
 
 function StepperDemo() {

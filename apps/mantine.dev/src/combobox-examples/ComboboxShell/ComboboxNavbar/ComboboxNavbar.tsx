@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { ScrollArea, Text, TextInput } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { ScrollArea, Text, TextInput } from '@mantine/core';
 import { useHotkeys } from '@mantine/hooks';
 import { COMBOBOX_EXAMPLES_DATA } from '../../combobox-examples-data';
 import { ComboboxLinksGroup } from './ComboboxLinksGroup/ComboboxLinksGroup';

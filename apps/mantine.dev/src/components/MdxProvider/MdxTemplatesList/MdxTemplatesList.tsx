@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { Button, Table, Text } from '@bds-react/core';
 import { IconCircleDashed, IconExternalLink } from '@tabler/icons-react';
-import { Button, Table, Text } from '@mantine/core';
 import { frameworkIcons } from '@/components/icons';
 import { COMMUNITY_TEMPLATES_DATA } from './community-data';
 import { Template, TEMPLATES_DATA } from './data';

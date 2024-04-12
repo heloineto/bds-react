@@ -58,7 +58,7 @@ to create an object with CSS variables from Mantine theme:
 
 ```tsx
 // theme.css.ts
-import { createTheme } from '@mantine/core';
+import { createTheme } from '@bds-react/core';
 import { themeToVars } from '@mantine/vanilla-extract';
 
 // Do not forget to pass theme to MantineProvider
@@ -89,12 +89,12 @@ export const demo = style({
 
 ## rem and em
 
-To convert px to [rem or em](/styles/rem) use `rem` and `em` functions from `@mantine/core` package:
+To convert px to [rem or em](/styles/rem) use `rem` and `em` functions from `@bds-react/core` package:
 
 ```tsx
 // Demo.css.ts
 import { style } from '@vanilla-extract/css';
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 export const demo = style({
   fontSize: rem(16),

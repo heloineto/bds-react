@@ -14,7 +14,7 @@ Colors are exposed on the [theme object](/theming/theme-object) as an array of s
 you can access color shade by color name and index (0-9), colors with larger index are darker:
 
 ```tsx
-import { useMantineTheme } from '@mantine/core';
+import { useMantineTheme } from '@bds-react/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -81,7 +81,7 @@ Use `colorsTuple` function to:
 - Transform dynamic string arrays to Mantine color tuple (the array should still have 10 values)
 
 ```tsx
-import { colorsTuple, createTheme } from '@mantine/core';
+import { colorsTuple, createTheme } from '@bds-react/core';
 
 const theme = createTheme({
   colors: {
@@ -121,7 +121,7 @@ Example of adding oklch color to theme:
 > You cannot assign CSS color values, for example, the following code will throw an error during theme merging:
 >
 > ```tsx
-> import { MantineProvider } from '@mantine/core';
+> import { MantineProvider } from '@bds-react/core';
 >
 > function Demo() {
 >   return (
@@ -145,7 +145,7 @@ Example of adding oklch color to theme:
 You can also customize primary shade for dark and light color schemes separately:
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -244,7 +244,7 @@ colors in advance to avoid contrast issues.
 
 ```tsx
 import { generateColors } from '@mantine/colors-generator';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -273,14 +273,14 @@ TypeScript will only autocomplete Mantine's default colors when accessing the th
 import {
   DefaultMantineColor,
   MantineColorsTuple,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 type ExtendedCustomColors =
   | 'primaryColorName'
   | 'secondaryColorName'
   | DefaultMantineColor;
 
-declare module '@mantine/core' {
+declare module '@bds-react/core' {
   export interface MantineThemeColorsOverride {
     colors: Record<ExtendedCustomColors, MantineColorsTuple>;
   }

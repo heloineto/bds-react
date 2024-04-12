@@ -21,7 +21,7 @@ body:
     attributes:
       label: What package has an issue?
       options:
-        - '@mantine/core'
+        - '@bds-react/core'
         - '@mantine/hooks'
         - '@mantine/dates'
         - '@mantine/charts'

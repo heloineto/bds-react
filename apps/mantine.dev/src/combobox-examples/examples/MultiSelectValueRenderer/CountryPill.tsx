@@ -1,5 +1,5 @@
 import React from 'react';
-import { CloseButton } from '@mantine/core';
+import { CloseButton } from '@bds-react/core';
 import { countriesData, flags } from './countries-data';
 import classes from './CountryPill.module.css';
 

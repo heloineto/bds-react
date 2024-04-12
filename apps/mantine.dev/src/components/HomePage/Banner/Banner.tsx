@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Overlay, Text, Title } from '@mantine/core';
+import { Button, Container, Overlay, Text, Title } from '@bds-react/core';
 import { GithubIcon } from '@mantinex/dev-icons';
 import banner from './banner.webp';
 import classes from './Banner.module.css';

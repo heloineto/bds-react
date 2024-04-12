@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import cx from 'clsx';
 import {
   Anchor,
   AppShell,
@@ -9,7 +8,8 @@ import {
   RemoveScroll,
   Text,
   useMantineColorScheme,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
 import { useHotkeys } from '@mantine/hooks';
 import { ColorSchemeControl, HeaderControls } from '@mantinex/mantine-header';
 import { MantineLogo } from '@mantinex/mantine-logo';

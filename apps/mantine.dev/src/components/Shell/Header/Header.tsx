@@ -1,7 +1,16 @@
 import React from 'react';
+import {
+  Box,
+  Burger,
+  Code,
+  Group,
+  Menu,
+  RemoveScroll,
+  Text,
+  UnstyledButton,
+} from '@bds-react/core';
 import { IconChevronDown, IconExternalLink } from '@tabler/icons-react';
 import cx from 'clsx';
-import { Box, Burger, Code, Group, Menu, RemoveScroll, Text, UnstyledButton } from '@mantine/core';
 import { ColorSchemeControl, HeaderControls, SearchMobileControl } from '@mantinex/mantine-header';
 import { majorVersions, meta } from '@mantinex/mantine-meta';
 import { Logo } from '@/components/Logo';

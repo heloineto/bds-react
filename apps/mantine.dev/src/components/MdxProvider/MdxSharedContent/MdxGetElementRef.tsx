@@ -20,7 +20,7 @@ const commonRefs: Record<string, string> = {
 function getRefCode(input: MdxGetElementRefProps) {
   const refType = input.refType in commonRefs ? commonRefs[input.refType] : input.refType;
   return `import { useRef } from 'react';
-import { ${input.component} } from '${input.package || '@mantine/core'}';
+import { ${input.component} } from '${input.package || '@bds-react/core'}';
 
 function Demo() {
   const ref = useRef<${refType}>(null);

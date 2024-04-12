@@ -1,5 +1,5 @@
 import React from 'react';
-import { DEFAULT_THEME } from '@mantine/core';
+import { DEFAULT_THEME } from '@bds-react/core';
 import { ColorsGroup } from './ColorsGroup/ColorsGroup';
 import classes from './ThemeColors.module.css';
 

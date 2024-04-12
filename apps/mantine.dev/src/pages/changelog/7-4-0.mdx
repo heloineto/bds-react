@@ -94,7 +94,7 @@ and changes text color to either `theme.white` or `theme.black` accordingly:
 ## Color functions improvements
 
 `alpha`, `lighten` and `darken` functions now support CSS variables (with [color-mix](https://caniuse.com/mdn-css_types_color_color-mix)) and OKLCH colors.
-All functions are available both in `@mantine/core` (`.ts`/`.js` files) and [postcss-preset-mantine](/styles/postcss-preset) (`.css` files, requires version 1.12.0 or higher).
+All functions are available both in `@bds-react/core` (`.ts`/`.js` files) and [postcss-preset-mantine](/styles/postcss-preset) (`.css` files, requires version 1.12.0 or higher).
 
 In `.css` files:
 
@@ -131,7 +131,7 @@ Will be transformed to:
 In `.ts`/`.js` files:
 
 ```tsx
-import { alpha, lighten } from '@mantine/core';
+import { alpha, lighten } from '@bds-react/core';
 
 alpha('#4578FC', 0.45); // -> rgba(69, 120, 252, 0.45)
 alpha('var(--mantine-color-gray-4)', 0.74);

@@ -8,7 +8,7 @@ export default Layout(MDX_DATA.TypeScript);
 All `@mantine/*` packages are fully compatible with TypeScript. All examples in the documentation
 are written in TypeScript – you can copy-paste them to your project without any changes.
 
-This guide will help you get familiar with types that `@mantine/core` package exports.
+This guide will help you get familiar with types that `@bds-react/core` package exports.
 
 ## Components props types
 
@@ -17,7 +17,7 @@ You can import component props types by adding `Props` to the component name,
 for example, you can import Button and DatePicker components props like so:
 
 ```tsx
-import type { ButtonProps } from '@mantine/core';
+import type { ButtonProps } from '@bds-react/core';
 import type { DatePickerProps } from '@mantine/dates';
 ```
 
@@ -28,7 +28,7 @@ type, for example `'div'`.
 Example of extending regular component props:
 
 ```tsx
-import { Group, GroupProps } from '@mantine/core';
+import { Group, GroupProps } from '@bds-react/core';
 
 // Interface includes `React.ComponentPropsWithoutRef<'div'>`
 interface MyGroupProps extends GroupProps {
@@ -46,7 +46,7 @@ because their root element depends on the `component` prop value.
 Example of extending [polymorphic components](/guides/polymorphic) props:
 
 ```tsx
-import { Button, ButtonProps, ElementProps } from '@mantine/core';
+import { Button, ButtonProps, ElementProps } from '@bds-react/core';
 
 interface MyButtonProps
   extends ButtonProps,
@@ -66,7 +66,7 @@ features. It replaces native elements `style` prop with Mantine [style prop](/st
 allows omitting properties that are passed as a second type.
 
 ```tsx
-import { ButtonProps, ElementProps } from '@mantine/core';
+import { ButtonProps, ElementProps } from '@bds-react/core';
 
 // Equivalent of `React.ComponentPropsWithoutRef<'button'>`
 type ButtonElementProps = ElementProps<'button'>;
@@ -86,7 +86,7 @@ type OmitButtonProps = ElementProps<'button', keyof ButtonProps>;
 to functions that accept theme object as an argument:
 
 ```tsx
-import { MantineTheme, useMantineTheme } from '@mantine/core';
+import { MantineTheme, useMantineTheme } from '@bds-react/core';
 
 function getPrimaryColor(theme: MantineTheme) {
   return theme.colors.blue[5];
@@ -108,7 +108,7 @@ import {
   createTheme,
   MantineThemeOverride,
   mergeThemeOverrides,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 const baseTheme = createTheme({
   fontFamily: 'Helvetica, sans-serif',
@@ -138,7 +138,7 @@ to function that accept color scheme as an argument:
 import {
   MantineColorScheme,
   useMantineColorScheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 function getComputedColorScheme(colorScheme: MantineColorScheme) {
   return colorScheme === 'auto' ? 'light' : colorScheme;
@@ -156,7 +156,7 @@ function Demo() {
 to various props that accept size as an argument, for example, `radius`, `shadow`, `p`.
 
 ```tsx
-import { MantineSize, Paper } from '@mantine/core';
+import { MantineSize, Paper } from '@bds-react/core';
 
 interface DemoProps {
   size: MantineSize;
@@ -179,7 +179,7 @@ To override `theme.other`:
 
 ```tsx
 // mantine.d.ts
-declare module '@mantine/core' {
+declare module '@bds-react/core' {
   export interface MantineThemeOther {
     myCustomProperty: string;
     myCustomFunction: () => void;
@@ -193,14 +193,14 @@ To override `theme.colors`:
 import {
   DefaultMantineColor,
   MantineColorsTuple,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 type ExtendedCustomColors =
   | 'primaryColorName'
   | 'secondaryColorName'
   | DefaultMantineColor;
 
-declare module '@mantine/core' {
+declare module '@bds-react/core' {
   export interface MantineThemeColorsOverride {
     colors: Record<ExtendedCustomColors, MantineColorsTuple>;
   }

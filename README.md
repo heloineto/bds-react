@@ -1,8 +1,8 @@
 # Mantine
 
-[![NPM](https://img.shields.io/npm/l/@mantine/core)](https://github.com/mantinedev/mantine/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/l/@bds-react/core)](https://github.com/mantinedev/mantine/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/mantinedev/mantine)](https://github.com/mantinedev/mantine/graphs/contributors)
-[![npm](https://img.shields.io/npm/v/@mantine/core)](https://www.npmjs.com/package/@mantine/core)
+[![npm](https://img.shields.io/npm/v/@bds-react/core)](https://www.npmjs.com/package/@bds-react/core)
 [![npm](https://img.shields.io/npm/dm/@mantine/hooks)](https://www.npmjs.com/package/@mantine/hooks)
 [![Help wanted](https://img.shields.io/github/labels/mantinedev/mantine/help%20wanted?label=Contribute)](https://github.com/mantinedev/mantine/labels/help%20wanted)
 [![Discord](https://img.shields.io/badge/Chat%20on-Discord-%235865f2)](https://discord.gg/wbH82zuWMN)
@@ -20,7 +20,7 @@
 ## Packages
 
 - `@mantine/hooks` – collection of 50+ hooks for state and UI management
-- `@mantine/core` – core components library – 100+ components
+- `@bds-react/core` – core components library – 100+ components
 - [`@mantine/form`](https://mantine.dev/form/use-form) – forms management library
 - [`@mantine/charts`](https://mantine.dev/charts/getting-started/) – recharts based charts library
 - [`@mantine/notifications`](https://mantine.dev/x/notifications) – a fully featured notifications system

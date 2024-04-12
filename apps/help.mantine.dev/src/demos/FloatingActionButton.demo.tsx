@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon, Affix, Text } from '@bds-react/core';
 import { IconPhone } from '@tabler/icons-react';
-import { ActionIcon, Affix, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { IconPhone } from '@tabler/icons-react';
-import { ActionIcon, Affix, Text } from '@mantine/core';
+import { ActionIcon, Affix, Text } from '@bds-react/core';
 
 function Demo() {
   return (

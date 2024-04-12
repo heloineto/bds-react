@@ -29,7 +29,7 @@ in your project.
 
 ```tsx
 // 6.x
-import { createStyles } from '@mantine/core';
+import { createStyles } from '@bds-react/core';
 
 const useStyles = createStyles((theme) => ({
   root: {
@@ -51,7 +51,7 @@ const useStyles = createStyles((theme) => ({
 
 ```tsx
 // 6.x
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -62,7 +62,7 @@ function Demo() {
 
 ```tsx
 // 7.0
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -75,7 +75,7 @@ Nested selectors are not supported in [style prop](/styles/style), use `classNam
 
 ```tsx
 // 6.x
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 function Demo() {
   return <Box sx={{ '&:hover': { background: 'red' } }} />;
@@ -97,7 +97,7 @@ function Demo() {
 
 ```tsx
 // 6.x – nested selectors
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -127,7 +127,7 @@ Regular selectors are still supported:
 
 ```tsx
 // Works both in 6.x and 7.x
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -149,7 +149,7 @@ create a global stylesheet (`.css` file) and import it in your application entry
 
 ```tsx
 // 6.x
-import { Global } from '@mantine/core';
+import { Global } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -221,7 +221,7 @@ All [theme](/theming/theme-object) properties are now available as [CSS variable
 
 ```tsx
 // 6.x
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -258,7 +258,7 @@ Example of 6.x `createStyles` with `theme.colorScheme` migration to 7.0:
 
 ```tsx
 // 6.x
-import { createStyles } from '@mantine/core';
+import { createStyles } from '@bds-react/core';
 
 const useStyles = createStyles((theme) => ({
   root: {

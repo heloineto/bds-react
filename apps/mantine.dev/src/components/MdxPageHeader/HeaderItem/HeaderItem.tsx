@@ -1,6 +1,6 @@
 import React from 'react';
+import { Text } from '@bds-react/core';
 import cx from 'clsx';
-import { Text } from '@mantine/core';
 import classes from './HeaderItem.module.css';
 
 interface HeaderItemProps {

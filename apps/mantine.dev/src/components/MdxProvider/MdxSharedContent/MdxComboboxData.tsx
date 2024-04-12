@@ -8,7 +8,7 @@ interface MdxComboboxDataProps {
 }
 
 const getStringArrayCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return <${component} data={['React', 'Angular']} />;
@@ -16,7 +16,7 @@ function Demo() {
 `;
 
 const getArrayCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -31,7 +31,7 @@ function Demo() {
 `;
 
 const getStringGroupsCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -46,7 +46,7 @@ function Demo() {
 `;
 
 const getGroupsCode = (component: string) => `
-import { ${component} } from '@mantine/core';
+import { ${component} } from '@bds-react/core';
 
 function Demo() {
   return (

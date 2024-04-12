@@ -1,4 +1,4 @@
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 import '@mantine/dates/styles.css';
 import '@mantine/dropzone/styles.css';
 import '@mantinex/shiki/styles.css';
@@ -9,7 +9,7 @@ import '../fonts/GreycliffCF/styles.css';
 
 import React from 'react';
 import Head from 'next/head';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 import { ShikiProvider } from '@mantinex/shiki';
 import { Shell } from '../components/Shell';
 import { theme } from '../theme';

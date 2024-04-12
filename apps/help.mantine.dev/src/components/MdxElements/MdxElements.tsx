@@ -1,7 +1,7 @@
 import React from 'react';
+import { Anchor, Code, Image, Title } from '@bds-react/core';
 import cx from 'clsx';
 import type { MDXComponents } from 'mdx/types';
-import { Anchor, Code, Image, Title } from '@mantine/core';
 import { Demo } from '@mantinex/demo';
 import { CodeHighlight } from '@mantinex/shiki';
 import { MdxErrorMessage } from './MdxErrorMessage/MdxErrorMessage';

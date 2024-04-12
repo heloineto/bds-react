@@ -1,11 +1,11 @@
 import React from 'react';
-import { Badge, Button, Group } from '@mantine/core';
+import { Badge, Button, Group } from '@bds-react/core';
 import { CodeHighlight } from '@mantinex/shiki';
 import { PageSection } from '../PageSection/PageSection';
 import classes from './Theming.module.css';
 
 const code = `
-import { Badge, Button, MantineProvider, createTheme } from '@mantine/core';
+import { Badge, Button, MantineProvider, createTheme } from '@bds-react/core';
 
 const theme = createTheme({
   fontFamily: 'Greycliff CF, sans-serif',

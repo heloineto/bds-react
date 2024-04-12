@@ -1,5 +1,5 @@
 import React from 'react';
-import { Highlight, Table, Text } from '@mantine/core';
+import { Highlight, Table, Text } from '@bds-react/core';
 import docgenData from '@/.docgen/docgen.json';
 import { DocsSection } from '@/components/DocsSection';
 import { HtmlText } from '@/components/HtmlText';

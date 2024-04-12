@@ -13,54 +13,54 @@ in case you do not have a way to control the order of stylesheets in your applic
 
 All Mantine components are built with CSS modules, but all styles are bundled before publishing to npm.
 To include these styles, you need to import `@mantine/{package}/styles.css` file in your application.
-Example with `@mantine/core` package:
+Example with `@bds-react/core` package:
 
 ```tsx
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 ```
 
-By adding this import, you will have all styles of `@mantine/core` components in your application.
+By adding this import, you will have all styles of `@bds-react/core` components in your application.
 
 ## Import styles per component
 
 If you want to reduce CSS bundle size, you can import styles per component. Note that some components
 have dependencies, for example, [Button](/core/button) component uses [UnstyledButton](/core/unstyled-button)
 component internally, so you need to import styles for both components. You can find a full list of
-exported styles from `@mantine/core` package and additional instructions on [this page](/styles/css-files-list).
+exported styles from `@bds-react/core` package and additional instructions on [this page](/styles/css-files-list).
 
 ```tsx
-import '@mantine/core/styles/UnstyledButton.css';
-import '@mantine/core/styles/Button.css';
+import '@bds-react/core/styles/UnstyledButton.css';
+import '@bds-react/core/styles/Button.css';
 ```
 
-Note that individual component styles are available only for `@mantine/core` package.
+Note that individual component styles are available only for `@bds-react/core` package.
 Other packages have minimal styles that can be imported with `@mantine/{package}/styles.css` import.
 
 ## Styles import order
 
-It is important to keep the correct styles import order. `@mantine/core` package
+It is important to keep the correct styles import order. `@bds-react/core` package
 styles must always be imported before any other Mantine package styles:
 
 ```tsx
 // ✅ Correct order
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 import '@mantine/dates/styles.css';
 // ❌ Incorrect order
 import '@mantine/dates/styles.css';
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 ```
 
 Your application styles must always be imported after all `@mantine/*` packages styles:
 
 ```tsx
 // ✅ Correct order - your styles will override Mantine styles
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 import '@mantine/dates/styles.css';
 import classes from './Demo.module.css';
 
 // ❌ Incorrect order – Mantine styles will override your styles
 import classes from './Demo.module.css';
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 import '@mantine/dates/styles.css';
 ```
 
@@ -75,7 +75,7 @@ All `@mantine/*` packages that export styles have an additional file in which al
 `@layer mantine` directive.
 
 ```tsx
-import '@mantine/core/styles.layer.css';
+import '@bds-react/core/styles.layer.css';
 import '@mantine/dates/styles.layer.css';
 
 // ... other styles
@@ -86,15 +86,15 @@ Make sure that you do not import both `styles.css` and `styles.layer.css` files 
 
 ```tsx
 // ❌ Do not import both styles.css and styles.layer.css
-import '@mantine/core/styles.css';
-import '@mantine/core/styles.layer.css';
+import '@bds-react/core/styles.css';
+import '@bds-react/core/styles.layer.css';
 ```
 
 Similar to package styles, you can import individual component styles with `@layer mantine` directive:
 
 ```tsx
-import '@mantine/core/styles/UnstyledButton.layer.css';
-import '@mantine/core/styles/Button.layer.css';
+import '@bds-react/core/styles/UnstyledButton.layer.css';
+import '@bds-react/core/styles/Button.layer.css';
 
 // ... other styles
 ```
@@ -110,7 +110,7 @@ regular styles.
 // they will be applied after Mantine styles
 import classes from './Demo.module.css';
 
-import '@mantine/core/styles.layer.css';
+import '@bds-react/core/styles.layer.css';
 ```
 
 CSS layers are also useful if you want to combine Mantine components with other libraries which also
@@ -135,13 +135,13 @@ recommended to specify exact version of `@mantine/*` packages both in your
 <!-- Regular styles -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@mantine/core@7.4.2/styles.css"
+  href="https://unpkg.com/@bds-react/core@7.4.2/styles.css"
 />
 
 <!-- Styles with @layer directive -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@mantine/core@7.4.2/styles.layer.css"
+  href="https://unpkg.com/@bds-react/core@7.4.2/styles.layer.css"
 />
 ```
 

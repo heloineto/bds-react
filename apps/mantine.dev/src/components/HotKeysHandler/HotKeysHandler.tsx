@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import { useComputedColorScheme, useDirection, useMantineColorScheme } from '@mantine/core';
+import { useComputedColorScheme, useDirection, useMantineColorScheme } from '@bds-react/core';
 import { useHotkeys } from '@mantine/hooks';
 
 const EXCLUDE_RTL = ['/combobox'];

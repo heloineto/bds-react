@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input } from '@mantine/core';
+import { Input } from '@bds-react/core';
 import { MdxCodeHighlight } from '@/components/MdxProvider';
 
 interface ColorsOutputProps {
@@ -7,7 +7,7 @@ interface ColorsOutputProps {
 }
 
 function getProviderCode(colors: string[]) {
-  return `import { MantineProvider, createTheme, MantineColorsTuple } from '@mantine/core';
+  return `import { MantineProvider, createTheme, MantineColorsTuple } from '@bds-react/core';
 
 const myColor: MantineColorsTuple = ${JSON.stringify(colors, null, 2).replace(/"/g, "'")};
 

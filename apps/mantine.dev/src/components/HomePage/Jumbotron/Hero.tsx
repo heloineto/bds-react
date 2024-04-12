@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMantineTheme } from '@mantine/core';
+import { useMantineTheme } from '@bds-react/core';
 import classes from './Jumbotron.module.css';
 
 export function Hero() {

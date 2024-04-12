@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableProps } from '@mantine/core';
+import { Table, TableProps } from '@bds-react/core';
 import { HtmlText } from '@/components/HtmlText';
 import { TableInlineCode } from '@/components/TableInlineCode';
 import type { StylesApiData } from './StylesApiTable';

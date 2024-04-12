@@ -1,6 +1,6 @@
 import React from 'react';
+import { Box, rem, Text, Title } from '@bds-react/core';
 import { IconCalendar, IconLicense, IconPencil, IconSwitch2 } from '@tabler/icons-react';
-import { Box, rem, Text, Title } from '@mantine/core';
 import { GithubIcon, NpmIcon } from '@mantinex/dev-icons';
 import { Frontmatter } from '@/types';
 import { ImportStatement } from './ImportStatement/ImportStatement';

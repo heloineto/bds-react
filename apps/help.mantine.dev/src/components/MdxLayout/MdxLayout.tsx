@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import { Anchor, Center, Container, Text, Title } from '@bds-react/core';
 import { IconArrowLeft, IconBug, IconPencil } from '@tabler/icons-react';
-import { Anchor, Center, Container, Text, Title } from '@mantine/core';
 import { Frontmatter } from '@/types';
 import { PageHeaderLink } from './PageHeaderLink/PageHeaderLink';
 import { TableOfContents } from './TableOfContents';

@@ -45,7 +45,7 @@ storybook-static
 .next
 packages/*/*/styles.css
 packages/*/*/styles.layer.css
-packages/@mantine/core/styles
+packages/@bds-react/core/styles
 .stylelintcache
 ____test.*
 apps/help.mantine.dev/out

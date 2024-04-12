@@ -26,7 +26,7 @@ It is responsible for:
 - Managing [color scheme](/theming/color-schemes) (light, dark, auto)
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return <MantineProvider>{/* Your app here */}</MantineProvider>;
@@ -40,7 +40,7 @@ and other data that can be accessed by any Mantine component. Most of the `theme
 [CSS variables](/styles/css-variables) and can be accessed both in JavaScript and CSS.
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 // Your theme configuration is merged with default theme
 const theme = createTheme({
@@ -71,7 +71,7 @@ Access theme values in styles:
 Access theme values in JavaScript:
 
 ```tsx
-import { lighten, useMantineTheme } from '@mantine/core';
+import { lighten, useMantineTheme } from '@bds-react/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -227,7 +227,7 @@ the color scheme is `light`, it can be changed by the user and will be persisted
 You can use configure the default color scheme on [MantineProvider](/theming/mantine-provider):
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (

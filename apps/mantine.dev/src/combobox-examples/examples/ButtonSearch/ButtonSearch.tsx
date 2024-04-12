@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Combobox, Text, useCombobox } from '@mantine/core';
+import { Box, Button, Combobox, Text, useCombobox } from '@bds-react/core';
 
 const groceries = [
   '🍎 Apples',

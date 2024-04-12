@@ -20,7 +20,7 @@
     "@mantine/charts": "workspace:*",
     "@mantine/code-highlight": "workspace:*",
     "@mantine/colors-generator": "workspace:*",
-    "@mantine/core": "workspace:*",
+    "@bds-react/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
     "@mantine/form": "workspace:*",

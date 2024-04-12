@@ -1,4 +1,4 @@
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import {
   CarouselDemos,
   CodeHighlightDemos,
@@ -30,7 +30,7 @@ packages are now shipped with native CSS files which can be imported from `@mant
 for example:
 
 ```tsx
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 ```
 
 This change improves performance, reduces bundle size of the library and allows using Mantine
@@ -61,7 +61,7 @@ Note that `auto` is not the default value. You need to set it manually to enable
 both on [MantineProvider](/theming/mantine-provider) and in [ColorSchemeScript](/theming/color-schemes#colorschemescript):
 
 ```tsx
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { ColorSchemeScript, MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -95,8 +95,8 @@ is included in all templates.
 ## Global styles
 
 Mantine no longer includes normalize.css. Instead, it uses a bare minimum set of [global styles](/styles/global-styles).
-These styles are part of the `@mantine/core` package and are applied automatically when you import
-`@mantine/core/styles.css` in your application. Note that these styles cannot be decoupled from the
+These styles are part of the `@bds-react/core` package and are applied automatically when you import
+`@bds-react/core/styles.css` in your application. Note that these styles cannot be decoupled from the
 rest of the library.
 
 ## Mantine as a headless UI library
@@ -111,7 +111,7 @@ You can now use Mantine as a [headless](/styles/unstyled) library. To achieve th
 override, it will give you autocomplete for all theme properties:
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   fontFamily: 'sans-serif',
@@ -138,7 +138,7 @@ import {
   createTheme,
   MantineProvider,
   TextInput,
-} from '@mantine/core';
+} from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({
@@ -226,7 +226,7 @@ to set `scale` to `1 / (10 / 16)` (16 – default font-size) = `1 / 0.625` = `1.
 ```
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   scale: 1.6,
@@ -267,7 +267,7 @@ find [Button](/core/button) classes in `Button.classes`:
 You can use these classes to create components with the same styles as Mantine components:
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return <button type="button" className={Button.classes.root} />;
@@ -297,7 +297,7 @@ Note that it is usually better to generate colors in advance to avoid contrast i
 
 ```tsx
 import { generateColors } from '@mantine/colors-generator';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -316,7 +316,7 @@ function Demo() {
 
 ## New setup for RTL
 
-`@mantine/core` package now exports [DirectionProvider](/styles/rtl) component, which should be used to configure the direction of the application.
+`@bds-react/core` package now exports [DirectionProvider](/styles/rtl) component, which should be used to configure the direction of the application.
 `useDirection` hook can be used to toggle direction. All components now include RTL styles by default, it is no
 longer required to set up additional plugins. See [RTL documentation](/styles/rtl) to learn more.
 
@@ -332,7 +332,7 @@ Components that previously had `rightSection` and `icon` props, now use `leftSec
 Example of [Button](/core/button) sections:
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -416,7 +416,7 @@ compound components instead.
 
 [AppShell](/core/app-shell) component was completely rewritten, it now supports more features:
 
-- `AppShell` now uses compound components pattern: `Navbar`, `Aside`, `Header` and `Footer` are no longer exported from `@mantine/core` package. Instead, use `AppShell.Navbar`, `AppShell.Aside`, etc.
+- `AppShell` now uses compound components pattern: `Navbar`, `Aside`, `Header` and `Footer` are no longer exported from `@bds-react/core` package. Instead, use `AppShell.Navbar`, `AppShell.Aside`, etc.
 - `AppShell` now supports animations when navbar/aside are opened/closed
 - Navbar/aside can now be collapsed on desktop – state is handled separately for mobile and desktop
 - Header/footer can now be collapsed the same way as navbar/aside. For example, the header can be collapsed based on scroll position or direction.
@@ -545,14 +545,14 @@ viewport width is less than or greater than the specified breakpoint:
 - [Stack](/core/stack) component `spacing` prop was renamed to `gap`
 - [Input](/core/input) and other `Input` based components `icon` prop was renamed to `leftSection`
 - [Loader](/core/loader) component `variant` prop was renamed to `type`
-- `@mantine/core` package no longer depends on [Radix UI ScrollArea](https://www.radix-ui.com/docs/primitives/components/scroll-area#scroll-area), [ScrollArea](/core/scroll-area) component is now a native Mantine component – it reduces bundle size, allows setting CSP for styles and improves performance (all styles are now applied with classes instead of inline `<style />` tags)
+- `@bds-react/core` package no longer depends on [Radix UI ScrollArea](https://www.radix-ui.com/docs/primitives/components/scroll-area#scroll-area), [ScrollArea](/core/scroll-area) component is now a native Mantine component – it reduces bundle size, allows setting CSP for styles and improves performance (all styles are now applied with classes instead of inline `<style />` tags)
 - [Overlay](/core/overlay) `opacity` prop was renamed to `backgroundOpacity` to avoid collision with `opacity` [style prop](/styles/style-props)
 - [Badge](/core/badge) Styles API selectors were changed, see [Badge Styles API](/core/badge?t=styles-api) documentation for more details
 - [Slider](/core/slider) Styles API selectors were changed, see [Slider Styles API](/core/slider?t=styles-api) documentation for more details
 - [Text](/core/text) component no longer supports `underline`, `color`, `strikethrough`, `italic`, `transform`, `align` and `weight` prop – use [style props](/styles/style-props) instead
 - [Portal](/core/portal) component `innerRef` prop was renamed to `ref`
 - [ScrollArea](/core/scroll-area) now supports `x` and `y` values in `offsetScrollbars` prop
-- `TransferList` component is no longer available as a part of `@mantine/core` package, instead you can implement it with [Combobox](/core/combobox) component ([example](/combobox?e=TransferList))
+- `TransferList` component is no longer available as a part of `@bds-react/core` package, instead you can implement it with [Combobox](/core/combobox) component ([example](/combobox?e=TransferList))
 - [Chip](/core/chip) component now supports custom check icon
 - [PasswordInput](/core/password-input) no longer supports `visibilityToggleLabel` and `toggleTabIndex` props, use `visibilityToggleButtonProps` prop instead
 - [Stepper](/core/stepper) no longer supports `breakpoint` prop, you can apply responsive styles with Styles API

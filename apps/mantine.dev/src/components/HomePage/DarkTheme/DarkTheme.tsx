@@ -1,6 +1,6 @@
 import React from 'react';
+import { Button, Group, Image, SimpleGrid, Text, useMantineColorScheme } from '@bds-react/core';
 import { IconMoonStars, IconSun } from '@tabler/icons-react';
-import { Button, Group, Image, SimpleGrid, Text, useMantineColorScheme } from '@mantine/core';
 import { CodeHighlight } from '@mantinex/shiki';
 import { PageSection } from '../PageSection/PageSection';
 import image from './dark-theme-image.png';
@@ -10,7 +10,7 @@ export function DarkTheme() {
   const { toggleColorScheme } = useMantineColorScheme();
 
   const code = `
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (

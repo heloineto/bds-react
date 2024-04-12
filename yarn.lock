@@ -3548,7 +3548,7 @@ __metadata:
     "@mantine/carousel": "workspace:*"
     "@mantine/charts": "workspace:*"
     "@mantine/code-highlight": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/dates": "workspace:*"
     "@mantine/dropzone": "workspace:*"
     "@mantine/form": "workspace:*"
@@ -3580,7 +3580,7 @@ __metadata:
     "@mantine/carousel": "workspace:*"
     "@mantine/charts": "workspace:*"
     "@mantine/code-highlight": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/dates": "workspace:*"
     "@mantine/dropzone": "workspace:*"
     "@mantine/notifications": "workspace:*"
@@ -4794,7 +4794,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mantine-tests/core@workspace:packages/@mantine-tests/core"
   dependencies:
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
     react: ^18.2.0
@@ -4807,7 +4807,7 @@ __metadata:
   resolution: "@mantine-tests/dates@workspace:packages/@mantine-tests/dates"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/dates": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
@@ -4822,10 +4822,10 @@ __metadata:
   resolution: "@mantine/carousel@workspace:packages/@mantine/carousel"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     embla-carousel-react: ">=7.0.0"
     react: ^18.2.0
@@ -4838,10 +4838,10 @@ __metadata:
   resolution: "@mantine/charts@workspace:packages/@mantine/charts"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4854,12 +4854,12 @@ __metadata:
   resolution: "@mantine/code-highlight@workspace:packages/@mantine/code-highlight"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     clsx: "npm:2.1.0"
     highlight.js: "npm:^11.9.0"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4874,9 +4874,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mantine/core@workspace:*, @mantine/core@workspace:packages/@mantine/core":
+"@bds-react/core@workspace:*, @bds-react/core@workspace:packages/@bds-react/core":
   version: 0.0.0-use.local
-  resolution: "@mantine/core@workspace:packages/@mantine/core"
+  resolution: "@bds-react/core@workspace:packages/@bds-react/core"
   dependencies:
     "@floating-ui/react": "npm:^0.26.9"
     "@mantine-tests/core": "workspace:*"
@@ -4899,11 +4899,11 @@ __metadata:
   dependencies:
     "@mantine-tests/core": "workspace:*"
     "@mantine-tests/dates": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     clsx: "npm:2.1.0"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     dayjs: ">=1.0.0"
     react: ^18.2.0
@@ -4916,11 +4916,11 @@ __metadata:
   resolution: "@mantine/dropzone@workspace:packages/@mantine/dropzone"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     react-dropzone-esm: "npm:15.0.1"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4950,10 +4950,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mantine/modals@workspace:packages/@mantine/modals"
   dependencies:
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4965,12 +4965,12 @@ __metadata:
   resolution: "@mantine/notifications@workspace:packages/@mantine/notifications"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     "@mantine/store": "npm:7.8.0"
     react-transition-group: "npm:4.4.5"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4982,11 +4982,11 @@ __metadata:
   resolution: "@mantine/nprogress@workspace:packages/@mantine/nprogress"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     "@mantine/store": "npm:7.8.0"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4998,11 +4998,11 @@ __metadata:
   resolution: "@mantine/spotlight@workspace:packages/@mantine/spotlight"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     "@mantine/store": "npm:7.8.0"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -5022,10 +5022,10 @@ __metadata:
   resolution: "@mantine/tiptap@workspace:packages/@mantine/tiptap"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
     "@mantine/hooks": 7.8.0
     "@tiptap/extension-link": ">=2.1.12"
     "@tiptap/react": ">=2.1.12"
@@ -5038,7 +5038,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mantine/vanilla-extract@workspace:packages/@mantine/vanilla-extract"
   peerDependencies:
-    "@mantine/core": 7.8.0
+    "@bds-react/core": 7.8.0
   languageName: unknown
   linkType: soft
 
@@ -5047,11 +5047,11 @@ __metadata:
   resolution: "@mantinex/demo@workspace:packages/@mantinex/demo"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
     "@mantinex/shiki": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     "@mantinex/dev-icons": ">=1.0.0"
     "@mantinex/shiki": ">=1.0.0"
@@ -5066,10 +5066,10 @@ __metadata:
   resolution: "@mantinex/dev-icons@workspace:packages/@mantinex/dev-icons"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -5081,10 +5081,10 @@ __metadata:
   resolution: "@mantinex/mantine-header@workspace:packages/@mantinex/mantine-header"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     "@mantinex/dev-icons": ">=1.0.0"
     "@tabler/icons-react": ">=2.0.0"
@@ -5098,10 +5098,10 @@ __metadata:
   resolution: "@mantinex/mantine-logo@workspace:packages/@mantinex/mantine-logo"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -5113,10 +5113,10 @@ __metadata:
   resolution: "@mantinex/mantine-meta@workspace:packages/@mantinex/mantine-meta"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -5128,10 +5128,10 @@ __metadata:
   resolution: "@mantinex/shiki@workspace:packages/@mantinex/shiki"
   dependencies:
     "@mantine-tests/core": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/hooks": "workspace:*"
   peerDependencies:
-    "@mantine/core": ">=7.0.0"
+    "@bds-react/core": ">=7.0.0"
     "@mantine/hooks": ">=7.0.0"
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -11992,7 +11992,7 @@ __metadata:
     "@mantine/charts": "workspace:*"
     "@mantine/code-highlight": "workspace:*"
     "@mantine/colors-generator": "workspace:*"
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/dates": "workspace:*"
     "@mantine/dropzone": "workspace:*"
     "@mantine/form": "workspace:*"
@@ -14833,7 +14833,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "help.mantine.dev@workspace:apps/help.mantine.dev"
   dependencies:
-    "@mantine/core": "workspace:*"
+    "@bds-react/core": "workspace:*"
     "@mantine/dates": "workspace:*"
     "@mantine/dropzone": "workspace:*"
     "@mantine/form": "workspace:*"

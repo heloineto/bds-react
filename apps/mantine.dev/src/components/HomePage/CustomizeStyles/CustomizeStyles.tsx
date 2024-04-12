@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { Button, rem, SimpleGrid, Slider, Text } from '@bds-react/core';
 import { IconArrowRight } from '@tabler/icons-react';
-import { Button, rem, SimpleGrid, Slider, Text } from '@mantine/core';
 import { getCodeFileIcon } from '@mantinex/dev-icons';
 import { CodeHighlight, CodeHighlightTabs } from '@mantinex/shiki';
 import { SliderStylesApi } from '@docs/styles-api';
@@ -17,7 +17,7 @@ const marks = [
 ];
 
 const defaultCode = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 
 const marks = [
   { value: 20, label: '20%' },

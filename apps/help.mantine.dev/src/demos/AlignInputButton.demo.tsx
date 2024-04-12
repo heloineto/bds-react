@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Group, TextInput } from '@mantine/core';
+import { Button, Group, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './AlignInputButton.demo.module.css';
 
 const code = `
-import { Button, Group, TextInput } from '@mantine/core';
+import { Button, Group, TextInput } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -32,7 +32,7 @@ export const AlignInputButton: MantineDemo = {
 };
 
 const correctCode = `
-import { Button, Group, TextInput } from '@mantine/core';
+import { Button, Group, TextInput } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -84,7 +84,7 @@ const cssCode = `.root {
 }`;
 
 const stylesCode = `
-import { Button, Group, TextInput } from '@mantine/core';
+import { Button, Group, TextInput } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function StylesDemo() {

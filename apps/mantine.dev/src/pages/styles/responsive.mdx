@@ -1,4 +1,4 @@
-import { DEFAULT_THEME, px } from '@mantine/core';
+import { DEFAULT_THEME, px } from '@bds-react/core';
 import { StylesDemos } from '@docs/demos';
 import { Layout } from '@/layout';
 import { MDX_DATA } from '@/mdx';
@@ -17,7 +17,7 @@ export default Layout(MDX_DATA.ResponsiveStyles);
 You can configure these values with [MantineProvider](/theming/mantine-provider/):
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   breakpoints: {
@@ -180,7 +180,7 @@ Responsive values are calculated the following way:
 - `xs`, `sm`, `md`, `lg`, `xl` values are used when the viewport width is larger that the value of corresponding breakpoint specified in [theme.breakpoints](/styles/responsive/)
 
 ```tsx
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 function Demo() {
   return <Box w={{ base: 320, sm: 480, lg: 640 }} />;

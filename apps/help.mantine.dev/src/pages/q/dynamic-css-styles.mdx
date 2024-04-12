@@ -25,7 +25,7 @@ First, define data- attributes on the component. In the example below:
   In styles you can reference it with `&[data-orientation="horizontal"]` selector.
 
 ```tsx
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 interface DemoProps {
@@ -74,7 +74,7 @@ of values (for example, value can be any valid CSS color), then you can use
 inline styles or [style props](https://mantine.dev/styles/style-props/):
 
 ```tsx
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 interface DemoProps {
   fontFamily: string;
@@ -94,7 +94,7 @@ If you need to customize a deeply nested element, use [styles](https://mantine.d
 prop instead:
 
 ```tsx
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 interface DemoProps {
   color: string;
@@ -122,7 +122,7 @@ with [classNames](https://mantine.dev/styles/styles-api/#classnames-prop) prop.
 First, define CSS variables in `style` or `styles` prop:
 
 ```tsx
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 interface DemoProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space } from '@mantine/core';
+import { Space } from '@bds-react/core';
 import { SocialCards } from '../../SocialCards';
 import { PageSection } from '../PageSection/PageSection';
 

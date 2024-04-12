@@ -5,9 +5,9 @@ export const PACKAGES_DATA = [
     dependencies: ['@mantine/hooks'],
   },
   {
-    package: '@mantine/core',
+    package: '@bds-react/core',
     description: 'Core components library: inputs, buttons, overlays, etc.',
-    dependencies: ['@mantine/hooks', '@mantine/core'],
+    dependencies: ['@mantine/hooks', '@bds-react/core'],
   },
   {
     package: '@mantine/form',
@@ -17,29 +17,29 @@ export const PACKAGES_DATA = [
   {
     package: '@mantine/dates',
     description: 'Date inputs, calendars',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/dates', 'dayjs'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/dates', 'dayjs'],
   },
   {
     package: '@mantine/charts',
     description: 'Recharts based charts library',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/charts', 'recharts@2'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/charts', 'recharts@2'],
   },
   {
     package: '@mantine/notifications',
     description: 'Notifications system',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/notifications'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/notifications'],
   },
   {
     package: '@mantine/code-highlight',
     description: 'Code highlight with your theme colors and styles',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/code-highlight'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/code-highlight'],
   },
   {
     package: '@mantine/tiptap',
     description: 'Rich text editor based on Tiptap',
     dependencies: [
       '@mantine/hooks',
-      '@mantine/core',
+      '@bds-react/core',
       '@mantine/tiptap',
       '@tabler/icons-react',
       '@tiptap/react',
@@ -50,26 +50,31 @@ export const PACKAGES_DATA = [
   {
     package: '@mantine/dropzone',
     description: 'Capture files with drag and drop',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/dropzone'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/dropzone'],
   },
   {
     package: '@mantine/carousel',
     description: 'Embla based carousel component',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/carousel', 'embla-carousel-react'],
+    dependencies: [
+      '@mantine/hooks',
+      '@bds-react/core',
+      '@mantine/carousel',
+      'embla-carousel-react',
+    ],
   },
   {
     package: '@mantine/spotlight',
     description: 'Overlay command center',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/spotlight'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/spotlight'],
   },
   {
     package: '@mantine/modals',
     description: 'Centralized modals manager',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/modals'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/modals'],
   },
   {
     package: '@mantine/nprogress',
     description: 'Navigation progress',
-    dependencies: ['@mantine/hooks', '@mantine/core', '@mantine/nprogress'],
+    dependencies: ['@mantine/hooks', '@bds-react/core', '@mantine/nprogress'],
   },
 ];

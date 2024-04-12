@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, MantineColorsTuple, MantineProvider, Table } from '@mantine/core';
+import { Button, Input, MantineColorsTuple, MantineProvider, Table } from '@bds-react/core';
 import { useDebouncedValue } from '@mantine/hooks';
 
 interface ComponentsPreviewProps {

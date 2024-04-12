@@ -1,5 +1,5 @@
 import React from 'react';
-import { createTheme, Input, MantineThemeProvider, NativeSelect, TextInput } from '@mantine/core';
+import { createTheme, Input, MantineThemeProvider, NativeSelect, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './InputThemeFocusStyles.demo.module.css';
 
@@ -10,7 +10,7 @@ const cssCode = `.input {
 }`;
 
 const code = `
-import { TextInput, NativeSelect, MantineProvider, createTheme, Input } from '@mantine/core';
+import { TextInput, NativeSelect, MantineProvider, createTheme, Input } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DEFAULT_THEME } from '@mantine/core';
+import { DEFAULT_THEME } from '@bds-react/core';
 import { MdxCodeHighlight } from '../MdxProvider';
 
 export function DefaultThemeData() {

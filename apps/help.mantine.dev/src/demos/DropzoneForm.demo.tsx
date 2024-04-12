@@ -1,5 +1,5 @@
 import React from 'react';
-import { Center, CloseButton, Text } from '@mantine/core';
+import { Center, CloseButton, Text } from '@bds-react/core';
 import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
 import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
@@ -7,7 +7,7 @@ import { MantineDemo } from '@mantinex/demo';
 const code = `
 import { useForm } from '@mantine/form';
 import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
-import { Center, Text, CloseButton } from '@mantine/core';
+import { Center, Text, CloseButton } from '@bds-react/core';
 
 interface FormValues {
   files: File[];

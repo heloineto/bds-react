@@ -51,7 +51,7 @@ By default, it is set to `true`. If set to `false`, all Mantine CSS variables wi
 even if they have the same value as in the default theme.
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -68,7 +68,7 @@ function Demo() {
 By default, static classes are enabled, to disable them set `withStaticClasses` to `false`:
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -87,7 +87,7 @@ By default, global classes are enabled, to disable them set `withGlobalClasses` 
 disabling global classes may break styles of some components.
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -122,7 +122,7 @@ Note that you do not need to use [ColorSchemeScript](/theming/color-schemes/#col
 you can ignore this part of the guide.
 
 ```tsx
-import { HeadlessMantineProvider } from '@mantine/core';
+import { HeadlessMantineProvider } from '@bds-react/core';
 
 function App() {
   return (
@@ -169,7 +169,7 @@ All Mantine components have been migrated to [logical CSS properties](https://de
 (as a replacement for rtl styles) and [:where](https://developer.mozilla.org/en-US/docs/Web/CSS/:where) pseudo-class
 (as a replacement for [private CSS variables](https://help.mantine.dev/q/private-css-variables)). These changes
 should not impact the usage of Mantine components, but now Mantine CSS files have smaller size. For example,
-`@mantine/core/styles.css` now has ~ 8% smaller size (192kb -> 177kb).
+`@bds-react/core/styles.css` now has ~ 8% smaller size (192kb -> 177kb).
 
 ## Pass props to inner recharts components
 

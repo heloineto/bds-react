@@ -108,11 +108,11 @@ form.errors;
 ## rem/em functions improvements
 
 [rem and em](/styles/rem) function now support space-separated values. This feature is available
-both in `rem` function exported from `@mantine/core` package and [postcss-preset-mantine](/styles/postcss-preset).
+both in `rem` function exported from `@bds-react/core` package and [postcss-preset-mantine](/styles/postcss-preset).
 Note that you need to update [postcss-preset-mantine](/styles/postcss-preset) to `1.11.0` to use this feature.
 
 ```tsx
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 
 rem('16px 32px');
 // -> calc(1rem * var(--mantine-scale)) calc(2rem * var(--mantine-scale))
@@ -122,7 +122,7 @@ All components props that are converted to `rem` units now support space-separat
 For example, space-separated values can be used in `radius` prop of [Modal](/core/modal) component:
 
 ```tsx
-import { Modal } from '@mantine/core';
+import { Modal } from '@bds-react/core';
 
 function Demo() {
   return <Modal radius="10px 10px 0 0" opened onClose={() => {}} />;
@@ -138,7 +138,7 @@ components only include props that are specific to the original component. It is
 improve TypeScript performance.
 
 ```tsx
-import { Group } from '@mantine/core';
+import { Group } from '@bds-react/core';
 
 // Group is not polymorphic component,
 // but it still supports component and renderRoot props
@@ -221,7 +221,7 @@ You can preview new colors on [this page](/theming/colors/#default-colors). New 
 If you prefer old colors, change theme settings on `MantineProvider`:
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   colors: {
@@ -272,7 +272,7 @@ function Demo() {
 - [AppShell](/core/app-shell) now supports `offsetScrollbars` prop. It determines whether scrollbars should be offset, it is `true` by default. The logic of scrollbars offset is controlled by [react-remove-scroll](https://github.com/theKashey/react-remove-scroll).
 - [Menu](/core/menu) now supports `trigger="click-hover"` prop, to open menu both on click and on hover.
 - It is now possible to set `keepMounted` prop on [Tabs.Panel](/core/tabs) components individually, not only on `Tabs` component.
-- [mantine-flagpack](https://mantinedev.github.io/mantine-flagpack/) has been migrated to support `7.x` versions of `@mantine/core`. To use it, update `mantine-flagpack` to `4.0.0`.
+- [mantine-flagpack](https://mantinedev.github.io/mantine-flagpack/) has been migrated to support `7.x` versions of `@bds-react/core`. To use it, update `mantine-flagpack` to `4.0.0`.
 - [vite-template](https://github.com/mantinedev/vite-template) was migrated from Jest to [Vitest](https://vitest.dev/).
 - The main [Mantine repository](https://github.com/mantinedev/mantine) was migrated to [yarn v4](https://yarnpkg.com/blog/release/4.0). The process of getting started locally [was changed](/contribute/#get-started-with-mantine-locally)
 - `@mantine/ds` package has been deprecated. You can use `@mantinex/mantine-logo` package to use `MantineLogo` component in your project.

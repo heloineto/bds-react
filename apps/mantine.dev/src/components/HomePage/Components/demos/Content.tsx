@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from '@mantine/core';
+import { Box, Text } from '@bds-react/core';
 import { AccordionDemo, TimelineBase } from '@docs/demos';
 
 export function Content() {

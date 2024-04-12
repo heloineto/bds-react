@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 
 interface RedirectProps {
   to: string;

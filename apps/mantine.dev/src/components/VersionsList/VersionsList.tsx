@@ -1,6 +1,6 @@
 import React from 'react';
+import { Button, Code, Group, Text } from '@bds-react/core';
 import { IconFileInvoice } from '@tabler/icons-react';
-import { Button, Code, Group, Text } from '@mantine/core';
 import { GithubIcon } from '@mantinex/dev-icons';
 import { allVersions } from '@mantinex/mantine-meta';
 import classes from './VersionsList.module.css';

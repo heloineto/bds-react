@@ -36,7 +36,7 @@ function Demo() {
 `;
 
 export function MdxInputAccessibility(props: MdxInputAccessibilityProps) {
-  const packageName = props.package || '@mantine/core';
+  const packageName = props.package || '@bds-react/core';
   return (
     <>
       <MdxTitle id="accessibility">Accessibility</MdxTitle>

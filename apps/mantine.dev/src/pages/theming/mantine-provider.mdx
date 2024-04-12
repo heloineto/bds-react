@@ -13,7 +13,7 @@ application and should be used only once.
 ## Usage
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   /** Your theme override here */
@@ -84,7 +84,7 @@ Pass [theme object](/theming/theme-object) override to `theme` prop. It will be 
 theme and used in all components.
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   fontFamily: 'Open Sans, sans-serif',
@@ -111,7 +111,7 @@ implementation to `colorSchemeManager` prop. You can learn more about color sche
 import {
   localStorageColorSchemeManager,
   MantineProvider,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 const colorSchemeManager = localStorageColorSchemeManager({
   key: 'my-app-color-scheme',
@@ -134,7 +134,7 @@ Possible values are `light`, `dark` and `auto`. By default, color scheme value i
 You can learn more about color scheme management in the [color schemes guide](/theming/color-schemes).
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -153,7 +153,7 @@ and `cssVariablesResolver`, then these variables are rendered into `<style />` t
 You can learn more about Mantine CSS variables in the [CSS variables guide](/styles/css-variables/).
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -172,7 +172,7 @@ via `.css` file (Note that in this case you will need to generate all theme toke
 that are not a part of the default theme on your side).
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -190,7 +190,7 @@ By default, it is set to `true`. If set to `false`, all Mantine CSS variables wi
 even if they have the same value as in the default theme.
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -209,7 +209,7 @@ attribute will be added to `<html />` tag. You can learn more about color scheme
 [color schemes guide](/theming/color-schemes).
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 const getRootElement = () =>
   typeof window === 'undefined' ? undefined : document.body;
@@ -229,7 +229,7 @@ function Demo() {
 Default value is `mantine` – all components will have `mantine-` prefix in their **static classes**.
 
 ```tsx
-import { MantineProvider, Text } from '@mantine/core';
+import { MantineProvider, Text } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -249,7 +249,7 @@ In this case (default `classNamesPrefix`), [Text](/core/text) component will hav
 With `classNamesPrefix` you can change only **static class**:
 
 ```tsx
-import { MantineProvider, Text } from '@mantine/core';
+import { MantineProvider, Text } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -272,7 +272,7 @@ Now [Text](/core/text) component will have the following classes:
 By default, static classes are enabled, to disable them set `withStaticClasses` to `false`:
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -291,7 +291,7 @@ By default, global classes are enabled, to disable them set `withGlobalClasses` 
 disabling global classes may break styles of some components.
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 
 function Demo() {
   return (

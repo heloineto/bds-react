@@ -8,7 +8,7 @@ import {
   Select,
   SimpleGrid,
   TextInput,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 export function Inputs() {
   return (

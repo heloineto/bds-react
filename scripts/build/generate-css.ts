@@ -1,4 +1,4 @@
-// Generates separate css files for each @mantine/core component
+// Generates separate css files for each @bds-react/core component
 import path from 'node:path';
 import glob from 'fast-glob';
 import fs from 'fs-extra';
@@ -43,10 +43,10 @@ async function generateCSSLayers() {
   });
 }
 
-// Generates individual css files for each @mantine/core component
+// Generates individual css files for each @bds-react/core component
 export async function generateCoreCSS() {
   const packagesPath = glob.convertPathToPattern(getPath('packages'));
-  const files = await glob(`${packagesPath}/@mantine/core/src/**/*.css`);
+  const files = await glob(`${packagesPath}/@bds-react/core/src/**/*.css`);
   const modules = files.filter((file) => file.endsWith('.module.css'));
   const global = files.find((file) => file.endsWith('global.css'))!;
 
@@ -56,7 +56,7 @@ export async function generateCoreCSS() {
     { spaces: 2 }
   );
 
-  const outputFolder = getPath('packages/@mantine/core/styles');
+  const outputFolder = getPath('packages/@bds-react/core/styles');
 
   await fs.ensureDir(outputFolder);
 

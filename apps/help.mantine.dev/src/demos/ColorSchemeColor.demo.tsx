@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -21,7 +21,7 @@ function Demo() {
 `;
 
 const appCode = `
-import { virtualColor, createTheme, MantineProvider } from '@mantine/core';
+import { virtualColor, createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   colors: {

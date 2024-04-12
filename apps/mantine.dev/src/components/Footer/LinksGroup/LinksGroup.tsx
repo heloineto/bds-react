@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 import classes from './LinksGroup.module.css';
 
 export interface LinksGroupProps {

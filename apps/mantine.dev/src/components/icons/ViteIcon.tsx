@@ -1,5 +1,5 @@
 import React, { useId } from 'react';
-import { Box, rem } from '@mantine/core';
+import { Box, rem } from '@bds-react/core';
 import { IconProps } from './types';
 import classes from './icons.module.css';
 

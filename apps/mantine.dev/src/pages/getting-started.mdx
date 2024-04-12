@@ -14,7 +14,7 @@ All templates include required dependencies and pre-configured settings.
 Some templates also include additional features like [Jest](https://jestjs.io/),
 [Storybook](https://storybook.js.org/), [ESLint](https://eslint.org/), etc.
 
-All templates include only `@mantine/core` and `@mantine/hooks` packages,
+All templates include only `@bds-react/core` and `@mantine/hooks` packages,
 if you need additional `@mantine/*` packages follow installation instructions
 of the package you want to use.
 
@@ -85,7 +85,7 @@ you can import styles in `_app.tsx` file:
 
 ```tsx
 // core styles are required for all packages
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 
 // other css files are required only if
 // you are using components from the corresponding package
@@ -98,7 +98,7 @@ import '@mantine/core/styles.css';
 Wrap your application with [MantineProvider](/theming/mantine-provider/):
 
 ```tsx
-import { createTheme, MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@bds-react/core';
 
 const theme = createTheme({
   /** Put your mantine theme override here */
@@ -117,7 +117,7 @@ If your application has server side rendering, add [ColorSchemeScript](/theming/
 to the `<head />` of your application:
 
 ```tsx
-import { ColorSchemeScript } from '@mantine/core';
+import { ColorSchemeScript } from '@bds-react/core';
 
 function Demo() {
   return (
@@ -156,7 +156,7 @@ Then create `.vscode/settings.json` file in the root folder of your project with
     "**/*.scss",
     "**/*.sass",
     "**/*.less",
-    "node_modules/@mantine/core/styles.css"
+    "node_modules/@bds-react/core/styles.css"
   ]
 }
 ```

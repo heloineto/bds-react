@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { Box, Highlight, Text, UnstyledButton } from '@bds-react/core';
 import { IconChevronDown } from '@tabler/icons-react';
-import { Box, Highlight, Text, UnstyledButton } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import type { ComboboxExamplesGroup } from '../get-grouped-data';
 import classes from './ComboboxLinksGroup.module.css';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Text } from '@mantine/core';
+import { Anchor, Text } from '@bds-react/core';
 
 interface TableErrorProps {
   errorOf: string;

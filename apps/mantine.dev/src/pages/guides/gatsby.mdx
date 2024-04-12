@@ -57,7 +57,7 @@ Create `src/theme.ts` file with your theme override:
 
 ```tsx
 // src/theme.ts
-import { createTheme } from '@mantine/core';
+import { createTheme } from '@bds-react/core';
 
 export const theme = createTheme({
   fontFamily: 'serif',
@@ -69,7 +69,7 @@ Create `gatsby-ssr.tsx` with the following content:
 
 ```tsx
 import React from 'react';
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { ColorSchemeScript, MantineProvider } from '@bds-react/core';
 import { theme } from './src/theme';
 
 export const onPreRenderHTML = ({
@@ -93,10 +93,10 @@ Create `gatsby-browser.tsx` with the following content:
 ```tsx
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
-import '@mantine/core/styles.css';
+import '@bds-react/core/styles.css';
 
 import React from 'react';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@bds-react/core';
 import { theme } from './src/theme';
 
 export const wrapPageElement = ({ element }) => {

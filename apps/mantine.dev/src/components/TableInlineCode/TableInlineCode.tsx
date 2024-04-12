@@ -1,6 +1,6 @@
 import React from 'react';
+import { ElementProps, Text, TextProps } from '@bds-react/core';
 import cx from 'clsx';
-import { ElementProps, Text, TextProps } from '@mantine/core';
 import classes from './TableInlineCode.module.css';
 
 interface TableInlineCodeProps extends TextProps, ElementProps<'span', 'color'> {}

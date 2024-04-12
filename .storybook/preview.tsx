@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
-import { addons } from '@storybook/preview-api';
-import { IconTextDirectionLtr, IconTextDirectionRtl } from '@tabler/icons-react';
-import { DARK_MODE_EVENT_NAME } from 'storybook-dark-mode';
 import {
   ActionIcon,
   DirectionProvider,
   MantineProvider,
   useDirection,
   useMantineColorScheme,
-} from '@mantine/core';
+} from '@bds-react/core';
+import { addons } from '@storybook/preview-api';
+import { IconTextDirectionLtr, IconTextDirectionRtl } from '@tabler/icons-react';
+import { DARK_MODE_EVENT_NAME } from 'storybook-dark-mode';
 import { ModalsProvider } from '@mantine/modals';
 import { ShikiProvider } from '@mantinex/shiki';
 import { theme } from '../apps/mantine.dev/theme';

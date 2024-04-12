@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Text } from '@mantine/core';
+import { Button, Text } from '@bds-react/core';
 import { ContextModalProps, ModalsProvider } from '@mantine/modals';
 
 interface ModalsProviderDemoProps {

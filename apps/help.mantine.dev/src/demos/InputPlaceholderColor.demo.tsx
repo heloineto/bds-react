@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { DatePickerInput } from '@mantine/dates';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './InputPlaceholderColor.demo.module.css';
@@ -16,7 +16,7 @@ const cssCode = `.textInput {
 `;
 
 const code = `
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { DatePickerInput } from '@mantine/dates';
 import classes from './Demo.module.css';
 

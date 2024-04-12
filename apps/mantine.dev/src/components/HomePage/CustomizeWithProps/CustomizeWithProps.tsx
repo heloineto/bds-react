@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@mantine/core';
+import { Box } from '@bds-react/core';
 import { Demo } from '@mantinex/demo';
 import { TimelineDemos } from '@docs/demos';
 import { PageSection } from '../PageSection/PageSection';

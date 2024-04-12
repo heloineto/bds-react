@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, DEFAULT_THEME, defaultCssVariablesResolver } from '@mantine/core';
+import { Code, DEFAULT_THEME, defaultCssVariablesResolver } from '@bds-react/core';
 import { MdxDataTable } from '../MdxProvider';
 
 interface CssVariablesTableProps {

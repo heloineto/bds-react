@@ -1,4 +1,4 @@
-import { createTheme, virtualColor } from '@mantine/core';
+import { createTheme, virtualColor } from '@bds-react/core';
 
 export const appTheme = createTheme({
   colors: {

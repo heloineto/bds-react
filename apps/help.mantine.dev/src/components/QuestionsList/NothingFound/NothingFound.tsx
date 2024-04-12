@@ -1,5 +1,5 @@
 import React from 'react';
-import { SimpleGrid, Text, Title } from '@mantine/core';
+import { SimpleGrid, Text, Title } from '@bds-react/core';
 import { SocialCard } from '@/components/SocialCard';
 import classes from './NothingFound.module.css';
 

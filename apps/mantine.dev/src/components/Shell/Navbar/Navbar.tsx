@@ -1,4 +1,5 @@
 import React from 'react';
+import { Box, rem, RemoveScroll, ScrollArea, useDirection } from '@bds-react/core';
 import {
   IconApi,
   IconBrandMantine,
@@ -8,7 +9,6 @@ import {
   IconPalette,
 } from '@tabler/icons-react';
 import cx from 'clsx';
-import { Box, rem, RemoveScroll, ScrollArea, useDirection } from '@mantine/core';
 import { MDX_PAGES_GROUPS } from '@/mdx';
 import { NavbarLinksGroup } from './NavbarLinksGroup/NavbarLinksGroup';
 import { NavbarMainLink } from './NavbarMainLink/NavbarMainLink';

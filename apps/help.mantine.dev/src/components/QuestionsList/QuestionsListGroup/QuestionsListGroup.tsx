@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Divider, Highlight } from '@mantine/core';
+import { Divider, Highlight } from '@bds-react/core';
 import { Frontmatter } from '@/types';
 import classes from './QuestionsListGroup.module.css';
 
