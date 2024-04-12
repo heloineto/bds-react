@@ -196,4 +196,4 @@ export const Autocomplete = factory<AutocompleteFactory>((_props, ref) => {
 });
 
 Autocomplete.classes = { ...InputBase.classes, ...Combobox.classes };
-Autocomplete.displayName = '@mantine/core/Autocomplete';
+Autocomplete.displayName = '@bds-react/core/Autocomplete';

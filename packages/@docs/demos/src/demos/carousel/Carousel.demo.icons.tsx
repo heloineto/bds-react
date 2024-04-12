@@ -1,12 +1,12 @@
 import React from 'react';
+import { rem } from '@bds-react/core';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 import { Carousel } from '@mantine/carousel';
-import { rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { Slides } from './_slides';
 
 const code = `
-import { rem } from '@mantine/core';
+import { rem } from '@bds-react/core';
 import { Carousel } from '@mantine/carousel';
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 

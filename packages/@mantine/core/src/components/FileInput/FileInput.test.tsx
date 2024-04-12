@@ -7,7 +7,7 @@ const defaultProps: FileInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/FileInput', () => {
+describe('@bds-react/core/FileInput', () => {
   tests.axe([<FileInput aria-label="test-label" />]);
 
   tests.itSupportsSystemProps<FileInputProps, __InputStylesNames>({
@@ -21,7 +21,7 @@ describe('@mantine/core/FileInput', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/FileInput',
+    displayName: '@bds-react/core/FileInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

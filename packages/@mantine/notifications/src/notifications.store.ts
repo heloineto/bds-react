@@ -1,4 +1,4 @@
-import { NotificationProps } from '@mantine/core';
+import { NotificationProps } from '@bds-react/core';
 import { randomId } from '@mantine/hooks';
 import { createStore, MantineStore, useStore } from '@mantine/store';
 

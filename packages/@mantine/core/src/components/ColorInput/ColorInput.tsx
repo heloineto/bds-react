@@ -308,4 +308,4 @@ export const ColorInput = factory<ColorInputFactory>((_props, ref) => {
 });
 
 ColorInput.classes = InputBase.classes;
-ColorInput.displayName = '@mantine/core/ColorInput';
+ColorInput.displayName = '@bds-react/core/ColorInput';

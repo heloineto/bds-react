@@ -9,7 +9,7 @@ const defaultProps: BackgroundImageProps = {
   src: 'test.png',
 };
 
-describe('@mantine/core/BackgroundImage', () => {
+describe('@bds-react/core/BackgroundImage', () => {
   tests.itSupportsSystemProps<BackgroundImageProps, BackgroundImageStylesNames>({
     component: BackgroundImage,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/BackgroundImage', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/BackgroundImage',
+    displayName: '@bds-react/core/BackgroundImage',
     stylesApiSelectors: ['root'],
   });
 });

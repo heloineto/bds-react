@@ -44,7 +44,7 @@
     "directory": "packages/@mantine/carousel"
   },
   "peerDependencies": {
-    "@mantine/core": "7.8.0",
+    "@bds-react/core": "7.8.0",
     "@mantine/hooks": "7.8.0",
     "embla-carousel-react": ">=7.0.0",
     "react": "^18.2.0",
@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@mantine-tests/core": "workspace:*",
-    "@mantine/core": "workspace:*",
+    "@bds-react/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }

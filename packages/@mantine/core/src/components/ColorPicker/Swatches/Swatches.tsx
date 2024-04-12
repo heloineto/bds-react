@@ -56,4 +56,4 @@ export const Swatches = forwardRef<HTMLDivElement, SwatchesProps>(
   }
 );
 
-Swatches.displayName = '@mantine/core/Swatches';
+Swatches.displayName = '@bds-react/core/Swatches';

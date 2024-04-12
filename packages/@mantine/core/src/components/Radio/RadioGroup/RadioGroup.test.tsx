@@ -15,7 +15,7 @@ const defaultProps: RadioGroupProps = {
   ],
 };
 
-describe('@mantine/core/RadioGroup', () => {
+describe('@bds-react/core/RadioGroup', () => {
   tests.axe([
     <RadioGroup>
       <Radio value="test-1" label="test-1" />
@@ -33,7 +33,7 @@ describe('@mantine/core/RadioGroup', () => {
     extend: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/RadioGroup',
+    displayName: '@bds-react/core/RadioGroup',
     stylesApiSelectors: ['root', 'description', 'error', 'label', 'required'],
   });
 

@@ -1,6 +1,6 @@
 import { getPrecision } from './get-precision';
 
-describe('@mantine/core/Slider/get-precision', () => {
+describe('@bds-react/core/Slider/get-precision', () => {
   it('returns correct precision based on given step value', () => {
     expect(getPrecision(0.1)).toBe(1);
     expect(getPrecision(0.01)).toBe(2);

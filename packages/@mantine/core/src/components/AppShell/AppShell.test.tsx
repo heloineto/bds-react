@@ -4,7 +4,7 @@ import { AppShell, AppShellProps, AppShellStylesNames } from './AppShell';
 
 const defaultProps: AppShellProps = {};
 
-describe('@mantine/core/AppShell', () => {
+describe('@bds-react/core/AppShell', () => {
   tests.itSupportsSystemProps<AppShellProps, AppShellStylesNames>({
     component: AppShell,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/AppShell', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AppShell',
+    displayName: '@bds-react/core/AppShell',
     stylesApiSelectors: ['root'],
   });
 

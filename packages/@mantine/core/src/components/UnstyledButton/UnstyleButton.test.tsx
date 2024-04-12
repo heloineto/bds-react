@@ -4,7 +4,7 @@ import { UnstyledButton, UnstyledButtonProps, UnstyledButtonStylesNames } from '
 
 const defaultProps: UnstyledButtonProps = {};
 
-describe('@mantine/core/UnstyledButton', () => {
+describe('@bds-react/core/UnstyledButton', () => {
   tests.axe([<UnstyledButton aria-label="test" />, <UnstyledButton>test</UnstyledButton>]);
 
   tests.itSupportsFocusEvents<UnstyledButtonProps>({
@@ -25,7 +25,7 @@ describe('@mantine/core/UnstyledButton', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/UnstyledButton',
+    displayName: '@bds-react/core/UnstyledButton',
     stylesApiSelectors: ['root'],
   });
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import cx from 'clsx';
-import hljs from 'highlight.js';
 import {
   Box,
   BoxProps,
@@ -10,7 +8,9 @@ import {
   StylesApiProps,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
+import hljs from 'highlight.js';
 import _classes from './CodeHighlight.module.css';
 import themeClasses from './CodeHighlight.theme.module.css';
 
@@ -68,4 +68,4 @@ export const InlineCodeHighlight = factory<InlineCodeHighlightFactory>((_props, 
   );
 });
 
-InlineCodeHighlight.displayName = '@mantine/core/InlineCodeHighlight';
+InlineCodeHighlight.displayName = '@bds-react/core/InlineCodeHighlight';

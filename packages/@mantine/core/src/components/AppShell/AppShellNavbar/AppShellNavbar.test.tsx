@@ -7,7 +7,7 @@ const TestContainer = createContextContainer(AppShellNavbar, AppShell, {});
 
 const defaultProps: AppShellNavbarProps = {};
 
-describe('@mantine/core/AppShellNavbar', () => {
+describe('@bds-react/core/AppShellNavbar', () => {
   tests.itSupportsSystemProps<AppShellNavbarProps, AppShellNavbarStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/AppShellNavbar', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/AppShellNavbar',
+    displayName: '@bds-react/core/AppShellNavbar',
     stylesApiSelectors: ['navbar'],
     selector: '.mantine-AppShell-navbar',
     stylesApiName: 'AppShell',

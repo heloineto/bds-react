@@ -52,4 +52,4 @@ export const ComboboxGroup = factory<ComboboxGroupFactory>((props, ref) => {
 });
 
 ComboboxGroup.classes = classes;
-ComboboxGroup.displayName = '@mantine/core/ComboboxGroup';
+ComboboxGroup.displayName = '@bds-react/core/ComboboxGroup';

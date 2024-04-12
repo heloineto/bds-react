@@ -2,7 +2,7 @@ import { DEFAULT_THEME } from '../../../MantineProvider';
 import { STYlE_PROPS_DATA } from '../style-props-data';
 import { parseStyleProps } from './parse-style-props';
 
-describe('@mantine/core/Box/parse-style-props', () => {
+describe('@bds-react/core/Box/parse-style-props', () => {
   it('parses non responsive style props correctly', () => {
     expect(
       parseStyleProps({

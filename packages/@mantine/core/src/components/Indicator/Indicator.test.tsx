@@ -4,7 +4,7 @@ import { Indicator, IndicatorProps, IndicatorStylesNames } from './Indicator';
 
 const defaultProps: IndicatorProps = {};
 
-describe('@mantine/core/Indicator', () => {
+describe('@bds-react/core/Indicator', () => {
   tests.itSupportsSystemProps<IndicatorProps, IndicatorStylesNames>({
     component: Indicator,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/Indicator', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Indicator',
+    displayName: '@bds-react/core/Indicator',
     stylesApiSelectors: ['root', 'indicator'],
   });
 

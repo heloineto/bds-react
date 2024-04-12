@@ -1,6 +1,6 @@
 import { getInputOffsets } from './get-input-offsets';
 
-describe('@mantine/core/InputWrapper/get-input-offsets', () => {
+describe('@bds-react/core/InputWrapper/get-input-offsets', () => {
   it('calculates offsets correctly when error is below input', () => {
     expect(
       getInputOffsets(['label', 'input', 'error'], { hasDescription: false, hasError: true })

@@ -5,7 +5,7 @@ const defaultProps: NotificationsProps = {
   withinPortal: false,
 };
 
-describe('@mantine/core/Notifications', () => {
+describe('@bds-react/core/Notifications', () => {
   tests.itSupportsSystemProps<NotificationsProps, NotificationsStylesNames>({
     component: Notifications,
     props: defaultProps,

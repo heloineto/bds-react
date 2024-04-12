@@ -44,13 +44,13 @@ const getTab = (value: TabValue) => {
 
 const clickTab = (value: TabValue) => userEvent.click(getTab(value));
 
-describe('@mantine/core/Tabs', () => {
+describe('@bds-react/core/Tabs', () => {
   tests.axe([<Tabs {...defaultProps} defaultValue="tab-1" />]);
   tests.itSupportsSystemProps<TabsProps, TabsStylesNames>({
     component: Tabs,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Tabs',
+    displayName: '@bds-react/core/Tabs',
     children: true,
     mod: true,
     styleProps: true,

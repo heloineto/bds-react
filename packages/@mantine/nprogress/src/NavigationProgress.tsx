@@ -6,7 +6,7 @@ import {
   OptionalPortal,
   PortalProps,
   Progress,
-} from '@mantine/core';
+} from '@bds-react/core';
 import {
   NprogressStore,
   nprogressStore,

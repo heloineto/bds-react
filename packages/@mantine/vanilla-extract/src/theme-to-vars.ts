@@ -4,7 +4,7 @@ import {
   MantineTheme,
   MantineThemeOverride,
   mergeMantineTheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 import {
   Colors,
   FontSizes,

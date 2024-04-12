@@ -26,7 +26,7 @@ const HeaderContainer = createDrawerContextContainer(DrawerHeader);
 const OverlayContainer = createDrawerContextContainer(DrawerOverlay);
 const TitleContainer = createDrawerContextContainer(DrawerTitle);
 
-describe('@mantine/core/Drawer', () => {
+describe('@bds-react/core/Drawer', () => {
   tests.itSupportsSystemProps<DrawerProps, DrawerStylesNames>({
     component: Drawer,
     props: defaultProps,
@@ -38,7 +38,7 @@ describe('@mantine/core/Drawer', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Drawer',
+    displayName: '@bds-react/core/Drawer',
     stylesApiSelectors: ['root', 'body', 'close', 'content', 'header', 'inner', 'overlay', 'title'],
     selector: '.mantine-Drawer-root',
     variantSelector: '.mantine-Drawer-root',
@@ -82,7 +82,7 @@ describe('@mantine/core/Drawer', () => {
   });
 });
 
-describe('@mantine/core/DrawerRoot', () => {
+describe('@bds-react/core/DrawerRoot', () => {
   tests.itSupportsSystemProps<DrawerRootProps, 'root'>({
     component: DrawerRoot,
     props: defaultProps,
@@ -94,7 +94,7 @@ describe('@mantine/core/DrawerRoot', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/DrawerRoot',
+    displayName: '@bds-react/core/DrawerRoot',
     stylesApiSelectors: ['root'],
     selector: '.mantine-Drawer-root',
     variantSelector: '.mantine-Drawer-root',
@@ -103,7 +103,7 @@ describe('@mantine/core/DrawerRoot', () => {
   });
 });
 
-describe('@mantine/core/DrawerBody', () => {
+describe('@bds-react/core/DrawerBody', () => {
   tests.itSupportsSystemProps<DrawerBodyProps>({
     component: BodyContainer,
     props: {},
@@ -114,14 +114,14 @@ describe('@mantine/core/DrawerBody', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/DrawerBody',
+    displayName: '@bds-react/core/DrawerBody',
     selector: '.mantine-Drawer-body',
     variantSelector: '.mantine-Drawer-body',
     sizeSelector: '.mantine-Drawer-body',
   });
 });
 
-describe('@mantine/core/DrawerCloseButton', () => {
+describe('@bds-react/core/DrawerCloseButton', () => {
   tests.itSupportsSystemProps<DrawerCloseButtonProps>({
     component: CloseButtonContainer,
     props: {},
@@ -132,14 +132,14 @@ describe('@mantine/core/DrawerCloseButton', () => {
     size: true,
     classes: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/DrawerCloseButton',
+    displayName: '@bds-react/core/DrawerCloseButton',
     selector: '.mantine-Drawer-close',
     variantSelector: '.mantine-Drawer-close',
     sizeSelector: '.mantine-Drawer-close',
   });
 });
 
-describe('@mantine/core/DrawerContent', () => {
+describe('@bds-react/core/DrawerContent', () => {
   tests.itSupportsSystemProps<DrawerContentProps>({
     component: ContentContainer,
     props: {},
@@ -150,14 +150,14 @@ describe('@mantine/core/DrawerContent', () => {
     size: true,
     classes: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/DrawerContent',
+    displayName: '@bds-react/core/DrawerContent',
     selector: '.mantine-Drawer-content',
     variantSelector: '.mantine-Drawer-content',
     sizeSelector: '.mantine-Drawer-content',
   });
 });
 
-describe('@mantine/core/DrawerHeader', () => {
+describe('@bds-react/core/DrawerHeader', () => {
   tests.itSupportsSystemProps<DrawerHeaderProps>({
     component: HeaderContainer,
     props: {},
@@ -168,14 +168,14 @@ describe('@mantine/core/DrawerHeader', () => {
     size: true,
     classes: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/DrawerHeader',
+    displayName: '@bds-react/core/DrawerHeader',
     selector: '.mantine-Drawer-header',
     variantSelector: '.mantine-Drawer-header',
     sizeSelector: '.mantine-Drawer-header',
   });
 });
 
-describe('@mantine/core/DrawerOverlay', () => {
+describe('@bds-react/core/DrawerOverlay', () => {
   tests.itSupportsSystemProps<DrawerOverlayProps>({
     component: OverlayContainer,
     props: {},
@@ -186,14 +186,14 @@ describe('@mantine/core/DrawerOverlay', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/DrawerOverlay',
+    displayName: '@bds-react/core/DrawerOverlay',
     selector: '.mantine-Drawer-overlay',
     variantSelector: '.mantine-Drawer-overlay',
     sizeSelector: '.mantine-Drawer-overlay',
   });
 });
 
-describe('@mantine/core/DrawerTitle', () => {
+describe('@bds-react/core/DrawerTitle', () => {
   tests.itSupportsSystemProps<DrawerTitleProps>({
     component: TitleContainer,
     props: {},
@@ -204,7 +204,7 @@ describe('@mantine/core/DrawerTitle', () => {
     size: true,
     classes: true,
     refType: HTMLHeadingElement,
-    displayName: '@mantine/core/DrawerTitle',
+    displayName: '@bds-react/core/DrawerTitle',
     selector: '.mantine-Drawer-title',
     variantSelector: '.mantine-Drawer-title',
     sizeSelector: '.mantine-Drawer-title',

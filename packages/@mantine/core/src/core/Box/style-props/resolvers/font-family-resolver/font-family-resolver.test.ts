@@ -1,6 +1,6 @@
 import { fontFamilyResolver } from './font-family-resolver';
 
-describe('@mantine/core/Box/font-family-resolver', () => {
+describe('@bds-react/core/Box/font-family-resolver', () => {
   it('resolves theme font family', () => {
     expect(fontFamilyResolver('text')).toBe('var(--mantine-font-family)');
     expect(fontFamilyResolver('mono')).toBe('var(--mantine-font-family-monospace)');

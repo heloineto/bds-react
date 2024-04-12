@@ -327,5 +327,5 @@ export function Popover(_props: PopoverProps) {
 
 Popover.Target = PopoverTarget;
 Popover.Dropdown = PopoverDropdown;
-Popover.displayName = '@mantine/core/Popover';
+Popover.displayName = '@bds-react/core/Popover';
 Popover.extend = (input: ExtendComponent<PopoverFactory>) => input;

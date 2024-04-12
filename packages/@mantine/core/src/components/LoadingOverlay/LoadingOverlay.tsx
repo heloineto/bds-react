@@ -123,4 +123,4 @@ export const LoadingOverlay = factory<LoadingOverlayFactory>((_props, ref) => {
 });
 
 LoadingOverlay.classes = classes;
-LoadingOverlay.displayName = '@mantine/core/LoadingOverlay';
+LoadingOverlay.displayName = '@bds-react/core/LoadingOverlay';

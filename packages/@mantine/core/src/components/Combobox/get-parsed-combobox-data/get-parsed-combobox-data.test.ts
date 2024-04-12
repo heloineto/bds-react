@@ -1,6 +1,6 @@
 import { getParsedComboboxData } from './get-parsed-combobox-data';
 
-describe('@mantine/core/Combobox/getParsedComboboxData', () => {
+describe('@bds-react/core/Combobox/getParsedComboboxData', () => {
   it('returns empty array if data is not provided', () => {
     expect(getParsedComboboxData(undefined)).toStrictEqual([]);
     expect(getParsedComboboxData([])).toStrictEqual([]);

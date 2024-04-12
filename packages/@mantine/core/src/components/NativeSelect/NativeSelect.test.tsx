@@ -14,7 +14,7 @@ const defaultProps: NativeSelectProps = {
   data: ['test-1', 'test-2'],
 };
 
-describe('@mantine/core/NativeSelect', () => {
+describe('@bds-react/core/NativeSelect', () => {
   tests.axe([
     <NativeSelect aria-label="test-label" />,
     <NativeSelect label="test-label" />,
@@ -34,7 +34,7 @@ describe('@mantine/core/NativeSelect', () => {
     classes: true,
     id: true,
     refType: HTMLSelectElement,
-    displayName: '@mantine/core/NativeSelect',
+    displayName: '@bds-react/core/NativeSelect',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

@@ -85,4 +85,4 @@ export const Code = factory<CodeFactory>((_props, ref) => {
 });
 
 Code.classes = classes;
-Code.displayName = '@mantine/core/Code';
+Code.displayName = '@bds-react/core/Code';

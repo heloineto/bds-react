@@ -1,6 +1,6 @@
 import { isLightColor, luminance } from './luminance';
 
-describe('@mantine/core/luminance', () => {
+describe('@bds-react/core/luminance', () => {
   it('correctly calculates luminosity', () => {
     expect(luminance('#fff')).toBe(1);
     expect(luminance('#000')).toBe(0);
@@ -23,7 +23,7 @@ describe('@mantine/core/luminance', () => {
   });
 });
 
-describe('@mantine/core/is-light-color', () => {
+describe('@bds-react/core/is-light-color', () => {
   it('correctly detects light colors', () => {
     expect(isLightColor('#fff')).toBe(true);
     expect(isLightColor('#000')).toBe(false);

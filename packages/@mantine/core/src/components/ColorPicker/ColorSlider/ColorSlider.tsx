@@ -167,4 +167,4 @@ export const ColorSlider = factory<ColorSliderFactory>((_props, ref) => {
   );
 });
 
-ColorSlider.displayName = '@mantine/core/ColorSlider';
+ColorSlider.displayName = '@bds-react/core/ColorSlider';

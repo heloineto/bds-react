@@ -5,7 +5,7 @@ import { CloseIcon } from './CloseIcon';
 
 const defaultProps: CloseButtonProps = {};
 
-describe('@mantine/core/CloseButton', () => {
+describe('@bds-react/core/CloseButton', () => {
   tests.axe([<CloseButton aria-label="test" />]);
 
   tests.itSupportsFocusEvents<CloseButtonProps>({
@@ -26,7 +26,7 @@ describe('@mantine/core/CloseButton', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/CloseButton',
+    displayName: '@bds-react/core/CloseButton',
     stylesApiSelectors: ['root'],
   });
 
@@ -36,7 +36,7 @@ describe('@mantine/core/CloseButton', () => {
   });
 });
 
-describe('@mantine/core/CloseIcon', () => {
+describe('@bds-react/core/CloseIcon', () => {
   tests.itSupportsRef({ component: CloseIcon, refType: SVGSVGElement, props: {} });
 
   it('sets width and height to size prop', () => {

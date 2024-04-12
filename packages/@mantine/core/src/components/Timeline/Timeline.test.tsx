@@ -17,7 +17,7 @@ const defaultProps: TimelineProps = {
   ],
 };
 
-describe('@mantine/core/Timeline', () => {
+describe('@bds-react/core/Timeline', () => {
   tests.itSupportsSystemProps<TimelineProps, TimelineStylesNames>({
     component: Timeline,
     props: defaultProps,
@@ -29,7 +29,7 @@ describe('@mantine/core/Timeline', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Timeline',
+    displayName: '@bds-react/core/Timeline',
     stylesApiSelectors: ['root', 'itemBody', 'itemContent', 'itemBullet', 'item', 'itemTitle'],
   });
 

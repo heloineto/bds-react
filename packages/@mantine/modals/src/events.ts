@@ -1,4 +1,4 @@
-import { createUseExternalEvents } from '@mantine/core';
+import { createUseExternalEvents } from '@bds-react/core';
 import {
   MantineModal,
   MantineModals,

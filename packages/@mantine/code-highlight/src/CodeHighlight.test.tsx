@@ -19,7 +19,7 @@ describe('@mantine/code-highlight/CodeHighlight', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/CodeHighlight',
+    displayName: '@bds-react/core/CodeHighlight',
     stylesApiSelectors: ['root', 'code', 'copy', 'pre'],
   });
 

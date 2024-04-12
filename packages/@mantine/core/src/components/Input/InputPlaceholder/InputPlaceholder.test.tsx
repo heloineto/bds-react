@@ -7,7 +7,7 @@ import {
 
 const defaultProps: InputPlaceholderProps = {};
 
-describe('@mantine/core/InputPlaceholder', () => {
+describe('@bds-react/core/InputPlaceholder', () => {
   tests.itSupportsSystemProps<InputPlaceholderProps, InputPlaceholderStylesNames>({
     component: InputPlaceholder,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/InputPlaceholder', () => {
     classes: true,
     id: true,
     refType: HTMLSpanElement,
-    displayName: '@mantine/core/InputPlaceholder',
+    displayName: '@bds-react/core/InputPlaceholder',
     stylesApiSelectors: ['placeholder'],
   });
 });

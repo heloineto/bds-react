@@ -9,7 +9,7 @@ import {
   StylesApiProps,
   useProps,
   useResolvedStylesApi,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDatesInput } from '../../hooks';
 import { DatePickerType } from '../../types';
 import { getDefaultClampedDate, shiftTimezone } from '../../utils';

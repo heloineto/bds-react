@@ -11,7 +11,7 @@ const defaultProps: StepperStepProps = {
   step: 1,
 };
 
-describe('@mantine/core/StepperStep', () => {
+describe('@bds-react/core/StepperStep', () => {
   tests.itSupportsSystemProps<StepperStepProps, StepperStepStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -24,7 +24,7 @@ describe('@mantine/core/StepperStep', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/StepperStep',
+    displayName: '@bds-react/core/StepperStep',
     stylesApiSelectors: [
       'step',
       'stepBody',

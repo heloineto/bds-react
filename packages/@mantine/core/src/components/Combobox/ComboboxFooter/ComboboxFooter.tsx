@@ -46,4 +46,4 @@ export const ComboboxFooter = factory<ComboboxFooterFactory>((props, ref) => {
 });
 
 ComboboxFooter.classes = classes;
-ComboboxFooter.displayName = '@mantine/core/ComboboxFooter';
+ComboboxFooter.displayName = '@bds-react/core/ComboboxFooter';

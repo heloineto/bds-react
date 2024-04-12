@@ -58,4 +58,4 @@ export const ListItem = factory<ListItemFactory>((_props, ref) => {
 });
 
 ListItem.classes = classes;
-ListItem.displayName = '@mantine/core/ListItem';
+ListItem.displayName = '@bds-react/core/ListItem';

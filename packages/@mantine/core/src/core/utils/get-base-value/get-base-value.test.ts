@@ -1,6 +1,6 @@
 import { getBaseValue } from './get-base-value';
 
-describe('@mantine/core/get-base-value', () => {
+describe('@bds-react/core/get-base-value', () => {
   it('returns base value from object', () => {
     expect(getBaseValue({ base: 1 })).toBe(1);
     expect(getBaseValue({ base: 2, sm: 3 })).toBe(2);

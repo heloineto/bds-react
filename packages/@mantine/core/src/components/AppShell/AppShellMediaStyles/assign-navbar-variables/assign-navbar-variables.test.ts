@@ -18,7 +18,7 @@ function getTestObject(navbar: AppShellProps['navbar']) {
   return { baseStyles, minMediaStyles, maxMediaStyles };
 }
 
-describe('@mantine/core/AppShell/assign-navbar-variables', () => {
+describe('@bds-react/core/AppShell/assign-navbar-variables', () => {
   describe('assigns correct base styles', () => {
     it('undefined input', () => {
       expect(getTestObject(undefined).baseStyles).toStrictEqual({});

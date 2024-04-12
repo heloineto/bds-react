@@ -7,7 +7,7 @@ const defaultProps: AutocompleteProps = {
   data: ['test-1', 'test-2'],
 };
 
-describe('@mantine/core/Autocomplete', () => {
+describe('@bds-react/core/Autocomplete', () => {
   tests.axe([
     <Autocomplete aria-label="test-label" data={['test-1', 'test-2']} />,
     <Autocomplete label="test-label" data={['test-1', 'test-2']} />,
@@ -27,7 +27,7 @@ describe('@mantine/core/Autocomplete', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Autocomplete',
+    displayName: '@bds-react/core/Autocomplete',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

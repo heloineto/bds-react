@@ -11,7 +11,7 @@ const defaultProps: FileButtonProps = {
   ),
 };
 
-describe('@mantine/core/FileButton', () => {
+describe('@bds-react/core/FileButton', () => {
   tests.axe([<FileButton {...defaultProps} />]);
   tests.itSupportsRef({
     component: FileButton,
@@ -33,6 +33,6 @@ describe('@mantine/core/FileButton', () => {
   });
 
   it('has correct displayName', () => {
-    expect(FileButton.displayName).toEqual('@mantine/core/FileButton');
+    expect(FileButton.displayName).toEqual('@bds-react/core/FileButton');
   });
 });

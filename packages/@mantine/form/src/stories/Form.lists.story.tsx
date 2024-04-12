@@ -1,5 +1,5 @@
 import React from 'react';
-import { ActionIcon, Button, Group, Switch, Text, TextInput } from '@mantine/core';
+import { ActionIcon, Button, Group, Switch, Text, TextInput } from '@bds-react/core';
 import { randomId } from '@mantine/hooks';
 import { useForm } from '../use-form';
 import { FormBase } from './_base';

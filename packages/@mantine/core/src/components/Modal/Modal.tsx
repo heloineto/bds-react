@@ -102,7 +102,7 @@ export const Modal = factory<ModalFactory>((_props, ref) => {
 });
 
 Modal.classes = classes;
-Modal.displayName = '@mantine/core/Modal';
+Modal.displayName = '@bds-react/core/Modal';
 Modal.Root = ModalRoot;
 Modal.Overlay = ModalOverlay;
 Modal.Content = ModalContent;

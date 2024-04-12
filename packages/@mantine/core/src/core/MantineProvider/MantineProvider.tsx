@@ -113,7 +113,7 @@ export function MantineProvider({
   );
 }
 
-MantineProvider.displayName = '@mantine/core/MantineProvider';
+MantineProvider.displayName = '@bds-react/core/MantineProvider';
 
 export interface HeadlessMantineProviderProps {
   /** Theme override object */
@@ -142,4 +142,4 @@ export function HeadlessMantineProvider({ children, theme }: HeadlessMantineProv
   );
 }
 
-HeadlessMantineProvider.displayName = '@mantine/core/HeadlessMantineProvider';
+HeadlessMantineProvider.displayName = '@bds-react/core/HeadlessMantineProvider';

@@ -85,4 +85,4 @@ export const ComboboxTarget = factory<ComboboxTargetFactory>((props, ref) => {
   );
 });
 
-ComboboxTarget.displayName = '@mantine/core/ComboboxTarget';
+ComboboxTarget.displayName = '@bds-react/core/ComboboxTarget';

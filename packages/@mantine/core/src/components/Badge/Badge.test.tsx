@@ -7,7 +7,7 @@ const defaultProps: BadgeProps = {
   rightSection: 'R',
 };
 
-describe('@mantine/core/Badge', () => {
+describe('@bds-react/core/Badge', () => {
   tests.itSupportsSystemProps<BadgeProps, BadgeStylesNames>({
     component: Badge,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/Badge', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Badge',
+    displayName: '@bds-react/core/Badge',
     stylesApiSelectors: ['root', 'section', 'label'],
   });
 

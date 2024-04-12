@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(ComboboxFooter, Combobox, { withinP
 
 const defaultProps: ComboboxFooterProps = {};
 
-describe('@mantine/core/ComboboxFooter', () => {
+describe('@bds-react/core/ComboboxFooter', () => {
   tests.itSupportsSystemProps<ComboboxFooterProps, ComboboxFooterStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/ComboboxFooter', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxFooter',
+    displayName: '@bds-react/core/ComboboxFooter',
     stylesApiSelectors: ['footer'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-footer',

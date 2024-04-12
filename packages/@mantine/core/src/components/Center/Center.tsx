@@ -49,4 +49,4 @@ export const Center = polymorphicFactory<CenterFactory>((_props, ref) => {
 });
 
 Center.classes = classes;
-Center.displayName = '@mantine/core/Center';
+Center.displayName = '@bds-react/core/Center';

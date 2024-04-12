@@ -121,4 +121,4 @@ export const CloseButton = polymorphicFactory<CloseButtonFactory>((_props, ref) 
 });
 
 CloseButton.classes = classes;
-CloseButton.displayName = '@mantine/core/CloseButton';
+CloseButton.displayName = '@bds-react/core/CloseButton';

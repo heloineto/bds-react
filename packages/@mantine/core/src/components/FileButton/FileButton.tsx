@@ -99,4 +99,4 @@ export const FileButton: FileButtonComponent = forwardRef<HTMLInputElement, File
   }
 ) as any;
 
-FileButton.displayName = '@mantine/core/FileButton';
+FileButton.displayName = '@bds-react/core/FileButton';

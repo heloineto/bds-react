@@ -1,10 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import {
-  Transition as _Transition,
-  TransitionGroup,
-  TransitionStatus,
-} from 'react-transition-group';
-import {
   Box,
   BoxProps,
   createVarsResolver,
@@ -19,7 +14,12 @@ import {
   useMantineTheme,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import {
+  Transition as _Transition,
+  TransitionGroup,
+  TransitionStatus,
+} from 'react-transition-group';
 import { useDidUpdate, useForceUpdate, useReducedMotion } from '@mantine/hooks';
 import { getNotificationStateStyles } from './get-notification-state-styles';
 import { NotificationContainer } from './NotificationContainer';

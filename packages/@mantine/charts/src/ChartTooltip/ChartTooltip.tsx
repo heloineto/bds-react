@@ -11,7 +11,7 @@ import {
   useMantineTheme,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { ChartSeries } from '../types';
 import { getSeriesLabels } from '../utils';
 import classes from './ChartTooltip.module.css';

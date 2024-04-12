@@ -13,7 +13,7 @@ import {
   useMantineTheme,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDidUpdate, useHotkeys } from '@mantine/hooks';
 import { getHotkeys } from './get-hotkeys';
 import { SpotlightProvider } from './Spotlight.context';

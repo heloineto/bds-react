@@ -1,5 +1,4 @@
 import React from 'react';
-import cx from 'clsx';
 import {
   __BaseInputProps,
   __InputStylesNames,
@@ -11,7 +10,8 @@ import {
   StylesApiProps,
   useProps,
   useResolvedStylesApi,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
 import classes from './TimeInput.module.css';
 
 export interface TimeInputProps

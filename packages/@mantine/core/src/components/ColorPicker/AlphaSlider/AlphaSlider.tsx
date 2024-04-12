@@ -47,4 +47,4 @@ export const AlphaSlider = forwardRef<HTMLDivElement, AlphaSliderProps>((props, 
   );
 });
 
-AlphaSlider.displayName = '@mantine/core/AlphaSlider';
+AlphaSlider.displayName = '@bds-react/core/AlphaSlider';

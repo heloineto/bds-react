@@ -46,4 +46,4 @@ export const ComboboxHeader = factory<ComboboxHeaderFactory>((props, ref) => {
 });
 
 ComboboxHeader.classes = classes;
-ComboboxHeader.displayName = '@mantine/core/ComboboxHeader';
+ComboboxHeader.displayName = '@bds-react/core/ComboboxHeader';

@@ -1,6 +1,6 @@
 import { isPrimitiveSize } from './is-primitive-size';
 
-describe('@mantine/core/AppShell/is-primitive-size', () => {
+describe('@bds-react/core/AppShell/is-primitive-size', () => {
   it('detects primitive value', () => {
     expect(isPrimitiveSize(1)).toBe(true);
     expect(isPrimitiveSize('xs')).toBe(true);

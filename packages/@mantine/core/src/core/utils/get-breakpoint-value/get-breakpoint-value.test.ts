@@ -2,7 +2,7 @@ import { DEFAULT_THEME } from '../../MantineProvider';
 import { px } from '../units-converters';
 import { getBreakpointValue } from './get-breakpoint-value';
 
-describe('@mantine/core/AppShell/get-breakpoint-value', () => {
+describe('@bds-react/core/AppShell/get-breakpoint-value', () => {
   it('returns breakpoint value from theme', () => {
     expect(getBreakpointValue('xs', DEFAULT_THEME)).toBe(px(DEFAULT_THEME.breakpoints.xs));
   });

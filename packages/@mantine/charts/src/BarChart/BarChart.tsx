@@ -1,18 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Bar,
-  BarProps,
-  CartesianGrid,
-  Label,
-  Legend,
-  BarChart as ReChartsBarChart,
-  ReferenceLine,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from 'recharts';
-import {
   Box,
   BoxProps,
   createVarsResolver,
@@ -26,7 +13,20 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import {
+  Bar,
+  BarProps,
+  CartesianGrid,
+  Label,
+  Legend,
+  BarChart as ReChartsBarChart,
+  ReferenceLine,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
 import { ChartLegend, ChartLegendStylesNames } from '../ChartLegend';
 import { ChartTooltip, ChartTooltipStylesNames } from '../ChartTooltip';
 import type { BaseChartStylesNames, ChartSeries, GridChartBaseProps } from '../types';

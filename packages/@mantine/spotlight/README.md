@@ -10,10 +10,10 @@ Overlay command center for your application
 
 ```bash
 # With yarn
-yarn add @mantine/spotlight @mantine/core @mantine/hooks
+yarn add @mantine/spotlight @bds-react/core @mantine/hooks
 
 # With npm
-npm install @mantine/spotlight @mantine/core @mantine/hooks
+npm install @mantine/spotlight @bds-react/core @mantine/hooks
 ```
 
 ## License

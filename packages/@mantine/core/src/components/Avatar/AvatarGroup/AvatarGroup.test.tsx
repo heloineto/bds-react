@@ -3,7 +3,7 @@ import { AvatarGroup, AvatarGroupProps, AvatarGroupStylesNames } from './AvatarG
 
 const defaultProps: AvatarGroupProps = {};
 
-describe('@mantine/core/AvatarGroup', () => {
+describe('@bds-react/core/AvatarGroup', () => {
   tests.itSupportsSystemProps<AvatarGroupProps, AvatarGroupStylesNames>({
     component: AvatarGroup,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/AvatarGroup', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AvatarGroup',
+    displayName: '@bds-react/core/AvatarGroup',
     stylesApiSelectors: ['group'],
   });
 });

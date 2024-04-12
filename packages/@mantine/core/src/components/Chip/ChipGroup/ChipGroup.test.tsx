@@ -18,7 +18,7 @@ const getChip = (index: number, type: 'radio' | 'checkbox') => screen.getAllByRo
 const clickChip = (index: number, type: 'radio' | 'checkbox') =>
   userEvent.click(getChip(index, type));
 
-describe('@mantine/core/ChipGroup', () => {
+describe('@bds-react/core/ChipGroup', () => {
   tests.axe([<ChipGroup {...defaultProps} />]);
 
   it('sets chip type based on multiple prop', () => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { AppShell } from '@bds-react/core';
 import { IconColorPicker } from '@tabler/icons-react';
 import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight';
 import { Color } from '@tiptap/extension-color';
@@ -18,7 +19,6 @@ import js from 'highlight.js/lib/languages/javascript';
 import ts from 'highlight.js/lib/languages/typescript';
 import html from 'highlight.js/lib/languages/xml';
 import { createLowlight } from 'lowlight';
-import { AppShell } from '@mantine/core';
 import { Link } from './extensions/Link';
 import { getTaskListExtension } from './extensions/TaskList';
 import { RichTextEditor, RichTextEditorProps } from './RichTextEditor';

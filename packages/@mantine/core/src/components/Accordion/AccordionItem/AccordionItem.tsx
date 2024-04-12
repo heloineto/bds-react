@@ -51,5 +51,5 @@ export const AccordionItem = factory<AccordionItemFactory>((props, ref) => {
   );
 });
 
-AccordionItem.displayName = '@mantine/core/AccordionItem';
+AccordionItem.displayName = '@bds-react/core/AccordionItem';
 AccordionItem.classes = classes;

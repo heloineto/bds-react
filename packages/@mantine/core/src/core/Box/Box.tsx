@@ -126,6 +126,6 @@ const _Box = forwardRef<
   }
 );
 
-_Box.displayName = '@mantine/core/Box';
+_Box.displayName = '@bds-react/core/Box';
 
 export const Box = createPolymorphicComponent<'div', BoxComponentProps>(_Box);

@@ -35,6 +35,6 @@
     "directory": "packages/@mantine/vanilla-extract"
   },
   "peerDependencies": {
-    "@mantine/core": "7.8.0"
+    "@bds-react/core": "7.8.0"
   }
 }

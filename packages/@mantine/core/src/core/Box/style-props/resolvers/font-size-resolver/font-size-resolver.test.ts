@@ -2,7 +2,7 @@ import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { rem } from '../../../../utils';
 import { fontSizeResolver } from './font-size-resolver';
 
-describe('@mantine/core/Box/font-size-resolver', () => {
+describe('@bds-react/core/Box/font-size-resolver', () => {
   it('resolves theme font size', () => {
     expect(fontSizeResolver('xs', DEFAULT_THEME)).toBe('var(--mantine-font-size-xs)');
     expect(fontSizeResolver('sm', DEFAULT_THEME)).toBe('var(--mantine-font-size-sm)');

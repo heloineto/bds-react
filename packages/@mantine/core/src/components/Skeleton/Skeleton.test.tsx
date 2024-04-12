@@ -4,7 +4,7 @@ import { Skeleton, SkeletonProps, SkeletonStylesNames } from './Skeleton';
 
 const defaultProps: SkeletonProps = {};
 
-describe('@mantine/core/Skeleton', () => {
+describe('@bds-react/core/Skeleton', () => {
   tests.itSupportsSystemProps<SkeletonProps, SkeletonStylesNames>({
     component: Skeleton,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/Skeleton', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Skeleton',
+    displayName: '@bds-react/core/Skeleton',
     stylesApiSelectors: ['root'],
   });
 

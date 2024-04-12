@@ -10,10 +10,10 @@ Capture files from user
 
 ```bash
 # With yarn
-yarn add @mantine/dropzone @mantine/core @mantine/hooks
+yarn add @mantine/dropzone @bds-react/core @mantine/hooks
 
 # With npm
-npm install @mantine/dropzone @mantine/core @mantine/hooks
+npm install @mantine/dropzone @bds-react/core @mantine/hooks
 ```
 
 ## License

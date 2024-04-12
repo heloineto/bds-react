@@ -1,6 +1,4 @@
 import React from 'react';
-import cx from 'clsx';
-import hljs from 'highlight.js';
 import {
   ActionIcon,
   Box,
@@ -17,7 +15,9 @@ import {
   UnstyledButton,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
+import hljs from 'highlight.js';
 import { useUncontrolled } from '@mantine/hooks';
 import { CopyIcon } from './CopyIcon';
 import { ExpandIcon } from './ExpandIcon';
@@ -274,5 +274,5 @@ export const CodeHighlightTabs = factory<CodeHighlightTabsFactory>((_props, ref)
   );
 });
 
-CodeHighlightTabs.displayName = '@mantine/core/CodeHighlightTabs';
+CodeHighlightTabs.displayName = '@bds-react/core/CodeHighlightTabs';
 CodeHighlightTabs.classes = classes;

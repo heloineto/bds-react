@@ -9,7 +9,7 @@ const TestContainer = createContextContainer(MenuDropdown, Menu, {
 
 const defaultProps: MenuDropdownProps = {};
 
-describe('@mantine/core/MenuDropdown', () => {
+describe('@bds-react/core/MenuDropdown', () => {
   tests.itSupportsSystemProps<MenuDropdownProps, MenuDropdownStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -22,7 +22,7 @@ describe('@mantine/core/MenuDropdown', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/MenuDropdown',
+    displayName: '@bds-react/core/MenuDropdown',
     stylesApiSelectors: ['dropdown'],
     stylesApiName: 'Menu',
     compound: true,

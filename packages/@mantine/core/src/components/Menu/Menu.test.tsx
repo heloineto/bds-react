@@ -34,7 +34,7 @@ const expectClosed = () => expect(screen.queryAllByRole('menu')).toHaveLength(0)
 const expectOpened = () => expect(screen.getByRole('menu')).toBeInTheDocument();
 const getControl = () => screen.getByRole('button');
 
-describe('@mantine/core/Menu', () => {
+describe('@bds-react/core/Menu', () => {
   tests.axe([<TestContainer opened={false} />]);
   tests.itHasExtend({ component: Menu });
   tests.itHasClasses({ component: Menu });
@@ -170,7 +170,7 @@ describe('@mantine/core/Menu', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Menu.displayName).toEqual('@mantine/core/Menu');
+    expect(Menu.displayName).toEqual('@bds-react/core/Menu');
   });
   it('correctly calls callbacks when opening and closing the uncontrolled menu via target click', async () => {
     const onOpen = jest.fn();

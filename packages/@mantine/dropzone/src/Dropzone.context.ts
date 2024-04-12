@@ -1,4 +1,4 @@
-import { createSafeContext } from '@mantine/core';
+import { createSafeContext } from '@bds-react/core';
 
 export interface DropzoneContextValue {
   idle: boolean;

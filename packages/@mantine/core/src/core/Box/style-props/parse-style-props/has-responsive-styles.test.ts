@@ -1,6 +1,6 @@
 import { hasResponsiveStyles } from './has-responsive-styles';
 
-describe('@mantine/core/Box/has-responsive-styles', () => {
+describe('@bds-react/core/Box/has-responsive-styles', () => {
   it('returns true if style prop is object with breakpoint key', () => {
     expect(hasResponsiveStyles({ base: 1, xs: 2 })).toBe(true);
     expect(hasResponsiveStyles({ xs: 2, sm: 3 })).toBe(true);

@@ -9,7 +9,7 @@ const testFunctionClassNames = () => ({
   root: 'test-function',
 });
 
-describe('@mantine/core/get-options-class-names', () => {
+describe('@bds-react/core/get-options-class-names', () => {
   it('returns className at given selector (object)', () => {
     expect(
       getOptionsClassNames({

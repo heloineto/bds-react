@@ -16,7 +16,7 @@ function getTestObject(footer: AppShellProps['footer']) {
   return { baseStyles, minMediaStyles, maxMediaStyles };
 }
 
-describe('@mantine/core/AppShell/assign-footer-variables', () => {
+describe('@bds-react/core/AppShell/assign-footer-variables', () => {
   describe('assigns correct base styles', () => {
     it('undefined input', () => {
       expect(getTestObject(undefined).baseStyles).toStrictEqual({});

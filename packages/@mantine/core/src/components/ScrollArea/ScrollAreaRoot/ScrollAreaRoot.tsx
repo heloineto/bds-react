@@ -98,4 +98,4 @@ export const ScrollAreaRoot = forwardRef<HTMLDivElement, ScrollAreaRootProps>((_
   );
 });
 
-ScrollAreaRoot.displayName = '@mantine/core/ScrollAreaRoot';
+ScrollAreaRoot.displayName = '@bds-react/core/ScrollAreaRoot';

@@ -2,7 +2,7 @@ import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { rem } from '../../../../utils';
 import { spacingResolver } from './spacing-resolver';
 
-describe('@mantine/core/Box/spacing-resolver', () => {
+describe('@bds-react/core/Box/spacing-resolver', () => {
   it('resolves number correctly', () => {
     expect(spacingResolver(10, DEFAULT_THEME)).toBe(rem(10));
     expect(spacingResolver(-10, DEFAULT_THEME)).toBe(rem(-10));

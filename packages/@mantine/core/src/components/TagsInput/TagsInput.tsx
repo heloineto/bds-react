@@ -448,4 +448,4 @@ export const TagsInput = factory<TagsInputFactory>((_props, ref) => {
 });
 
 TagsInput.classes = { ...InputBase.classes, ...Combobox.classes };
-TagsInput.displayName = '@mantine/core/TagsInput';
+TagsInput.displayName = '@bds-react/core/TagsInput';

@@ -139,7 +139,7 @@ export function tableElement<Factory extends FactoryPayload>(
     );
   });
 
-  Component.displayName = `@mantine/core/${name}`;
+  Component.displayName = `@bds-react/core/${name}`;
   Component.classes = classes;
   return Component;
 }

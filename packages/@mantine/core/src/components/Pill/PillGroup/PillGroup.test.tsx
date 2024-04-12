@@ -3,7 +3,7 @@ import { PillGroup, PillGroupProps, PillGroupStylesNames } from './PillGroup';
 
 const defaultProps: PillGroupProps = {};
 
-describe('@mantine/core/PillGroup', () => {
+describe('@bds-react/core/PillGroup', () => {
   tests.itSupportsSystemProps<PillGroupProps, PillGroupStylesNames>({
     component: PillGroup,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/PillGroup', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PillGroup',
+    displayName: '@bds-react/core/PillGroup',
     stylesApiSelectors: ['group'],
   });
 });

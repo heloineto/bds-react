@@ -111,7 +111,7 @@ export const Pagination = factory<PaginationFactory>((_props, ref) => {
 });
 
 Pagination.classes = classes;
-Pagination.displayName = '@mantine/core/Pagination';
+Pagination.displayName = '@bds-react/core/Pagination';
 Pagination.Root = PaginationRoot;
 Pagination.Control = PaginationControl;
 Pagination.Dots = PaginationDots;

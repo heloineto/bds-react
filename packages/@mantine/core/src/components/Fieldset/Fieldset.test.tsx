@@ -6,7 +6,7 @@ const defaultProps: FieldsetProps = {
   legend: 'test-legend',
 };
 
-describe('@mantine/core/Fieldset', () => {
+describe('@bds-react/core/Fieldset', () => {
   tests.itSupportsSystemProps<FieldsetProps, FieldsetStylesNames>({
     component: Fieldset,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/Fieldset', () => {
     classes: true,
     id: true,
     refType: HTMLFieldSetElement,
-    displayName: '@mantine/core/Fieldset',
+    displayName: '@bds-react/core/Fieldset',
     stylesApiSelectors: ['root', 'legend'],
   });
 

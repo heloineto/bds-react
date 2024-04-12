@@ -8,7 +8,7 @@ const defaultProps: ComboboxSearchProps = {
   leftSection: '$',
 };
 
-describe('@mantine/core/ComboboxSearch', () => {
+describe('@bds-react/core/ComboboxSearch', () => {
   tests.itSupportsSystemProps<ComboboxSearchProps, ComboboxSearchStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/ComboboxSearch', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/ComboboxSearch',
+    displayName: '@bds-react/core/ComboboxSearch',
     stylesApiSelectors: ['input', 'section', 'wrapper'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-wrapper',

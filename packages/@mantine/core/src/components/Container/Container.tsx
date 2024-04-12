@@ -66,4 +66,4 @@ export const Container = factory<ContainerFactory>((_props, ref) => {
 });
 
 Container.classes = classes;
-Container.displayName = '@mantine/core/Container';
+Container.displayName = '@bds-react/core/Container';

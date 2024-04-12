@@ -3,7 +3,7 @@ import { Title, TitleProps, TitleStylesNames } from './Title';
 
 const defaultProps: TitleProps = {};
 
-describe('@mantine/core/Title', () => {
+describe('@bds-react/core/Title', () => {
   tests.itSupportsSystemProps<TitleProps, TitleStylesNames>({
     component: Title,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Title', () => {
     classes: true,
     id: true,
     refType: HTMLHeadingElement,
-    displayName: '@mantine/core/Title',
+    displayName: '@bds-react/core/Title',
     stylesApiSelectors: ['root'],
   });
 });

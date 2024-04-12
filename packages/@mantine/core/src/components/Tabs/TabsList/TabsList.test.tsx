@@ -9,12 +9,12 @@ const defaultProps: TabsListProps = {
   children: 'test-list',
 };
 
-describe('@mantine/core/TabsList', () => {
+describe('@bds-react/core/TabsList', () => {
   tests.itSupportsSystemProps<TabsListProps, TabsListStylesNames>({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/TabsList',
+    displayName: '@bds-react/core/TabsList',
     mod: true,
     extend: true,
     styleProps: true,

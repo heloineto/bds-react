@@ -7,7 +7,7 @@ const defaultProps: InputBaseProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/InputBase', () => {
+describe('@bds-react/core/InputBase', () => {
   tests.axe([
     <InputBase aria-label="test-label" />,
     <InputBase label="test-label" />,
@@ -28,7 +28,7 @@ describe('@mantine/core/InputBase', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/InputBase',
+    displayName: '@bds-react/core/InputBase',
     stylesApiSelectors: [...inputStylesApiSelectors],
     polymorphicSelector: '.mantine-InputBase-input',
   });

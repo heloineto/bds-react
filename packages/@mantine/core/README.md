@@ -1,6 +1,6 @@
 # Mantine core
 
-[![npm](https://img.shields.io/npm/dm/@mantine/core)](https://www.npmjs.com/package/@mantine/core)
+[![npm](https://img.shields.io/npm/dm/@bds-react/core)](https://www.npmjs.com/package/@bds-react/core)
 
 Mantine core components library.
 
@@ -10,10 +10,10 @@ Mantine core components library.
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks
+yarn add @bds-react/core @mantine/hooks
 
 # With npm
-npm install @mantine/core @mantine/hooks
+npm install @bds-react/core @mantine/hooks
 ```
 
 ## License

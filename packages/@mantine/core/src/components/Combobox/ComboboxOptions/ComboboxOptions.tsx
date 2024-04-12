@@ -58,4 +58,4 @@ export const ComboboxOptions = factory<ComboboxOptionsFactory>((_props, ref) => 
 });
 
 ComboboxOptions.classes = classes;
-ComboboxOptions.displayName = '@mantine/core/ComboboxOptions';
+ComboboxOptions.displayName = '@bds-react/core/ComboboxOptions';

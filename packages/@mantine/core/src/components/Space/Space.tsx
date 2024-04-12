@@ -23,4 +23,4 @@ export const Space = factory<SpaceFactory>((props, ref) => {
   return <Box ref={ref} {...others} w={w} miw={miw ?? w} h={h} mih={mih ?? h} />;
 });
 
-Space.displayName = '@mantine/core/Space';
+Space.displayName = '@bds-react/core/Space';

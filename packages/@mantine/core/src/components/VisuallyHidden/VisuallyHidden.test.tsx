@@ -3,7 +3,7 @@ import { VisuallyHidden, VisuallyHiddenProps, VisuallyHiddenStylesNames } from '
 
 const defaultProps: VisuallyHiddenProps = {};
 
-describe('@mantine/core/VisuallyHidden', () => {
+describe('@bds-react/core/VisuallyHidden', () => {
   tests.itSupportsSystemProps<VisuallyHiddenProps, VisuallyHiddenStylesNames>({
     component: VisuallyHidden,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/VisuallyHidden', () => {
     classes: true,
     id: true,
     refType: HTMLSpanElement,
-    displayName: '@mantine/core/VisuallyHidden',
+    displayName: '@bds-react/core/VisuallyHidden',
     stylesApiSelectors: ['root'],
   });
 });

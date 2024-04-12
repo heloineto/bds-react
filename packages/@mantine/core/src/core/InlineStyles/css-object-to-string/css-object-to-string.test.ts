@@ -4,7 +4,7 @@ const result = 'padding:1vh;font-size:2.2vh;border-top-right-radius:10px;';
 
 const undefinedResult = 'padding:1vh;border-top-right-radius:10px;';
 
-describe('@mantine/core/css-object-to-string', () => {
+describe('@bds-react/core/css-object-to-string', () => {
   it('correctly transforms css object into string', () => {
     expect(
       cssObjectToString({

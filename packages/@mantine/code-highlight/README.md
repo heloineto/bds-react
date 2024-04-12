@@ -10,10 +10,10 @@ Code highlight built with highlight.js and Mantine
 
 ```bash
 # With yarn
-yarn add @mantine/hooks @mantine/core @mantine/code-highlight
+yarn add @mantine/hooks @bds-react/core @mantine/code-highlight
 
 # With npm
-npm install @mantine/hooks @mantine/core @mantine/code-highlight
+npm install @mantine/hooks @bds-react/core @mantine/code-highlight
 ```
 
 ## License

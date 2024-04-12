@@ -1,6 +1,6 @@
 import { wrapWithSelector } from './wrap-with-selector';
 
-describe('@mantine/core/wrap-with-selector', () => {
+describe('@bds-react/core/wrap-with-selector', () => {
   it('wraps code with selector', () => {
     expect(wrapWithSelector(':root', 'color: red;')).toBe(':root{color: red;}');
   });

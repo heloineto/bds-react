@@ -17,7 +17,7 @@ const defaultProps: ListProps = {
   ],
 };
 
-describe('@mantine/core/List', () => {
+describe('@bds-react/core/List', () => {
   tests.itSupportsSystemProps<ListProps, ListStylesNames>({
     component: List,
     props: defaultProps,
@@ -30,7 +30,7 @@ describe('@mantine/core/List', () => {
     classes: true,
     id: true,
     refType: HTMLUListElement,
-    displayName: '@mantine/core/List',
+    displayName: '@bds-react/core/List',
     stylesApiSelectors: ['root', 'item', 'itemIcon', 'itemLabel', 'itemWrapper'],
   });
 

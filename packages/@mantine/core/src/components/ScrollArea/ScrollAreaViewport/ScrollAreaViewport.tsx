@@ -28,4 +28,4 @@ export const ScrollAreaViewport = forwardRef<HTMLDivElement, ScrollAreaViewportP
   }
 );
 
-ScrollAreaViewport.displayName = '@mantine/core/ScrollAreaViewport';
+ScrollAreaViewport.displayName = '@bds-react/core/ScrollAreaViewport';

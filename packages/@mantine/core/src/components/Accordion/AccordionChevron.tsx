@@ -25,4 +25,4 @@ export function AccordionChevron({ style, size = 16, ...others }: AccordionChevr
   );
 }
 
-AccordionChevron.displayName = '@mantine/core/AccordionChevron';
+AccordionChevron.displayName = '@bds-react/core/AccordionChevron';

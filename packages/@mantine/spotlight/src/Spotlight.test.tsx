@@ -21,7 +21,7 @@ const defaultProps: SpotlightProps = {
   ],
 };
 
-describe('@mantine/core/Spotlight', () => {
+describe('@bds-react/core/Spotlight', () => {
   tests.itSupportsSystemProps<SpotlightProps, SpotlightStylesNames>({
     component: Spotlight,
     props: defaultProps,

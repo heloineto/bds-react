@@ -43,4 +43,4 @@ export const AppShellMain = factory<AppShellMainFactory>((_props, ref) => {
 });
 
 AppShellMain.classes = classes;
-AppShellMain.displayName = '@mantine/core/AppShellMain';
+AppShellMain.displayName = '@bds-react/core/AppShellMain';

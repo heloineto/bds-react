@@ -14,7 +14,7 @@ const defaultProps: SelectProps = {
   data: ['test-1', 'test-2'],
 };
 
-describe('@mantine/core/Select', () => {
+describe('@bds-react/core/Select', () => {
   tests.axe([
     <Select aria-label="test-label" data={['test-1', 'test-2']} />,
     <Select aria-label="test-label" dropdownOpened data={['test-1', 'test-2']} />,
@@ -35,7 +35,7 @@ describe('@mantine/core/Select', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Select',
+    displayName: '@bds-react/core/Select',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

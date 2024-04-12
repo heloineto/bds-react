@@ -3,7 +3,7 @@ import { Stack, StackProps, StackStylesNames } from './Stack';
 
 const defaultProps: StackProps = {};
 
-describe('@mantine/core/Stack', () => {
+describe('@bds-react/core/Stack', () => {
   tests.itSupportsSystemProps<StackProps, StackStylesNames>({
     component: Stack,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Stack', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Stack',
+    displayName: '@bds-react/core/Stack',
     stylesApiSelectors: ['root'],
   });
 });

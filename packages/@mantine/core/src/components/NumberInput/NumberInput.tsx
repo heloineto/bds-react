@@ -453,4 +453,4 @@ export const NumberInput = factory<NumberInputFactory>((_props, ref) => {
 });
 
 NumberInput.classes = { ...InputBase.classes, ...classes };
-NumberInput.displayName = '@mantine/core/NumberInput';
+NumberInput.displayName = '@bds-react/core/NumberInput';

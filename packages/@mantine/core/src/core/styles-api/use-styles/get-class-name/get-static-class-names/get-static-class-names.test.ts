@@ -1,6 +1,6 @@
 import { getStaticClassNames } from './get-static-class-names';
 
-describe('@mantine/core/get-static-class-names', () => {
+describe('@bds-react/core/get-static-class-names', () => {
   it('returns correct static class names for single themeName', () => {
     expect(
       getStaticClassNames({

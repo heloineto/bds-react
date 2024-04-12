@@ -3,7 +3,7 @@ import { Space, SpaceProps } from './Space';
 
 const defaultProps: SpaceProps = {};
 
-describe('@mantine/core/Space', () => {
+describe('@bds-react/core/Space', () => {
   tests.itSupportsSystemProps<SpaceProps>({
     component: Space,
     props: defaultProps,
@@ -15,6 +15,6 @@ describe('@mantine/core/Space', () => {
     size: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Space',
+    displayName: '@bds-react/core/Space',
   });
 });

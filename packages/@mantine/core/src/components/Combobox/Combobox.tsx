@@ -182,7 +182,7 @@ const extendCombobox = (c: ExtendComponent<ComboboxFactory>): MantineThemeCompon
 
 Combobox.extend = extendCombobox;
 Combobox.classes = classes;
-Combobox.displayName = '@mantine/core/Combobox';
+Combobox.displayName = '@bds-react/core/Combobox';
 Combobox.Target = ComboboxTarget;
 Combobox.Dropdown = ComboboxDropdown;
 Combobox.Options = ComboboxOptions;

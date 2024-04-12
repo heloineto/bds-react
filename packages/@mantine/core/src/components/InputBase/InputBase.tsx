@@ -42,4 +42,4 @@ export const InputBase = polymorphicFactory<InputBaseFactory>((props, ref) => {
 });
 
 InputBase.classes = { ...Input.classes, ...Input.Wrapper.classes };
-InputBase.displayName = '@mantine/core/InputBase';
+InputBase.displayName = '@bds-react/core/InputBase';

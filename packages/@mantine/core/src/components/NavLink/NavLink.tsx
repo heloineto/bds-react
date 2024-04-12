@@ -232,4 +232,4 @@ export const NavLink = polymorphicFactory<NavLinkFactory>((_props, ref) => {
 });
 
 NavLink.classes = classes;
-NavLink.displayName = '@mantine/core/NavLink';
+NavLink.displayName = '@bds-react/core/NavLink';

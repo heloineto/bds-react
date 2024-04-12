@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
-import { Code, Indicator } from '@mantine/core';
+import { Code, Indicator } from '@bds-react/core';
 import { Month, MonthProps } from './Month';
 
 export default { title: 'Month' };

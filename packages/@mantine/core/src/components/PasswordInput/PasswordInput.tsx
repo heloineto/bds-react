@@ -235,4 +235,4 @@ export const PasswordInput = factory<PasswordInputFactory>((_props, ref) => {
 });
 
 PasswordInput.classes = { ...InputBase.classes, ...classes };
-PasswordInput.displayName = '@mantine/core/PasswordInput';
+PasswordInput.displayName = '@bds-react/core/PasswordInput';

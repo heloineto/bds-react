@@ -1,5 +1,4 @@
 import React from 'react';
-import cx from 'clsx';
 import {
   __BaseInputProps,
   __InputStylesNames,
@@ -17,7 +16,8 @@ import {
   PopoverProps,
   StylesApiProps,
   useInputProps,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
 import { useDisclosure } from '@mantine/hooks';
 import { DatePickerType } from '../../types';
 import { DateFormatter } from '../../utils';

@@ -1,12 +1,12 @@
 import React from 'react';
+import { Image } from '@bds-react/core';
 import { Carousel } from '@mantine/carousel';
-import { Image } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { images as _images } from './_images';
 
 const code = `
 import { Carousel } from '@mantine/carousel';
-import { Image } from '@mantine/core';
+import { Image } from '@bds-react/core';
 
 const images = [
   'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-1.png',

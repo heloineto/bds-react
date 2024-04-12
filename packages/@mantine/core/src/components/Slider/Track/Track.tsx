@@ -51,4 +51,4 @@ export function Track({
   );
 }
 
-Track.displayName = '@mantine/core/SliderTrack';
+Track.displayName = '@bds-react/core/SliderTrack';

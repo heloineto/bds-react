@@ -35,4 +35,4 @@ export const ModalHeader = factory<ModalHeaderFactory>((_props, ref) => {
 });
 
 ModalHeader.classes = classes;
-ModalHeader.displayName = '@mantine/core/ModalHeader';
+ModalHeader.displayName = '@bds-react/core/ModalHeader';

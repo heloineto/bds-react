@@ -10,7 +10,7 @@ const defaultProps: DialogProps = {
   transitionProps: { duration: 0, transition: 'fade' },
 };
 
-describe('@mantine/core/Dialog', () => {
+describe('@bds-react/core/Dialog', () => {
   tests.itSupportsSystemProps<DialogProps, DialogStylesNames>({
     component: Dialog,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/Dialog', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Dialog',
+    displayName: '@bds-react/core/Dialog',
     stylesApiSelectors: ['root', 'closeButton'],
     selector: '.mantine-Dialog-root',
   });

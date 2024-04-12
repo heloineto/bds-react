@@ -65,4 +65,4 @@ export const Textarea = factory<TextareaFactory>((props, ref) => {
 });
 
 Textarea.classes = InputBase.classes;
-Textarea.displayName = '@mantine/core/Textarea';
+Textarea.displayName = '@bds-react/core/Textarea';

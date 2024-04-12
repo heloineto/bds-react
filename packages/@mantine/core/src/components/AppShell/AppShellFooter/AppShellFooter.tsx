@@ -72,4 +72,4 @@ export const AppShellFooter = factory<AppShellFooterFactory>((_props, ref) => {
 });
 
 AppShellFooter.classes = classes;
-AppShellFooter.displayName = '@mantine/core/AppShellFooter';
+AppShellFooter.displayName = '@bds-react/core/AppShellFooter';

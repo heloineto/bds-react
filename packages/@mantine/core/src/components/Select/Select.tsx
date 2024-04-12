@@ -315,4 +315,4 @@ export const Select = factory<SelectFactory>((_props, ref) => {
 });
 
 Select.classes = { ...InputBase.classes, ...Combobox.classes };
-Select.displayName = '@mantine/core/Select';
+Select.displayName = '@bds-react/core/Select';

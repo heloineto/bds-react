@@ -32,7 +32,7 @@ const defaultOptions: GetStyleInput = {
   varsResolver: undefined,
 };
 
-describe('@mantine/core/get-style', () => {
+describe('@bds-react/core/get-style', () => {
   it('resolves style prop', () => {
     expect(getStyle({ ...defaultOptions, style: { color: 'red' } })).toStrictEqual({
       color: 'red',

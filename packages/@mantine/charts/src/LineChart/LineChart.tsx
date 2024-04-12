@@ -1,5 +1,19 @@
 import React, { useState } from 'react';
 import {
+  Box,
+  BoxProps,
+  createVarsResolver,
+  ElementProps,
+  factory,
+  Factory,
+  getThemeColor,
+  StylesApiProps,
+  useMantineTheme,
+  useProps,
+  useResolvedStylesApi,
+  useStyles,
+} from '@bds-react/core';
+import {
   CartesianGrid,
   DotProps,
   Label,
@@ -13,20 +27,6 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import {
-  Box,
-  BoxProps,
-  createVarsResolver,
-  ElementProps,
-  factory,
-  Factory,
-  getThemeColor,
-  StylesApiProps,
-  useMantineTheme,
-  useProps,
-  useResolvedStylesApi,
-  useStyles,
-} from '@mantine/core';
 import { ChartLegend, ChartLegendStylesNames } from '../ChartLegend';
 import { ChartTooltip, ChartTooltipStylesNames } from '../ChartTooltip';
 import type { BaseChartStylesNames, ChartSeries, GridChartBaseProps } from '../types';

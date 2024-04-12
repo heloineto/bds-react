@@ -65,4 +65,4 @@ export const PaginationControl = factory<PaginationControlFactory>((_props, ref)
 });
 
 PaginationControl.classes = classes;
-PaginationControl.displayName = '@mantine/core/PaginationControl';
+PaginationControl.displayName = '@bds-react/core/PaginationControl';

@@ -9,7 +9,7 @@ const defaultProps = {
   children: 'test',
 };
 
-describe('@mantine/core/NavLink', () => {
+describe('@bds-react/core/NavLink', () => {
   tests.itSupportsSystemProps<NavLinkProps, NavLinkStylesNames>({
     component: NavLink,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/NavLink', () => {
     classes: true,
     id: true,
     refType: HTMLAnchorElement,
-    displayName: '@mantine/core/NavLink',
+    displayName: '@bds-react/core/NavLink',
     stylesApiSelectors: ['root', 'body', 'chevron', 'children', 'description', 'label', 'section'],
   });
 

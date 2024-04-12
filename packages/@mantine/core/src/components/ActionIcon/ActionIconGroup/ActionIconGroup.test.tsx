@@ -8,7 +8,7 @@ import {
 
 const defaultProps: ActionIconGroupProps = {};
 
-describe('@mantine/core/ActionIconGroup', () => {
+describe('@bds-react/core/ActionIconGroup', () => {
   tests.itSupportsSystemProps<ActionIconGroupProps, ActionIconGroupStylesNames>({
     component: ActionIconGroup,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/ActionIconGroup', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ActionIconGroup',
+    displayName: '@bds-react/core/ActionIconGroup',
     stylesApiSelectors: ['group'],
   });
 

@@ -92,4 +92,4 @@ export const Fieldset = factory<FieldsetFactory>((_props, ref) => {
 });
 
 Fieldset.classes = classes;
-Fieldset.displayName = '@mantine/core/Fieldset';
+Fieldset.displayName = '@bds-react/core/Fieldset';

@@ -13,7 +13,7 @@ import {
   UnstyledButton,
   useProps,
   useResolvedStylesApi,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDisclosure, useInputState, useWindowEvent } from '@mantine/hooks';
 import { IconExternalLink, IconLink } from '../icons/Icons';
 import { useRichTextEditorContext } from '../RichTextEditor.context';

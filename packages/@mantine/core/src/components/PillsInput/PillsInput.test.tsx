@@ -7,7 +7,7 @@ const defaultProps: PillsInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/PillsInput', () => {
+describe('@bds-react/core/PillsInput', () => {
   tests.axe([
     <PillsInput label="test-label">
       <PillsInput.Field />
@@ -36,7 +36,7 @@ describe('@mantine/core/PillsInput', () => {
     variant: true,
     size: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PillsInput',
+    displayName: '@bds-react/core/PillsInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

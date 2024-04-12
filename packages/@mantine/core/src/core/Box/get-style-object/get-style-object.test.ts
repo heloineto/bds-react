@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../MantineProvider';
 import { getStyleObject } from './get-style-object';
 
-describe('@mantine/core/Box/get-style-object', () => {
+describe('@bds-react/core/Box/get-style-object', () => {
   it('returns empty object if style is undefined', () => {
     expect(getStyleObject(undefined, DEFAULT_THEME)).toStrictEqual({});
   });

@@ -85,4 +85,4 @@ export function RatingItem({
   );
 }
 
-RatingItem.displayName = '@mantine/core/RatingItem';
+RatingItem.displayName = '@bds-react/core/RatingItem';

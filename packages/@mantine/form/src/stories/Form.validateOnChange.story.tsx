@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Checkbox, TextInput } from '@mantine/core';
+import { Checkbox, TextInput } from '@bds-react/core';
 import { FORM_INDEX } from '../form-index';
 import { useForm } from '../use-form';
 import { FormBase } from './_base';

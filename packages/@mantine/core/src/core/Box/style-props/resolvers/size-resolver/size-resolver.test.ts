@@ -1,6 +1,6 @@
 import { sizeResolver } from './size-resolver';
 
-describe('@mantine/core/Box/size-resolver', () => {
+describe('@bds-react/core/Box/size-resolver', () => {
   it('resolves number correctly', () => {
     expect(sizeResolver(10)).toBe('calc(0.625rem * var(--mantine-scale))');
     expect(sizeResolver(-10)).toBe('calc(-0.625rem * var(--mantine-scale))');

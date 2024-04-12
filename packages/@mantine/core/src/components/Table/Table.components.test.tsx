@@ -24,7 +24,7 @@ import {
   TableTrProps,
 } from './Table.components';
 
-describe('@mantine/core/Table', () => {
+describe('@bds-react/core/Table', () => {
   beforeAll(patchConsoleError);
   afterAll(patchConsoleError.release);
 
@@ -38,7 +38,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableCellElement,
-      displayName: '@mantine/core/TableTh',
+      displayName: '@bds-react/core/TableTh',
       selector: 'th',
       stylesApiName: 'Table',
       stylesApiSelectors: ['th'],
@@ -68,7 +68,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableCellElement,
-      displayName: '@mantine/core/TableTd',
+      displayName: '@bds-react/core/TableTd',
       selector: 'td',
       stylesApiName: 'Table',
       stylesApiSelectors: ['td'],
@@ -98,7 +98,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableRowElement,
-      displayName: '@mantine/core/TableTr',
+      displayName: '@bds-react/core/TableTr',
       selector: 'tr',
       stylesApiName: 'Table',
       stylesApiSelectors: ['tr'],
@@ -146,7 +146,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableSectionElement,
-      displayName: '@mantine/core/TableThead',
+      displayName: '@bds-react/core/TableThead',
       selector: 'thead',
       stylesApiName: 'Table',
       stylesApiSelectors: ['thead'],
@@ -174,7 +174,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableSectionElement,
-      displayName: '@mantine/core/TableTbody',
+      displayName: '@bds-react/core/TableTbody',
       selector: 'tbody',
       stylesApiName: 'Table',
       stylesApiSelectors: ['tbody'],
@@ -192,7 +192,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableSectionElement,
-      displayName: '@mantine/core/TableTfoot',
+      displayName: '@bds-react/core/TableTfoot',
       selector: 'tfoot',
       stylesApiName: 'Table',
       stylesApiSelectors: ['tfoot'],
@@ -210,7 +210,7 @@ describe('@mantine/core/Table', () => {
       extend: true,
       id: true,
       refType: HTMLTableCaptionElement,
-      displayName: '@mantine/core/TableCaption',
+      displayName: '@bds-react/core/TableCaption',
       selector: 'caption',
       stylesApiName: 'Table',
       stylesApiSelectors: ['caption'],

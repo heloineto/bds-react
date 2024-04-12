@@ -99,4 +99,4 @@ export const JsonInput = factory<JsonInputFactory>((props, ref) => {
 });
 
 JsonInput.classes = InputBase.classes;
-JsonInput.displayName = '@mantine/core/JsonInput';
+JsonInput.displayName = '@bds-react/core/JsonInput';

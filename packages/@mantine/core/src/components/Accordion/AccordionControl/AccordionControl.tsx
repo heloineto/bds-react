@@ -121,5 +121,5 @@ export const AccordionControl = factory<AccordionControlFactory>((props, ref) =>
   );
 });
 
-AccordionControl.displayName = '@mantine/core/AccordionControl';
+AccordionControl.displayName = '@bds-react/core/AccordionControl';
 AccordionControl.classes = classes;

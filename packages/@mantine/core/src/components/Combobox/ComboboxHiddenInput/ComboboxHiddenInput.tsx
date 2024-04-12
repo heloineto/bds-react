@@ -23,4 +23,4 @@ export function ComboboxHiddenInput({
   );
 }
 
-ComboboxHiddenInput.displayName = '@mantine/core/ComboboxHiddenInput';
+ComboboxHiddenInput.displayName = '@bds-react/core/ComboboxHiddenInput';

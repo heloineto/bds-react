@@ -9,7 +9,7 @@ const defaultProps: ComboboxEventsTargetProps = {
 
 const TestContainer = createContextContainer(ComboboxEventsTarget, Combobox, {});
 
-describe('@mantine/core/ComboboxEventsTarget', () => {
+describe('@bds-react/core/ComboboxEventsTarget', () => {
   tests.itHasExtend({ component: ComboboxEventsTarget });
   tests.itThrowsContextError({
     component: ComboboxEventsTarget,
@@ -43,6 +43,6 @@ describe('@mantine/core/ComboboxEventsTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(ComboboxEventsTarget.displayName).toBe('@mantine/core/ComboboxEventsTarget');
+    expect(ComboboxEventsTarget.displayName).toBe('@bds-react/core/ComboboxEventsTarget');
   });
 });

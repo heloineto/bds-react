@@ -25,7 +25,7 @@ describe('@mantine/code-highlight/CodeHighlightTabs', () => {
     id: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/CodeHighlightTabs',
+    displayName: '@bds-react/core/CodeHighlightTabs',
     stylesApiSelectors: [
       'root',
       'code',

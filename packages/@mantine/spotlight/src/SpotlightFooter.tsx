@@ -7,7 +7,7 @@ import {
   factory,
   Factory,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useSpotlightContext } from './Spotlight.context';
 import classes from './Spotlight.module.css';
 

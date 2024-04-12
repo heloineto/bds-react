@@ -168,4 +168,4 @@ export const Indicator = factory<IndicatorFactory>((_props, ref) => {
 });
 
 Indicator.classes = classes;
-Indicator.displayName = '@mantine/core/Indicator';
+Indicator.displayName = '@bds-react/core/Indicator';

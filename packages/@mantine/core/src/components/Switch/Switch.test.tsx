@@ -9,7 +9,7 @@ const defaultProps: SwitchProps = {
   error: 'test-error',
 };
 
-describe('@mantine/core/Switch', () => {
+describe('@bds-react/core/Switch', () => {
   tests.axe([<Switch label="test-label" />, <Switch aria-label="test-label" />]);
   tests.itSupportsFocusEvents({ component: Switch, props: defaultProps, selector: 'input' });
   tests.itHandlesSwitchCheckboxState({ component: Switch, props: defaultProps });
@@ -25,7 +25,7 @@ describe('@mantine/core/Switch', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Switch',
+    displayName: '@bds-react/core/Switch',
     stylesApiSelectors: [
       'root',
       'track',

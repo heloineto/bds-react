@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { colorResolver } from './color-resolver';
 
-describe('@mantine/core/Box/color-resolver', () => {
+describe('@bds-react/core/Box/color-resolver', () => {
   it('resolves theme color', () => {
     expect(colorResolver('red', DEFAULT_THEME)).toBe('var(--mantine-color-red-filled)');
     expect(colorResolver('red.5', DEFAULT_THEME)).toBe('var(--mantine-color-red-5)');

@@ -16,7 +16,7 @@ const themeWithVars: MantineTheme = {
   },
 };
 
-describe('@mantine/core/resolve-vars', () => {
+describe('@bds-react/core/resolve-vars', () => {
   it('resolves vars from varsResolver', () => {
     expect(
       resolveVars({

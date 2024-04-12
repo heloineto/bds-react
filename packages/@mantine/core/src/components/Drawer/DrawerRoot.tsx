@@ -156,4 +156,4 @@ export const DrawerRoot = factory<DrawerRootFactory>((_props, ref) => {
 });
 
 DrawerRoot.classes = classes;
-DrawerRoot.displayName = '@mantine/core/DrawerRoot';
+DrawerRoot.displayName = '@bds-react/core/DrawerRoot';

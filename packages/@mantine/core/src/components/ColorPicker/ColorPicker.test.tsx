@@ -7,7 +7,7 @@ const defaultProps: ColorPickerProps = {
   swatches: ['#fff'],
 };
 
-describe('@mantine/core/ColorPicker', () => {
+describe('@bds-react/core/ColorPicker', () => {
   tests.axe([
     <ColorPicker
       {...defaultProps}
@@ -29,7 +29,7 @@ describe('@mantine/core/ColorPicker', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ColorPicker',
+    displayName: '@bds-react/core/ColorPicker',
     stylesApiSelectors: [
       'wrapper',
       'preview',

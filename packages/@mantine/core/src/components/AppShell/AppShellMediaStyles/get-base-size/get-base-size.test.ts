@@ -1,6 +1,6 @@
 import { getBaseSize } from './get-base-size';
 
-describe('@mantine/core/AppShell/get-base-size', () => {
+describe('@bds-react/core/AppShell/get-base-size', () => {
   it('returns base size from number', () => {
     expect(getBaseSize(10)).toBe(10);
   });

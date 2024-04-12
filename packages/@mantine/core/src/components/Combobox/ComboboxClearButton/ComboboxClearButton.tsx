@@ -28,4 +28,4 @@ export const ComboboxClearButton = forwardRef<HTMLButtonElement, ComboboxClearBu
   )
 );
 
-ComboboxClearButton.displayName = '@mantine/core/ComboboxClearButton';
+ComboboxClearButton.displayName = '@bds-react/core/ComboboxClearButton';

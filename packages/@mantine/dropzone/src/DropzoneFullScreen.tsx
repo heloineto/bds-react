@@ -12,7 +12,7 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { Dropzone, DropzoneProps, DropzoneStylesNames, DropzoneVariant } from './Dropzone';
 import classes from './Dropzone.module.css';

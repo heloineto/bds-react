@@ -35,7 +35,7 @@ const defaultOptions: GetClassNameOptions = {
   withStaticClasses: true,
 };
 
-describe('@mantine/core/get-class-name', () => {
+describe('@bds-react/core/get-class-name', () => {
   it('resolves focusable class name', () => {
     expect(
       getClassName({ ...defaultOptions, options: { focusable: true } }).includes(

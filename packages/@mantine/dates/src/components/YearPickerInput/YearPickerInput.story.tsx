@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import React from 'react';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { YearPickerInput } from './YearPickerInput';
 
 export default { title: 'YearPickerInput' };

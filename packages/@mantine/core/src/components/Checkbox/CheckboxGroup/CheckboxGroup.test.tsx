@@ -15,7 +15,7 @@ const defaultProps: CheckboxGroupProps = {
   ],
 };
 
-describe('@mantine/core/CheckboxGroup', () => {
+describe('@bds-react/core/CheckboxGroup', () => {
   tests.axe([
     <CheckboxGroup>
       <Checkbox value="test-1" label="test-1" />
@@ -33,7 +33,7 @@ describe('@mantine/core/CheckboxGroup', () => {
     extend: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/CheckboxGroup',
+    displayName: '@bds-react/core/CheckboxGroup',
     stylesApiSelectors: ['root', 'description', 'error', 'label', 'required'],
   });
 

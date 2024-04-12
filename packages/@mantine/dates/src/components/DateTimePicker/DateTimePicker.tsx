@@ -12,7 +12,7 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDidUpdate, useDisclosure, useMergedRef } from '@mantine/hooks';
 import { useUncontrolledDates } from '../../hooks';
 import { DateValue } from '../../types';

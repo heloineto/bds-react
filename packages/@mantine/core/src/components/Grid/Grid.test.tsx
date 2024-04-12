@@ -7,7 +7,7 @@ const defaultProps: GridProps = {
   children: <Grid.Col span={12}>test</Grid.Col>,
 };
 
-describe('@mantine/core/Grid', () => {
+describe('@bds-react/core/Grid', () => {
   tests.itSupportsSystemProps<GridProps, GridStylesNames>({
     component: Grid,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/Grid', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Grid',
+    displayName: '@bds-react/core/Grid',
     stylesApiSelectors: ['root', 'inner', 'col'],
   });
 

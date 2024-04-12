@@ -16,7 +16,7 @@ function getTestObject(padding: AppShellProps['padding']) {
   return { baseStyles, minMediaStyles, maxMediaStyles };
 }
 
-describe('@mantine/core/AppShell/assign-padding-variables', () => {
+describe('@bds-react/core/AppShell/assign-padding-variables', () => {
   it('assigns correct base styles', () => {
     expect(getTestObject(10).baseStyles).toStrictEqual({
       '--app-shell-padding': rem(10),

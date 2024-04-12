@@ -67,4 +67,4 @@ export const ComboboxSearch = factory<ComboboxSearchFactory>((_props, ref) => {
 });
 
 ComboboxSearch.classes = classes;
-ComboboxSearch.displayName = '@mantine/core/ComboboxSearch';
+ComboboxSearch.displayName = '@bds-react/core/ComboboxSearch';

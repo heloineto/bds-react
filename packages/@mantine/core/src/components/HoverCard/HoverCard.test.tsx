@@ -15,7 +15,7 @@ function TestContainer(props: Partial<HoverCardProps>) {
   );
 }
 
-describe('@mantine/core/HoverCard', () => {
+describe('@bds-react/core/HoverCard', () => {
   tests.axe([<TestContainer initiallyOpened />, <TestContainer />]);
   tests.itRendersChildren({
     component: HoverCard,
@@ -33,6 +33,6 @@ describe('@mantine/core/HoverCard', () => {
   });
 
   it('has correct displayName', () => {
-    expect(HoverCard.displayName).toEqual('@mantine/core/HoverCard');
+    expect(HoverCard.displayName).toEqual('@bds-react/core/HoverCard');
   });
 });

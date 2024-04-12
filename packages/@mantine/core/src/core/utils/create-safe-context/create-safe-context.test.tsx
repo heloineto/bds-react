@@ -8,7 +8,7 @@ interface ContextType {
   onChange: (value: number) => void;
 }
 
-describe('@mantine/core/create-safe-context', () => {
+describe('@bds-react/core/create-safe-context', () => {
   it('throws error if useSafeContext hook was called without Provider', () => {
     patchConsoleError();
     const [, useContext] = createSafeContext<ContextType>('test-error');

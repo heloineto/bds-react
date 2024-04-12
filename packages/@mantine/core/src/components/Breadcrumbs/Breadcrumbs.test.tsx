@@ -6,7 +6,7 @@ const defaultProps: BreadcrumbsProps = {
   children: [<div key="1">1</div>, <div key="2">2</div>, <div key="3">3</div>],
 };
 
-describe('@mantine/core/Breadcrumbs', () => {
+describe('@bds-react/core/Breadcrumbs', () => {
   tests.itSupportsSystemProps<BreadcrumbsProps, BreadcrumbsStylesNames>({
     component: Breadcrumbs,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/Breadcrumbs', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Breadcrumbs',
+    displayName: '@bds-react/core/Breadcrumbs',
     stylesApiSelectors: ['root', 'breadcrumb', 'separator'],
   });
 

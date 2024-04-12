@@ -323,4 +323,4 @@ export const Rating = factory<RatingFactory>((_props, ref) => {
 });
 
 Rating.classes = classes;
-Rating.displayName = '@mantine/core/Rating';
+Rating.displayName = '@bds-react/core/Rating';

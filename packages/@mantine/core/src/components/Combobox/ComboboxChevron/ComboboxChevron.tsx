@@ -86,4 +86,4 @@ export const ComboboxChevron = factory<ComboboxChevronFactory>((_props, ref) => 
 });
 
 ComboboxChevron.classes = classes;
-ComboboxChevron.displayName = '@mantine/core/ComboboxChevron';
+ComboboxChevron.displayName = '@bds-react/core/ComboboxChevron';

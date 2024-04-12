@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useCombobox } from './use-combobox';
 
-describe('@mantine/core/Combobox/use-combobox', () => {
+describe('@bds-react/core/Combobox/use-combobox', () => {
   it('supports uncontrolled opened state', () => {
     const hook = renderHook(() => useCombobox({ defaultOpened: true }));
     expect(hook.result.current.dropdownOpened).toBe(true);

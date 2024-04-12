@@ -11,7 +11,7 @@ const TestContainer = createContextContainer<any>(AppShellSection, AppShell, {})
 
 const defaultProps: AppShellSectionProps = {};
 
-describe('@mantine/core/AppShellSection', () => {
+describe('@bds-react/core/AppShellSection', () => {
   tests.itSupportsSystemProps<any, AppShellSectionStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -25,7 +25,7 @@ describe('@mantine/core/AppShellSection', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/AppShellSection',
+    displayName: '@bds-react/core/AppShellSection',
     stylesApiSelectors: ['section'],
     selector: '.mantine-AppShell-section',
     stylesApiName: 'AppShell',

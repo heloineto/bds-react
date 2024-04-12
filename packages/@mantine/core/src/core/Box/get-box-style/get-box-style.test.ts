@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../MantineProvider';
 import { getBoxStyle } from './get-box-style';
 
-describe('@mantine/core/Box/get-box-style', () => {
+describe('@bds-react/core/Box/get-box-style', () => {
   it('returns empty object if no style or vars provided', () => {
     expect(getBoxStyle({ theme: DEFAULT_THEME, styleProps: {} })).toStrictEqual({});
     expect(getBoxStyle({ theme: DEFAULT_THEME, style: {}, styleProps: {} })).toStrictEqual({});

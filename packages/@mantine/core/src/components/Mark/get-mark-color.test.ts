@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../core';
 import { getMarkColor } from './get-mark-color';
 
-describe('@mantine/core/Mark/get-mark-color', () => {
+describe('@bds-react/core/Mark/get-mark-color', () => {
   it('returns correct color for theme color', () => {
     expect(getMarkColor({ color: 'red', theme: DEFAULT_THEME, defaultShade: 2 })).toBe(
       'var(--mantine-color-red-2)'

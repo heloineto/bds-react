@@ -7,7 +7,7 @@ const defaultProps: JsonInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/JsonInput', () => {
+describe('@bds-react/core/JsonInput', () => {
   tests.axe([
     <JsonInput aria-label="test-label" />,
     <JsonInput label="test-label" />,
@@ -27,7 +27,7 @@ describe('@mantine/core/JsonInput', () => {
     classes: true,
     id: true,
     refType: HTMLTextAreaElement,
-    displayName: '@mantine/core/JsonInput',
+    displayName: '@bds-react/core/JsonInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

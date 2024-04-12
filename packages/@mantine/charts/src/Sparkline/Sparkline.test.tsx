@@ -5,7 +5,7 @@ const defaultProps: SparklineProps = {
   data: [0, 1],
 };
 
-describe('@mantine/core/Sparkline', () => {
+describe('@bds-react/core/Sparkline', () => {
   beforeAll(() => {
     patchConsoleWarn();
   });

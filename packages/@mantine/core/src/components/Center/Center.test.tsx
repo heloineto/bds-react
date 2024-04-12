@@ -6,7 +6,7 @@ const defaultProps: CenterProps = {
   children: <div />,
 };
 
-describe('@mantine/core/Center', () => {
+describe('@bds-react/core/Center', () => {
   tests.itSupportsSystemProps<CenterProps, CenterStylesNames>({
     component: Center,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/Center', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Center',
+    displayName: '@bds-react/core/Center',
     stylesApiSelectors: ['root'],
   });
 });

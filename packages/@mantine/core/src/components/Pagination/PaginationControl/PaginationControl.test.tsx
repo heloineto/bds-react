@@ -11,7 +11,7 @@ const TestContainer = createContextContainer(PaginationControl, PaginationRoot, 
 
 const defaultProps: PaginationControlProps = {};
 
-describe('@mantine/core/PaginationControl', () => {
+describe('@bds-react/core/PaginationControl', () => {
   tests.itSupportsSystemProps<PaginationControlProps, PaginationControlStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/PaginationControl', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationControl',
+    displayName: '@bds-react/core/PaginationControl',
     stylesApiSelectors: ['control'],
     stylesApiName: 'Pagination',
     compound: true,

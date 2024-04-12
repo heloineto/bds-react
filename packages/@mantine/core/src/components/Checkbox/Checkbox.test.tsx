@@ -9,7 +9,7 @@ const defaultProps: CheckboxProps = {
   error: 'test-error',
 };
 
-describe('@mantine/core/Checkbox', () => {
+describe('@bds-react/core/Checkbox', () => {
   tests.itSupportsSystemProps<CheckboxProps, CheckboxStylesNames>({
     component: Checkbox,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/Checkbox', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Checkbox',
+    displayName: '@bds-react/core/Checkbox',
     stylesApiSelectors: [
       'root',
       'body',

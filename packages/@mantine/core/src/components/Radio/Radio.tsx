@@ -220,5 +220,5 @@ export const Radio = factory<RadioFactory>((_props, ref) => {
 });
 
 Radio.classes = classes;
-Radio.displayName = '@mantine/core/Radio';
+Radio.displayName = '@bds-react/core/Radio';
 Radio.Group = RadioGroup;

@@ -61,4 +61,4 @@ export const Kbd = factory<KbdFactory>((_props, ref) => {
 });
 
 Kbd.classes = classes;
-Kbd.displayName = '@mantine/core/Kbd';
+Kbd.displayName = '@bds-react/core/Kbd';

@@ -7,7 +7,7 @@ import {
 
 const defaultProps: ComboboxChevronProps = {};
 
-describe('@mantine/core/ComboboxChevron', () => {
+describe('@bds-react/core/ComboboxChevron', () => {
   tests.itSupportsSystemProps<ComboboxChevronProps, ComboboxChevronStylesNames>({
     component: ComboboxChevron,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/ComboboxChevron', () => {
     classes: true,
     id: true,
     refType: SVGSVGElement,
-    displayName: '@mantine/core/ComboboxChevron',
+    displayName: '@bds-react/core/ComboboxChevron',
     stylesApiSelectors: ['chevron'],
   });
 });

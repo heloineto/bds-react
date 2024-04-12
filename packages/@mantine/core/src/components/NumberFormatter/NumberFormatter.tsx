@@ -53,4 +53,4 @@ const extendNumberFormatter = (c: ExtendComponent<NumberFormatterFactory>): Mant
   c;
 
 NumberFormatter.extend = extendNumberFormatter;
-NumberFormatter.displayName = '@mantine/core/NumberFormatter';
+NumberFormatter.displayName = '@bds-react/core/NumberFormatter';

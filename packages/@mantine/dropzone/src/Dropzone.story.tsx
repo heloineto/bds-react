@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React, { useRef } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { Dropzone } from './index';
 
 export default { title: 'Dropzone' };

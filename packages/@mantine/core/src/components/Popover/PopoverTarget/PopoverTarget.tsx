@@ -62,4 +62,4 @@ export const PopoverTarget = factory<PopoverTargetFactory>((props, ref) => {
   });
 });
 
-PopoverTarget.displayName = '@mantine/core/PopoverTarget';
+PopoverTarget.displayName = '@bds-react/core/PopoverTarget';

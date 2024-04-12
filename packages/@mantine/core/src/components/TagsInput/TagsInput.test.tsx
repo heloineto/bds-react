@@ -7,7 +7,7 @@ const defaultProps: TagsInputProps = {
   data: ['test-1', 'test-2'],
 };
 
-describe('@mantine/core/TagsInput', () => {
+describe('@bds-react/core/TagsInput', () => {
   tests.axe([
     <TagsInput aria-label="test-label" data={['test-1', 'test-2']} />,
     <TagsInput label="test-label" data={['test-1', 'test-2']} />,
@@ -27,7 +27,7 @@ describe('@mantine/core/TagsInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/TagsInput',
+    displayName: '@bds-react/core/TagsInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

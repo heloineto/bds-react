@@ -10,10 +10,10 @@ Embla based carousel
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @mantine/carousel
+yarn add @bds-react/core @mantine/hooks @mantine/carousel
 
 # With npm
-npm install @mantine/core @mantine/hooks @mantine/carousel
+npm install @bds-react/core @mantine/hooks @mantine/carousel
 ```
 
 ## License

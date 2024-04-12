@@ -23,4 +23,4 @@ export const ModalBaseTitle = forwardRef<HTMLHeadingElement, ModalBaseTitleProps
   }
 );
 
-ModalBaseTitle.displayName = '@mantine/core/ModalBaseTitle';
+ModalBaseTitle.displayName = '@bds-react/core/ModalBaseTitle';

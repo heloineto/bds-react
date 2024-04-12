@@ -8,7 +8,7 @@ const defaultProps: AccordionPanelProps = {};
 const _ContextContainer = createContextContainer(AccordionPanel, AccordionItem, { value: 'test' });
 const ContextContainer = createContextContainer(_ContextContainer, Accordion, {});
 
-describe('@mantine/core/AccordionPanel', () => {
+describe('@bds-react/core/AccordionPanel', () => {
   tests.itSupportsSystemProps<AccordionPanelProps, AccordionPanelStylesNames>({
     component: ContextContainer,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/AccordionPanel', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AccordionPanel',
+    displayName: '@bds-react/core/AccordionPanel',
     stylesApiSelectors: ['panel', 'content'],
     stylesApiName: 'Accordion',
     selector: '.mantine-Accordion-panel',

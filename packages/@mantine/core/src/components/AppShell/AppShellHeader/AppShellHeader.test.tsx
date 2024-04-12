@@ -7,7 +7,7 @@ const TestContainer = createContextContainer(AppShellHeader, AppShell, {});
 
 const defaultProps: AppShellHeaderProps = {};
 
-describe('@mantine/core/AppShellHeader', () => {
+describe('@bds-react/core/AppShellHeader', () => {
   tests.itSupportsSystemProps<AppShellHeaderProps, AppShellHeaderStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/AppShellHeader', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/AppShellHeader',
+    displayName: '@bds-react/core/AppShellHeader',
     stylesApiSelectors: ['header'],
     selector: '.mantine-AppShell-header',
     stylesApiName: 'AppShell',

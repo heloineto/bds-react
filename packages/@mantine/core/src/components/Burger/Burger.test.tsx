@@ -5,7 +5,7 @@ import { Burger, BurgerProps, BurgerStylesNames } from './Burger';
 
 const defaultProps: BurgerProps = {};
 
-describe('@mantine/core/Burger', () => {
+describe('@bds-react/core/Burger', () => {
   tests.axe([
     <Burger aria-label="test" />,
     <Burger>
@@ -25,7 +25,7 @@ describe('@mantine/core/Burger', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/Burger',
+    displayName: '@bds-react/core/Burger',
     stylesApiSelectors: ['root'],
   });
 

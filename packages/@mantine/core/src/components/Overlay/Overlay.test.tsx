@@ -4,7 +4,7 @@ import { Overlay, OverlayProps, OverlayStylesNames } from './Overlay';
 
 const defaultProps: OverlayProps = {};
 
-describe('@mantine/core/Overlay', () => {
+describe('@bds-react/core/Overlay', () => {
   tests.itSupportsSystemProps<OverlayProps, OverlayStylesNames>({
     component: Overlay,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Overlay', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Overlay',
+    displayName: '@bds-react/core/Overlay',
     stylesApiSelectors: ['root'],
   });
 

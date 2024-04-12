@@ -15,7 +15,7 @@ const defaultProps: SwitchGroupProps = {
   ],
 };
 
-describe('@mantine/core/SwitchGroup', () => {
+describe('@bds-react/core/SwitchGroup', () => {
   tests.axe([
     <SwitchGroup>
       <Switch value="test-1" label="test-1" />
@@ -33,7 +33,7 @@ describe('@mantine/core/SwitchGroup', () => {
     extend: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/SwitchGroup',
+    displayName: '@bds-react/core/SwitchGroup',
     stylesApiSelectors: ['root', 'description', 'error', 'label', 'required'],
   });
 

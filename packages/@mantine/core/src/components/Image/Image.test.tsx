@@ -4,7 +4,7 @@ import { Image, ImageProps, ImageStylesNames } from './Image';
 
 const defaultProps: ImageProps = {};
 
-describe('@mantine/core/Image', () => {
+describe('@bds-react/core/Image', () => {
   tests.itSupportsSystemProps<ImageProps, ImageStylesNames>({
     component: Image,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Image', () => {
     classes: true,
     id: true,
     refType: HTMLImageElement,
-    displayName: '@mantine/core/Image',
+    displayName: '@bds-react/core/Image',
     stylesApiSelectors: ['root'],
   });
 

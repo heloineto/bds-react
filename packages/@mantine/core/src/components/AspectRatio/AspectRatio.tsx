@@ -61,4 +61,4 @@ export const AspectRatio = factory<AspectRatioFactory>((_props, ref) => {
 });
 
 AspectRatio.classes = classes;
-AspectRatio.displayName = '@mantine/core/AspectRatio';
+AspectRatio.displayName = '@bds-react/core/AspectRatio';

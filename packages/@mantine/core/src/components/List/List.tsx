@@ -124,5 +124,5 @@ export const List = factory<ListFactory>((_props, ref) => {
 });
 
 List.classes = classes;
-List.displayName = '@mantine/core/List';
+List.displayName = '@bds-react/core/List';
 List.Item = ListItem;

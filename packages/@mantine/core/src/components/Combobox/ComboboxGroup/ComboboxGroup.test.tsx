@@ -8,7 +8,7 @@ const defaultProps: ComboboxGroupProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/ComboboxGroup', () => {
+describe('@bds-react/core/ComboboxGroup', () => {
   tests.itSupportsSystemProps<ComboboxGroupProps, ComboboxGroupStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/ComboboxGroup', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxGroup',
+    displayName: '@bds-react/core/ComboboxGroup',
     stylesApiSelectors: ['group', 'groupLabel'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-group',

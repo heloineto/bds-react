@@ -80,4 +80,4 @@ export const SimpleGrid = factory<SimpleGridFactory>((_props, ref) => {
 });
 
 SimpleGrid.classes = classes;
-SimpleGrid.displayName = '@mantine/core/SimpleGrid';
+SimpleGrid.displayName = '@bds-react/core/SimpleGrid';

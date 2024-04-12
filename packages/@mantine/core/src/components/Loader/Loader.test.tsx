@@ -7,7 +7,7 @@ const customLoader: MantineLoaderComponent = forwardRef(() => <div data-custom-l
 
 const defaultProps: LoaderProps = {};
 
-describe('@mantine/core/Loader', () => {
+describe('@bds-react/core/Loader', () => {
   tests.itSupportsSystemProps<LoaderProps, LoaderStylesNames>({
     component: Loader,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/Loader', () => {
     classes: true,
     id: true,
     refType: HTMLSpanElement,
-    displayName: '@mantine/core/Loader',
+    displayName: '@bds-react/core/Loader',
     stylesApiSelectors: ['root'],
   });
 

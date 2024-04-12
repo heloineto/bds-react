@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Group, Text, TextInput } from '@mantine/core';
+import { Button, Group, Text, TextInput } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { Dialog } from './Dialog';
 

@@ -1,6 +1,6 @@
 import { getCurves } from './get-curves';
 
-describe('@mantine/core/RingProgress/get-curves', () => {
+describe('@bds-react/core/RingProgress/get-curves', () => {
   it('returns valid curves data', () => {
     const curves = getCurves({
       size: 350,

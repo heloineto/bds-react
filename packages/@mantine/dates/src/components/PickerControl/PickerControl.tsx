@@ -12,7 +12,7 @@ import {
   UnstyledButton,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import classes from './PickerControl.module.css';
 
 export type PickerControlStylesNames = 'pickerControl';

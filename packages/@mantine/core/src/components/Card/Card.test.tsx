@@ -7,7 +7,7 @@ const defaultProps: CardProps = {
   children: <Card.Section />,
 };
 
-describe('@mantine/core/Card', () => {
+describe('@bds-react/core/Card', () => {
   tests.itSupportsSystemProps<CardProps, CardStylesNames>({
     component: Card,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/Card', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Card',
+    displayName: '@bds-react/core/Card',
     stylesApiSelectors: ['root', 'section'],
   });
 

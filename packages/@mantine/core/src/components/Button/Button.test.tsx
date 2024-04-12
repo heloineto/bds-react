@@ -9,7 +9,7 @@ const defaultProps: ButtonProps = {
   loading: true,
 };
 
-describe('@mantine/core/Button', () => {
+describe('@bds-react/core/Button', () => {
   tests.axe([
     <Button aria-label="test" />,
     <Button.Group aria-label="test">
@@ -36,7 +36,7 @@ describe('@mantine/core/Button', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/Button',
+    displayName: '@bds-react/core/Button',
     stylesApiSelectors: ['root', 'inner', 'label', 'loader', 'section'],
   });
 

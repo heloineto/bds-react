@@ -141,4 +141,4 @@ export const MenuItem = polymorphicFactory<MenuItemFactory>((props, ref) => {
 });
 
 MenuItem.classes = classes;
-MenuItem.displayName = '@mantine/core/MenuItem';
+MenuItem.displayName = '@bds-react/core/MenuItem';

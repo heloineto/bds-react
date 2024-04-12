@@ -1,6 +1,6 @@
 import { deepMerge } from './deep-merge';
 
-describe('@mantine/core/deep-merge', () => {
+describe('@bds-react/core/deep-merge', () => {
   it('merges given object with override correctly', () => {
     expect(deepMerge({ a: 1 }, { a: 2 })).toStrictEqual({ a: 2 });
     expect(

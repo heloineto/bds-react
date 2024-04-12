@@ -506,4 +506,4 @@ export const RangeSlider = factory<RangeSliderFactory>((_props, ref) => {
 });
 
 RangeSlider.classes = classes;
-RangeSlider.displayName = '@mantine/core/RangeSlider';
+RangeSlider.displayName = '@bds-react/core/RangeSlider';

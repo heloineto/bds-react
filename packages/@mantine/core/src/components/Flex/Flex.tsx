@@ -114,4 +114,4 @@ export const Flex = polymorphicFactory<FlexFactory>((_props, ref) => {
 });
 
 Flex.classes = classes;
-Flex.displayName = '@mantine/core/Flex';
+Flex.displayName = '@bds-react/core/Flex';

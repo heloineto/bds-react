@@ -13,7 +13,7 @@ function getElements(count: number = 5, disabledIndices: number[] = []) {
     });
 }
 
-describe('@mantine/core/Combobox/get-next-index', () => {
+describe('@bds-react/core/Combobox/get-next-index', () => {
   it('returns correct next index for elements without disabled elements (loop: false)', () => {
     const elements = getElements(5);
     expect(getNextIndex(0, elements, false)).toBe(1);
@@ -41,7 +41,7 @@ describe('@mantine/core/Combobox/get-next-index', () => {
   });
 });
 
-describe('@mantine/core/Combobox/get-previous-index', () => {
+describe('@bds-react/core/Combobox/get-previous-index', () => {
   it('returns correct previous index for elements without disabled elements (loop: false)', () => {
     const elements = getElements(5);
     expect(getPreviousIndex(4, elements, false)).toBe(3);
@@ -69,7 +69,7 @@ describe('@mantine/core/Combobox/get-previous-index', () => {
   });
 });
 
-describe('@mantine/core/Combobox/get-first-index', () => {
+describe('@bds-react/core/Combobox/get-first-index', () => {
   it('returns correct first index for elements without disabled elements', () => {
     const elements = getElements(5);
     expect(getFirstIndex(elements)).toBe(0);

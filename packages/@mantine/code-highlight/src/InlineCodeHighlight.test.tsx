@@ -20,7 +20,7 @@ describe('@mantine/code-highlight/InlineCodeHighlight', () => {
     variant: true,
     size: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/InlineCodeHighlight',
+    displayName: '@bds-react/core/InlineCodeHighlight',
     stylesApiSelectors: ['code'],
   });
 });

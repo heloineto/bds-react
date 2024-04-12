@@ -5,7 +5,7 @@ import {
   mergeMantineTheme,
 } from './merge-mantine-theme';
 
-describe('@mantine/core/merge-mantine-theme', () => {
+describe('@bds-react/core/merge-mantine-theme', () => {
   it('throws error when theme.primaryColor is invalid', () => {
     expect(() => mergeMantineTheme({ ...DEFAULT_THEME, primaryColor: 'unknown' })).toThrow(
       INVALID_PRIMARY_COLOR_ERROR

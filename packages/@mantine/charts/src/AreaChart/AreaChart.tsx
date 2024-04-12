@@ -1,19 +1,5 @@
 import React, { Fragment, useId, useState } from 'react';
 import {
-  Area,
-  AreaProps,
-  CartesianGrid,
-  DotProps,
-  Label,
-  Legend,
-  AreaChart as ReChartsAreaChart,
-  ReferenceLine,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from 'recharts';
-import {
   Box,
   BoxProps,
   createVarsResolver,
@@ -27,7 +13,21 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import {
+  Area,
+  AreaProps,
+  CartesianGrid,
+  DotProps,
+  Label,
+  Legend,
+  AreaChart as ReChartsAreaChart,
+  ReferenceLine,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
 import { ChartLegend, ChartLegendStylesNames } from '../ChartLegend';
 import { ChartTooltip, ChartTooltipStylesNames } from '../ChartTooltip';
 import type { BaseChartStylesNames, ChartSeries, GridChartBaseProps } from '../types';

@@ -12,7 +12,7 @@ import {
   UnstyledButton,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { shiftTimezone } from '../../utils';
 import { useDatesContext } from '../DatesProvider';
 import classes from './Day.module.css';

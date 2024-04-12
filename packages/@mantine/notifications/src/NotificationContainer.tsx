@@ -1,5 +1,5 @@
 import React, { forwardRef, useEffect, useRef } from 'react';
-import { Notification, NotificationProps } from '@mantine/core';
+import { Notification, NotificationProps } from '@bds-react/core';
 import { getAutoClose } from './get-auto-close/get-auto-close';
 import { NotificationData } from './notifications.store';
 

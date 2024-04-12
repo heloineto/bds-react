@@ -7,7 +7,7 @@ const defaultProps: PasswordInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/PasswordInput', () => {
+describe('@bds-react/core/PasswordInput', () => {
   tests.axe([
     <PasswordInput
       aria-label="test-label"
@@ -43,7 +43,7 @@ describe('@mantine/core/PasswordInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/PasswordInput',
+    displayName: '@bds-react/core/PasswordInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
     providerStylesApi: false,
   });

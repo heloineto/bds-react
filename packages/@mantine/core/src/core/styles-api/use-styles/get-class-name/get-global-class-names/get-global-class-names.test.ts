@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { FOCUS_CLASS_NAMES, getGlobalClassNames } from './get-global-class-names';
 
-describe('@mantine/core/get-global-class-names', () => {
+describe('@bds-react/core/get-global-class-names', () => {
   it('returns empty string if both focusable and active options are false', () => {
     expect(
       getGlobalClassNames({

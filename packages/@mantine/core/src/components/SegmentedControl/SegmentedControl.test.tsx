@@ -11,7 +11,7 @@ const defaultProps: SegmentedControlProps = {
   data: ['First', 'Second', 'Third'],
 };
 
-describe('@mantine/core/SegmentedControl', () => {
+describe('@bds-react/core/SegmentedControl', () => {
   tests.axe([
     <SegmentedControl {...defaultProps} />,
     <SegmentedControl {...defaultProps} aria-label="group label" />,
@@ -28,7 +28,7 @@ describe('@mantine/core/SegmentedControl', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/SegmentedControl',
+    displayName: '@bds-react/core/SegmentedControl',
     stylesApiSelectors: ['root', 'label', 'input', 'control', 'indicator'],
   });
 });

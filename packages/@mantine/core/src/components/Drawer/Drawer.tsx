@@ -98,7 +98,7 @@ export const Drawer = factory<DrawerFactory>((_props, ref) => {
 });
 
 Drawer.classes = classes;
-Drawer.displayName = '@mantine/core/Drawer';
+Drawer.displayName = '@bds-react/core/Drawer';
 Drawer.Root = DrawerRoot;
 Drawer.Overlay = DrawerOverlay;
 Drawer.Content = DrawerContent;

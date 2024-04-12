@@ -46,4 +46,4 @@ export const ProgressLabel = factory<ProgressLabelFactory>((props, ref) => {
 });
 
 ProgressLabel.classes = classes;
-ProgressLabel.displayName = '@mantine/core/ProgressLabel';
+ProgressLabel.displayName = '@bds-react/core/ProgressLabel';

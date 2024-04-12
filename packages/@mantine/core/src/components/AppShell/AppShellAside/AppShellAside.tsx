@@ -67,4 +67,4 @@ export const AppShellAside = factory<AppShellAsideFactory>((_props, ref) => {
 });
 
 AppShellAside.classes = classes;
-AppShellAside.displayName = '@mantine/core/AppShellAside';
+AppShellAside.displayName = '@bds-react/core/AppShellAside';

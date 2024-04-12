@@ -31,4 +31,4 @@ export function TooltipGroup(props: TooltipGroupProps) {
   );
 }
 
-TooltipGroup.displayName = '@mantine/core/TooltipGroup';
+TooltipGroup.displayName = '@bds-react/core/TooltipGroup';

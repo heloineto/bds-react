@@ -118,4 +118,4 @@ export const Blockquote = factory<BlockquoteFactory>((_props, ref) => {
 });
 
 Blockquote.classes = classes;
-Blockquote.displayName = '@mantine/core/Blockquote';
+Blockquote.displayName = '@bds-react/core/Blockquote';

@@ -8,7 +8,7 @@ import {
   rem,
   UnstyledButton,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { RichTextEditorLabels } from '../labels';
 import { useRichTextEditorContext } from '../RichTextEditor.context';
 import classes from '../RichTextEditor.module.css';

@@ -40,7 +40,7 @@ const defaultProps: TableProps = {
   ),
 };
 
-describe('@mantine/core/Table', () => {
+describe('@bds-react/core/Table', () => {
   tests.itSupportsSystemProps<TableProps, TableStylesNames>({
     component: Table,
     props: defaultProps,
@@ -51,7 +51,7 @@ describe('@mantine/core/Table', () => {
     variant: true,
     id: true,
     refType: HTMLTableElement,
-    displayName: '@mantine/core/Table',
+    displayName: '@bds-react/core/Table',
     stylesApiSelectors: ['table', 'caption', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td'],
   });
 

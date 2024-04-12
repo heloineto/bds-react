@@ -3,7 +3,7 @@ import { ProgressRoot, ProgressRootProps, ProgressRootStylesNames } from './Prog
 
 const defaultProps: ProgressRootProps = {};
 
-describe('@mantine/core/ProgressRoot', () => {
+describe('@bds-react/core/ProgressRoot', () => {
   tests.itSupportsSystemProps<ProgressRootProps, ProgressRootStylesNames>({
     component: ProgressRoot,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/ProgressRoot', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ProgressRoot',
+    displayName: '@bds-react/core/ProgressRoot',
     stylesApiSelectors: ['root'],
     stylesApiName: 'Progress',
   });

@@ -50,7 +50,7 @@ export function createEdgeComponent({ icon, name, action, type }: CreateEdgeComp
     );
   });
 
-  Component.displayName = `@mantine/core/${name}`;
+  Component.displayName = `@bds-react/core/${name}`;
   return createPolymorphicComponent<'button', PaginationEdgeProps>(Component);
 }
 

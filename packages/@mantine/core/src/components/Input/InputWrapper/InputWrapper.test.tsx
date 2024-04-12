@@ -12,7 +12,7 @@ const defaultProps: InputWrapperProps = {
   required: true,
 };
 
-describe('@mantine/core/InputWrapper', () => {
+describe('@bds-react/core/InputWrapper', () => {
   tests.itSupportsSystemProps<InputWrapperProps, InputWrapperStylesNames>({
     component: InputWrapper,
     props: defaultProps,
@@ -24,7 +24,7 @@ describe('@mantine/core/InputWrapper', () => {
     variant: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/InputWrapper',
+    displayName: '@bds-react/core/InputWrapper',
     stylesApiSelectors: ['root', 'description', 'error', 'label', 'required'],
   });
 

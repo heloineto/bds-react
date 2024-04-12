@@ -178,5 +178,5 @@ export const ActionIcon = polymorphicFactory<ActionIconFactory>((_props, ref) =>
 });
 
 ActionIcon.classes = classes;
-ActionIcon.displayName = '@mantine/core/ActionIcon';
+ActionIcon.displayName = '@bds-react/core/ActionIcon';
 ActionIcon.Group = ActionIconGroup;

@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(MenuDivider, Menu, { opened: true }
 
 const defaultProps: MenuDividerProps = {};
 
-describe('@mantine/core/MenuDivider', () => {
+describe('@bds-react/core/MenuDivider', () => {
   tests.itSupportsSystemProps<MenuDividerProps, MenuDividerStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/MenuDivider', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/MenuDivider',
+    displayName: '@bds-react/core/MenuDivider',
     stylesApiSelectors: ['divider'],
     stylesApiName: 'Menu',
     compound: true,

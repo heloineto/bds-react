@@ -46,4 +46,4 @@ export const ComboboxEmpty = factory<ComboboxEmptyFactory>((props, ref) => {
 });
 
 ComboboxEmpty.classes = classes;
-ComboboxEmpty.displayName = '@mantine/core/ComboboxEmpty';
+ComboboxEmpty.displayName = '@bds-react/core/ComboboxEmpty';

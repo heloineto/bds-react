@@ -62,4 +62,4 @@ export const MenuTarget = forwardRef<HTMLElement, MenuTargetProps>((props, ref) 
   );
 });
 
-MenuTarget.displayName = '@mantine/core/MenuTarget';
+MenuTarget.displayName = '@bds-react/core/MenuTarget';

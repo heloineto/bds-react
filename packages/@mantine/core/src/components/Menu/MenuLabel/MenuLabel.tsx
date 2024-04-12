@@ -45,4 +45,4 @@ export const MenuLabel = factory<MenuLabelFactory>((props, ref) => {
 });
 
 MenuLabel.classes = classes;
-MenuLabel.displayName = '@mantine/core/MenuLabel';
+MenuLabel.displayName = '@bds-react/core/MenuLabel';

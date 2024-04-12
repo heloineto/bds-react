@@ -7,7 +7,7 @@ import {
   factory,
   Factory,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useRichTextEditorContext } from '../RichTextEditor.context';
 import classes from '../RichTextEditor.module.css';
 

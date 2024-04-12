@@ -1,6 +1,6 @@
 import { getTransitionProps } from './get-transition-props';
 
-describe('@mantine/core/Transition/get-transition-props', () => {
+describe('@bds-react/core/Transition/get-transition-props', () => {
   it('returns default transition props if neither transition nor default transition id defined or default transition is not full', () => {
     expect(getTransitionProps(undefined, undefined)).toStrictEqual({
       duration: 100,

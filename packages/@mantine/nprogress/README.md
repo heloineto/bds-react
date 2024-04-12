@@ -10,10 +10,10 @@ A navigation progress bar
 
 ```bash
 # With yarn
-yarn add @mantine/nprogress @mantine/core @mantine/hooks
+yarn add @mantine/nprogress @bds-react/core @mantine/hooks
 
 # With npm
-npm install @mantine/nprogress @mantine/core @mantine/hooks
+npm install @mantine/nprogress @bds-react/core @mantine/hooks
 ```
 
 ## License

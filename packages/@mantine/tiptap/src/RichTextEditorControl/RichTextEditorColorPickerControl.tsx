@@ -13,7 +13,7 @@ import {
   SimpleGrid,
   Tooltip,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconCheck, IconCircleOff, IconColorPicker, IconPalette, IconX } from '../icons/Icons';
 import { useRichTextEditorContext } from '../RichTextEditor.context';

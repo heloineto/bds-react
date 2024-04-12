@@ -1,6 +1,6 @@
 import { cssVariablesObjectToString } from './css-variables-object-to-string';
 
-describe('@mantine/core/css-variables-object-to-string', () => {
+describe('@bds-react/core/css-variables-object-to-string', () => {
   it('converts object to css variables string', () => {
     expect(
       cssVariablesObjectToString({

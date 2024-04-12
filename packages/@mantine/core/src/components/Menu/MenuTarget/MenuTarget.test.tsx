@@ -9,7 +9,7 @@ const defaultProps: MenuTargetProps = {
 
 const TestContainer = createContextContainer(MenuTarget, Menu, { opened: true });
 
-describe('@mantine/core/MenuTarget', () => {
+describe('@bds-react/core/MenuTarget', () => {
   tests.itThrowsContextError({
     component: MenuTarget,
     props: defaultProps,
@@ -42,6 +42,6 @@ describe('@mantine/core/MenuTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(MenuTarget.displayName).toEqual('@mantine/core/MenuTarget');
+    expect(MenuTarget.displayName).toEqual('@bds-react/core/MenuTarget');
   });
 });

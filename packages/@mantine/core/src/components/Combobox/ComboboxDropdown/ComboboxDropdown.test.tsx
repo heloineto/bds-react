@@ -11,7 +11,7 @@ const TestContainer = createContextContainer(ComboboxDropdown, Combobox, { withi
 
 const defaultProps: ComboboxDropdownProps = {};
 
-describe('@mantine/core/ComboboxDropdown', () => {
+describe('@bds-react/core/ComboboxDropdown', () => {
   tests.itSupportsSystemProps<ComboboxDropdownProps, ComboboxDropdownStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -24,7 +24,7 @@ describe('@mantine/core/ComboboxDropdown', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxDropdown',
+    displayName: '@bds-react/core/ComboboxDropdown',
     stylesApiSelectors: ['dropdown'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-dropdown',

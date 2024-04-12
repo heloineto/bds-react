@@ -16,7 +16,7 @@ const _ContextContainer = createContextContainer(AccordionControl, AccordionItem
 });
 const ContextContainer = createContextContainer(_ContextContainer, Accordion, {});
 
-describe('@mantine/core/AccordionControl', () => {
+describe('@bds-react/core/AccordionControl', () => {
   tests.itSupportsSystemProps<AccordionControlProps, AccordionControlStylesNames>({
     component: ContextContainer,
     props: defaultProps,
@@ -28,7 +28,7 @@ describe('@mantine/core/AccordionControl', () => {
     size: true,
     classes: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/AccordionControl',
+    displayName: '@bds-react/core/AccordionControl',
     stylesApiSelectors: ['control', 'chevron', 'label', 'icon'],
     stylesApiName: 'Accordion',
     selector: '.mantine-Accordion-control',

@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../default-theme';
 import { parseThemeColor } from './parse-theme-color';
 
-describe('@mantine/core/parse-theme-color', () => {
+describe('@bds-react/core/parse-theme-color', () => {
   it('parses theme color correctly', () => {
     expect(parseThemeColor({ color: 'red', theme: DEFAULT_THEME })).toStrictEqual({
       color: 'red',

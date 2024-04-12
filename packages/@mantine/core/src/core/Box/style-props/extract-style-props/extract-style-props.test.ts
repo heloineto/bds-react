@@ -1,6 +1,6 @@
 import { extractStyleProps } from './extract-style-props';
 
-describe('@mantine/core/Box/extract-style-props', () => {
+describe('@bds-react/core/Box/extract-style-props', () => {
   it('correctly extracts style props', () => {
     expect(extractStyleProps({ mt: 10, mb: 15 })).toStrictEqual({
       styleProps: { mt: 10, mb: 15 },

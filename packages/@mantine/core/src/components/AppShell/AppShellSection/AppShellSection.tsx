@@ -45,4 +45,4 @@ export const AppShellSection = polymorphicFactory<AppShellSectionFactory>((_prop
 });
 
 AppShellSection.classes = classes;
-AppShellSection.displayName = '@mantine/core/AppShellSection';
+AppShellSection.displayName = '@bds-react/core/AppShellSection';

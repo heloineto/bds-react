@@ -140,4 +140,4 @@ export const PopoverDropdown = factory<PopoverDropdownFactory>((_props, ref) => 
 });
 
 PopoverDropdown.classes = classes;
-PopoverDropdown.displayName = '@mantine/core/PopoverDropdown';
+PopoverDropdown.displayName = '@bds-react/core/PopoverDropdown';

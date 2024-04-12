@@ -13,7 +13,7 @@ const defaultProps: ProgressSectionProps = {
   value: 20,
 };
 
-describe('@mantine/core/ProgressSection', () => {
+describe('@bds-react/core/ProgressSection', () => {
   tests.axe([<TestContainer {...defaultProps} aria-label="test" />]);
 
   tests.itSupportsSystemProps<ProgressSectionProps, ProgressSectionStylesNames>({
@@ -28,7 +28,7 @@ describe('@mantine/core/ProgressSection', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ProgressSection',
+    displayName: '@bds-react/core/ProgressSection',
     stylesApiSelectors: ['section'],
     stylesApiName: 'Progress',
     selector: '[role="progressbar"]',

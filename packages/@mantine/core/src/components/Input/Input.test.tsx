@@ -14,7 +14,7 @@ const defaultProps: InputProps = {
 
 const getInputWrapper = (element: HTMLElement) => element.querySelector('.mantine-Input-wrapper')!;
 
-describe('@mantine/core/Input', () => {
+describe('@bds-react/core/Input', () => {
   tests.axe([
     <Input aria-label="test-input" />,
     <Input placeholder="test-input" />,
@@ -41,7 +41,7 @@ describe('@mantine/core/Input', () => {
     id: true,
     refType: HTMLInputElement,
     polymorphicSelector: '.mantine-Input-input',
-    displayName: '@mantine/core/Input',
+    displayName: '@bds-react/core/Input',
     stylesApiSelectors: ['input', 'section', 'wrapper'],
   });
 

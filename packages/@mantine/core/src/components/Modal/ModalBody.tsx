@@ -35,4 +35,4 @@ export const ModalBody = factory<ModalBodyFactory>((_props, ref) => {
 });
 
 ModalBody.classes = classes;
-ModalBody.displayName = '@mantine/core/ModalBody';
+ModalBody.displayName = '@bds-react/core/ModalBody';

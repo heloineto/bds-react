@@ -177,7 +177,7 @@ export const ScrollArea = factory<ScrollAreaFactory>((_props, ref) => {
   );
 });
 
-ScrollArea.displayName = '@mantine/core/ScrollArea';
+ScrollArea.displayName = '@bds-react/core/ScrollArea';
 
 export const ScrollAreaAutosize = factory<ScrollAreaFactory>((props, ref) => {
   const {
@@ -227,6 +227,6 @@ export const ScrollAreaAutosize = factory<ScrollAreaFactory>((props, ref) => {
 });
 
 ScrollArea.classes = classes;
-ScrollAreaAutosize.displayName = '@mantine/core/ScrollAreaAutosize';
+ScrollAreaAutosize.displayName = '@bds-react/core/ScrollAreaAutosize';
 ScrollAreaAutosize.classes = classes;
 ScrollArea.Autosize = ScrollAreaAutosize;

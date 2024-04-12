@@ -10,10 +10,10 @@ Notifications system
 
 ```bash
 # With yarn
-yarn add @mantine/hooks @mantine/core @mantine/notifications
+yarn add @mantine/hooks @bds-react/core @mantine/notifications
 
 # With npm
-npm install @mantine/hooks @mantine/core @mantine/notifications
+npm install @mantine/hooks @bds-react/core @mantine/notifications
 ```
 
 ## License

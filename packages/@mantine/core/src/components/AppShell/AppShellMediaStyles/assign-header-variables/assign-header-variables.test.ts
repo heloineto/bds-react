@@ -16,7 +16,7 @@ function getTestObject(header: AppShellProps['header']) {
   return { baseStyles, minMediaStyles, maxMediaStyles };
 }
 
-describe('@mantine/core/AppShell/assign-header-variables', () => {
+describe('@bds-react/core/AppShell/assign-header-variables', () => {
   describe('assigns correct base styles', () => {
     it('undefined input', () => {
       expect(getTestObject(undefined).baseStyles).toStrictEqual({});

@@ -1,5 +1,4 @@
 import React from 'react';
-import { EditorContent } from '@tiptap/react';
 import {
   Box,
   BoxProps,
@@ -9,7 +8,8 @@ import {
   Factory,
   TypographyStylesProvider,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
+import { EditorContent } from '@tiptap/react';
 import { useRichTextEditorContext } from '../RichTextEditor.context';
 import classes from '../RichTextEditor.module.css';
 

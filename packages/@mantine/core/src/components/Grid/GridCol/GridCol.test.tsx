@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(GridCol, Grid, {});
 
 const defaultProps: GridColProps = {};
 
-describe('@mantine/core/GridCol', () => {
+describe('@bds-react/core/GridCol', () => {
   tests.itSupportsSystemProps<GridColProps, GridColStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/GridCol', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/GridCol',
+    displayName: '@bds-react/core/GridCol',
     stylesApiSelectors: ['col'],
     stylesApiName: 'Grid',
     selector: '.mantine-Grid-col',

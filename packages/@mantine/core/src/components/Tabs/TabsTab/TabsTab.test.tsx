@@ -12,12 +12,12 @@ const defaultProps: TabsTabProps = {
 
 const TestContainer = createContextContainer(TabsTab, Tabs);
 
-describe('@mantine/core/TabsTab', () => {
+describe('@bds-react/core/TabsTab', () => {
   tests.itSupportsSystemProps<TabsTabProps, TabsTabStylesNames>({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/TabsTab',
+    displayName: '@bds-react/core/TabsTab',
     mod: true,
     extend: true,
     styleProps: true,

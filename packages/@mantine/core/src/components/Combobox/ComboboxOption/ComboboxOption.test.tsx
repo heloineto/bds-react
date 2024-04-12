@@ -9,7 +9,7 @@ const defaultProps: ComboboxOptionProps = {
   value: 'test',
 };
 
-describe('@mantine/core/ComboboxOption', () => {
+describe('@bds-react/core/ComboboxOption', () => {
   tests.itSupportsSystemProps<ComboboxOptionProps, ComboboxOptionStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -22,7 +22,7 @@ describe('@mantine/core/ComboboxOption', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxOption',
+    displayName: '@bds-react/core/ComboboxOption',
     stylesApiSelectors: ['option'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-option',

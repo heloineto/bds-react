@@ -34,4 +34,4 @@ export function PaginationItems({ dotsIcon }: PaginationItemsProps) {
   return <>{items}</>;
 }
 
-PaginationItems.displayName = '@mantine/core/PaginationItems';
+PaginationItems.displayName = '@bds-react/core/PaginationItems';

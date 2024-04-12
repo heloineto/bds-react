@@ -1,5 +1,5 @@
 import React from 'react';
-import { __InputStylesNames } from '@mantine/core';
+import { __InputStylesNames } from '@bds-react/core';
 import { inputDefaultProps, inputStylesApiSelectors, render, tests } from '@mantine-tests/core';
 import { clickControl, clickInput, datesTests, expectValue } from '@mantine-tests/dates';
 import { DatePickerInput, DatePickerInputProps } from './DatePickerInput';

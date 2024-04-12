@@ -3,7 +3,7 @@ import { SimpleGrid, SimpleGridProps, SimpleGridStylesNames } from './SimpleGrid
 
 const defaultProps: SimpleGridProps = {};
 
-describe('@mantine/core/SimpleGrid', () => {
+describe('@bds-react/core/SimpleGrid', () => {
   tests.itSupportsSystemProps<SimpleGridProps, SimpleGridStylesNames>({
     component: SimpleGrid,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/SimpleGrid', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/SimpleGrid',
+    displayName: '@bds-react/core/SimpleGrid',
     stylesApiSelectors: ['root'],
   });
 });

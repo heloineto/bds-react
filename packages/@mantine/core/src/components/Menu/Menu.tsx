@@ -217,7 +217,7 @@ export function Menu(_props: MenuProps) {
 
 Menu.extend = (input: ExtendComponent<MenuFactory>) => input;
 Menu.classes = classes as Record<string, string>;
-Menu.displayName = '@mantine/core/Menu';
+Menu.displayName = '@bds-react/core/Menu';
 Menu.Item = MenuItem;
 Menu.Label = MenuLabel;
 Menu.Dropdown = MenuDropdown;

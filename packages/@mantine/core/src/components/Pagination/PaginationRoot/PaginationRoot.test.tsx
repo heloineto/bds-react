@@ -5,7 +5,7 @@ const defaultProps: PaginationRootProps = {
   total: 10,
 };
 
-describe('@mantine/core/PaginationRoot', () => {
+describe('@bds-react/core/PaginationRoot', () => {
   tests.itSupportsSystemProps<PaginationRootProps, PaginationRootStylesNames>({
     component: PaginationRoot,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/PaginationRoot', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PaginationRoot',
+    displayName: '@bds-react/core/PaginationRoot',
     stylesApiSelectors: ['root'],
     stylesApiName: 'Pagination',
   });

@@ -4,7 +4,7 @@ import { Anchor, AnchorProps, AnchorStylesNames } from './Anchor';
 
 const defaultProps: AnchorProps = {};
 
-describe('@mantine/core/Anchor', () => {
+describe('@bds-react/core/Anchor', () => {
   tests.itSupportsSystemProps<AnchorProps, AnchorStylesNames>({
     component: Anchor,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Anchor', () => {
     classes: true,
     id: true,
     refType: HTMLAnchorElement,
-    displayName: '@mantine/core/Anchor',
+    displayName: '@bds-react/core/Anchor',
     stylesApiSelectors: ['root'],
   });
 

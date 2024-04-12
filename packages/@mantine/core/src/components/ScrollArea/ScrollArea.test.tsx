@@ -6,7 +6,7 @@ const defaultProps: ScrollAreaProps = {
   children: 'test',
 };
 
-describe('@mantine/core/ScrollArea', () => {
+describe('@bds-react/core/ScrollArea', () => {
   tests.itSupportsSystemProps<ScrollAreaProps, ScrollAreaStylesNames>({
     component: ScrollArea,
     props: defaultProps,
@@ -19,12 +19,12 @@ describe('@mantine/core/ScrollArea', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ScrollArea',
+    displayName: '@bds-react/core/ScrollArea',
     stylesApiSelectors: ['root', 'viewport'],
   });
 });
 
-describe('@mantine/core/ScrollAreaAutosize', () => {
+describe('@bds-react/core/ScrollAreaAutosize', () => {
   tests.itSupportsSystemProps<ScrollAreaProps, ScrollAreaStylesNames>({
     component: ScrollArea.Autosize,
     props: defaultProps,
@@ -34,6 +34,6 @@ describe('@mantine/core/ScrollAreaAutosize', () => {
     extend: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ScrollAreaAutosize',
+    displayName: '@bds-react/core/ScrollAreaAutosize',
   });
 });

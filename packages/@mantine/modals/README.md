@@ -10,10 +10,10 @@ Manage modals state
 
 ```bash
 # With yarn
-yarn add @mantine/hooks @mantine/core @mantine/modals
+yarn add @mantine/hooks @bds-react/core @mantine/modals
 
 # With npm
-npm install @mantine/hooks @mantine/core @mantine/modals
+npm install @mantine/hooks @bds-react/core @mantine/modals
 ```
 
 ## License

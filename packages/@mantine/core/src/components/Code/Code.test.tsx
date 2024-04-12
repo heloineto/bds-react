@@ -4,7 +4,7 @@ import { Code, CodeProps, CodeStylesNames } from './Code';
 
 const defaultProps: CodeProps = {};
 
-describe('@mantine/core/Code', () => {
+describe('@bds-react/core/Code', () => {
   tests.itSupportsSystemProps<CodeProps, CodeStylesNames>({
     component: Code,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/Code', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/Code',
+    displayName: '@bds-react/core/Code',
     stylesApiSelectors: ['root'],
   });
 

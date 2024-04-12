@@ -4,7 +4,7 @@ import { ButtonGroup, ButtonGroupProps, ButtonGroupStylesNames } from './ButtonG
 
 const defaultProps: ButtonGroupProps = {};
 
-describe('@mantine/core/ButtonGroup', () => {
+describe('@bds-react/core/ButtonGroup', () => {
   tests.itSupportsSystemProps<ButtonGroupProps, ButtonGroupStylesNames>({
     component: ButtonGroup,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/ButtonGroup', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ButtonGroup',
+    displayName: '@bds-react/core/ButtonGroup',
     stylesApiSelectors: ['group'],
   });
 

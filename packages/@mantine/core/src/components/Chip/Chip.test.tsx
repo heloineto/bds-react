@@ -8,7 +8,7 @@ const defaultProps: ChipProps = {
   checked: true,
 };
 
-describe('@mantine/core/Chip', () => {
+describe('@bds-react/core/Chip', () => {
   tests.axe([<Chip {...defaultProps} />]);
 
   tests.itSupportsSystemProps<ChipProps, ChipStylesNames>({
@@ -23,7 +23,7 @@ describe('@mantine/core/Chip', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Chip',
+    displayName: '@bds-react/core/Chip',
     stylesApiSelectors: ['root', 'iconWrapper', 'checkIcon', 'input', 'label'],
   });
 

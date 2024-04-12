@@ -23,7 +23,7 @@ const enterText = (text: string) => userEvent.type(getInput(), text);
 const expectValue = (value: string) => expect(getInput()).toHaveValue(value);
 const focusInput = () => fireEvent.focus(getInput());
 
-describe('@mantine/core/NumberInput', () => {
+describe('@bds-react/core/NumberInput', () => {
   tests.axe([
     <NumberInput aria-label="test-label" />,
     <NumberInput label="test-label" />,
@@ -43,7 +43,7 @@ describe('@mantine/core/NumberInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/NumberInput',
+    displayName: '@bds-react/core/NumberInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

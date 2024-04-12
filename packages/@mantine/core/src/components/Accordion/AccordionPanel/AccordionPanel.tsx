@@ -54,5 +54,5 @@ export const AccordionPanel = factory<AccordionPanelFactory>((props, ref) => {
   );
 });
 
-AccordionPanel.displayName = '@mantine/core/AccordionPanel';
+AccordionPanel.displayName = '@bds-react/core/AccordionPanel';
 AccordionPanel.classes = classes;

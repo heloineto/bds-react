@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Group } from '@mantine/core';
+import { Button, Group } from '@bds-react/core';
 import { DateTimePicker } from './DateTimePicker';
 
 export default { title: 'DateTimePicker' };

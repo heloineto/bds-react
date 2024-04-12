@@ -1,17 +1,5 @@
 import React from 'react';
 import {
-  PolarAngleAxis,
-  PolarAngleAxisProps,
-  PolarGrid,
-  PolarGridProps,
-  PolarRadiusAxis,
-  PolarRadiusAxisProps,
-  Radar,
-  RadarProps,
-  RadarChart as ReChartsRadarChart,
-  ResponsiveContainer,
-} from 'recharts';
-import {
   Box,
   BoxProps,
   createVarsResolver,
@@ -24,7 +12,19 @@ import {
   useMantineTheme,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import {
+  PolarAngleAxis,
+  PolarAngleAxisProps,
+  PolarGrid,
+  PolarGridProps,
+  PolarRadiusAxis,
+  PolarRadiusAxisProps,
+  Radar,
+  RadarProps,
+  RadarChart as ReChartsRadarChart,
+  ResponsiveContainer,
+} from 'recharts';
 import classes from './RadarChart.module.css';
 
 export interface RadarChartSeries {

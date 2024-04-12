@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import { Button, Group, Modal, Text } from '@mantine/core';
+import { Button, Group, Modal, Text } from '@bds-react/core';
 import {
   closeAllModals,
   closeModal,

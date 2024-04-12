@@ -45,4 +45,4 @@ export const TypographyStylesProvider = factory<TypographyStylesProviderFactory>
 });
 
 TypographyStylesProvider.classes = classes;
-TypographyStylesProvider.displayName = '@mantine/core/TypographyStylesProvider';
+TypographyStylesProvider.displayName = '@bds-react/core/TypographyStylesProvider';

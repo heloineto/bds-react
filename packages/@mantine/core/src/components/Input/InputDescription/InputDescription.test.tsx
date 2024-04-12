@@ -7,7 +7,7 @@ import {
 
 const defaultProps: InputDescriptionProps = {};
 
-describe('@mantine/core/InputDescription', () => {
+describe('@bds-react/core/InputDescription', () => {
   tests.itSupportsSystemProps<InputDescriptionProps, InputDescriptionStylesNames>({
     component: InputDescription,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/InputDescription', () => {
     classes: true,
     id: true,
     refType: HTMLParagraphElement,
-    displayName: '@mantine/core/InputDescription',
+    displayName: '@bds-react/core/InputDescription',
     stylesApiName: 'InputWrapper',
     stylesApiSelectors: ['description'],
   });

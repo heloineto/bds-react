@@ -8,7 +8,7 @@ import {
   StylesApiProps,
   useProps,
   useResolvedStylesApi,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDatesState } from '../../hooks';
 import { CalendarLevel, DatePickerType, PickerBaseProps } from '../../types';
 import { shiftTimezone } from '../../utils';

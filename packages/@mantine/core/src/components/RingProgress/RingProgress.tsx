@@ -136,4 +136,4 @@ export const RingProgress = factory<RingProgressFactory>((_props, ref) => {
 });
 
 RingProgress.classes = classes;
-RingProgress.displayName = '@mantine/core/RingProgress';
+RingProgress.displayName = '@bds-react/core/RingProgress';

@@ -4,7 +4,7 @@ import { Paper, PaperProps, PaperStylesNames } from './Paper';
 
 const defaultProps: PaperProps = {};
 
-describe('@mantine/core/Paper', () => {
+describe('@bds-react/core/Paper', () => {
   tests.itSupportsSystemProps<PaperProps, PaperStylesNames>({
     component: Paper,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Paper', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Paper',
+    displayName: '@bds-react/core/Paper',
     stylesApiSelectors: ['root'],
   });
 

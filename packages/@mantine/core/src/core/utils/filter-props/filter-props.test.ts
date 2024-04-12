@@ -1,6 +1,6 @@
 import { filterProps } from './filter-props';
 
-describe('@mantine/core/filterProps', () => {
+describe('@bds-react/core/filterProps', () => {
   it('filters out props with undefined value', () => {
     expect(
       filterProps({

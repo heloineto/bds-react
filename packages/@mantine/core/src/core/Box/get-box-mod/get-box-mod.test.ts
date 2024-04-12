@@ -1,6 +1,6 @@
 import { getBoxMod } from './get-box-mod';
 
-describe('@mantine/core/Box/get-box-mod', () => {
+describe('@bds-react/core/Box/get-box-mod', () => {
   it('returns null if mod is not provided', () => {
     expect(getBoxMod()).toBe(null);
   });

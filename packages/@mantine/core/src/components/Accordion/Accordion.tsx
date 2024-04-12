@@ -206,7 +206,7 @@ const extendAccordion = (c: ExtendComponent<AccordionFactory>): MantineThemeComp
 
 Accordion.extend = extendAccordion;
 Accordion.classes = classes;
-Accordion.displayName = '@mantine/core/Accordion';
+Accordion.displayName = '@bds-react/core/Accordion';
 Accordion.Item = AccordionItem;
 Accordion.Panel = AccordionPanel;
 Accordion.Control = AccordionControl;

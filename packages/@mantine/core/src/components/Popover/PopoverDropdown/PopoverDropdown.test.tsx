@@ -10,7 +10,7 @@ const TestContainer = createContextContainer(PopoverDropdown, Popover, {
   withinPortal: false,
 });
 
-describe('@mantine/core/PopoverDropdown', () => {
+describe('@bds-react/core/PopoverDropdown', () => {
   tests.itSupportsSystemProps<PopoverDropdownProps>({
     component: TestContainer,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/PopoverDropdown', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PopoverDropdown',
+    displayName: '@bds-react/core/PopoverDropdown',
     stylesApiName: 'Popover',
     stylesApiSelectors: ['dropdown', 'arrow'],
     providerStylesApi: false,

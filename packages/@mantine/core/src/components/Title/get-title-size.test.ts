@@ -1,6 +1,6 @@
 import { getTitleSize } from './get-title-size';
 
-describe('@mantine/core/Title/get-title-size', () => {
+describe('@bds-react/core/Title/get-title-size', () => {
   it('returns correct font size for h1-h6 based on order/size', () => {
     expect(getTitleSize(1, undefined)).toStrictEqual({
       fontSize: 'var(--mantine-h1-font-size)',

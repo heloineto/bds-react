@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@mantine-tests/core';
 import { FocusTrap } from './FocusTrap';
 
-describe('@mantine/core/FocusTrap', () => {
+describe('@bds-react/core/FocusTrap', () => {
   it('manages aria-hidden attributes', () => {
     const adjacentDiv = document.createElement('div');
     adjacentDiv.setAttribute('data-testid', 'adjacent');
@@ -27,6 +27,6 @@ describe('@mantine/core/FocusTrap', () => {
   });
 
   it('has correct displayName', () => {
-    expect(FocusTrap.displayName).toBe('@mantine/core/FocusTrap');
+    expect(FocusTrap.displayName).toBe('@bds-react/core/FocusTrap');
   });
 });

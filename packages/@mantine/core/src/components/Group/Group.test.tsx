@@ -4,7 +4,7 @@ import { Group, GroupProps, GroupStylesNames } from './Group';
 
 const defaultProps: GroupProps = {};
 
-describe('@mantine/core/Group', () => {
+describe('@bds-react/core/Group', () => {
   tests.itSupportsSystemProps<GroupProps, GroupStylesNames>({
     component: Group,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Group', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Group',
+    displayName: '@bds-react/core/Group',
     stylesApiSelectors: ['root'],
   });
 

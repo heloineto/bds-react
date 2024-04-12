@@ -15,7 +15,7 @@ import {
   PopoverProps,
   StylesApiProps,
   useInputProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { useDidUpdate } from '@mantine/hooks';
 import { useUncontrolledDates } from '../../hooks';
 import { CalendarLevel, DateValue } from '../../types';

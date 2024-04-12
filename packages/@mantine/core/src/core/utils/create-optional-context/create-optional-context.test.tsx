@@ -7,7 +7,7 @@ interface ContextType {
   onChange: (value: number) => void;
 }
 
-describe('@mantine/core/create-optional-context', () => {
+describe('@bds-react/core/create-optional-context', () => {
   it('returns context value when useSafeContext hook was called within Provider', () => {
     const fn = jest.fn();
     const [Provider, useContext] = createOptionalContext<ContextType>();

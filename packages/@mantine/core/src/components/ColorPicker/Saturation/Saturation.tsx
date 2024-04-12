@@ -121,4 +121,4 @@ export function Saturation({
   );
 }
 
-Saturation.displayName = '@mantine/core/Saturation';
+Saturation.displayName = '@bds-react/core/Saturation';

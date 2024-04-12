@@ -30,6 +30,6 @@ function AxeTest() {
   );
 }
 
-describe('@mantine/core/Combobox', () => {
+describe('@bds-react/core/Combobox', () => {
   tests.axe([<AxeTest />]);
 });

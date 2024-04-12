@@ -28,7 +28,7 @@ function TestContainer(props: Partial<PopoverProps>) {
   );
 }
 
-describe('@mantine/core/Popover', () => {
+describe('@bds-react/core/Popover', () => {
   tests.axe([<TestContainer opened />, <TestContainer opened={false} />]);
   tests.itHasExtend({ component: Popover });
   tests.itRendersChildren({ component: Popover, props: defaultProps });

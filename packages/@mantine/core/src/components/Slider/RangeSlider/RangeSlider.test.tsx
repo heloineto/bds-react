@@ -17,7 +17,7 @@ const getInput = (container: HTMLElement, index: 0 | 1) =>
 const expectInputValue = (value: string, container: HTMLElement, index: 0 | 1) =>
   expect(getInput(container, index)).toHaveValue(value);
 
-describe('@mantine/core/RangeSlider', () => {
+describe('@bds-react/core/RangeSlider', () => {
   tests.axe([<RangeSlider {...defaultProps} />]);
   tests.itSupportsSystemProps<RangeSliderProps, SliderStylesNames>({
     component: RangeSlider,
@@ -30,7 +30,7 @@ describe('@mantine/core/RangeSlider', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/RangeSlider',
+    displayName: '@bds-react/core/RangeSlider',
     stylesApiName: 'Slider',
     stylesApiSelectors: [
       'root',

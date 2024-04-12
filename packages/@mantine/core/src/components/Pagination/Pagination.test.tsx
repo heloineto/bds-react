@@ -7,7 +7,7 @@ const defaultProps: PaginationProps = {
   getControlProps: () => ({ 'aria-label': 'test-label' }),
 };
 
-describe('@mantine/core/Pagination', () => {
+describe('@bds-react/core/Pagination', () => {
   tests.axe([<Pagination {...defaultProps} />]);
 
   tests.itSupportsSystemProps<PaginationProps, PaginationStylesNames>({
@@ -21,7 +21,7 @@ describe('@mantine/core/Pagination', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Pagination',
+    displayName: '@bds-react/core/Pagination',
     stylesApiSelectors: ['root', 'control', 'dots'],
   });
 

@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(ComboboxEmpty, Combobox, { withinPo
 
 const defaultProps: ComboboxEmptyProps = {};
 
-describe('@mantine/core/ComboboxEmpty', () => {
+describe('@bds-react/core/ComboboxEmpty', () => {
   tests.itSupportsSystemProps<ComboboxEmptyProps, ComboboxEmptyStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/ComboboxEmpty', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxEmpty',
+    displayName: '@bds-react/core/ComboboxEmpty',
     stylesApiSelectors: ['empty'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-empty',

@@ -1,6 +1,6 @@
 import { isNumberLike } from './is-number-like';
 
-describe('@mantine/core/isNumberLike', () => {
+describe('@bds-react/core/isNumberLike', () => {
   it('returns true for numbers', () => {
     expect(isNumberLike(1)).toBe(true);
     expect(isNumberLike(0)).toBe(true);

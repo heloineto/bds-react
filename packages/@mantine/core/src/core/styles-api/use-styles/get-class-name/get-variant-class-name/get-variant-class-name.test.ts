@@ -5,7 +5,7 @@ const testClasses = {
   'test--light': 'light-variant',
 };
 
-describe('@mantine/core/get-variant-class-name', () => {
+describe('@bds-react/core/get-variant-class-name', () => {
   it('returns correct class name for variant', () => {
     expect(
       getVariantClassName({

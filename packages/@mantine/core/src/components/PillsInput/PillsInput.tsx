@@ -72,5 +72,5 @@ export const PillsInput = factory<PillsInputFactory>((_props, ref) => {
   );
 });
 
-PillsInput.displayName = '@mantine/core/PillsInput';
+PillsInput.displayName = '@bds-react/core/PillsInput';
 PillsInput.Field = PillsInputField;

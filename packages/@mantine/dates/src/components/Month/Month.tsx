@@ -11,7 +11,7 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import { ControlKeydownPayload, DayOfWeek } from '../../types';
 import { useDatesContext } from '../DatesProvider';
 import { Day, DayProps, DayStylesNames } from '../Day';

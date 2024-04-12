@@ -100,4 +100,4 @@ export const Skeleton = factory<SkeletonFactory>((_props, ref) => {
 });
 
 Skeleton.classes = classes;
-Skeleton.displayName = '@mantine/core/Skeleton';
+Skeleton.displayName = '@bds-react/core/Skeleton';

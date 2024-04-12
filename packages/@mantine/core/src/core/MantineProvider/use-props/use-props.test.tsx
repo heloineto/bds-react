@@ -21,7 +21,7 @@ function Wrapper({ children }: { children: React.ReactNode }) {
   );
 }
 
-describe('@mantine/core/use-component-default-props', () => {
+describe('@bds-react/core/use-component-default-props', () => {
   it('returns default props from MantineProvider context', () => {
     const { result } = renderHook(() => useProps<{ test?: string }>('TestComponent', {}, {}), {
       wrapper: Wrapper,

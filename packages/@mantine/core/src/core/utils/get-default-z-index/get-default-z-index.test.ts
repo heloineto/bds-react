@@ -1,6 +1,6 @@
 import { getDefaultZIndex } from './get-default-z-index';
 
-describe('@mantine/core/get-default-z-index', () => {
+describe('@bds-react/core/get-default-z-index', () => {
   it('returns correct z-index value', () => {
     expect(getDefaultZIndex('app')).toBe(100);
     expect(getDefaultZIndex('modal')).toBe(200);

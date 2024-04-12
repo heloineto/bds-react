@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../default-theme';
 import { getGradient } from './get-gradient';
 
-describe('@mantine/core/get-gradient', () => {
+describe('@bds-react/core/get-gradient', () => {
   it('returns default gradient from theme if gradient is not provided', () => {
     expect(getGradient(undefined, DEFAULT_THEME)).toStrictEqual(
       'linear-gradient(45deg, var(--mantine-color-blue-filled) 0%, var(--mantine-color-cyan-filled) 100%)'

@@ -10,12 +10,12 @@ const defaultProps: TabsPanelProps = {
   value: 'test',
 };
 
-describe('@mantine/core/TabsPanel', () => {
+describe('@bds-react/core/TabsPanel', () => {
   tests.itSupportsSystemProps<TabsPanelProps, TabsPanelStylesNames>({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/TabsPanel',
+    displayName: '@bds-react/core/TabsPanel',
     mod: true,
     extend: true,
     styleProps: true,

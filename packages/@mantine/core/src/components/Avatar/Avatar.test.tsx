@@ -6,7 +6,7 @@ import { AvatarGroup } from './AvatarGroup/AvatarGroup';
 
 const defaultProps: AvatarProps = {};
 
-describe('@mantine/core/Avatar', () => {
+describe('@bds-react/core/Avatar', () => {
   tests.axe([<Avatar src="test.png" alt="test" />, <Avatar alt="test" />]);
   tests.itSupportsSystemProps<AvatarProps, AvatarStylesNames>({
     component: Avatar,
@@ -21,7 +21,7 @@ describe('@mantine/core/Avatar', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Avatar',
+    displayName: '@bds-react/core/Avatar',
     stylesApiSelectors: ['root', 'placeholder'],
   });
 

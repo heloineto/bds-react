@@ -18,7 +18,7 @@ const expectInputValue = (value: string, container: HTMLElement) =>
 const pressArrow = (kind: 'right' | 'left') =>
   userEvent.type(screen.getByRole('slider'), kind === 'right' ? '{arrowright}' : '{arrowleft}');
 
-describe('@mantine/core/Slider', () => {
+describe('@bds-react/core/Slider', () => {
   tests.axe([<Slider {...defaultProps} />]);
   tests.itSupportsSystemProps<SliderProps, SliderStylesNames>({
     component: Slider,
@@ -31,7 +31,7 @@ describe('@mantine/core/Slider', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Slider',
+    displayName: '@bds-react/core/Slider',
     stylesApiSelectors: [
       'root',
       'bar',

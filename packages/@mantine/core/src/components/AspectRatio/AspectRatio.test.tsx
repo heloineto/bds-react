@@ -3,7 +3,7 @@ import { AspectRatio, AspectRatioProps, AspectRatioStylesNames } from './AspectR
 
 const defaultProps: AspectRatioProps = {};
 
-describe('@mantine/core/AspectRatio', () => {
+describe('@bds-react/core/AspectRatio', () => {
   tests.itSupportsSystemProps<AspectRatioProps, AspectRatioStylesNames>({
     component: AspectRatio,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/AspectRatio', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AspectRatio',
+    displayName: '@bds-react/core/AspectRatio',
     stylesApiSelectors: ['root'],
   });
 });

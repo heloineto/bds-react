@@ -94,7 +94,7 @@ export const TooltipFloating = factory<TooltipFloatingFactory>((_props, ref) => 
 
   if (!isElement(children)) {
     throw new Error(
-      '[@mantine/core] Tooltip.Floating component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
+      '[@bds-react/core] Tooltip.Floating component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
     );
   }
 
@@ -144,4 +144,4 @@ export const TooltipFloating = factory<TooltipFloatingFactory>((_props, ref) => 
 });
 
 TooltipFloating.classes = classes;
-TooltipFloating.displayName = '@mantine/core/TooltipFloating';
+TooltipFloating.displayName = '@bds-react/core/TooltipFloating';

@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@mantine-tests/core';
 import { InlineStyles } from './InlineStyles';
 
-describe('@mantine/core/InlineStyles', () => {
+describe('@bds-react/core/InlineStyles', () => {
   it('renders styles', () => {
     const { container } = render(<InlineStyles selector="body" styles={{ color: 'red' }} />);
     expect(container.querySelector('[data-mantine-styles="inline"]')).toHaveTextContent(

@@ -13,7 +13,7 @@ const defaultProps: TooltipProps = {
   children: <button type="button">test-target</button>,
 };
 
-describe('@mantine/core/Tooltip', () => {
+describe('@bds-react/core/Tooltip', () => {
   tests.itSupportsSystemProps<TooltipProps, TooltipStylesNames>({
     component: Tooltip,
     props: defaultProps,
@@ -26,14 +26,14 @@ describe('@mantine/core/Tooltip', () => {
     selector: '[role="tooltip"]',
     // gets ref from children instead of tooltip to allow nested tooltips/popovers to work
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/Tooltip',
+    displayName: '@bds-react/core/Tooltip',
     stylesApiSelectors: ['tooltip'],
   });
 
   it('throws error if children cannot be processed', () => {
     const TestTooltip: any = Tooltip;
     const error = new Error(
-      '[@mantine/core] Tooltip component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
+      '[@bds-react/core] Tooltip component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
     );
     patchConsoleError();
     expect(() => render(<TestTooltip>Hello</TestTooltip>)).toThrow(error);

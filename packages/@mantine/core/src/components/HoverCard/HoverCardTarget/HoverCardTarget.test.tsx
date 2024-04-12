@@ -9,7 +9,7 @@ const defaultProps: HoverCardTargetProps = {
 
 const TestContainer = createContextContainer(HoverCardTarget, HoverCard, { opened: true });
 
-describe('@mantine/core/HoverCardTarget', () => {
+describe('@bds-react/core/HoverCardTarget', () => {
   tests.itThrowsContextError({
     component: HoverCardTarget,
     props: defaultProps,
@@ -42,6 +42,6 @@ describe('@mantine/core/HoverCardTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(HoverCardTarget.displayName).toEqual('@mantine/core/HoverCardTarget');
+    expect(HoverCardTarget.displayName).toEqual('@bds-react/core/HoverCardTarget');
   });
 });

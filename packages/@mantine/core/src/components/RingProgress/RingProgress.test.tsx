@@ -8,7 +8,7 @@ const defaultProps: RingProgressProps = {
   sections: [{ value: 20, color: 'orange' }],
 };
 
-describe('@mantine/core/RingProgress', () => {
+describe('@bds-react/core/RingProgress', () => {
   tests.itSupportsSystemProps<RingProgressProps, RingProgressStylesNames>({
     component: RingProgress,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/RingProgress', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/RingProgress',
+    displayName: '@bds-react/core/RingProgress',
     stylesApiSelectors: ['root', 'svg', 'curve', 'label'],
   });
 });

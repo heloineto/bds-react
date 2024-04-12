@@ -33,6 +33,6 @@ export function FocusTrapInitialFocus(props: React.ComponentPropsWithoutRef<'spa
   return <VisuallyHidden tabIndex={-1} data-autofocus {...props} />;
 }
 
-FocusTrap.displayName = '@mantine/core/FocusTrap';
-FocusTrapInitialFocus.displayName = '@mantine/core/FocusTrapInitialFocus';
+FocusTrap.displayName = '@bds-react/core/FocusTrap';
+FocusTrapInitialFocus.displayName = '@bds-react/core/FocusTrapInitialFocus';
 FocusTrap.InitialFocus = FocusTrapInitialFocus;

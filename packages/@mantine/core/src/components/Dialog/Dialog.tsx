@@ -137,4 +137,4 @@ export const Dialog = factory<DialogFactory>((_props, ref) => {
 });
 
 Dialog.classes = classes;
-Dialog.displayName = '@mantine/core/Dialog';
+Dialog.displayName = '@bds-react/core/Dialog';

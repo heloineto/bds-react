@@ -3,7 +3,7 @@ import { Kbd, KbdProps, KbdStylesNames } from './Kbd';
 
 const defaultProps: KbdProps = {};
 
-describe('@mantine/core/Kbd', () => {
+describe('@bds-react/core/Kbd', () => {
   tests.itSupportsSystemProps<KbdProps, KbdStylesNames>({
     component: Kbd,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Kbd', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/Kbd',
+    displayName: '@bds-react/core/Kbd',
     stylesApiSelectors: ['root'],
   });
 });

@@ -24,4 +24,4 @@ export function CopyButton(props: CopyButtonProps) {
   return <>{children({ copy, copied: clipboard.copied, ...others })}</>;
 }
 
-CopyButton.displayName = '@mantine/core/CopyButton';
+CopyButton.displayName = '@bds-react/core/CopyButton';

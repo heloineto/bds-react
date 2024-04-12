@@ -35,4 +35,4 @@ export const ModalCloseButton = factory<ModalCloseButtonFactory>((_props, ref) =
 });
 
 ModalCloseButton.classes = classes;
-ModalCloseButton.displayName = '@mantine/core/ModalCloseButton';
+ModalCloseButton.displayName = '@bds-react/core/ModalCloseButton';

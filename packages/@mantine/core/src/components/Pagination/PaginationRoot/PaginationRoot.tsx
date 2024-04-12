@@ -189,4 +189,4 @@ export const PaginationRoot = factory<PaginationRootFactory>((_props, ref) => {
 });
 
 PaginationRoot.classes = classes;
-PaginationRoot.displayName = '@mantine/core/PaginationRoot';
+PaginationRoot.displayName = '@bds-react/core/PaginationRoot';

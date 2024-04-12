@@ -21,7 +21,7 @@ export function useMantineContext() {
   const ctx = useContext(MantineContext);
 
   if (!ctx) {
-    throw new Error('[@mantine/core] MantineProvider was not found in tree');
+    throw new Error('[@bds-react/core] MantineProvider was not found in tree');
   }
 
   return ctx;

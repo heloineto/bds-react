@@ -1,5 +1,5 @@
 import React, { cloneElement } from 'react';
-import { isElement, useProps } from '@mantine/core';
+import { isElement, useProps } from '@bds-react/core';
 import { upperFirst } from '@mantine/hooks';
 import { DropzoneContextValue, useDropzoneContext } from './Dropzone.context';
 

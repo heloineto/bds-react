@@ -24,4 +24,4 @@ export const TextInput = factory<TextInputFactory>((props, ref) => {
 });
 
 TextInput.classes = InputBase.classes;
-TextInput.displayName = '@mantine/core/TextInput';
+TextInput.displayName = '@bds-react/core/TextInput';

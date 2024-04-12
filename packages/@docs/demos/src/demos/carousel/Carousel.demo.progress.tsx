@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import { Progress } from '@bds-react/core';
 import { Carousel, Embla } from '@mantine/carousel';
-import { Progress } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { Slides } from './_slides';
 
 const code = `
 import { useCallback, useEffect, useState } from 'react';
 import { Carousel, Embla } from '@mantine/carousel';
-import { Progress } from '@mantine/core';
+import { Progress } from '@bds-react/core';
 
 function Demo() {
   const [scrollProgress, setScrollProgress] = useState(0);

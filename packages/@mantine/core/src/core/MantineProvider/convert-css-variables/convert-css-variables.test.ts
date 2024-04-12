@@ -6,7 +6,7 @@ const result = [
   '.mantine-test[data-mantine-color-scheme="light"]{--mantine-color-filled: blue;}',
 ];
 
-describe('@mantine/core/convert-css-variables', () => {
+describe('@bds-react/core/convert-css-variables', () => {
   it('converts object to css variables string', () => {
     expect(
       convertCssVariables(

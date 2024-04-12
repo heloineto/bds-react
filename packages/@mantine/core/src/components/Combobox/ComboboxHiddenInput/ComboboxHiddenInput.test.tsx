@@ -2,9 +2,9 @@ import React from 'react';
 import { render } from '@mantine-tests/core';
 import { ComboboxHiddenInput } from './ComboboxHiddenInput';
 
-describe('@mantine/core/ComboboxHiddenInput', () => {
+describe('@bds-react/core/ComboboxHiddenInput', () => {
   it('has correct displayName', () => {
-    expect(ComboboxHiddenInput.displayName).toEqual('@mantine/core/ComboboxHiddenInput');
+    expect(ComboboxHiddenInput.displayName).toEqual('@bds-react/core/ComboboxHiddenInput');
   });
 
   it('assigns correct string value to the input', () => {

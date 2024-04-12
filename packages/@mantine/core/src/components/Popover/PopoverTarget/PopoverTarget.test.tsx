@@ -9,7 +9,7 @@ const defaultProps: PopoverTargetProps = {
 
 const TestContainer = createContextContainer(PopoverTarget, Popover, { opened: true });
 
-describe('@mantine/core/PopoverTarget', () => {
+describe('@bds-react/core/PopoverTarget', () => {
   tests.itHasExtend({ component: PopoverTarget });
   tests.itThrowsContextError({
     component: PopoverTarget,
@@ -43,6 +43,6 @@ describe('@mantine/core/PopoverTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(PopoverTarget.displayName).toBe('@mantine/core/PopoverTarget');
+    expect(PopoverTarget.displayName).toBe('@bds-react/core/PopoverTarget');
   });
 });

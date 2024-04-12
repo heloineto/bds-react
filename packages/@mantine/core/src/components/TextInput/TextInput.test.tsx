@@ -7,7 +7,7 @@ const defaultProps: TextInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/TextInput', () => {
+describe('@bds-react/core/TextInput', () => {
   tests.axe([
     <TextInput aria-label="test-label" />,
     <TextInput label="test-label" />,
@@ -27,7 +27,7 @@ describe('@mantine/core/TextInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/TextInput',
+    displayName: '@bds-react/core/TextInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

@@ -1,5 +1,4 @@
 import React, { Children, useCallback, useEffect, useState } from 'react';
-import useEmblaCarousel, { EmblaCarouselType, EmblaPluginType } from 'embla-carousel-react';
 import {
   AccordionChevron,
   Box,
@@ -18,7 +17,8 @@ import {
   useProps,
   useRandomClassName,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import useEmblaCarousel, { EmblaCarouselType, EmblaPluginType } from 'embla-carousel-react';
 import { clamp } from '@mantine/hooks';
 import { CarouselProvider } from './Carousel.context';
 import { CarouselSlide } from './CarouselSlide/CarouselSlide';

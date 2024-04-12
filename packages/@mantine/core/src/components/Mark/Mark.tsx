@@ -63,4 +63,4 @@ export const Mark = factory<MarkFactory>((_props, ref) => {
 });
 
 Mark.classes = classes;
-Mark.displayName = '@mantine/core/Mark';
+Mark.displayName = '@bds-react/core/Mark';

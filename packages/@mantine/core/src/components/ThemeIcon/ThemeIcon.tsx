@@ -108,4 +108,4 @@ export const ThemeIcon = factory<ThemeIconFactory>((_props, ref) => {
 });
 
 ThemeIcon.classes = classes;
-ThemeIcon.displayName = '@mantine/core/ThemeIcon';
+ThemeIcon.displayName = '@bds-react/core/ThemeIcon';

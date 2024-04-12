@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { resolveClassNames } from './resolve-class-names';
 
-describe('@mantine/core/resolve-class-names', () => {
+describe('@bds-react/core/resolve-class-names', () => {
   it('returns empty object if classNames is undefined', () => {
     expect(
       resolveClassNames({

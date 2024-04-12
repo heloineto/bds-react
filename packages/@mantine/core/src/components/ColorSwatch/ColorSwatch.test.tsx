@@ -8,7 +8,7 @@ const defaultProps: ColorSwatchProps = {
   withShadow: true,
 };
 
-describe('@mantine/core/ColorSwatch', () => {
+describe('@bds-react/core/ColorSwatch', () => {
   tests.axe([
     <ColorSwatch color="#000" component="button" type="button" aria-label="test-color" />,
     <ColorSwatch color="#000" component="button" type="button">
@@ -29,7 +29,7 @@ describe('@mantine/core/ColorSwatch', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ColorSwatch',
+    displayName: '@bds-react/core/ColorSwatch',
     stylesApiSelectors: [
       'root',
       'alphaOverlay',

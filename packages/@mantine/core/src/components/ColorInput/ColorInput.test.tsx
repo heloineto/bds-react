@@ -7,7 +7,7 @@ const defaultProps: ColorInputProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/ColorInput', () => {
+describe('@bds-react/core/ColorInput', () => {
   tests.axe([
     <ColorInput aria-label="test-label" />,
     <ColorInput label="test-label" />,
@@ -27,7 +27,7 @@ describe('@mantine/core/ColorInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/ColorInput',
+    displayName: '@bds-react/core/ColorInput',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

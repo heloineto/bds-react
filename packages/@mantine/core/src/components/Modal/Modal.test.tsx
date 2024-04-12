@@ -26,7 +26,7 @@ const HeaderContainer = createModalContextContainer(ModalHeader);
 const OverlayContainer = createModalContextContainer(ModalOverlay);
 const TitleContainer = createModalContextContainer(ModalTitle);
 
-describe('@mantine/core/Modal', () => {
+describe('@bds-react/core/Modal', () => {
   tests.itSupportsSystemProps<ModalProps, ModalStylesNames>({
     component: Modal,
     props: defaultProps,
@@ -38,7 +38,7 @@ describe('@mantine/core/Modal', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Modal',
+    displayName: '@bds-react/core/Modal',
     stylesApiSelectors: ['root', 'body', 'close', 'content', 'header', 'inner', 'overlay', 'title'],
     selector: '.mantine-Modal-root',
     variantSelector: '.mantine-Modal-root',
@@ -98,7 +98,7 @@ describe('@mantine/core/Modal', () => {
   });
 });
 
-describe('@mantine/core/ModalRoot', () => {
+describe('@bds-react/core/ModalRoot', () => {
   tests.itSupportsSystemProps<ModalRootProps, 'root'>({
     component: ModalRoot,
     props: defaultProps,
@@ -110,7 +110,7 @@ describe('@mantine/core/ModalRoot', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ModalRoot',
+    displayName: '@bds-react/core/ModalRoot',
     stylesApiSelectors: ['root'],
     selector: '.mantine-Modal-root',
     variantSelector: '.mantine-Modal-root',
@@ -119,7 +119,7 @@ describe('@mantine/core/ModalRoot', () => {
   });
 });
 
-describe('@mantine/core/ModalBody', () => {
+describe('@bds-react/core/ModalBody', () => {
   tests.itSupportsSystemProps<ModalBodyProps>({
     component: BodyContainer,
     props: {},
@@ -130,14 +130,14 @@ describe('@mantine/core/ModalBody', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ModalBody',
+    displayName: '@bds-react/core/ModalBody',
     selector: '.mantine-Modal-body',
     variantSelector: '.mantine-Modal-body',
     sizeSelector: '.mantine-Modal-body',
   });
 });
 
-describe('@mantine/core/ModalCloseButton', () => {
+describe('@bds-react/core/ModalCloseButton', () => {
   tests.itSupportsSystemProps<ModalCloseButtonProps>({
     component: CloseButtonContainer,
     props: {},
@@ -148,14 +148,14 @@ describe('@mantine/core/ModalCloseButton', () => {
     size: true,
     classes: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/ModalCloseButton',
+    displayName: '@bds-react/core/ModalCloseButton',
     selector: '.mantine-Modal-close',
     variantSelector: '.mantine-Modal-close',
     sizeSelector: '.mantine-Modal-close',
   });
 });
 
-describe('@mantine/core/ModalContent', () => {
+describe('@bds-react/core/ModalContent', () => {
   tests.itSupportsSystemProps<ModalContentProps>({
     component: ContentContainer,
     props: {},
@@ -166,14 +166,14 @@ describe('@mantine/core/ModalContent', () => {
     size: true,
     classes: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/ModalContent',
+    displayName: '@bds-react/core/ModalContent',
     selector: '.mantine-Modal-content',
     variantSelector: '.mantine-Modal-content',
     sizeSelector: '.mantine-Modal-content',
   });
 });
 
-describe('@mantine/core/ModalHeader', () => {
+describe('@bds-react/core/ModalHeader', () => {
   tests.itSupportsSystemProps<ModalHeaderProps>({
     component: HeaderContainer,
     props: {},
@@ -184,14 +184,14 @@ describe('@mantine/core/ModalHeader', () => {
     size: true,
     classes: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/ModalHeader',
+    displayName: '@bds-react/core/ModalHeader',
     selector: '.mantine-Modal-header',
     variantSelector: '.mantine-Modal-header',
     sizeSelector: '.mantine-Modal-header',
   });
 });
 
-describe('@mantine/core/ModalOverlay', () => {
+describe('@bds-react/core/ModalOverlay', () => {
   tests.itSupportsSystemProps<ModalOverlayProps>({
     component: OverlayContainer,
     props: {},
@@ -202,14 +202,14 @@ describe('@mantine/core/ModalOverlay', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ModalOverlay',
+    displayName: '@bds-react/core/ModalOverlay',
     selector: '.mantine-Modal-overlay',
     variantSelector: '.mantine-Modal-overlay',
     sizeSelector: '.mantine-Modal-overlay',
   });
 });
 
-describe('@mantine/core/ModalTitle', () => {
+describe('@bds-react/core/ModalTitle', () => {
   tests.itSupportsSystemProps<ModalTitleProps>({
     component: TitleContainer,
     props: {},
@@ -220,7 +220,7 @@ describe('@mantine/core/ModalTitle', () => {
     size: true,
     classes: true,
     refType: HTMLHeadingElement,
-    displayName: '@mantine/core/ModalTitle',
+    displayName: '@bds-react/core/ModalTitle',
     selector: '.mantine-Modal-title',
     variantSelector: '.mantine-Modal-title',
     sizeSelector: '.mantine-Modal-title',

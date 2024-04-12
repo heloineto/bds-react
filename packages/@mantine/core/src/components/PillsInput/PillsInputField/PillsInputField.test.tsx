@@ -13,7 +13,7 @@ const TestContainer = createContextContainer(PillsInputField, PillsInputProvider
 
 const defaultProps: PillsInputFieldProps = {};
 
-describe('@mantine/core/PillsInputField', () => {
+describe('@bds-react/core/PillsInputField', () => {
   tests.itSupportsSystemProps<PillsInputFieldProps, PillsInputFieldStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -25,7 +25,7 @@ describe('@mantine/core/PillsInputField', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/PillsInputField',
+    displayName: '@bds-react/core/PillsInputField',
     stylesApiSelectors: ['field'],
   });
 

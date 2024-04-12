@@ -7,7 +7,7 @@ import {
 
 const defaultProps: TypographyStylesProviderProps = {};
 
-describe('@mantine/core/TypographyStylesProvider', () => {
+describe('@bds-react/core/TypographyStylesProvider', () => {
   tests.itSupportsSystemProps<TypographyStylesProviderProps, TypographyStylesProviderStylesNames>({
     component: TypographyStylesProvider,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/TypographyStylesProvider', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/TypographyStylesProvider',
+    displayName: '@bds-react/core/TypographyStylesProvider',
     stylesApiSelectors: ['root'],
   });
 });

@@ -6,7 +6,7 @@ const defaultProps: DividerProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/Divider', () => {
+describe('@bds-react/core/Divider', () => {
   tests.itSupportsSystemProps<DividerProps, DividerStylesNames>({
     component: Divider,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Divider', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Divider',
+    displayName: '@bds-react/core/Divider',
     stylesApiSelectors: ['root', 'label'],
   });
 

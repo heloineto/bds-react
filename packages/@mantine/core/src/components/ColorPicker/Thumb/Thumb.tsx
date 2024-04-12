@@ -17,4 +17,4 @@ export const Thumb = forwardRef<HTMLDivElement, ThumbProps>(({ position, ...othe
   />
 ));
 
-Thumb.displayName = '@mantine/core/ColorPickerThumb';
+Thumb.displayName = '@bds-react/core/ColorPickerThumb';

@@ -5,7 +5,7 @@ import { ActionIconGroup } from './ActionIconGroup/ActionIconGroup';
 
 const defaultProps: ActionIconProps = {};
 
-describe('@mantine/core/ActionIcon', () => {
+describe('@bds-react/core/ActionIcon', () => {
   tests.axe([
     <ActionIcon aria-label="test" />,
     <ActionIcon.Group aria-label="test">
@@ -32,7 +32,7 @@ describe('@mantine/core/ActionIcon', () => {
     size: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/ActionIcon',
+    displayName: '@bds-react/core/ActionIcon',
     stylesApiSelectors: ['root'],
   });
 

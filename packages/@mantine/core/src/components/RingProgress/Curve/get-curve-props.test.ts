@@ -1,6 +1,6 @@
 import { getCurveProps } from './get-curve-props';
 
-describe('@mantine/core/RingProgress/get-curve-props', () => {
+describe('@bds-react/core/RingProgress/get-curve-props', () => {
   it('returns correct props data', () => {
     expect(
       getCurveProps({

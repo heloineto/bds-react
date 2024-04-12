@@ -41,4 +41,4 @@ export const ComboboxDropdown = factory<ComboboxDropdownFactory>((props, ref) =>
 });
 
 ComboboxDropdown.classes = classes;
-ComboboxDropdown.displayName = '@mantine/core/ComboboxDropdown';
+ComboboxDropdown.displayName = '@bds-react/core/ComboboxDropdown';

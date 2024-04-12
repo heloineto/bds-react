@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/core",
+  "name": "@bds-react/core",
   "version": "7.8.0",
   "description": "React components library focused on usability, accessibility and developer experience",
   "homepage": "https://mantine.dev/",
@@ -40,7 +40,7 @@
   "repository": {
     "url": "https://github.com/mantinedev/mantine.git",
     "type": "git",
-    "directory": "packages/@mantine/core"
+    "directory": "packages/@bds-react/core"
   },
   "peerDependencies": {
     "@mantine/hooks": "7.8.0",

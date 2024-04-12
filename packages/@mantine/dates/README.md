@@ -10,10 +10,10 @@ Calendars, date and time pickers
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @mantine/dates dayjs
+yarn add @bds-react/core @mantine/hooks @mantine/dates dayjs
 
 # With npm
-npm install @mantine/core @mantine/hooks @mantine/dates dayjs
+npm install @bds-react/core @mantine/hooks @mantine/dates dayjs
 ```
 
 ## License

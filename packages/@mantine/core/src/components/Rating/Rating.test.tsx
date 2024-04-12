@@ -3,7 +3,7 @@ import { Rating, RatingProps, RatingStylesNames } from './Rating';
 
 const defaultProps: RatingProps = {};
 
-describe('@mantine/core/Rating', () => {
+describe('@bds-react/core/Rating', () => {
   tests.itSupportsSystemProps<RatingProps, RatingStylesNames>({
     component: Rating,
     props: defaultProps,
@@ -15,7 +15,7 @@ describe('@mantine/core/Rating', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Rating',
+    displayName: '@bds-react/core/Rating',
     stylesApiSelectors: ['root', 'starSymbol', 'input', 'label', 'symbolBody', 'symbolGroup'],
   });
 });

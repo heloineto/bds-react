@@ -57,4 +57,4 @@ export const Portal = forwardRef<HTMLDivElement, PortalProps>((props, ref) => {
   return createPortal(<>{children}</>, nodeRef.current);
 });
 
-Portal.displayName = '@mantine/core/Portal';
+Portal.displayName = '@bds-react/core/Portal';

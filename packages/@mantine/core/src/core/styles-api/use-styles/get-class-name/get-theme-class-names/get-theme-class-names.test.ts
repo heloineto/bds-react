@@ -18,7 +18,7 @@ const testTheme: MantineTheme = {
   },
 };
 
-describe('@mantine/core/get-theme-class-names', () => {
+describe('@bds-react/core/get-theme-class-names', () => {
   it('returns empty array if themeName is empty', () => {
     expect(
       getThemeClassNames({

@@ -95,4 +95,4 @@ export const ProgressRoot = factory<ProgressRootFactory>((_props, ref) => {
 });
 
 ProgressRoot.classes = classes;
-ProgressRoot.displayName = '@mantine/core/ProgressRoot';
+ProgressRoot.displayName = '@bds-react/core/ProgressRoot';

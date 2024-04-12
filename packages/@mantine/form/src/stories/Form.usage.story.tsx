@@ -1,6 +1,14 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Button, Checkbox, Group, NativeSelect, Select, Textarea, TextInput } from '@mantine/core';
+import {
+  Button,
+  Checkbox,
+  Group,
+  NativeSelect,
+  Select,
+  Textarea,
+  TextInput,
+} from '@bds-react/core';
 import { useForm } from '../use-form';
 import { FormBase } from './_base';
 

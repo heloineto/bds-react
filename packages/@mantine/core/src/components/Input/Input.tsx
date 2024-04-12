@@ -293,4 +293,4 @@ Input.Label = InputLabel;
 Input.Error = InputError;
 Input.Description = InputDescription;
 Input.Placeholder = InputPlaceholder;
-Input.displayName = '@mantine/core/Input';
+Input.displayName = '@bds-react/core/Input';

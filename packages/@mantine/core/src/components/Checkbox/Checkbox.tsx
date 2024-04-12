@@ -225,5 +225,5 @@ export const Checkbox = factory<CheckboxFactory>((_props, ref) => {
 });
 
 Checkbox.classes = { ...classes, ...InlineInputClasses };
-Checkbox.displayName = '@mantine/core/Checkbox';
+Checkbox.displayName = '@bds-react/core/Checkbox';
 Checkbox.Group = CheckboxGroup;

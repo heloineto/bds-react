@@ -4,7 +4,7 @@ import { Flex, FlexProps, FlexStylesNames } from './Flex';
 
 const defaultProps: FlexProps = {};
 
-describe('@mantine/core/Flex', () => {
+describe('@bds-react/core/Flex', () => {
   tests.itSupportsSystemProps<FlexProps, FlexStylesNames>({
     component: Flex,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/Flex', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Flex',
+    displayName: '@bds-react/core/Flex',
     stylesApiSelectors: ['root'],
   });
 

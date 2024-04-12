@@ -18,7 +18,7 @@ function getTestObject(aside: AppShellProps['aside']) {
   return { baseStyles, minMediaStyles, maxMediaStyles };
 }
 
-describe('@mantine/core/AppShell/assign-aside-variables', () => {
+describe('@bds-react/core/AppShell/assign-aside-variables', () => {
   describe('assigns correct base styles', () => {
     it('undefined input', () => {
       expect(getTestObject(undefined).baseStyles).toStrictEqual({});

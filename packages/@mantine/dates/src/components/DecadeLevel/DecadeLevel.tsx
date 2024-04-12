@@ -8,7 +8,7 @@ import {
   Factory,
   StylesApiProps,
   useProps,
-} from '@mantine/core';
+} from '@bds-react/core';
 import {
   CalendarHeader,
   CalendarHeaderSettings,

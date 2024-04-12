@@ -138,4 +138,4 @@ export const Spoiler = factory<SpoilerFactory>((_props, ref) => {
 });
 
 Spoiler.classes = classes;
-Spoiler.displayName = '@mantine/core/Spoiler';
+Spoiler.displayName = '@bds-react/core/Spoiler';

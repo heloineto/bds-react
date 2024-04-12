@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../default-theme';
 import { isVirtualColor, virtualColor } from './virtual-color';
 
-describe('@mantine/core/virtual-color', () => {
+describe('@bds-react/core/virtual-color', () => {
   it('creates virtual color object', () => {
     expect(virtualColor({ name: 'test', dark: 'dark', light: 'light' })).toStrictEqual([
       'var(--mantine-color-test-0)',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Checkbox, NativeSelect, Textarea, TextInput } from '@mantine/core';
+import { Button, Checkbox, NativeSelect, Textarea, TextInput } from '@bds-react/core';
 import { createFormActions } from '../actions';
 import { useForm } from '../use-form';
 import { FormBase } from './_base';

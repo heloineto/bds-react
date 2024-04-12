@@ -9,7 +9,7 @@ import {
   MantineBreakpoint,
   rem,
   useMantineTheme,
-} from '@mantine/core';
+} from '@bds-react/core';
 import type { CarouselProps } from '../Carousel';
 
 interface CarouselVariablesProps extends CarouselProps {

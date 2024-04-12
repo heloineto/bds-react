@@ -177,4 +177,4 @@ export const Alert = factory<AlertFactory>((_props, ref) => {
 });
 
 Alert.classes = classes;
-Alert.displayName = '@mantine/core/Alert';
+Alert.displayName = '@bds-react/core/Alert';

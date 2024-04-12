@@ -148,4 +148,4 @@ export const Text = polymorphicFactory<TextFactory>((_props, ref) => {
 });
 
 Text.classes = classes;
-Text.displayName = '@mantine/core/Text';
+Text.displayName = '@bds-react/core/Text';

@@ -23,7 +23,7 @@ const defaultProps: StepperProps = {
   ],
 };
 
-describe('@mantine/core/Stepper', () => {
+describe('@bds-react/core/Stepper', () => {
   tests.axe([<Stepper {...defaultProps} />]);
 
   tests.itSupportsSystemProps<StepperProps, StepperStylesNames>({
@@ -37,7 +37,7 @@ describe('@mantine/core/Stepper', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Stepper',
+    displayName: '@bds-react/core/Stepper',
     stylesApiSelectors: [
       'root',
       'content',

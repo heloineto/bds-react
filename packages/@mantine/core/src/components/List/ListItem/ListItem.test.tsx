@@ -8,7 +8,7 @@ const defaultProps: ListItemProps = {
   icon: '$',
 };
 
-describe('@mantine/core/ListItem', () => {
+describe('@bds-react/core/ListItem', () => {
   tests.itSupportsSystemProps<ListItemProps, ListItemStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/ListItem', () => {
     classes: true,
     id: true,
     refType: HTMLLIElement,
-    displayName: '@mantine/core/ListItem',
+    displayName: '@bds-react/core/ListItem',
     stylesApiSelectors: ['item', 'itemIcon', 'itemLabel', 'itemWrapper'],
     selector: 'li',
     providerStylesApi: false,

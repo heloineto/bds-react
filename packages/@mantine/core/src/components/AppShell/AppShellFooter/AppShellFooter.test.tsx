@@ -7,7 +7,7 @@ const TestContainer = createContextContainer(AppShellFooter, AppShell, {});
 
 const defaultProps: AppShellFooterProps = {};
 
-describe('@mantine/core/AppShellFooter', () => {
+describe('@bds-react/core/AppShellFooter', () => {
   tests.itSupportsSystemProps<AppShellFooterProps, AppShellFooterStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/AppShellFooter', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/AppShellFooter',
+    displayName: '@bds-react/core/AppShellFooter',
     stylesApiSelectors: ['footer'],
     selector: '.mantine-AppShell-footer',
     stylesApiName: 'AppShell',

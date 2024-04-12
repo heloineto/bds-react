@@ -7,7 +7,7 @@ const defaultProps: PillProps = {
   withRemoveButton: true,
 };
 
-describe('@mantine/core/Pill', () => {
+describe('@bds-react/core/Pill', () => {
   tests.axe([<Pill {...defaultProps} />]);
 
   tests.itSupportsSystemProps<PillProps, PillStylesNames>({
@@ -22,7 +22,7 @@ describe('@mantine/core/Pill', () => {
     classes: true,
     id: true,
     refType: HTMLSpanElement,
-    displayName: '@mantine/core/Pill',
+    displayName: '@bds-react/core/Pill',
     stylesApiSelectors: ['root', 'label', 'remove'],
   });
 

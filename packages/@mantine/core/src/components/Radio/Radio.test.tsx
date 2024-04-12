@@ -10,7 +10,7 @@ const defaultProps: RadioProps = {
   error: 'test-error',
 };
 
-describe('@mantine/core/Radio', () => {
+describe('@bds-react/core/Radio', () => {
   tests.itSupportsSystemProps<RadioProps, RadioStylesNames>({
     component: Radio,
     props: defaultProps,
@@ -22,7 +22,7 @@ describe('@mantine/core/Radio', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/Radio',
+    displayName: '@bds-react/core/Radio',
     stylesApiSelectors: [
       'root',
       'body',

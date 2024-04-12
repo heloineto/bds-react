@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(PaginationDots, PaginationRoot, { t
 
 const defaultProps: PaginationDotsProps = {};
 
-describe('@mantine/core/PaginationDots', () => {
+describe('@bds-react/core/PaginationDots', () => {
   tests.itSupportsSystemProps<PaginationDotsProps, PaginationDotsStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/PaginationDots', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PaginationDots',
+    displayName: '@bds-react/core/PaginationDots',
     stylesApiSelectors: ['dots'],
     stylesApiName: 'Pagination',
     compound: true,

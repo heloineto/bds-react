@@ -4,7 +4,7 @@ import { Text, TextProps, TextStylesNames } from './Text';
 
 const defaultProps: TextProps = {};
 
-describe('@mantine/core/Text', () => {
+describe('@bds-react/core/Text', () => {
   tests.itSupportsSystemProps<TextProps, TextStylesNames>({
     component: Text,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Text', () => {
     classes: true,
     id: true,
     refType: HTMLParagraphElement,
-    displayName: '@mantine/core/Text',
+    displayName: '@bds-react/core/Text',
     stylesApiSelectors: ['root'],
   });
 

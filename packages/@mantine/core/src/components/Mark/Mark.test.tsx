@@ -3,7 +3,7 @@ import { Mark, MarkProps, MarkStylesNames } from './Mark';
 
 const defaultProps: MarkProps = {};
 
-describe('@mantine/core/Mark', () => {
+describe('@bds-react/core/Mark', () => {
   tests.itSupportsSystemProps<MarkProps, MarkStylesNames>({
     component: Mark,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Mark', () => {
     classes: true,
     id: true,
     refType: HTMLElement,
-    displayName: '@mantine/core/Mark',
+    displayName: '@bds-react/core/Mark',
     stylesApiSelectors: ['root'],
   });
 });

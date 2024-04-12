@@ -102,5 +102,5 @@ export const FloatingIndicator = factory<FloatingIndicatorFactory>((_props, ref)
   );
 });
 
-FloatingIndicator.displayName = '@mantine/core/FloatingIndicator';
+FloatingIndicator.displayName = '@bds-react/core/FloatingIndicator';
 FloatingIndicator.classes = classes;

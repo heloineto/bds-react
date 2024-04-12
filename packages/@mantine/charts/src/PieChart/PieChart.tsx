@@ -1,15 +1,5 @@
 import React from 'react';
 import {
-  Cell,
-  Pie,
-  PieLabel,
-  PieProps,
-  PieChart as ReChartsPieChart,
-  ResponsiveContainer,
-  Tooltip,
-  TooltipProps,
-} from 'recharts';
-import {
   Box,
   BoxProps,
   createVarsResolver,
@@ -24,7 +14,17 @@ import {
   useProps,
   useResolvedStylesApi,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import {
+  Cell,
+  Pie,
+  PieLabel,
+  PieProps,
+  PieChart as ReChartsPieChart,
+  ResponsiveContainer,
+  Tooltip,
+  TooltipProps,
+} from 'recharts';
 import { ChartTooltip } from '../ChartTooltip/ChartTooltip';
 import classes from './PieChart.module.css';
 

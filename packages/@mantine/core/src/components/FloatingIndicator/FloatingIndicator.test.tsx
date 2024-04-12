@@ -12,7 +12,7 @@ const defaultProps: FloatingIndicatorProps = {
   displayAfterTransitionEnd: false,
 };
 
-describe('@mantine/core/FloatingIndicator', () => {
+describe('@bds-react/core/FloatingIndicator', () => {
   tests.itSupportsSystemProps<FloatingIndicatorProps, FloatingIndicatorStylesNames>({
     component: FloatingIndicator,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/FloatingIndicator', () => {
     size: true,
     classes: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/FloatingIndicator',
+    displayName: '@bds-react/core/FloatingIndicator',
     stylesApiSelectors: ['root'],
   });
 });

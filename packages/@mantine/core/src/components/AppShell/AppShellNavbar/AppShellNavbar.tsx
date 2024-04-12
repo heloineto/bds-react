@@ -67,4 +67,4 @@ export const AppShellNavbar = factory<AppShellNavbarFactory>((_props, ref) => {
 });
 
 AppShellNavbar.classes = classes;
-AppShellNavbar.displayName = '@mantine/core/AppShellNavbar';
+AppShellNavbar.displayName = '@bds-react/core/AppShellNavbar';

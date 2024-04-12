@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(ProgressLabel, ProgressRoot, {});
 
 const defaultProps: ProgressLabelProps = {};
 
-describe('@mantine/core/ProgressLabel', () => {
+describe('@bds-react/core/ProgressLabel', () => {
   tests.itSupportsSystemProps<ProgressLabelProps, ProgressLabelStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/ProgressLabel', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ProgressLabel',
+    displayName: '@bds-react/core/ProgressLabel',
     stylesApiSelectors: ['label'],
     stylesApiName: 'Progress',
     selector: '.mantine-Progress-label',

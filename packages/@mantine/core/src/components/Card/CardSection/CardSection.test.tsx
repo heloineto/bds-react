@@ -7,7 +7,7 @@ const TestContainer = createContextContainer<any>(CardSection, Card, {});
 
 const defaultProps: CardSectionProps = {};
 
-describe('@mantine/core/CardSection', () => {
+describe('@bds-react/core/CardSection', () => {
   tests.itSupportsSystemProps<any, CardSectionStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/CardSection', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/CardSection',
+    displayName: '@bds-react/core/CardSection',
     stylesApiSelectors: ['section'],
     compound: true,
     providerName: 'Card',

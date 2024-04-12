@@ -1,7 +1,7 @@
 import { rem } from '../../../core';
 import { getPositionVariables } from './get-position-variables';
 
-describe('@mantine/core/Indicator/get-position-variables', () => {
+describe('@bds-react/core/Indicator/get-position-variables', () => {
   it('returns correct variables for different positions', () => {
     expect(getPositionVariables('top-start', 16)).toStrictEqual({
       '--indicator-top': rem(16),

@@ -1,5 +1,5 @@
 import React from 'react';
-import { getThemeColor, MantineColor, useMantineTheme } from '@mantine/core';
+import { getThemeColor, MantineColor, useMantineTheme } from '@bds-react/core';
 
 interface AreaSplitProps {
   offset: number;

@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../default-theme';
 import { getThemeColor } from './get-theme-color';
 
-describe('@mantine/core/get-theme-color', () => {
+describe('@bds-react/core/get-theme-color', () => {
   it('returns color from theme', () => {
     expect(getThemeColor('blue', DEFAULT_THEME)).toBe('var(--mantine-color-blue-filled)');
     expect(getThemeColor('blue.5', DEFAULT_THEME)).toBe('var(--mantine-color-blue-5)');

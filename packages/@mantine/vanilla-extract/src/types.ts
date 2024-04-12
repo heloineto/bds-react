@@ -6,7 +6,7 @@ import {
   MantineRadius,
   MantineShadow,
   MantineSpacing,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 interface ColorValues {
   0: string;

@@ -14,7 +14,7 @@ const defaultProps: MultiSelectProps = {
   data: ['test-1', 'test-2'],
 };
 
-describe('@mantine/core/MultiSelect', () => {
+describe('@bds-react/core/MultiSelect', () => {
   tests.axe([
     <MultiSelect aria-label="test-label" data={['test-1', 'test-2']} />,
     <MultiSelect label="test-label" data={['test-1', 'test-2']} />,
@@ -35,7 +35,7 @@ describe('@mantine/core/MultiSelect', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/MultiSelect',
+    displayName: '@bds-react/core/MultiSelect',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

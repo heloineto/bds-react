@@ -1,6 +1,6 @@
 import { getRootClassName } from './get-root-class-name';
 
-describe('@mantine/core/get-root-class-name', () => {
+describe('@bds-react/core/get-root-class-name', () => {
   it('returns given className if selector is rootSelector', () => {
     expect(getRootClassName({ rootSelector: 'root', selector: 'root', className: 'test' })).toBe(
       'test'

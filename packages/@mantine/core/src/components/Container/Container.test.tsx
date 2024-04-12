@@ -3,7 +3,7 @@ import { Container, ContainerProps, ContainerStylesNames } from './Container';
 
 const defaultProps: ContainerProps = {};
 
-describe('@mantine/core/Container', () => {
+describe('@bds-react/core/Container', () => {
   tests.itSupportsSystemProps<ContainerProps, ContainerStylesNames>({
     component: Container,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/Container', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Container',
+    displayName: '@bds-react/core/Container',
     stylesApiSelectors: ['root'],
   });
 });

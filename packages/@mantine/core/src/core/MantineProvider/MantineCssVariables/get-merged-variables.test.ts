@@ -7,7 +7,7 @@ import { getMergedVariables } from './get-merged-variables';
 
 const defaultVariables = defaultCssVariablesResolver(DEFAULT_THEME);
 
-describe('@mantine/core/get-merged-variables', () => {
+describe('@bds-react/core/get-merged-variables', () => {
   it('returns default variables if no generator provided', () => {
     expect(getMergedVariables({ theme: DEFAULT_THEME })).toEqual(defaultVariables);
     expect(getMergedVariables({ theme: DEFAULT_THEME, generator: undefined })).toEqual(

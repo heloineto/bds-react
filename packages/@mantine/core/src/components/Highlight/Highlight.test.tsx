@@ -8,7 +8,7 @@ const defaultProps: HighlightProps = {
   highlight: 't',
 };
 
-describe('@mantine/core/Highlight', () => {
+describe('@bds-react/core/Highlight', () => {
   tests.itSupportsSystemProps<HighlightProps, TextStylesNames>({
     component: Highlight,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/Highlight', () => {
     variant: true,
     id: true,
     refType: HTMLParagraphElement,
-    displayName: '@mantine/core/Highlight',
+    displayName: '@bds-react/core/Highlight',
     stylesApiSelectors: ['root'],
   });
 

@@ -1,5 +1,5 @@
 import React, { useCallback, useReducer, useRef } from 'react';
-import { getDefaultZIndex, Modal } from '@mantine/core';
+import { getDefaultZIndex, Modal } from '@bds-react/core';
 import { randomId } from '@mantine/hooks';
 import { ConfirmModal } from './ConfirmModal';
 import {

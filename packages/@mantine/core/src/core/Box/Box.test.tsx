@@ -4,7 +4,7 @@ import { Box, BoxProps } from './Box';
 
 const defaultProps: BoxProps = {};
 
-describe('@mantine/core/Box', () => {
+describe('@bds-react/core/Box', () => {
   tests.itSupportsSystemProps<BoxProps>({
     component: Box,
     props: defaultProps,
@@ -13,7 +13,7 @@ describe('@mantine/core/Box', () => {
     styleProps: true,
     children: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Box',
+    displayName: '@bds-react/core/Box',
     providerName: null,
   });
 

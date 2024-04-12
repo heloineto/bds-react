@@ -1,5 +1,5 @@
 import React from 'react';
-import { __InputStylesNames } from '@mantine/core';
+import { __InputStylesNames } from '@bds-react/core';
 import {
   inputDefaultProps,
   inputStylesApiSelectors,

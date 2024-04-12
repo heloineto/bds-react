@@ -6,7 +6,7 @@ import { PinInput, PinInputProps, PinInputStylesNames } from './PinInput';
 
 const defaultProps: PinInputProps = {};
 
-describe('@mantine/core/PinInput', () => {
+describe('@bds-react/core/PinInput', () => {
   tests.axe([<PinInput {...defaultProps} aria-label="Test label" />]);
 
   tests.itSupportsSystemProps<PinInputProps, PinInputStylesNames>({
@@ -20,7 +20,7 @@ describe('@mantine/core/PinInput', () => {
     classes: true,
     id: true,
     refType: HTMLInputElement,
-    displayName: '@mantine/core/PinInput',
+    displayName: '@bds-react/core/PinInput',
     stylesApiSelectors: ['root', 'pinInput', 'input'],
     providerStylesApi: false,
   });

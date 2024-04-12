@@ -125,4 +125,4 @@ export const Loader = factory<LoaderFactory>((_props, ref) => {
 
 Loader.defaultLoaders = defaultLoaders;
 Loader.classes = classes;
-Loader.displayName = '@mantine/core/Loader';
+Loader.displayName = '@bds-react/core/Loader';

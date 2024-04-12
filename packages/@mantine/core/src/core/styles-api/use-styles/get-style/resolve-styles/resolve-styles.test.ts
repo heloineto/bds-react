@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../../../MantineProvider';
 import { resolveStyles } from './resolve-styles';
 
-describe('@mantine/core/resolve-styles', () => {
+describe('@bds-react/core/resolve-styles', () => {
   it('resolves styles from object', () => {
     expect(
       resolveStyles({

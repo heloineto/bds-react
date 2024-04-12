@@ -439,4 +439,4 @@ export const MultiSelect = factory<MultiSelectFactory>((_props, ref) => {
 });
 
 MultiSelect.classes = { ...InputBase.classes, ...Combobox.classes };
-MultiSelect.displayName = '@mantine/core/MultiSelect';
+MultiSelect.displayName = '@bds-react/core/MultiSelect';

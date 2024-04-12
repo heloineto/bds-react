@@ -24,4 +24,4 @@ export function NativeSelectOption({ data }: NativeSelectOptionProps) {
   );
 }
 
-NativeSelectOption.displayName = '@mantine/core/NativeSelectOption';
+NativeSelectOption.displayName = '@bds-react/core/NativeSelectOption';

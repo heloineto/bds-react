@@ -233,7 +233,7 @@ export const Table = factory<TableFactory>((_props, ref) => {
 });
 
 Table.classes = classes;
-Table.displayName = '@mantine/core/Table';
+Table.displayName = '@bds-react/core/Table';
 Table.Td = TableTd;
 Table.Th = TableTh;
 Table.Tr = TableTr;

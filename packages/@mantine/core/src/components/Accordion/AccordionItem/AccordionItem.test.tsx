@@ -8,7 +8,7 @@ const defaultProps: AccordionItemProps = {
 
 const ContextContainer = createContextContainer(AccordionItem, Accordion, {});
 
-describe('@mantine/core/AccordionItem', () => {
+describe('@bds-react/core/AccordionItem', () => {
   tests.itSupportsSystemProps<AccordionItemProps, AccordionItemStylesNames>({
     component: ContextContainer,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/AccordionItem', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AccordionItem',
+    displayName: '@bds-react/core/AccordionItem',
     stylesApiSelectors: ['item'],
     stylesApiName: 'Accordion',
     selector: '.mantine-Accordion-item',

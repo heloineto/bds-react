@@ -7,7 +7,7 @@ const defaultProps: CollapseProps = {
   children: <div style={{ height: '20vh' }} />,
 };
 
-describe('@mantine/core/Collapse', () => {
+describe('@bds-react/core/Collapse', () => {
   tests.itSupportsSystemProps({
     component: Collapse,
     props: defaultProps,
@@ -15,6 +15,6 @@ describe('@mantine/core/Collapse', () => {
     styleProps: true,
     extend: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Collapse',
+    displayName: '@bds-react/core/Collapse',
   });
 });

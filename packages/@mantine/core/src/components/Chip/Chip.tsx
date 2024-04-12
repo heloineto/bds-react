@@ -231,5 +231,5 @@ export const Chip = factory<ChipFactory>((_props, ref) => {
 });
 
 Chip.classes = classes;
-Chip.displayName = '@mantine/core/Chip';
+Chip.displayName = '@bds-react/core/Chip';
 Chip.Group = ChipGroup;

@@ -3,7 +3,7 @@ import { InputError, InputErrorProps, InputErrorStylesNames } from './InputError
 
 const defaultProps: InputErrorProps = {};
 
-describe('@mantine/core/InputError', () => {
+describe('@bds-react/core/InputError', () => {
   tests.itSupportsSystemProps<InputErrorProps, InputErrorStylesNames>({
     component: InputError,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/InputError', () => {
     classes: true,
     id: true,
     refType: HTMLParagraphElement,
-    displayName: '@mantine/core/InputError',
+    displayName: '@bds-react/core/InputError',
     stylesApiName: 'InputWrapper',
     stylesApiSelectors: ['error'],
   });

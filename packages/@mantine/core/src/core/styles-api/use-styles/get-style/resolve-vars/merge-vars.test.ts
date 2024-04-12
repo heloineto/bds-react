@@ -1,6 +1,6 @@
 import { mergeVars } from './merge-vars';
 
-describe('@mantine/core/merge-vars', () => {
+describe('@bds-react/core/merge-vars', () => {
   it('merges vars', () => {
     expect(mergeVars([{ root: { '--test': '1' } }])).toStrictEqual({ root: { '--test': '1' } });
     expect(

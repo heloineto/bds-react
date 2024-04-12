@@ -1,6 +1,6 @@
 import { isResponsiveSize } from './is-responsive-size';
 
-describe('@mantine/core/AppShell/is-responsive-size', () => {
+describe('@bds-react/core/AppShell/is-responsive-size', () => {
   it('detects responsive value', () => {
     expect(isResponsiveSize({ sm: 1 })).toBe(true);
     expect(isResponsiveSize({ md: 'xs', xl: 1 })).toBe(true);

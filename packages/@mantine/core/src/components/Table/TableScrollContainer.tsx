@@ -91,4 +91,4 @@ export const TableScrollContainer = factory<TableScrollContainerFactory>((_props
 });
 
 TableScrollContainer.classes = classes;
-TableScrollContainer.displayName = '@mantine/core/TableScrollContainer';
+TableScrollContainer.displayName = '@bds-react/core/TableScrollContainer';

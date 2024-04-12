@@ -3,7 +3,7 @@ import { ThemeIcon, ThemeIconProps, ThemeIconStylesNames } from './ThemeIcon';
 
 const defaultProps: ThemeIconProps = {};
 
-describe('@mantine/core/ThemeIcon', () => {
+describe('@bds-react/core/ThemeIcon', () => {
   tests.itSupportsSystemProps<ThemeIconProps, ThemeIconStylesNames>({
     component: ThemeIcon,
     props: defaultProps,
@@ -16,7 +16,7 @@ describe('@mantine/core/ThemeIcon', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ThemeIcon',
+    displayName: '@bds-react/core/ThemeIcon',
     stylesApiSelectors: ['root'],
   });
 });

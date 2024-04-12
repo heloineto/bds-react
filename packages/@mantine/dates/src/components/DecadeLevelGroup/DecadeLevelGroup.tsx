@@ -1,6 +1,13 @@
 import dayjs from 'dayjs';
 import React, { useRef } from 'react';
-import { BoxProps, ElementProps, factory, Factory, StylesApiProps, useProps } from '@mantine/core';
+import {
+  BoxProps,
+  ElementProps,
+  factory,
+  Factory,
+  StylesApiProps,
+  useProps,
+} from '@bds-react/core';
 import { handleControlKeyDown } from '../../utils';
 import { DecadeLevel, DecadeLevelSettings, DecadeLevelStylesNames } from '../DecadeLevel';
 import { LevelsGroup, LevelsGroupStylesNames } from '../LevelsGroup';

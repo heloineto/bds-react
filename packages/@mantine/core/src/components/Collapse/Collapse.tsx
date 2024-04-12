@@ -86,4 +86,4 @@ export const Collapse = factory<CollapseFactory>((props, ref) => {
   );
 });
 
-Collapse.displayName = '@mantine/core/Collapse';
+Collapse.displayName = '@bds-react/core/Collapse';

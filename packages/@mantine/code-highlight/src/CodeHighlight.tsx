@@ -1,5 +1,4 @@
 import React from 'react';
-import cx from 'clsx';
 import {
   ActionIcon,
   Box,
@@ -13,7 +12,8 @@ import {
   Tooltip,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
+import cx from 'clsx';
 import { CopyIcon } from './CopyIcon';
 import { useHighlight } from './use-highlight';
 import _classes from './CodeHighlight.module.css';
@@ -118,5 +118,5 @@ export const CodeHighlight = factory<CodeHighlightFactory>((_props, ref) => {
   );
 });
 
-CodeHighlight.displayName = '@mantine/core/CodeHighlight';
+CodeHighlight.displayName = '@bds-react/core/CodeHighlight';
 CodeHighlight.classes = classes;

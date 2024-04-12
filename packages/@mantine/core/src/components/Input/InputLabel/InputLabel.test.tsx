@@ -6,7 +6,7 @@ const defaultProps: InputLabelProps = {
   required: true,
 };
 
-describe('@mantine/core/InputLabel', () => {
+describe('@bds-react/core/InputLabel', () => {
   tests.itSupportsSystemProps<InputLabelProps, InputLabelStylesNames>({
     component: InputLabel,
     props: defaultProps,
@@ -20,7 +20,7 @@ describe('@mantine/core/InputLabel', () => {
     id: true,
     refType: HTMLLabelElement,
     stylesApiName: 'InputWrapper',
-    displayName: '@mantine/core/InputLabel',
+    displayName: '@bds-react/core/InputLabel',
     stylesApiSelectors: ['label', 'required'],
   });
 

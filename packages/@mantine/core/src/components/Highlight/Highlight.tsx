@@ -65,4 +65,4 @@ export const Highlight = polymorphicFactory<HighlightFactory>((props, ref) => {
 });
 
 Highlight.classes = Text.classes;
-Highlight.displayName = '@mantine/core/Highlight';
+Highlight.displayName = '@bds-react/core/Highlight';

@@ -7,7 +7,7 @@ const defaultProps: TextareaProps = {
   ...inputDefaultProps,
 };
 
-describe('@mantine/core/Textarea', () => {
+describe('@bds-react/core/Textarea', () => {
   tests.axe([
     <Textarea aria-label="test-label" />,
     <Textarea label="test-label" />,
@@ -27,7 +27,7 @@ describe('@mantine/core/Textarea', () => {
     classes: true,
     id: true,
     refType: HTMLTextAreaElement,
-    displayName: '@mantine/core/Textarea',
+    displayName: '@bds-react/core/Textarea',
     stylesApiSelectors: [...inputStylesApiSelectors],
   });
 

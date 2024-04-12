@@ -10,7 +10,7 @@ const defaultProps: MenuItemProps = {
   leftSection: '$$',
 };
 
-describe('@mantine/core/MenuItem', () => {
+describe('@bds-react/core/MenuItem', () => {
   tests.itSupportsSystemProps<MenuItemProps, MenuItemStylesNames>({
     component: TestContainer as any,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/MenuItem', () => {
     classes: true,
     id: true,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/MenuItem',
+    displayName: '@bds-react/core/MenuItem',
     stylesApiSelectors: ['item', 'itemSection', 'itemLabel'],
     stylesApiName: 'Menu',
     compound: true,

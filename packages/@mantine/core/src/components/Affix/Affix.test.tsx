@@ -5,7 +5,7 @@ const defaultProps: AffixProps = {
   withinPortal: false,
 };
 
-describe('@mantine/core/Affix', () => {
+describe('@bds-react/core/Affix', () => {
   tests.itSupportsSystemProps<AffixProps, AffixStylesNames>({
     component: Affix,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Affix', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Affix',
+    displayName: '@bds-react/core/Affix',
     stylesApiSelectors: ['root'],
   });
 });

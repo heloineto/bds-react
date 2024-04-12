@@ -10,7 +10,7 @@ const defaultProps: NotificationProps = {
   icon: <IconMoodSmile size={18} />,
 };
 
-describe('@mantine/core/Notification', () => {
+describe('@bds-react/core/Notification', () => {
   tests.axe([<Notification {...defaultProps} />]);
 
   tests.itSupportsSystemProps<NotificationProps, NotificationStylesNames>({
@@ -25,7 +25,7 @@ describe('@mantine/core/Notification', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Notification',
+    displayName: '@bds-react/core/Notification',
     stylesApiSelectors: ['root', 'icon', 'body', 'title', 'description', 'closeButton'],
   });
 

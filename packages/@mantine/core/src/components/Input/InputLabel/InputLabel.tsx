@@ -120,4 +120,4 @@ export const InputLabel = factory<InputLabelFactory>((_props, ref) => {
 });
 
 InputLabel.classes = classes;
-InputLabel.displayName = '@mantine/core/InputLabel';
+InputLabel.displayName = '@bds-react/core/InputLabel';

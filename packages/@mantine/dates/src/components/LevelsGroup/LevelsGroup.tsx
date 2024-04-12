@@ -9,7 +9,7 @@ import {
   StylesApiProps,
   useProps,
   useStyles,
-} from '@mantine/core';
+} from '@bds-react/core';
 import classes from './LevelsGroup.module.css';
 
 export type LevelsGroupStylesNames = 'levelsGroup';

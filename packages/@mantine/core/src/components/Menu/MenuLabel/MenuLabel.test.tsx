@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(MenuLabel, Menu, { opened: true });
 
 const defaultProps: MenuLabelProps = {};
 
-describe('@mantine/core/MenuLabel', () => {
+describe('@bds-react/core/MenuLabel', () => {
   tests.itSupportsSystemProps<MenuLabelProps, MenuLabelStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/MenuLabel', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/MenuLabel',
+    displayName: '@bds-react/core/MenuLabel',
     stylesApiSelectors: ['label'],
     stylesApiName: 'Menu',
     compound: true,

@@ -74,4 +74,4 @@ export const RadioGroup = factory<RadioGroupFactory>((props, ref) => {
 });
 
 RadioGroup.classes = Input.Wrapper.classes;
-RadioGroup.displayName = '@mantine/core/RadioGroup';
+RadioGroup.displayName = '@bds-react/core/RadioGroup';

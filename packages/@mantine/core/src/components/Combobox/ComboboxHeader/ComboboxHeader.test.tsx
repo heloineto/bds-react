@@ -6,7 +6,7 @@ const TestContainer = createContextContainer(ComboboxHeader, Combobox, { withinP
 
 const defaultProps: ComboboxHeaderProps = {};
 
-describe('@mantine/core/ComboboxHeader', () => {
+describe('@bds-react/core/ComboboxHeader', () => {
   tests.itSupportsSystemProps<ComboboxHeaderProps, ComboboxHeaderStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -19,7 +19,7 @@ describe('@mantine/core/ComboboxHeader', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxHeader',
+    displayName: '@bds-react/core/ComboboxHeader',
     stylesApiSelectors: ['header'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-header',

@@ -218,7 +218,7 @@ export const Tabs = factory<TabsFactory>((_props, ref) => {
 });
 
 Tabs.classes = classes;
-Tabs.displayName = '@mantine/core/Tabs';
+Tabs.displayName = '@bds-react/core/Tabs';
 Tabs.Tab = TabsTab;
 Tabs.Panel = TabsPanel;
 Tabs.List = TabsList;

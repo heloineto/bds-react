@@ -424,4 +424,4 @@ export const PinInput = factory<PinInputFactory>((props, ref) => {
 });
 
 PinInput.classes = { ...classes, ...InputBase.classes };
-PinInput.displayName = '@mantine/core/PinInput';
+PinInput.displayName = '@bds-react/core/PinInput';

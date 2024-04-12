@@ -157,4 +157,4 @@ export const Notification = factory<NotificationFactory>((_props, ref) => {
 });
 
 Notification.classes = classes;
-Notification.displayName = '@mantine/core/Notification';
+Notification.displayName = '@bds-react/core/Notification';

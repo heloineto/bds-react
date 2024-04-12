@@ -10,7 +10,7 @@ const TestContainer = createContextContainer(ComboboxOptions, Combobox, { within
 
 const defaultProps: ComboboxOptionsProps = {};
 
-describe('@mantine/core/ComboboxOptions', () => {
+describe('@bds-react/core/ComboboxOptions', () => {
   tests.itSupportsSystemProps<ComboboxOptionsProps, ComboboxOptionsStylesNames>({
     component: TestContainer,
     props: defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/ComboboxOptions', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ComboboxOptions',
+    displayName: '@bds-react/core/ComboboxOptions',
     stylesApiSelectors: ['options'],
     stylesApiName: 'Combobox',
     selector: '.mantine-Combobox-options',

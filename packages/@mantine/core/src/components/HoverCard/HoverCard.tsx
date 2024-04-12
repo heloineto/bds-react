@@ -57,7 +57,7 @@ export function HoverCard(props: HoverCardProps) {
   );
 }
 
-HoverCard.displayName = '@mantine/core/HoverCard';
+HoverCard.displayName = '@bds-react/core/HoverCard';
 HoverCard.Target = HoverCardTarget;
 HoverCard.Dropdown = HoverCardDropdown;
 HoverCard.extend = (input: ExtendComponent<HoverCardFactory>) => input;

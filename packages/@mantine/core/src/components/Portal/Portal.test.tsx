@@ -2,7 +2,7 @@ import React from 'react';
 import { render, tests } from '@mantine-tests/core';
 import { Portal } from './Portal';
 
-describe('@mantine/core/Portal', () => {
+describe('@bds-react/core/Portal', () => {
   tests.itSupportsRef({
     component: Portal,
     props: { children: 'test' },
@@ -23,7 +23,7 @@ describe('@mantine/core/Portal', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Portal.displayName).toStrictEqual('@mantine/core/Portal');
+    expect(Portal.displayName).toStrictEqual('@bds-react/core/Portal');
   });
 
   it('syncs its className to the generated Portal node', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@bds-react/core';
 import { createFormContext } from '../index';
 
 export default { title: 'Form' };

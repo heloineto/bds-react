@@ -27,7 +27,7 @@ const defaultProps = {
   ),
 };
 
-describe('@mantine/core/Accordion', () => {
+describe('@bds-react/core/Accordion', () => {
   tests.axe([<Accordion {...defaultProps} />, <Accordion {...defaultProps} order={2} />]);
   tests.itSupportsSystemProps<AccordionProps, AccordionStylesNames>({
     component: Accordion,
@@ -40,7 +40,7 @@ describe('@mantine/core/Accordion', () => {
     size: true,
     classes: true,
     id: true,
-    displayName: '@mantine/core/Accordion',
+    displayName: '@bds-react/core/Accordion',
     stylesApiSelectors: ['root', 'chevron', 'content', 'control', 'icon', 'item', 'label'],
   });
 

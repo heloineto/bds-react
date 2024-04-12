@@ -57,4 +57,4 @@ export const FloatingArrow = forwardRef<HTMLDivElement, FloatingArrowProps>(
   }
 );
 
-FloatingArrow.displayName = '@mantine/core/FloatingArrow';
+FloatingArrow.displayName = '@bds-react/core/FloatingArrow';

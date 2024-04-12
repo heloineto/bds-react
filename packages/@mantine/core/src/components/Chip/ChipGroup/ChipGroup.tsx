@@ -55,4 +55,4 @@ export function ChipGroup<T extends boolean>(props: ChipGroupProps<T>) {
   );
 }
 
-ChipGroup.displayName = '@mantine/core/ChipGroup';
+ChipGroup.displayName = '@bds-react/core/ChipGroup';

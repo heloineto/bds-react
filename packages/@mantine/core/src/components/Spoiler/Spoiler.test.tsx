@@ -8,7 +8,7 @@ const defaultProps: SpoilerProps = {
   children: 'test-children',
 };
 
-describe('@mantine/core/Spoiler', () => {
+describe('@bds-react/core/Spoiler', () => {
   tests.itSupportsSystemProps<SpoilerProps, SpoilerStylesNames>({
     component: Spoiler,
     props: defaultProps,
@@ -21,7 +21,7 @@ describe('@mantine/core/Spoiler', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Spoiler',
+    displayName: '@bds-react/core/Spoiler',
     stylesApiSelectors: ['root', 'content'],
   });
 });

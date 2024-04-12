@@ -10,10 +10,10 @@ Rich text editor based on [tiptap](https://tiptap.dev/)
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @tiptap/react @tiptap/extension-link
+yarn add @bds-react/core @mantine/hooks @tiptap/react @tiptap/extension-link
 
 # With npm
-npm install @mantine/core @mantine/hooks @tiptap/react @tiptap/extension-link
+npm install @bds-react/core @mantine/hooks @tiptap/react @tiptap/extension-link
 ```
 
 ## License

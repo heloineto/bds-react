@@ -229,5 +229,5 @@ export const Switch = factory<SwitchFactory>((_props, ref) => {
 });
 
 Switch.classes = { ...classes, ...InlineInputClasses };
-Switch.displayName = '@mantine/core/Switch';
+Switch.displayName = '@bds-react/core/Switch';
 Switch.Group = SwitchGroup;

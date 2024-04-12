@@ -25,7 +25,7 @@ export function parseThemeColor({
 }: ParseThemeColorOptions): ParseThemeColorResult {
   if (typeof color !== 'string') {
     throw new Error(
-      `[@mantine/core] Failed to parse color. Expected color to be a string, instead got ${typeof color}`
+      `[@bds-react/core] Failed to parse color. Expected color to be a string, instead got ${typeof color}`
     );
   }
 

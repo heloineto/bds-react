@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../../MantineProvider';
 import { sortMediaQueries } from './sort-media-queries';
 
-describe('@mantine/core/Box/sort-media-queries', () => {
+describe('@bds-react/core/Box/sort-media-queries', () => {
   it('sorts media queries correctly', () => {
     expect(
       sortMediaQueries({

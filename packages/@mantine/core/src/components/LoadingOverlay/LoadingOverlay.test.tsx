@@ -5,7 +5,7 @@ const defaultProps: LoadingOverlayProps = {
   visible: true,
 };
 
-describe('@mantine/core/LoadingOverlay', () => {
+describe('@bds-react/core/LoadingOverlay', () => {
   tests.itSupportsSystemProps<LoadingOverlayProps, LoadingOverlayStylesNames>({
     component: LoadingOverlay,
     props: defaultProps,
@@ -17,7 +17,7 @@ describe('@mantine/core/LoadingOverlay', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/LoadingOverlay',
+    displayName: '@bds-react/core/LoadingOverlay',
     stylesApiSelectors: ['root', 'loader', 'overlay'],
   });
 });

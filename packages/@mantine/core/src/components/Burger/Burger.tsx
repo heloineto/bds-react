@@ -105,4 +105,4 @@ export const Burger = factory<BurgerFactory>((_props, ref) => {
 });
 
 Burger.classes = classes;
-Burger.displayName = '@mantine/core/Burger';
+Burger.displayName = '@bds-react/core/Burger';

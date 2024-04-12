@@ -1,6 +1,6 @@
 import { getFontSize, getLineHeight, getRadius, getShadow, getSize, getSpacing } from './get-size';
 
-describe('@mantine/core/get-size', () => {
+describe('@bds-react/core/get-size', () => {
   it('returns correct size for numbers and number like values', () => {
     expect(getSize(10)).toBe('calc(0.625rem * var(--mantine-scale))');
     expect(getSize('10')).toBe('calc(0.625rem * var(--mantine-scale))');
@@ -21,7 +21,7 @@ describe('@mantine/core/get-size', () => {
   });
 });
 
-describe('@mantine/core/get-spacing', () => {
+describe('@bds-react/core/get-spacing', () => {
   it('returns correct values', () => {
     expect(getSpacing(10)).toBe('calc(0.625rem * var(--mantine-scale))');
     expect(getSpacing(0)).toBe('0rem');
@@ -34,7 +34,7 @@ describe('@mantine/core/get-spacing', () => {
   });
 });
 
-describe('@mantine/core/get-radius', () => {
+describe('@bds-react/core/get-radius', () => {
   it('returns correct values', () => {
     expect(getRadius(10)).toBe('calc(0.625rem * var(--mantine-scale))');
     expect(getRadius(0)).toBe('0rem');
@@ -51,7 +51,7 @@ describe('@mantine/core/get-radius', () => {
   });
 });
 
-describe('@mantine/core/get-font-size', () => {
+describe('@bds-react/core/get-font-size', () => {
   it('returns correct values', () => {
     expect(getFontSize(10)).toBe('calc(0.625rem * var(--mantine-scale))');
     expect(getFontSize(0)).toBe('0rem');
@@ -64,7 +64,7 @@ describe('@mantine/core/get-font-size', () => {
   });
 });
 
-describe('@mantine/core/get-line-height', () => {
+describe('@bds-react/core/get-line-height', () => {
   it('returns correct values', () => {
     expect(getLineHeight(10)).toBe(10);
     expect(getLineHeight(1.55)).toBe(1.55);
@@ -75,7 +75,7 @@ describe('@mantine/core/get-line-height', () => {
   });
 });
 
-describe('@mantine/core/get-shadow', () => {
+describe('@bds-react/core/get-shadow', () => {
   it('returns correct values', () => {
     expect(getShadow(undefined)).toBe(undefined);
     expect(getShadow('5px 5px 10px red')).toBe('5px 5px 10px red');

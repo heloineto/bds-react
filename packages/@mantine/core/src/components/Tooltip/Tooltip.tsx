@@ -192,7 +192,7 @@ export const Tooltip = factory<TooltipFactory>((_props, ref) => {
 
   if (!isElement(children)) {
     throw new Error(
-      '[@mantine/core] Tooltip component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
+      '[@bds-react/core] Tooltip component children should be an element or a component that accepts ref, fragments, strings, numbers and other primitive values are not supported'
     );
   }
 
@@ -263,6 +263,6 @@ export const Tooltip = factory<TooltipFactory>((_props, ref) => {
 });
 
 Tooltip.classes = classes;
-Tooltip.displayName = '@mantine/core/Tooltip';
+Tooltip.displayName = '@bds-react/core/Tooltip';
 Tooltip.Floating = TooltipFloating;
 Tooltip.Group = TooltipGroup;

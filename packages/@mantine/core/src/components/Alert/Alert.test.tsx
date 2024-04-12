@@ -10,7 +10,7 @@ const defaultProps: AlertProps = {
   children: 'test-children',
 };
 
-describe('@mantine/core/Alert', () => {
+describe('@bds-react/core/Alert', () => {
   tests.axe([
     <Alert>Alert message</Alert>,
     <Alert title="Alert title">Alert message</Alert>,
@@ -31,7 +31,7 @@ describe('@mantine/core/Alert', () => {
     classes: true,
     id: true,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Alert',
+    displayName: '@bds-react/core/Alert',
     stylesApiSelectors: [
       'root',
       'body',

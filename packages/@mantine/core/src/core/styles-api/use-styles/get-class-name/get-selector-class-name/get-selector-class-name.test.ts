@@ -4,7 +4,7 @@ const testClasses = {
   test: '__test',
 };
 
-describe('@mantine/core/get-selector-class-name', () => {
+describe('@bds-react/core/get-selector-class-name', () => {
   it('returns className for given selector', () => {
     expect(getSelectorClassName({ selector: 'test', classes: testClasses, unstyled: false })).toBe(
       '__test'

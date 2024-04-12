@@ -54,4 +54,4 @@ export function TableDataRenderer({ data }: TableDataRendererProps) {
   );
 }
 
-TableDataRenderer.displayName = '@mantine/core/TableDataRenderer';
+TableDataRenderer.displayName = '@bds-react/core/TableDataRenderer';

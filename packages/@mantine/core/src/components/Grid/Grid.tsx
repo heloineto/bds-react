@@ -111,5 +111,5 @@ export const Grid = factory<GridFactory>((_props, ref) => {
 });
 
 Grid.classes = classes;
-Grid.displayName = '@mantine/core/Grid';
+Grid.displayName = '@bds-react/core/Grid';
 Grid.Col = GridCol;

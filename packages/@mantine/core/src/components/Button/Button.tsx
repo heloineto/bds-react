@@ -243,5 +243,5 @@ export const Button = polymorphicFactory<ButtonFactory>((_props, ref) => {
 });
 
 Button.classes = classes;
-Button.displayName = '@mantine/core/Button';
+Button.displayName = '@bds-react/core/Button';
 Button.Group = ButtonGroup;

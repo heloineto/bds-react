@@ -5,7 +5,7 @@ const defaultProps: BlockquoteProps = {
   icon: 'test-icon',
 };
 
-describe('@mantine/core/Blockquote', () => {
+describe('@bds-react/core/Blockquote', () => {
   tests.itSupportsSystemProps<BlockquoteProps, BlockquoteStylesNames>({
     component: Blockquote,
     props: defaultProps,
@@ -18,7 +18,7 @@ describe('@mantine/core/Blockquote', () => {
     classes: true,
     id: true,
     refType: HTMLQuoteElement,
-    displayName: '@mantine/core/Blockquote',
+    displayName: '@bds-react/core/Blockquote',
     stylesApiSelectors: ['root', 'icon'],
   });
 });

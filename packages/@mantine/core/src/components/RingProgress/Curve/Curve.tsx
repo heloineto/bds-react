@@ -48,4 +48,4 @@ export function Curve({
   );
 }
 
-Curve.displayName = '@mantine/core/Curve';
+Curve.displayName = '@bds-react/core/Curve';

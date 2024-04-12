@@ -1,7 +1,7 @@
 import { DEFAULT_THEME } from '../../default-theme';
 import { getContrastColor } from './get-contrast-color';
 
-describe('@mantine/core/get-contrast-color', () => {
+describe('@bds-react/core/get-contrast-color', () => {
   it('returns correct contrast color', () => {
     expect(getContrastColor({ color: 'blue', theme: DEFAULT_THEME, autoContrast: true })).toBe(
       'var(--mantine-color-white)'

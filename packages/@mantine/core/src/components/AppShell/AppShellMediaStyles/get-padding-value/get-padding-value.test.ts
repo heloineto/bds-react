@@ -1,7 +1,7 @@
 import { getSpacing } from '../../../../core';
 import { getPaddingValue } from './get-padding-value';
 
-describe('@mantine/core/AppShellMediaStyles/get-padding-value', () => {
+describe('@bds-react/core/AppShellMediaStyles/get-padding-value', () => {
   it('returns 0px for 0', () => {
     expect(getPaddingValue(0)).toBe('0px');
     expect(getPaddingValue('0')).toBe('0px');

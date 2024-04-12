@@ -80,4 +80,4 @@ export const PillGroup = factory<PillGroupFactory>((_props, ref) => {
 });
 
 PillGroup.classes = classes;
-PillGroup.displayName = '@mantine/core/PillGroup';
+PillGroup.displayName = '@bds-react/core/PillGroup';
