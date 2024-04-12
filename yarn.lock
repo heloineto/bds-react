@@ -3419,9 +3419,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bds-react/core@workspace:*, @bds-react/core@workspace:packages/@mantine/core":
+"@bds-react/core@workspace:*, @bds-react/core@workspace:packages/@bds-react/core":
   version: 0.0.0-use.local
-  resolution: "@bds-react/core@workspace:packages/@mantine/core"
+  resolution: "@bds-react/core@workspace:packages/@bds-react/core"
   dependencies:
     "@floating-ui/react": "npm:^0.26.9"
     "@mantine-tests/core": "workspace:*"
