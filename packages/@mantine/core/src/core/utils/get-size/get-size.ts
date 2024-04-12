@@ -40,3 +40,15 @@ export function getShadow(size: unknown) {
 
   return getSize(size, 'mantine-shadow', false);
 }
+
+export function getButtonHeight(size: unknown, prefix = 'size', convertToRem = true) {
+  if (size === 'standard') {
+    return '2.5rem';
+  }
+
+  if (size === 'short') {
+    return '2rem';
+  }
+
+  return getSize(size, prefix, convertToRem);
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
-import { interactiveVariantsControl } from '../../../shared';
+import { buttonVariantsControl } from '../../../shared';
 
 const code = `
 import { Button } from '@mantine/core';
@@ -21,9 +21,16 @@ export const configurator: MantineDemo = {
   code,
   centered: true,
   controls: [
-    interactiveVariantsControl,
+    buttonVariantsControl,
     { type: 'color', prop: 'color', initialValue: 'blue', libraryValue: 'blue' },
-    { type: 'size', prop: 'size', initialValue: 'sm', libraryValue: 'sm' },
-    { type: 'size', prop: 'radius', initialValue: 'sm', libraryValue: 'sm' },
+    {
+      type: 'select',
+      prop: 'size',
+      data: ['standard', 'short'],
+      initialValue: 'standard',
+      libraryValue: 'standard',
+    },
+    { type: 'boolean', prop: 'disabled', initialValue: false, libraryValue: false },
+    { type: 'boolean', prop: 'loading', initialValue: false, libraryValue: false },
   ],
 };

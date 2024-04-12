@@ -19,6 +19,7 @@ export interface VariantColorResolverResult {
   color: string;
   border: string;
   hoverColor?: string;
+  activeColor?: string;
 }
 
 export type VariantColorsResolver = (
@@ -35,6 +36,82 @@ export const defaultVariantColorsResolver: VariantColorsResolver = ({
   const parsed = parseThemeColor({ color, theme });
 
   const _autoContrast = typeof autoContrast === 'boolean' ? autoContrast : theme.autoContrast;
+
+  if (variant === 'primary') {
+    const textColor = _autoContrast
+      ? parsed.isLight
+        ? 'var(--mantine-color-black)'
+        : 'var(--mantine-color-white)'
+      : 'var(--mantine-color-white)';
+
+    if (parsed.isThemeColor) {
+      if (parsed.shade === undefined) {
+        if (parsed.color === 'blue') {
+          return {
+            background: 'var(--mantine-color-blue-primary)',
+            hover: 'var(--mantine-color-blue-primary-hover)',
+            activeColor: 'var(--mantine-color-blue-primary-active)',
+            color: textColor,
+            border: `${rem(1)} solid transparent`,
+          };
+        }
+
+        return {
+          background: `var(--mantine-color-${color}-filled)`,
+          hover: `var(--mantine-color-${color}-filled-hover)`,
+          activeColor: `var(--mantine-color-${color}-filled-hover)`,
+          color: textColor,
+          border: `${rem(1)} solid transparent`,
+        };
+      }
+
+      return {
+        background: `var(--mantine-color-${parsed.color}-${parsed.shade})`,
+        hover: `var(--mantine-color-${parsed.color}-${parsed.shade === 9 ? 8 : parsed.shade + 1})`,
+        activeColor: `var(--mantine-color-${parsed.color}-${Math.min(parsed.shade + 2, 9)})`,
+        color: textColor,
+        border: `${rem(1)} solid transparent`,
+      };
+    }
+
+    return {
+      background: color!,
+      hover: darken(color!, 0.1),
+      activeColor: darken(color!, 0.2),
+      color: textColor,
+      border: `${rem(1)} solid transparent`,
+    };
+  }
+
+  if (variant === 'secondary') {
+    return {
+      background: 'var(--mantine-color-secondary)',
+      hover: 'var(--mantine-color-secondary-hover)',
+      color: 'var(--mantine-color-secondary-color)',
+      activeColor: 'var(--mantine-color-secondary-active)',
+      border: `${rem(1)} solid transparent`,
+    };
+  }
+
+  if (variant === 'tertiary' || variant === 'ghost') {
+    return {
+      background: 'var(--mantine-color-tertiary)',
+      hover: 'var(--mantine-color-tertiary-hover)',
+      color: 'var(--mantine-color-tertiary-color)',
+      activeColor: 'var(--mantine-color-tertiary-active)',
+      border: `${rem(1)} solid var(--mantine-color-tertiary-border)`,
+    };
+  }
+
+  if (variant === 'delete') {
+    return {
+      background: 'var(--mantine-color-delete)',
+      hover: 'var(--mantine-color-delete-hover)',
+      color: 'var(--mantine-color-white)',
+      activeColor: 'var(--mantine-color-delete-active)',
+      border: `${rem(1)} solid transparent`,
+    };
+  }
 
   if (variant === 'filled') {
     const textColor = _autoContrast

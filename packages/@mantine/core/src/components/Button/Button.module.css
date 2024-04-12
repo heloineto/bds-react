@@ -118,6 +118,14 @@
       color: var(--button-hover-color, var(--button-color));
     }
   }
+
+  &:active:where(:not([data-loading], :disabled, [data-disabled])) {
+    background-color: var(
+      --button-active,
+      var(--button-hover, var(--mantine-primary-color-filled-hover))
+    );
+    color: var(--button-color, var(--button-color));
+  }
 }
 
 .inner {

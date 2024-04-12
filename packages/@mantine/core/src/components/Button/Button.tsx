@@ -3,6 +3,7 @@ import {
   Box,
   BoxProps,
   createVarsResolver,
+  getButtonHeight,
   getFontSize,
   getRadius,
   getSize,
@@ -32,7 +33,12 @@ export type ButtonVariant =
   | 'white'
   | 'subtle'
   | 'default'
-  | 'gradient';
+  | 'gradient'
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'ghost'
+  | 'delete';
 
 export type ButtonCssVariables = {
   root:
@@ -52,7 +58,7 @@ export interface ButtonProps extends BoxProps, StylesApiProps<ButtonFactory> {
   'data-disabled'?: boolean;
 
   /** Controls button `height`, `font-size` and horizontal `padding`, `'sm'` by default */
-  size?: MantineSize | `compact-${MantineSize}` | (string & {});
+  size?: MantineSize | `compact-${MantineSize}` | 'standard' | 'short' | (string & {});
 
   /** Key of `theme.colors` or any valid CSS color, `theme.primaryColor` by default */
   color?: MantineColor;
@@ -118,14 +124,14 @@ const varsResolver = createVarsResolver<ButtonFactory>(
       color: color || theme.primaryColor,
       theme,
       gradient,
-      variant: variant || 'filled',
+      variant: variant || 'primary',
       autoContrast,
     });
 
     return {
       root: {
         '--button-justify': justify,
-        '--button-height': getSize(size, 'button-height'),
+        '--button-height': getButtonHeight(size, 'button-height'),
         '--button-padding-x': getSize(size, 'button-padding-x'),
         '--button-fz': size?.includes('compact')
           ? getFontSize(size.replace('compact-', ''))
@@ -136,6 +142,7 @@ const varsResolver = createVarsResolver<ButtonFactory>(
         '--button-color': colors.color,
         '--button-bd': color || variant ? colors.border : undefined,
         '--button-hover-color': color || variant ? colors.hoverColor : undefined,
+        '--button-active': color || variant ? colors.activeColor : undefined,
       },
     };
   }

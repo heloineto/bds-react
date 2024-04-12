@@ -12,11 +12,21 @@ export const INTERACTIVE_VARIANTS = [
   'white',
 ];
 
+export const BUTTON_VARIANTS = ['primary', 'secondary', 'tertiary', 'ghost', 'delete'];
+
 export const interactiveVariantsControl: ConfiguratorControlOptions = {
   type: 'select',
   prop: 'variant',
   data: INTERACTIVE_VARIANTS,
   initialValue: 'filled',
+  libraryValue: '__none__',
+};
+
+export const buttonVariantsControl: ConfiguratorControlOptions = {
+  type: 'select',
+  prop: 'variant',
+  data: BUTTON_VARIANTS,
+  initialValue: 'primary',
   libraryValue: '__none__',
 };
 
