@@ -3419,6 +3419,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bds-react/core@workspace:packages/@bds-react/core":
+  version: 0.0.0-use.local
+  resolution: "@bds-react/core@workspace:packages/@bds-react/core"
+  dependencies:
+    "@mantine/core": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
 "@cloudflare/kv-asset-handler@npm:0.3.1":
   version: 0.3.1
   resolution: "@cloudflare/kv-asset-handler@npm:0.3.1"

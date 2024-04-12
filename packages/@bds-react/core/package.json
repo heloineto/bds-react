@@ -1,0 +1,48 @@
+{
+  "name": "@bds-react/core",
+  "version": "7.8.0",
+  "description": "React components library focused on usability, accessibility and developer experience",
+  "homepage": "https://mantine.dev/",
+  "license": "MIT",
+  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
+  "keywords": [
+    "components",
+    "design",
+    "frontend",
+    "library",
+    "next",
+    "nextjs",
+    "react",
+    "ui",
+    "ui-kit"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "./cjs/index.cjs",
+  "module": "./esm/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/index.d.mts",
+        "default": "./esm/index.mjs"
+      },
+      "require": {
+        "types": "./lib/index.d.ts",
+        "default": "./cjs/index.cjs"
+      }
+    },
+    "./styles.css": "./styles.css",
+    "./styles.layer.css": "./styles.layer.css",
+    "./styles/*": "./styles/*"
+  },
+  "repository": {
+    "url": "https://github.com/heloineto/bds-react.git",
+    "type": "git",
+    "directory": "packages/@bds-react/core"
+  },
+  "dependencies": {
+    "@mantine/core": "workspace:*"
+  }
+}
