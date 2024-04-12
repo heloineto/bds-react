@@ -55,9 +55,9 @@
     "clsx": "2.1.0"
   },
   "devDependencies": {
+    "@bds-react/core": "workspace:*",
     "@mantine-tests/core": "workspace:*",
     "@mantine-tests/dates": "workspace:*",
-    "@bds-react/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }

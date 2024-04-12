@@ -37,10 +37,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@bds-react/core": "workspace:*",
     "@mantine/carousel": "workspace:*",
     "@mantine/charts": "workspace:*",
     "@mantine/code-highlight": "workspace:*",
-    "@bds-react/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
     "@mantine/notifications": "workspace:*",

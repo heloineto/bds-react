@@ -47,11 +47,11 @@
     "shiki": "^1.1.7"
   },
   "devDependencies": {
+    "@bds-react/core": "workspace:*",
     "@docs/styles-api": "workspace:*",
     "@mantine/carousel": "workspace:*",
     "@mantine/charts": "workspace:*",
     "@mantine/code-highlight": "workspace:*",
-    "@bds-react/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
     "@mantine/form": "workspace:*",

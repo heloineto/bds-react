@@ -50,8 +50,8 @@
     "@mantine/store": "7.8.0"
   },
   "devDependencies": {
-    "@mantine-tests/core": "workspace:*",
     "@bds-react/core": "workspace:*",
+    "@mantine-tests/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }

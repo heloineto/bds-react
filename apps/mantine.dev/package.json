@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@bds-react/core": "workspace:*",
     "@docs/demos": "workspace:*",
     "@docs/styles-api": "workspace:*",
     "@floating-ui/react": "^0.26.9",
@@ -20,7 +21,6 @@
     "@mantine/charts": "workspace:*",
     "@mantine/code-highlight": "workspace:*",
     "@mantine/colors-generator": "workspace:*",
-    "@bds-react/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
     "@mantine/form": "workspace:*",

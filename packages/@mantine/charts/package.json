@@ -42,8 +42,8 @@
     "recharts": "^2.10.3"
   },
   "devDependencies": {
-    "@mantine-tests/core": "workspace:*",
     "@bds-react/core": "workspace:*",
+    "@mantine-tests/core": "workspace:*",
     "@mantine/hooks": "workspace:*"
   }
 }
