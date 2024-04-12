@@ -1,10 +1,10 @@
 import React from 'react';
+import { Button, Group } from '@bds-react/core';
 import { IconArrowRight, IconDownload, IconPhoto } from '@tabler/icons-react';
-import { Button, Group } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Group, Button } from '@mantine/core';
+import { Group, Button } from '@bds-react/core';
 import { IconPhoto, IconDownload, IconArrowRight } from '@tabler/icons-react';
 
 function Demo() {

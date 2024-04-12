@@ -1,10 +1,10 @@
 import React from 'react';
-import { Input, TextInput } from '@mantine/core';
+import { Input, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Input.demo.focusStyles.module.css';
 
 const code = `
-import { Input, TextInput } from '@mantine/core';
+import { Input, TextInput } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

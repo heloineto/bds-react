@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Stack, StackProps } from '@mantine/core';
+import { Button, Stack, StackProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: StackProps) {
@@ -13,7 +13,7 @@ function Wrapper(props: StackProps) {
 }
 
 const code = `
-import { Stack, Button } from '@mantine/core';
+import { Stack, Button } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@bds-react/core';
 
 
 function Demo() {

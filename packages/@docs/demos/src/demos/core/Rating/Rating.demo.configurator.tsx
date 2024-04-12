@@ -1,9 +1,9 @@
 import React from 'react';
-import { Rating, RatingProps } from '@mantine/core';
+import { Rating, RatingProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Rating } from '@mantine/core';
+import { Rating } from '@bds-react/core';
 
 function Demo() {
   return <Rating defaultValue={2}{{props}} />

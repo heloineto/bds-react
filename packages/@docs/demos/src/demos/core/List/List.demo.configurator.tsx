@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListProps } from '@mantine/core';
+import { List, ListProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: ListProps) {
@@ -15,7 +15,7 @@ function Wrapper(props: ListProps) {
 }
 
 const code = `
-import { List } from '@mantine/core';
+import { List } from '@bds-react/core';
 
 function Demo() {
   return (

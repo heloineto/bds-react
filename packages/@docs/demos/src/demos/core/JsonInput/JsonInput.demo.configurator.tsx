@@ -1,10 +1,10 @@
 import React from 'react';
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@bds-react/core';
 
 
 function Demo() {

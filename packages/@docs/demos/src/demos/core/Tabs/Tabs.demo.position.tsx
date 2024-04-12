@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, TabsListProps } from '@mantine/core';
+import { Tabs, TabsListProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: TabsListProps) {
@@ -15,7 +15,7 @@ function Wrapper(props: TabsListProps) {
 }
 
 const code = `
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@bds-react/core';
 
 function Demo() {
   return (

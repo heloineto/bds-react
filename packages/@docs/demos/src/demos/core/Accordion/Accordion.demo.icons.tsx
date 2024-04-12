@@ -1,11 +1,11 @@
 import React from 'react';
+import { Accordion, rem } from '@bds-react/core';
 import { IconCameraSelfie, IconPhoto, IconPrinter } from '@tabler/icons-react';
-import { Accordion, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { IconPhoto, IconPrinter, IconCameraSelfie } from '@tabler/icons-react';
-import { Accordion, rem } from '@mantine/core';
+import { Accordion, rem } from '@bds-react/core';
 
 function Demo() {
   return (

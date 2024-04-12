@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group, Menu } from '@mantine/core';
+import { Group, Menu } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { DemoMenuItems } from './_menu-items';
 
 const code = `
-import { Group, Menu } from '@mantine/core';
+import { Group, Menu } from '@bds-react/core';
 
 function Demo() {
   const menus = Array(4)

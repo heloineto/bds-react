@@ -1,6 +1,6 @@
 import React from 'react';
+import { Button, Modal } from '@bds-react/core';
 import { IconXboxX } from '@tabler/icons-react';
-import { Button, Modal } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
@@ -8,7 +8,7 @@ import { AuthenticationForm } from '../../../shared/AuthenticationForm/Authentic
 const code = `
 import { IconXboxX } from '@tabler/icons-react';
 import { useDisclosure } from '@mantine/hooks';
-import { Modal, Button } from '@mantine/core';
+import { Modal, Button } from '@bds-react/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

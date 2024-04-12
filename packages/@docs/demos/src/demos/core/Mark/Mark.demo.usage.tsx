@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mark, MarkProps, Text } from '@mantine/core';
+import { Mark, MarkProps, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: MarkProps) {
@@ -11,7 +11,7 @@ function Wrapper(props: MarkProps) {
 }
 
 const code = `
-import { Text, Mark } from '@mantine/core';
+import { Text, Mark } from '@bds-react/core';
 
 function Demo() {
   return (

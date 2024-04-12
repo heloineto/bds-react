@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, AccordionProps, Avatar, Group, Text } from '@mantine/core';
+import { Accordion, AccordionProps, Avatar, Group, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const charactersList = [
@@ -32,7 +32,7 @@ const charactersList = [
 ];
 
 const code = `
-import { Group, Avatar, Text, Accordion } from '@mantine/core';
+import { Group, Avatar, Text, Accordion } from '@bds-react/core';
 
 const charactersList = [
   {

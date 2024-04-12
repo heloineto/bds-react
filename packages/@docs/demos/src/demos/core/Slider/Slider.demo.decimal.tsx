@@ -1,9 +1,9 @@
 import React from 'react';
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 
 function Demo() {
   return <Slider min={0} max={1} step={0.0005} defaultValue={0.5535} />;

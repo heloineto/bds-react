@@ -1,9 +1,9 @@
 import React from 'react';
-import { CheckIcon, Radio } from '@mantine/core';
+import { CheckIcon, Radio } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Radio, CheckIcon } from '@mantine/core';
+import { Radio, CheckIcon } from '@bds-react/core';
 
 function Demo() {
   return (

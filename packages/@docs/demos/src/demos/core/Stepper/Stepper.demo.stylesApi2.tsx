@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { rem, Stepper, StepperProps } from '@mantine/core';
+import { rem, Stepper, StepperProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Stepper, StepperProps, rem } from '@mantine/core';
+import { Stepper, StepperProps, rem } from '@bds-react/core';
 
 function StyledStepper(props: StepperProps) {
   return (

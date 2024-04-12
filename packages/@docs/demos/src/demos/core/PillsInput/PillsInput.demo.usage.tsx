@@ -1,9 +1,9 @@
 import React from 'react';
-import { Pill, PillsInput } from '@mantine/core';
+import { Pill, PillsInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { PillsInput, Pill } from '@mantine/core';
+import { PillsInput, Pill } from '@bds-react/core';
 
 function Demo() {
   return (

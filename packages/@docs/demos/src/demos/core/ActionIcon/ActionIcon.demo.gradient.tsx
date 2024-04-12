@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { ActionIcon } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { gradientControls } from '../../../shared';
 
 const code = (props: any) => `
-import { ActionIcon } from '@mantine/core';
+import { ActionIcon } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
 
 function Demo() {

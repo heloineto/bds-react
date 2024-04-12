@@ -1,4 +1,5 @@
 import React from 'react';
+import { Group, Select, SelectProps } from '@bds-react/core';
 import {
   IconAlignCenter,
   IconAlignJustified,
@@ -6,7 +7,6 @@ import {
   IconAlignRight,
   IconCheck,
 } from '@tabler/icons-react';
-import { Group, Select, SelectProps } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
@@ -17,7 +17,7 @@ import {
   IconAlignRight,
   IconCheck,
 } from '@tabler/icons-react';
-import { Group, Select, SelectProps } from '@mantine/core';
+import { Group, Select, SelectProps } from '@bds-react/core';
 
 const iconProps = {
   stroke: 1.5,

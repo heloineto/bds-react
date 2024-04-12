@@ -3,7 +3,7 @@ import { MantineDemo } from '@mantinex/demo';
 import { BaseDemo } from './_base';
 
 const getCode = (prop: string) => `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@bds-react/core';
 
 function Demo() {
   return (

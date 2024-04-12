@@ -1,9 +1,9 @@
 import React from 'react';
-import { AspectRatio, Image, rem } from '@mantine/core';
+import { AspectRatio, Image, rem } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { AspectRatio, Image, rem } from '@mantine/core';
+import { AspectRatio, Image, rem } from '@bds-react/core';
 
 function Demo() {
   return (

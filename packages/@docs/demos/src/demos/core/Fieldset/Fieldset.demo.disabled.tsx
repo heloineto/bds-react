@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Fieldset, Group, TextInput } from '@mantine/core';
+import { Button, Fieldset, Group, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Fieldset, TextInput, Button, Group } from '@mantine/core';
+import { Fieldset, TextInput, Button, Group } from '@bds-react/core';
 
 function Demo() {
   return (

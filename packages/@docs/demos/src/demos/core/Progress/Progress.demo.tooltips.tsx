@@ -1,9 +1,9 @@
 import React from 'react';
-import { Progress, Tooltip } from '@mantine/core';
+import { Progress, Tooltip } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Progress, Tooltip } from '@mantine/core';
+import { Progress, Tooltip } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Popover, Select } from '@mantine/core';
+import { Button, Popover, Select } from '@bds-react/core';
 import { DatePickerInput } from '@mantine/dates';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, Popover, Select } from '@mantine/core';
+import { Button, Popover, Select } from '@bds-react/core';
 import { DatePickerInput } from '@mantine/dates';
 
 function Demo() {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { ColorSwatch, Group } from '@mantine/core';
+import { ColorSwatch, Group } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ColorSwatch, Group } from '@mantine/core';
+import { ColorSwatch, Group } from '@bds-react/core';
 
 function Demo() {
   return (

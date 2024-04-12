@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Drawer, FocusTrap, TextInput } from '@mantine/core';
+import { Button, Drawer, FocusTrap, TextInput } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Drawer, Button, TextInput, FocusTrap } from '@mantine/core';
+import { Drawer, Button, TextInput, FocusTrap } from '@bds-react/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

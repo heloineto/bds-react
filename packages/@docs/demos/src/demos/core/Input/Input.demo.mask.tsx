@@ -1,10 +1,10 @@
 import React from 'react';
+import { Input } from '@bds-react/core';
 import { IMaskInput } from 'react-imask';
-import { Input } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Input } from '@mantine/core';
+import { Input } from '@bds-react/core';
 import { IMaskInput } from 'react-imask';
 
 function Demo() {

@@ -1,10 +1,10 @@
 import React from 'react';
-import { SimpleGrid } from '@mantine/core';
+import { SimpleGrid } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { defaultItems } from './_demo-item';
 
 const code = `
-import { SimpleGrid } from '@mantine/core';
+import { SimpleGrid } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Text } from '@mantine/core';
+import { Space, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: any) {
@@ -13,7 +13,7 @@ function Wrapper(props: any) {
 }
 
 const code = `
-import { Text, Space } from '@mantine/core';
+import { Text, Space } from '@bds-react/core';
 
 function Demo() {
   return (

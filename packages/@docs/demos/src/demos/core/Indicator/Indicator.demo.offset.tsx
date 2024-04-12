@@ -1,9 +1,9 @@
 import React from 'react';
-import { Avatar, Indicator } from '@mantine/core';
+import { Avatar, Indicator } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Avatar, Indicator } from '@mantine/core';
+import { Avatar, Indicator } from '@bds-react/core';
 
 function Demo() {
   return (

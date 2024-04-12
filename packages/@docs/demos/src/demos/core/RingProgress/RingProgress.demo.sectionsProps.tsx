@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { RingProgress, Text } from '@mantine/core';
+import { RingProgress, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { RingProgress, Text } from '@mantine/core';
+import { RingProgress, Text } from '@bds-react/core';
 
 function Demo() {
   const [hovered, setHovered] = useState(-1);

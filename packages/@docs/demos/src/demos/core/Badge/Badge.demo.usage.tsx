@@ -1,9 +1,9 @@
 import React from 'react';
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 
 function Demo() {
   return <Badge{{props}}>Badge</Badge>;

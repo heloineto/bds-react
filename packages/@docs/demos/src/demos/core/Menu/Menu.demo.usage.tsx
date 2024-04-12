@@ -1,10 +1,10 @@
 import React from 'react';
-import { Menu } from '@mantine/core';
+import { Menu } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { DemoMenuItems } from './_menu-items';
 
 const code = `
-import { Menu, Button, Text, rem } from '@mantine/core';
+import { Menu, Button, Text, rem } from '@bds-react/core';
 import {
   IconSettings,
   IconSearch,

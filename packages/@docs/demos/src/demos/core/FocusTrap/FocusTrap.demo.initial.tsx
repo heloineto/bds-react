@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Button, FocusTrap, TextInput } from '@mantine/core';
+import { Box, Button, FocusTrap, TextInput } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { FocusTrap, TextInput, Button, Box } from '@mantine/core';
+import { FocusTrap, TextInput, Button, Box } from '@bds-react/core';
 
 function Demo() {
   const [active, { toggle }] = useDisclosure(false);

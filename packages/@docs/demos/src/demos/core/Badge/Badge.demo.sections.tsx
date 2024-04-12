@@ -1,10 +1,10 @@
 import React from 'react';
+import { Badge, Group, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { Badge, Group, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Badge, Group, rem } from '@mantine/core';
+import { Badge, Group, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
 
 function Demo() {

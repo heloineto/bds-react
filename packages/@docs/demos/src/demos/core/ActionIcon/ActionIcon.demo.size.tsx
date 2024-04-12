@@ -1,10 +1,10 @@
 import React from 'react';
+import { ActionIcon, rem } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { ActionIcon, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ActionIcon, rem } from '@mantine/core';
+import { ActionIcon, rem } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
 
 function Demo() {

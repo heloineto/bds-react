@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon, Group, Switch } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { ActionIcon, Group, Switch } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ActionIcon, Group, Switch } from '@mantine/core';
+import { ActionIcon, Group, Switch } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconHeart } from '@tabler/icons-react';
 

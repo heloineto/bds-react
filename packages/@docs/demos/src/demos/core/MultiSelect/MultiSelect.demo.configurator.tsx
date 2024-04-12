@@ -1,10 +1,10 @@
 import React from 'react';
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@bds-react/core';
 
 
 function Demo() {

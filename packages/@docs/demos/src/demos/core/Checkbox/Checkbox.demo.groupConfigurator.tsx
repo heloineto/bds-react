@@ -1,9 +1,9 @@
 import React from 'react';
-import { Checkbox, CheckboxGroupProps, Group } from '@mantine/core';
+import { Checkbox, CheckboxGroupProps, Group } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Checkbox, Group } from '@mantine/core';
+import { Checkbox, Group } from '@bds-react/core';
 
 
 function Demo() {

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { HueSlider, Text } from '@mantine/core';
+import { HueSlider, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { HueSlider, Text } from '@mantine/core';
+import { HueSlider, Text } from '@bds-react/core';
 
 function Demo() {
   const [value, onChange] = useState(250);

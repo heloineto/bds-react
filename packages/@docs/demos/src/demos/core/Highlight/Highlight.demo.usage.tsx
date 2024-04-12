@@ -1,5 +1,5 @@
 import React from 'react';
-import { Highlight, HighlightProps } from '@mantine/core';
+import { Highlight, HighlightProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: HighlightProps) {
@@ -7,7 +7,7 @@ function Wrapper(props: HighlightProps) {
 }
 
 const code = `
-import { Highlight } from '@mantine/core';
+import { Highlight } from '@bds-react/core';
 
 function Demo() {
   return (

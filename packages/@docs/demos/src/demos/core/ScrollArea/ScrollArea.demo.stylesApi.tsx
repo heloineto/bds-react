@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, ScrollArea } from '@mantine/core';
+import { Box, ScrollArea } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { Content } from './_content';
 import classes from './ScrollArea.demo.stylesApi.module.css';
 
 const code = `
-import { ScrollArea, Box } from '@mantine/core';
+import { ScrollArea, Box } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

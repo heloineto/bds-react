@@ -1,9 +1,9 @@
 import React from 'react';
-import { Radio, RadioProps } from '@mantine/core';
+import { Radio, RadioProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Radio } from '@mantine/core';
+import { Radio } from '@bds-react/core';
 
 
 function Demo() {

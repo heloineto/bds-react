@@ -1,9 +1,9 @@
 import React from 'react';
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@bds-react/core';
 
 function Demo() {
   return (

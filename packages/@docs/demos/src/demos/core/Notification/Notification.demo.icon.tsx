@@ -1,11 +1,11 @@
 import React from 'react';
+import { Notification, rem } from '@bds-react/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
-import { Notification, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { IconX, IconCheck } from '@tabler/icons-react';
-import { Notification, rem } from '@mantine/core';
+import { Notification, rem } from '@bds-react/core';
 
 function Demo() {
   const xIcon = <IconX style={{ width: rem(20), height: rem(20) }} />;

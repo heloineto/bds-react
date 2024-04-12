@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { ActionIcon } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './ActionIcon.demo.disabledStyles.module.css';
 
 const code = `
-import { ActionIcon } from '@mantine/core';
+import { ActionIcon } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
 import classes from './Demo.module.css';
 

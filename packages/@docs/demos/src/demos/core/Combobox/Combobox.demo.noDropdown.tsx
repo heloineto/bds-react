@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Combobox, TextInput } from '@mantine/core';
+import { Combobox, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Combobox, TextInput } from '@mantine/core';
+import { Combobox, TextInput } from '@bds-react/core';
 
 function Demo() {
   const [value, setValue] = useState('');

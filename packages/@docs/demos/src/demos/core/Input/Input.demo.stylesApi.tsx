@@ -1,11 +1,11 @@
 import React from 'react';
+import { Input, rem } from '@bds-react/core';
 import { IconAt, IconChevronDown } from '@tabler/icons-react';
-import { Input, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { InputStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Input, rem } from '@mantine/core';
+import { Input, rem } from '@bds-react/core';
 
 function Demo() {
   const at = <IconAt style={{ width: rem(16), height: rem(16) }} stroke={1.5} />;

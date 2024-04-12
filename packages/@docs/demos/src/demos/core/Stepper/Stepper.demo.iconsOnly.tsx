@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import { rem, Stepper } from '@bds-react/core';
 import { IconMailOpened, IconShieldCheck, IconUserCheck } from '@tabler/icons-react';
-import { rem, Stepper } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Stepper, rem } from '@mantine/core';
+import { Stepper, rem } from '@bds-react/core';
 import { IconUserCheck, IconMailOpened, IconShieldCheck } from '@tabler/icons-react';
 
 function Demo() {

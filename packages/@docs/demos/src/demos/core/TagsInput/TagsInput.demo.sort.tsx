@@ -1,9 +1,9 @@
 import React from 'react';
-import { ComboboxItem, OptionsFilter, TagsInput } from '@mantine/core';
+import { ComboboxItem, OptionsFilter, TagsInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TagsInput, ComboboxItem, OptionsFilter } from '@mantine/core';
+import { TagsInput, ComboboxItem, OptionsFilter } from '@bds-react/core';
 
 const optionsFilter: OptionsFilter = ({ options, search }) => {
   const filtered = (options as ComboboxItem[]).filter((option) =>

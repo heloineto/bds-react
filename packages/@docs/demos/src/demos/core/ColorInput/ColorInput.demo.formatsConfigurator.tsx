@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorInput, ColorInputProps } from '@mantine/core';
+import { ColorInput, ColorInputProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: ColorInputProps) {
@@ -16,7 +16,7 @@ function Wrapper(props: ColorInputProps) {
 }
 
 const code = `
-import { ColorInput } from '@mantine/core';
+import { ColorInput } from '@bds-react/core';
 
 function Demo() {
   return <ColorInput defaultValue="#C5D899"{{props}} />;

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Button, Collapse, Group, Text } from '@mantine/core';
+import { Box, Button, Collapse, Group, Text } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Button, Group, Text, Collapse, Box } from '@mantine/core';
+import { Button, Group, Text, Collapse, Box } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 
 function Demo() {

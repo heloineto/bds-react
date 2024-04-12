@@ -1,10 +1,10 @@
 import React from 'react';
-import { Table } from '@mantine/core';
+import { Table } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { elements } from './_data';
 
 const code = `
-import { Table } from '@mantine/core';
+import { Table } from '@bds-react/core';
 
 const elements = [
   { position: 6, mass: 12.011, symbol: 'C', name: 'Carbon' },

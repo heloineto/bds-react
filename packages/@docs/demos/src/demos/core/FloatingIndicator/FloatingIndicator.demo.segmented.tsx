@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { FloatingIndicator, UnstyledButton } from '@mantine/core';
+import { FloatingIndicator, UnstyledButton } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './FloatingIndicator.demo.segmented.module.css';
 
 const code = `
 import { useState } from 'react';
-import { FloatingIndicator, UnstyledButton } from '@mantine/core';
+import { FloatingIndicator, UnstyledButton } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const data = ['React', 'Vue', 'Angular', 'Svelte'];

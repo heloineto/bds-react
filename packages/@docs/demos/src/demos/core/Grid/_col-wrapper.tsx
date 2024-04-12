@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, GridColProps } from '@mantine/core';
+import { Grid, GridColProps } from '@bds-react/core';
 import classes from './_col-wrapper.module.css';
 
 export function ColWrapper({ children, ...others }: GridColProps) {

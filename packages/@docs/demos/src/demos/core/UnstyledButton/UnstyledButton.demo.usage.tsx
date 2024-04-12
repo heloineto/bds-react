@@ -1,9 +1,9 @@
 import React from 'react';
-import { UnstyledButton } from '@mantine/core';
+import { UnstyledButton } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { UnstyledButton } from '@mantine/core';
+import { UnstyledButton } from '@bds-react/core';
 
 function Demo() {
   return <UnstyledButton>Button without styles</UnstyledButton>;

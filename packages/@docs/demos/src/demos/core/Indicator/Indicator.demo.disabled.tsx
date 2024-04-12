@@ -1,11 +1,11 @@
 import React from 'react';
-import { Avatar, Button, Indicator, Stack } from '@mantine/core';
+import { Avatar, Button, Indicator, Stack } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Avatar, Indicator, Button, Stack } from '@mantine/core';
+import { Avatar, Indicator, Button, Stack } from '@bds-react/core';
 
 function Demo() {
   const [visible, { toggle }] = useDisclosure();

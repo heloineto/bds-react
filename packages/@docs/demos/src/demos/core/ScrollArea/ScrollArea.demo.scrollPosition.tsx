@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Box, Code, ScrollArea, Stack, Text } from '@mantine/core';
+import { Box, Code, ScrollArea, Stack, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { Content } from './_content';
 
 const code = `
 import { useState } from 'react';
-import { Text, ScrollArea, Code, Box } from '@mantine/core';
+import { Text, ScrollArea, Code, Box } from '@bds-react/core';
 
 function Demo() {
   const [scrollPosition, onScrollPositionChange] = useState({ x: 0, y: 0 });

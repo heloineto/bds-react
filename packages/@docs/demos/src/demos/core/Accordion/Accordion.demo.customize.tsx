@@ -1,11 +1,11 @@
 import React from 'react';
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { groceries } from './_base';
 import classes from './Accordion.demo.customize.module.css';
 
 const code = `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

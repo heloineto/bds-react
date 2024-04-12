@@ -1,9 +1,9 @@
 import React from 'react';
-import { Table, TableData } from '@mantine/core';
+import { Table, TableData } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Table, TableData } from '@mantine/core';
+import { Table, TableData } from '@bds-react/core';
 
 const tableData: TableData = {
   caption: 'Some elements from periodic table',

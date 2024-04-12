@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Indicator, IndicatorProps } from '@mantine/core';
+import { Avatar, Indicator, IndicatorProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Demo(props: IndicatorProps) {
@@ -15,7 +15,7 @@ function Demo(props: IndicatorProps) {
 }
 
 const code = `
-import { Indicator, Avatar } from '@mantine/core';
+import { Indicator, Avatar } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, MultiSelect } from '@mantine/core';
+import { Button, MultiSelect } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MultiSelect, Button } from '@mantine/core';
+import { MultiSelect, Button } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 
 function Demo() {

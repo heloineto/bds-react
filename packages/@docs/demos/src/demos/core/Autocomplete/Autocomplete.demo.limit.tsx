@@ -1,9 +1,9 @@
 import React from 'react';
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@bds-react/core';
 
 const largeData = Array(100_000)
   .fill(0)

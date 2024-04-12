@@ -1,5 +1,5 @@
 import React from 'react';
-import { RingProgress, RingProgressProps } from '@mantine/core';
+import { RingProgress, RingProgressProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: RingProgressProps) {
@@ -16,7 +16,7 @@ function Wrapper(props: RingProgressProps) {
 }
 
 const code = `
-import { RingProgress } from '@mantine/core';
+import { RingProgress } from '@bds-react/core';
 
 function Demo() {
   return (

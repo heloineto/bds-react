@@ -1,9 +1,9 @@
 import React from 'react';
-import { Avatar, Group, MultiSelect, MultiSelectProps, Text } from '@mantine/core';
+import { Avatar, Group, MultiSelect, MultiSelectProps, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MultiSelect, MultiSelectProps, Avatar, Group, Text } from '@mantine/core';
+import { MultiSelect, MultiSelectProps, Avatar, Group, Text } from '@bds-react/core';
 
 const usersData: Record<string, { image: string; email: string }> = {
   'Emily Johnson': {

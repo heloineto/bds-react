@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
+import { Box, PasswordInput, Popover, Progress, rem, Text } from '@bds-react/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
-import { Box, PasswordInput, Popover, Progress, rem, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { IconX, IconCheck } from '@tabler/icons-react';
-import { PasswordInput, Progress, Text, Popover, Box, rem } from '@mantine/core';
+import { PasswordInput, Progress, Text, Popover, Box, rem } from '@bds-react/core';
 
 function PasswordRequirement({ meets, label }: { meets: boolean; label: string }) {
   return (

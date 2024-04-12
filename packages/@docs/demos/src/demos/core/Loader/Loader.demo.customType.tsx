@@ -1,10 +1,10 @@
 import React from 'react';
-import { Loader, MantineThemeProvider } from '@mantine/core';
+import { Loader, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { RingLoader, ringLoaderCode } from './_RingLoader';
 
 const code = `
-import { MantineProvider, Loader } from '@mantine/core';
+import { MantineProvider, Loader } from '@bds-react/core';
 import { RingLoader } from './RingLoader';
 
 function Demo() {

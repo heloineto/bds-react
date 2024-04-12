@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { gradientControls } from '../../../shared';
 
 const code = (props: any) => `
-import { Button } from '@mantine/core';
+import { Button } from '@bds-react/core';
 
 function Demo() {
   return (

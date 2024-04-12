@@ -1,9 +1,9 @@
 import React from 'react';
-import { Pagination, Text } from '@mantine/core';
+import { Pagination, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Text, Pagination } from '@mantine/core';
+import { Text, Pagination } from '@bds-react/core';
 
 function Demo() {
   return (

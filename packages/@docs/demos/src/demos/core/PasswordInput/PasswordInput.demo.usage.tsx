@@ -1,10 +1,10 @@
 import React from 'react';
-import { PasswordInput } from '@mantine/core';
+import { PasswordInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { PasswordInput } from '@mantine/core';
+import { PasswordInput } from '@bds-react/core';
 
 
 function Demo() {

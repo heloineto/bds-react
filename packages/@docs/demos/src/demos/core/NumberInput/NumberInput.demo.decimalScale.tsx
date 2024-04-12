@@ -1,9 +1,9 @@
 import React from 'react';
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@bds-react/core';
 
 function Demo() {
   return (

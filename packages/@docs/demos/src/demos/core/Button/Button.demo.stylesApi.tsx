@@ -1,11 +1,11 @@
 import React from 'react';
+import { Button, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { Button, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { ButtonStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Button, rem } from '@mantine/core';
+import { Button, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
 
 function Demo() {

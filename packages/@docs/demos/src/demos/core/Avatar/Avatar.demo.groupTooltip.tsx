@@ -1,10 +1,10 @@
 import React from 'react';
-import { Avatar, Tooltip } from '@mantine/core';
+import { Avatar, Tooltip } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { avatars } from './_mockdata';
 
 const code = `
-import { Avatar, Tooltip } from '@mantine/core';
+import { Avatar, Tooltip } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Popover, Text } from '@mantine/core';
+import { Button, Popover, Text } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Popover, Text, Button } from '@mantine/core';
+import { Popover, Text, Button } from '@bds-react/core';
 
 function Demo() {
   const [opened, { close, open }] = useDisclosure(false);

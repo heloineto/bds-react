@@ -1,10 +1,10 @@
 import React from 'react';
+import { Anchor, Box, Center, rem } from '@bds-react/core';
 import { IconArrowLeft } from '@tabler/icons-react';
-import { Anchor, Box, Center, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Center, Anchor, Box, rem } from '@mantine/core';
+import { Center, Anchor, Box, rem } from '@bds-react/core';
 import { IconArrowLeft } from '@tabler/icons-react';
 
 function Demo() {

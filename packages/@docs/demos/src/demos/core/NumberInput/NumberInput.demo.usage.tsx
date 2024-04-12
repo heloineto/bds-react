@@ -1,10 +1,10 @@
 import React from 'react';
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@bds-react/core';
 
 
 function Demo() {

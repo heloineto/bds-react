@@ -1,10 +1,10 @@
 import React from 'react';
+import { Autocomplete, rem } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
-import { Autocomplete, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Autocomplete, rem } from '@mantine/core';
+import { Autocomplete, rem } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
 
 function Demo() {

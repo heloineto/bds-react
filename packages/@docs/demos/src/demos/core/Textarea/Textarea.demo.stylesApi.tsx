@@ -1,12 +1,12 @@
 import React from 'react';
+import { rem, Textarea } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { rem, Textarea } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { TextareaStylesApi } from '@docs/styles-api';
 
 const code = `
 import { IconAt } from '@tabler/icons-react';
-import { Textarea, rem } from '@mantine/core';
+import { Textarea, rem } from '@bds-react/core';
 
 function Demo() {
   return (

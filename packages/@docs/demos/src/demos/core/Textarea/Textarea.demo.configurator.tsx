@@ -1,10 +1,10 @@
 import React from 'react';
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@bds-react/core';
 
 
 function Demo() {

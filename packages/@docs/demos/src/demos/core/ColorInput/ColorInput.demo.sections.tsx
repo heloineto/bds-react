@@ -1,10 +1,10 @@
 import React from 'react';
+import { ColorInput, rem } from '@bds-react/core';
 import { IconColorPicker } from '@tabler/icons-react';
-import { ColorInput, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ColorInput, rem } from '@mantine/core';
+import { ColorInput, rem } from '@bds-react/core';
 import { IconColorPicker } from '@tabler/icons-react';
 
 function Demo() {

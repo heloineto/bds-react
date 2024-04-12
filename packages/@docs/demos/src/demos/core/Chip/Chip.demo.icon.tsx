@@ -1,10 +1,10 @@
 import React from 'react';
+import { Chip, rem } from '@bds-react/core';
 import { IconX } from '@tabler/icons-react';
-import { Chip, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Chip, rem } from '@mantine/core';
+import { Chip, rem } from '@bds-react/core';
 import { IconX } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,6 +1,6 @@
 import React from 'react';
+import { rem, Tabs, TabsProps, useDirection } from '@bds-react/core';
 import { IconMessageCircle, IconPhoto, IconSettings } from '@tabler/icons-react';
-import { rem, Tabs, TabsProps, useDirection } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: TabsProps) {
@@ -39,7 +39,7 @@ function Wrapper(props: TabsProps) {
 }
 
 const code = `
-import { Tabs, rem } from '@mantine/core';
+import { Tabs, rem } from '@bds-react/core';
 import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Paper, Text } from '@mantine/core';
+import { Box, Paper, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: any) {
@@ -17,7 +17,7 @@ function Wrapper(props: any) {
 }
 
 const code = `
-import { Text, Paper } from '@mantine/core';
+import { Text, Paper } from '@bds-react/core';
 
 function Demo() {
   return (

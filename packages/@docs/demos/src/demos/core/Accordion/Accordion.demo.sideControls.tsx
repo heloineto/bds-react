@@ -1,10 +1,10 @@
 import React from 'react';
+import { Accordion, AccordionControlProps, ActionIcon, Center } from '@bds-react/core';
 import { IconDots } from '@tabler/icons-react';
-import { Accordion, AccordionControlProps, ActionIcon, Center } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Accordion, ActionIcon, AccordionControlProps, Center } from '@mantine/core';
+import { Accordion, ActionIcon, AccordionControlProps, Center } from '@bds-react/core';
 import { IconDots } from '@tabler/icons-react';
 
 function AccordionControl(props: AccordionControlProps) {

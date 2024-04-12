@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ColorPicker, ColorPickerProps, Stack, Text } from '@mantine/core';
+import { ColorPicker, ColorPickerProps, Stack, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: ColorPickerProps) {
@@ -14,7 +14,7 @@ function Wrapper(props: ColorPickerProps) {
 }
 
 const code = `
-import { ColorPicker } from '@mantine/core';
+import { ColorPicker } from '@bds-react/core';
 
 function Demo() {
   return <ColorPicker{{props}} />;

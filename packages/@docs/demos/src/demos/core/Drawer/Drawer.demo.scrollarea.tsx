@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Drawer, ScrollArea } from '@mantine/core';
+import { Button, Drawer, ScrollArea } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Drawer, Button, ScrollArea } from '@mantine/core';
+import { Drawer, Button, ScrollArea } from '@bds-react/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

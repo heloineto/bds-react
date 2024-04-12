@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, MenuProps } from '@mantine/core';
+import { Menu, MenuProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { FLOATING_ARROW_POSITION_DATA } from '../../../shared/floating-position-data';
 import { DemoMenuItems } from './_menu-items';
@@ -13,7 +13,7 @@ function Wrapper(props: MenuProps) {
 }
 
 const code = `
-import { Menu } from '@mantine/core';
+import { Menu } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import { ColorInput, DEFAULT_THEME } from '@mantine/core';
+import { ColorInput, DEFAULT_THEME } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ColorInput, DEFAULT_THEME } from '@mantine/core';
+import { ColorInput, DEFAULT_THEME } from '@bds-react/core';
 
 function Demo() {
   return (

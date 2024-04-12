@@ -1,9 +1,9 @@
 import React from 'react';
-import { AspectRatio, Overlay } from '@mantine/core';
+import { AspectRatio, Overlay } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Overlay, AspectRatio } from '@mantine/core';
+import { Overlay, AspectRatio } from '@bds-react/core';
 
 function Demo() {
   return (

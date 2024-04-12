@@ -1,10 +1,10 @@
 import React from 'react';
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { SliderStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 
 function Demo() {
   return <Slider{{props}} marks={[{ value: 20, label: '20%' }, { value: 80, label: '80%' }]} labelAlwaysOn />;

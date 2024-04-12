@@ -1,11 +1,11 @@
 import React from 'react';
-import { Accordion, AccordionProps } from '@mantine/core';
+import { Accordion, AccordionProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { AccordionStylesApi } from '@docs/styles-api';
 import { groceries } from './_base';
 
 const code = `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@bds-react/core';
 
 function Demo() {
   // See groceries data above

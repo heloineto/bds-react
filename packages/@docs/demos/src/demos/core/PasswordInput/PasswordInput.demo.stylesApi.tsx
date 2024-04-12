@@ -1,12 +1,12 @@
 import React from 'react';
+import { PasswordInput, rem } from '@bds-react/core';
 import { IconLock } from '@tabler/icons-react';
-import { PasswordInput, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { PasswordInputStylesApi } from '@docs/styles-api';
 
 const code = `
 import { IconLock } from '@tabler/icons-react';
-import { PasswordInput, rem } from '@mantine/core';
+import { PasswordInput, rem } from '@bds-react/core';
 
 function Demo() {
   return (

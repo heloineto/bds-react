@@ -1,9 +1,9 @@
 import React from 'react';
-import { Autocomplete, Button, Popover } from '@mantine/core';
+import { Autocomplete, Button, Popover } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Popover, Button, Autocomplete } from '@mantine/core';
+import { Popover, Button, Autocomplete } from '@bds-react/core';
 
 function Demo() {
   return (

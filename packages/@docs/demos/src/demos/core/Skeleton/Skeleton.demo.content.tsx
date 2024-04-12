@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Button, Group, Skeleton, Text } from '@mantine/core';
+import { Button, Group, Skeleton, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Skeleton, Button } from '@mantine/core';
+import { Skeleton, Button } from '@bds-react/core';
 
 function Demo() {
   const [loading, setLoading] = useState(true);

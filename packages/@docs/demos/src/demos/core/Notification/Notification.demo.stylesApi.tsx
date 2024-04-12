@@ -1,11 +1,11 @@
 import React from 'react';
+import { Box, Notification } from '@bds-react/core';
 import { IconCheck } from '@tabler/icons-react';
-import { Box, Notification } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { NotificationStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Notification } from '@mantine/core';
+import { Notification } from '@bds-react/core';
 
 function Demo() {
   return (

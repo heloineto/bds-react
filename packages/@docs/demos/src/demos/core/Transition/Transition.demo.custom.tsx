@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Box, Button, Paper, Transition } from '@mantine/core';
+import { Box, Button, Paper, Transition } from '@bds-react/core';
 import { useClickOutside } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { useClickOutside } from '@mantine/hooks';
-import { Transition, Paper, Button, Box } from '@mantine/core';
+import { Transition, Paper, Button, Box } from '@bds-react/core';
 
 const scaleY = {
   in: { opacity: 1, transform: 'scaleY(1)' },

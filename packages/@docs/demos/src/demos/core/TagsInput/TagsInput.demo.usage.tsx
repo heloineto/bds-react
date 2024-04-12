@@ -1,9 +1,9 @@
 import React from 'react';
-import { TagsInput } from '@mantine/core';
+import { TagsInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TagsInput } from '@mantine/core';
+import { TagsInput } from '@bds-react/core';
 
 function Demo() {
   return <TagsInput label="Press Enter to submit a tag" placeholder="Enter tag" />;

@@ -3,7 +3,7 @@ import { MantineDemo } from '@mantinex/demo';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { Spoiler } from '@mantine/core';
+import { Spoiler } from '@bds-react/core';
 
 function Demo() {
   return (

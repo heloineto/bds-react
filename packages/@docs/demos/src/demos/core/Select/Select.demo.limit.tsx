@@ -1,9 +1,9 @@
 import React from 'react';
-import { Select } from '@mantine/core';
+import { Select } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Select } from '@mantine/core';
+import { Select } from '@bds-react/core';
 
 const largeData = Array(100_000)
   .fill(0)

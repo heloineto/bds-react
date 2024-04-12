@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Menu, rem, Text } from '@bds-react/core';
 import {
   IconArrowsLeftRight,
   IconMessageCircle,
@@ -7,7 +8,6 @@ import {
   IconSettings,
   IconTrash,
 } from '@tabler/icons-react';
-import { Button, Menu, rem, Text } from '@mantine/core';
 
 export function DemoMenuItems({ widthRightSection = true, withTarget = true }) {
   const iconProps = { style: { width: rem(14), height: rem(14) } };

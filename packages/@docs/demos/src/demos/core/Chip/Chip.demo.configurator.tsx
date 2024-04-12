@@ -1,5 +1,5 @@
 import React from 'react';
-import { Chip, ChipProps } from '@mantine/core';
+import { Chip, ChipProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: ChipProps) {
@@ -11,7 +11,7 @@ function Wrapper(props: ChipProps) {
 }
 
 const code = `
-import { Chip } from '@mantine/core';
+import { Chip } from '@bds-react/core';
 
 function Demo() {
   return <Chip defaultChecked{{props}}>Awesome chip</Chip>

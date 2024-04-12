@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, AccordionProps } from '@mantine/core';
+import { Accordion, AccordionProps } from '@bds-react/core';
 
 export const groceries = [
   {

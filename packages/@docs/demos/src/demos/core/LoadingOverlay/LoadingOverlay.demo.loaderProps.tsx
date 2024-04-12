@@ -1,12 +1,12 @@
 import React from 'react';
-import { Box, Button, Group, LoadingOverlay } from '@mantine/core';
+import { Box, Button, Group, LoadingOverlay } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { LoadingOverlay, Button, Group, Box } from '@mantine/core';
+import { LoadingOverlay, Button, Group, Box } from '@bds-react/core';
 
 function Demo() {
   const [visible, { toggle }] = useDisclosure(true);

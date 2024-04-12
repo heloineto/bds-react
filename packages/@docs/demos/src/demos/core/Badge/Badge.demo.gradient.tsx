@@ -1,10 +1,10 @@
 import React from 'react';
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { gradientControls } from '../../../shared';
 
 const code = (props: any) => `
-import { Badge } from '@mantine/core';
+import { Badge } from '@bds-react/core';
 
 function Demo() {
   return (

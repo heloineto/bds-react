@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Popover, Select } from '@mantine/core';
+import { Button, Popover, Select } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Popover, Button, Select } from '@mantine/core';
+import { Popover, Button, Select } from '@bds-react/core';
 
 function Demo() {
   return (

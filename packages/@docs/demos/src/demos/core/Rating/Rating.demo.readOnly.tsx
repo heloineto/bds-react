@@ -1,9 +1,9 @@
 import React from 'react';
-import { Rating } from '@mantine/core';
+import { Rating } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Rating } from '@mantine/core';
+import { Rating } from '@bds-react/core';
 
 function Demo() {
   return <Rating value={3.5} fractions={2} readOnly />;

@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon } from '@bds-react/core';
 import { IconAdjustments } from '@tabler/icons-react';
-import { ActionIcon } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { interactiveVariantsControl } from '../../../shared';
 
 const code = `
-import { ActionIcon } from '@mantine/core';
+import { ActionIcon } from '@bds-react/core';
 import { IconAdjustments } from '@tabler/icons-react';
 
 function Demo() {

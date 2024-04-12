@@ -1,10 +1,10 @@
 import React from 'react';
-import { NativeSelect } from '@mantine/core';
+import { NativeSelect } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { NativeSelect } from '@mantine/core';
+import { NativeSelect } from '@bds-react/core';
 
 function Demo() {
   return <NativeSelect{{props}} data={['React', 'Angular', 'Vue']} />;

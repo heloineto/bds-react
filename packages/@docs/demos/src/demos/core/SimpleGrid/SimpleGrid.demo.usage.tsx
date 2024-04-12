@@ -1,5 +1,5 @@
 import React from 'react';
-import { SimpleGrid, SimpleGridProps } from '@mantine/core';
+import { SimpleGrid, SimpleGridProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { defaultItems } from './_demo-item';
 
@@ -12,7 +12,7 @@ function Demo(props: SimpleGridProps) {
 }
 
 const code = `
-import { SimpleGrid } from '@mantine/core';
+import { SimpleGrid } from '@bds-react/core';
 
 function Demo() {
   return (

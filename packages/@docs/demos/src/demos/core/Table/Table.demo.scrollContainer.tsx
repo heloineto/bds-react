@@ -1,10 +1,10 @@
 import React from 'react';
-import { Table } from '@mantine/core';
+import { Table } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { elements } from './_data';
 
 const code = `
-import { Table } from '@mantine/core';
+import { Table } from '@bds-react/core';
 
 function Demo() {
   const rows = elements.map((element) => (

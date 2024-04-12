@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Combobox, Input, InputBase, useCombobox } from '@mantine/core';
+import { Combobox, Input, InputBase, useCombobox } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Input, InputBase, Combobox, useCombobox } from '@mantine/core';
+import { Input, InputBase, Combobox, useCombobox } from '@bds-react/core';
 
 const groceries = [
   '🍎 Apples',

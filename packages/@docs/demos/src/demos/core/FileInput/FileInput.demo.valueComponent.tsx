@@ -1,9 +1,9 @@
 import React from 'react';
-import { FileInput, FileInputProps, Pill } from '@mantine/core';
+import { FileInput, FileInputProps, Pill } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { FileInput, FileInputProps, Pill } from '@mantine/core';
+import { FileInput, FileInputProps, Pill } from '@bds-react/core';
 
 const ValueComponent: FileInputProps['valueComponent'] = ({ value }) => {
   if (value === null) {

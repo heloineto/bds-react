@@ -1,12 +1,12 @@
 import React from 'react';
+import { MultiSelect, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { MultiSelect, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { MultiSelectStylesApi } from '@docs/styles-api';
 
 const code = `
 import { IconAt } from '@tabler/icons-react';
-import { MultiSelect, rem } from '@mantine/core';
+import { MultiSelect, rem } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Pagination } from '@mantine/core';
+import { Pagination } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { PaginationStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Pagination } from '@mantine/core';
+import { Pagination } from '@bds-react/core';
 
 function Demo() {
   return <Pagination total={10}{{props}} />;

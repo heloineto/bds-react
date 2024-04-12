@@ -1,9 +1,9 @@
 import React from 'react';
-import { Anchor, Group } from '@mantine/core';
+import { Anchor, Group } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Anchor, Group } from '@mantine/core';
+import { Anchor, Group } from '@bds-react/core';
 
 function Demo() {
   return (

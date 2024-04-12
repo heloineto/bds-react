@@ -1,10 +1,10 @@
 import React from 'react';
+import { Anchor, Box, Divider } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
-import { Anchor, Box, Divider } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Divider, Box, Anchor } from '@mantine/core';
+import { Divider, Box, Anchor } from '@bds-react/core';
 import { IconSearch } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { ColorPicker, DEFAULT_THEME, Stack } from '@mantine/core';
+import { ColorPicker, DEFAULT_THEME, Stack } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ColorPicker } from '@mantine/core';
+import { ColorPicker } from '@bds-react/core';
 
 function Demo() {
   return (

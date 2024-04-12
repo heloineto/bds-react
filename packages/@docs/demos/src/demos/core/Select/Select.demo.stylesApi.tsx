@@ -1,12 +1,12 @@
 import React from 'react';
+import { rem, Select } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { rem, Select } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { SelectStylesApi } from '@docs/styles-api';
 
 const code = `
 import { IconAt } from '@tabler/icons-react';
-import { Select, rem } from '@mantine/core';
+import { Select, rem } from '@bds-react/core';
 
 function Demo() {
   return (

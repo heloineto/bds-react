@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, GridProps, rem } from '@mantine/core';
+import { Grid, GridProps, rem } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { ColWrapper as Col } from './_col-wrapper';
 
@@ -18,7 +18,7 @@ function Wrapper(props: GridProps) {
 }
 
 const code = `
-import { Grid, rem } from '@mantine/core';
+import { Grid, rem } from '@bds-react/core';
 
 function Demo() {
   return (

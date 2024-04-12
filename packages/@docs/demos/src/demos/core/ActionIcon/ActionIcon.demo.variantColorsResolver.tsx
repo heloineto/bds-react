@@ -1,5 +1,4 @@
 import React from 'react';
-import { IconError404, IconFingerprint, IconPhoto } from '@tabler/icons-react';
 import {
   ActionIcon,
   darken,
@@ -10,7 +9,8 @@ import {
   rem,
   rgba,
   VariantColorsResolver,
-} from '@mantine/core';
+} from '@bds-react/core';
+import { IconError404, IconFingerprint, IconPhoto } from '@tabler/icons-react';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
@@ -25,7 +25,7 @@ import {
   rem,
   rgba,
   darken,
-} from '@mantine/core';
+} from '@bds-react/core';
 
 const variantColorResolver: VariantColorsResolver = (input) => {
   const defaultResolvedColors = defaultVariantColorsResolver(input);

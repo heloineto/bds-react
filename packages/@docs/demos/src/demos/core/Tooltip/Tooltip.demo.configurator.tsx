@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Tooltip } from '@mantine/core';
+import { Button, Tooltip } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: any) {
@@ -11,7 +11,7 @@ function Wrapper(props: any) {
 }
 
 const code = `
-import { Tooltip, Button } from '@mantine/core';
+import { Tooltip, Button } from '@bds-react/core';
 
 function Demo() {
   return (

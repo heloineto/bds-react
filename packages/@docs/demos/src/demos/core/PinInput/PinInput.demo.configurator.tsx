@@ -1,9 +1,9 @@
 import React from 'react';
-import { PinInput, PinInputProps } from '@mantine/core';
+import { PinInput, PinInputProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { PinInput } from '@mantine/core';
+import { PinInput } from '@bds-react/core';
 
 function Demo() {
   return <PinInput{{props}} />

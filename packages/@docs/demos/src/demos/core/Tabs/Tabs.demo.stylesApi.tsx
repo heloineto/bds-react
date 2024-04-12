@@ -1,11 +1,11 @@
 import React from 'react';
+import { rem, Tabs, TabsProps } from '@bds-react/core';
 import { IconMessageCircle, IconPhoto, IconSettings } from '@tabler/icons-react';
-import { rem, Tabs, TabsProps } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { TabsStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Tabs, rem } from '@mantine/core';
+import { Tabs, rem } from '@bds-react/core';
 
 function Demo() {
   const iconStyle = { width: rem(12), height: rem(12) };

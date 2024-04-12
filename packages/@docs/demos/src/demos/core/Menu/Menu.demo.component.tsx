@@ -1,10 +1,10 @@
 import React from 'react';
+import { Button, Menu, rem } from '@bds-react/core';
 import { IconExternalLink } from '@tabler/icons-react';
-import { Button, Menu, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Menu, Button, rem } from '@mantine/core';
+import { Menu, Button, rem } from '@bds-react/core';
 import { IconExternalLink } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@bds-react/core';
 
 function Demo() {
   return <Textarea resize="vertical" label="Disabled" placeholder="Your comment" />;

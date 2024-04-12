@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@mantine/core';
+import { Text } from '@bds-react/core';
 
 export function Content() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Image, Text } from '@mantine/core';
+import { Card, Image, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Card, Image, Text } from '@mantine/core';
+import { Card, Image, Text } from '@bds-react/core';
 
 function Demo() {
   return (

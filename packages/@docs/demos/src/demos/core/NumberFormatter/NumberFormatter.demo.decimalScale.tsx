@@ -1,9 +1,9 @@
 import React from 'react';
-import { NumberFormatter } from '@mantine/core';
+import { NumberFormatter } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { NumberFormatter } from '@mantine/core';
+import { NumberFormatter } from '@bds-react/core';
 
 function Demo() {
   return <NumberFormatter value={5 / 3} decimalScale={2} />;

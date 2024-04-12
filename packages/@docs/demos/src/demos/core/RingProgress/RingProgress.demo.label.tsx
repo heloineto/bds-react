@@ -1,10 +1,10 @@
 import React from 'react';
+import { ActionIcon, Center, Group, rem, RingProgress, Text } from '@bds-react/core';
 import { IconCheck } from '@tabler/icons-react';
-import { ActionIcon, Center, Group, rem, RingProgress, Text } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { ActionIcon, RingProgress, Text, Center, rem } from '@mantine/core';
+import { ActionIcon, RingProgress, Text, Center, rem } from '@bds-react/core';
 import { IconCheck } from '@tabler/icons-react';
 
 function Demo() {

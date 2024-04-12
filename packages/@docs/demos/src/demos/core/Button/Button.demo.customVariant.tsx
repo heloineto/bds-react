@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, createTheme, Group, MantineThemeProvider } from '@mantine/core';
+import { Button, createTheme, Group, MantineThemeProvider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Button.demo.customVariant.module.css';
 
 const code = `
-import { Group, Button, MantineProvider, createTheme } from '@mantine/core';
+import { Group, Button, MantineProvider, createTheme } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

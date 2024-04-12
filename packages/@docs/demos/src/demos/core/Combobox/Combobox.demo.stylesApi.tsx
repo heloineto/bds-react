@@ -1,10 +1,10 @@
 import React from 'react';
-import { Combobox, TextInput, useCombobox } from '@mantine/core';
+import { Combobox, TextInput, useCombobox } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { ComboboxStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Combobox, TextInput, useCombobox } from '@mantine/core';
+import { Combobox, TextInput, useCombobox } from '@bds-react/core';
 
 function Demo() {
   const combobox = useCombobox({ opened: true });

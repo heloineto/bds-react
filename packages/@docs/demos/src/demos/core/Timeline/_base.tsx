@@ -1,11 +1,11 @@
 import React from 'react';
+import { Text, Timeline, TimelineProps } from '@bds-react/core';
 import {
   IconGitBranch,
   IconGitCommit,
   IconGitPullRequest,
   IconMessageDots,
 } from '@tabler/icons-react';
-import { Text, Timeline, TimelineProps } from '@mantine/core';
 
 export function TimelineBase({ noIcon, ...props }: Partial<TimelineProps> & { noIcon?: boolean }) {
   const displayIcon = !noIcon;

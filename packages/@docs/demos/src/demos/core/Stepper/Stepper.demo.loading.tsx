@@ -1,9 +1,9 @@
 import React from 'react';
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@bds-react/core';
 
 function Demo() {
   return (

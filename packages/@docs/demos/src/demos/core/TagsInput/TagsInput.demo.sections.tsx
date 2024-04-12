@@ -1,10 +1,10 @@
 import React from 'react';
+import { rem, TagsInput } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
-import { rem, TagsInput } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TagsInput, rem } from '@mantine/core';
+import { TagsInput, rem } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
 
 function Demo() {

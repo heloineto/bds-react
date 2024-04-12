@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import { CloseButton, Input } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { CloseButton, Input } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Input, CloseButton } from '@mantine/core';
+import { Input, CloseButton } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
 
 function Demo() {

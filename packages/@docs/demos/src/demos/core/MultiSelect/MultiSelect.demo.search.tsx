@@ -1,9 +1,9 @@
 import React from 'react';
-import { ComboboxItem, MultiSelect, OptionsFilter } from '@mantine/core';
+import { ComboboxItem, MultiSelect, OptionsFilter } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { MultiSelect, ComboboxItem, OptionsFilter } from '@mantine/core';
+import { MultiSelect, ComboboxItem, OptionsFilter } from '@bds-react/core';
 
 const optionsFilter: OptionsFilter = ({ options, search }) => {
   const splittedSearch = search.toLowerCase().trim().split(' ');

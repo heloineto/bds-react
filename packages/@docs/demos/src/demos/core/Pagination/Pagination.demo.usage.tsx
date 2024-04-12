@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagination } from '@mantine/core';
+import { Pagination } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Demo() {

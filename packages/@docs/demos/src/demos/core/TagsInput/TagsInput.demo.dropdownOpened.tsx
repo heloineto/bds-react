@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, TagsInput } from '@mantine/core';
+import { Button, TagsInput } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TagsInput, Button } from '@mantine/core';
+import { TagsInput, Button } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 
 function Demo() {

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { ColorPicker, Text } from '@mantine/core';
+import { ColorPicker, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { ColorPicker, Text } from '@mantine/core';
+import { ColorPicker, Text } from '@bds-react/core';
 
 function Demo() {
   const [value, onChange] = useState('rgba(47, 119, 150, 0.7)');

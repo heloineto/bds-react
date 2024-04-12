@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Checkbox } from '@mantine/core';
+import { Box, Checkbox } from '@bds-react/core';
 import { randomId, useListState } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useListState, randomId } from '@mantine/hooks';
-import { Checkbox } from '@mantine/core';
+import { Checkbox } from '@bds-react/core';
 
 const initialValues = [
   { label: 'Receive email notifications', checked: false, key: randomId() },

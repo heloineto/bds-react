@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import { rem, Switch, useMantineTheme } from '@bds-react/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
-import { rem, Switch, useMantineTheme } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { Switch, useMantineTheme, rem } from '@mantine/core';
+import { Switch, useMantineTheme, rem } from '@bds-react/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
 
 function Demo() {

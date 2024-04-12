@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Group, ScrollArea } from '@mantine/core';
+import { Button, Group, ScrollArea } from '@bds-react/core';
 import { useCounter } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
@@ -8,7 +8,7 @@ const lorem =
 
 const code = `
 import { useCounter } from '@mantine/hooks';
-import { ScrollArea, Button, Group } from '@mantine/core';
+import { ScrollArea, Button, Group } from '@bds-react/core';
 
 const lorem =
   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perspiciatis reiciendis voluptate eaque itaque quos. Natus iure tenetur libero, reprehenderit ad, sequi, in aliquam eos necessitatibus expedita delectus veniam culpa!';

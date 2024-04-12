@@ -1,10 +1,10 @@
 import React from 'react';
+import { rem, Select } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
-import { rem, Select } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Select, rem } from '@mantine/core';
+import { Select, rem } from '@bds-react/core';
 import { IconComponents } from '@tabler/icons-react';
 
 function Demo() {

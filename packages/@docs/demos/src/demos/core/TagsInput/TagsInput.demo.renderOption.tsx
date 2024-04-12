@@ -1,9 +1,9 @@
 import React from 'react';
-import { Group, TagsInput, TagsInputProps, Text } from '@mantine/core';
+import { Group, TagsInput, TagsInputProps, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Group, TagsInput, TagsInputProps, Text } from '@mantine/core';
+import { Group, TagsInput, TagsInputProps, Text } from '@bds-react/core';
 
 const data: Record<string, { emoji: string; description: string }> = {
   Apples: {

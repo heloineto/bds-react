@@ -1,11 +1,11 @@
 import React from 'react';
-import { Badge, Button, Group, Modal, Text } from '@mantine/core';
+import { Badge, Button, Group, Modal, Text } from '@bds-react/core';
 import { useCounter, useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure, useCounter } from '@mantine/hooks';
-import { Modal, Button, Group, Text, Badge } from '@mantine/core';
+import { Modal, Button, Group, Text, Badge } from '@bds-react/core';
 
 function Demo() {
   const [opened, { close, open }] = useDisclosure(false);

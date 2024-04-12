@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from '@mantine/core';
+import { NavLink } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { NavLink } from '@mantine/core';
+import { NavLink } from '@bds-react/core';
 
 function Demo() {
   return (

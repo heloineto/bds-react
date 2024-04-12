@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: any) {
@@ -18,7 +18,7 @@ function Wrapper(props: any) {
 }
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 
 
 function Demo() {

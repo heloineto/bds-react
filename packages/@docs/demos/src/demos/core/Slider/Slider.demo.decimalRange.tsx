@@ -1,9 +1,9 @@
 import React from 'react';
-import { RangeSlider } from '@mantine/core';
+import { RangeSlider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { RangeSlider } from '@mantine/core';
+import { RangeSlider } from '@bds-react/core';
 
 function Demo() {
   return (

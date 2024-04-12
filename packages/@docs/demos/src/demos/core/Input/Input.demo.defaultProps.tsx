@@ -1,9 +1,9 @@
 import React from 'react';
-import { createTheme, Input, MantineThemeProvider, NativeSelect, TextInput } from '@mantine/core';
+import { createTheme, Input, MantineThemeProvider, NativeSelect, TextInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { TextInput, NativeSelect, MantineProvider, createTheme, Input } from '@mantine/core';
+import { TextInput, NativeSelect, MantineProvider, createTheme, Input } from '@bds-react/core';
 
 const theme = createTheme({
   components: {

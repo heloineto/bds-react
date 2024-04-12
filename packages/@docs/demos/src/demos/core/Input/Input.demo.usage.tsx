@@ -1,10 +1,10 @@
 import React from 'react';
-import { Input } from '@mantine/core';
+import { Input } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputOnlyControls } from '../../../shared';
 
 const code = `
-import { Input } from '@mantine/core';
+import { Input } from '@bds-react/core';
 
 function Demo() {
   return <Input{{props}} placeholder="Input component" />;

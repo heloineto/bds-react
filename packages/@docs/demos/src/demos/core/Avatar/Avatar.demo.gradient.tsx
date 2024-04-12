@@ -1,10 +1,10 @@
 import React from 'react';
-import { Avatar } from '@mantine/core';
+import { Avatar } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { gradientControls } from '../../../shared';
 
 const code = (props: any) => `
-import { Avatar } from '@mantine/core';
+import { Avatar } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import { PasswordInput } from '@mantine/core';
+import { PasswordInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { PasswordInput } from '@mantine/core';
+import { PasswordInput } from '@bds-react/core';
 
 function Demo() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ScrollArea, ScrollAreaProps } from '@mantine/core';
+import { Box, ScrollArea, ScrollAreaProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { Content } from './_content';
 
@@ -14,7 +14,7 @@ function Wrapper(props: ScrollAreaProps) {
 }
 
 const code = `
-import { ScrollArea } from '@mantine/core';
+import { ScrollArea } from '@bds-react/core';
 
 function Demo() {
   return (

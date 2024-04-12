@@ -1,10 +1,10 @@
 import React from 'react';
-import { Switch } from '@mantine/core';
+import { Switch } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { SwitchStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Switch } from '@mantine/core';
+import { Switch } from '@bds-react/core';
 
 function Demo() {
   return <Switch{{props}} label="Switch component" description="Switch description" error="Switch error />;

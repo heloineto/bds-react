@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, em, Modal } from '@mantine/core';
+import { Button, em, Modal } from '@bds-react/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { Modal, Button } from '@mantine/core';
+import { Modal, Button } from '@bds-react/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

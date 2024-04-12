@@ -1,10 +1,10 @@
 import React from 'react';
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@bds-react/core';
 
 
 function Demo() {

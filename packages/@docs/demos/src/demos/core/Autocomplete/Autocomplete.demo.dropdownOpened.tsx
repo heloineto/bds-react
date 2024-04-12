@@ -1,10 +1,10 @@
 import React from 'react';
-import { Autocomplete, Button } from '@mantine/core';
+import { Autocomplete, Button } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Autocomplete, Button } from '@mantine/core';
+import { Autocomplete, Button } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 
 function Demo() {

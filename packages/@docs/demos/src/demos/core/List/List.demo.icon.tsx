@@ -1,10 +1,10 @@
 import React from 'react';
+import { List, rem, ThemeIcon } from '@bds-react/core';
 import { IconCircleCheck, IconCircleDashed } from '@tabler/icons-react';
-import { List, rem, ThemeIcon } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { List, ThemeIcon, rem } from '@mantine/core';
+import { List, ThemeIcon, rem } from '@bds-react/core';
 import { IconCircleCheck, IconCircleDashed } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { SegmentedControl } from '@mantine/core';
+import { SegmentedControl } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { SegmentedControl } from '@mantine/core';
+import { SegmentedControl } from '@bds-react/core';
 
 function Demo() {
   return <SegmentedControl{{props}} data={['React', 'Angular', 'Vue']} />;

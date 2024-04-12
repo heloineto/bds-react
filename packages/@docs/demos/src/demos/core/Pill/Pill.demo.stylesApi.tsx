@@ -1,11 +1,11 @@
 import React from 'react';
-import { Pill } from '@mantine/core';
+import { Pill } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { PillStylesApi } from '@docs/styles-api';
 import classes from './_demo.module.css';
 
 const code = `
-import { Pill } from '@mantine/core';
+import { Pill } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

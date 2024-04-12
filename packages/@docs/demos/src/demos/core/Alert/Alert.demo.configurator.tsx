@@ -1,11 +1,11 @@
 import React from 'react';
+import { Alert } from '@bds-react/core';
 import { IconInfoCircle } from '@tabler/icons-react';
-import { Alert } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { staticVariantsControl } from '../../../shared';
 
 const code = `
-import { Alert } from '@mantine/core';
+import { Alert } from '@bds-react/core';
 import { IconInfoCircle } from '@tabler/icons-react';
 
 function Demo() {

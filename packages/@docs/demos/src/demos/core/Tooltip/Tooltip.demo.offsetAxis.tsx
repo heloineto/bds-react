@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Tooltip } from '@mantine/core';
+import { Button, Tooltip } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { FLOATING_POSITION_DATA } from '../../../shared';
 
 const code = (props: any) => `
-import { Tooltip, Button } from '@mantine/core';
+import { Tooltip, Button } from '@bds-react/core';
 
 function Demo() {
   return (

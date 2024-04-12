@@ -1,9 +1,9 @@
 import React from 'react';
-import { Badge, Button, Card, Group, Image, Text } from '@mantine/core';
+import { Badge, Button, Card, Group, Image, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+import { Card, Image, Text, Badge, Button, Group } from '@bds-react/core';
 
 function Demo() {
   return (

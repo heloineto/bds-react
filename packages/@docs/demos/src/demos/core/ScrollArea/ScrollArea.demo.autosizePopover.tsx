@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
-import { Box, Popover, ScrollArea, Text, TextInput, UnstyledButton } from '@mantine/core';
+import { Box, Popover, ScrollArea, Text, TextInput, UnstyledButton } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState, useRef } from 'react';
-import { ScrollArea, Popover, TextInput, UnstyledButton, Text, Box } from '@mantine/core';
+import { ScrollArea, Popover, TextInput, UnstyledButton, Text, Box } from '@bds-react/core';
 
 const groceries = [
   'Apples',

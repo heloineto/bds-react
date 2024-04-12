@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { ColorPicker, DEFAULT_THEME, Text } from '@mantine/core';
+import { ColorPicker, DEFAULT_THEME, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { DEFAULT_THEME, ColorPicker, Text } from '@mantine/core';
+import { DEFAULT_THEME, ColorPicker, Text } from '@bds-react/core';
 
 function Demo() {
   const [value, onChange] = useState('#fff');

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Slider } from '@mantine/core';
+import { Box, Slider } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Slider.demo.customize.module.css';
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {

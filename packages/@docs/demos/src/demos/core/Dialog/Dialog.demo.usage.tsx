@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Dialog, Group, Text, TextInput } from '@mantine/core';
+import { Button, Dialog, Group, Text, TextInput } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Dialog, Group, Button, TextInput, Text } from '@mantine/core';
+import { Dialog, Group, Button, TextInput, Text } from '@bds-react/core';
 
 function Demo() {
   const [opened, { toggle, close }] = useDisclosure(false);

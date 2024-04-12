@@ -1,6 +1,6 @@
 import React from 'react';
+import { ThemeIcon, ThemeIconProps } from '@bds-react/core';
 import { IconPhoto } from '@tabler/icons-react';
-import { ThemeIcon, ThemeIconProps } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: ThemeIconProps) {
@@ -14,7 +14,7 @@ function Wrapper(props: ThemeIconProps) {
 }
 
 const code = `
-import { ThemeIcon } from '@mantine/core';
+import { ThemeIcon } from '@bds-react/core';
 import { IconPhoto } from '@tabler/icons-react';
 
 function Demo() {

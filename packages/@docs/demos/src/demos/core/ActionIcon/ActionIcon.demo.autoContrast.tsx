@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon, Group } from '@bds-react/core';
 import { IconFingerprint } from '@tabler/icons-react';
-import { ActionIcon, Group } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { IconFingerprint } from '@tabler/icons-react';
-import { ActionIcon, Group } from '@mantine/core';
+import { ActionIcon, Group } from '@bds-react/core';
 
 function Demo() {
   return (

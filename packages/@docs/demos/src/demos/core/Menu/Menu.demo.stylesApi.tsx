@@ -1,11 +1,11 @@
 import React from 'react';
-import { Menu } from '@mantine/core';
+import { Menu } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { MenuStylesApi } from '@docs/styles-api';
 import { DemoMenuItems } from './_menu-items';
 
 const code = `
-import { Menu } from '@mantine/core';
+import { Menu } from '@bds-react/core';
 
 function Demo() {
   return (

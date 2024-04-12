@@ -1,11 +1,11 @@
 import React from 'react';
+import { ActionIcon, createTheme, Group, MantineThemeProvider } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { ActionIcon, createTheme, Group, MantineThemeProvider } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './ActionIcon.demo.customVariant.module.css';
 
 const code = `
-import { Group, ActionIcon, MantineProvider, createTheme } from '@mantine/core';
+import { Group, ActionIcon, MantineProvider, createTheme } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
 import classes from './Demo.module.css';
 

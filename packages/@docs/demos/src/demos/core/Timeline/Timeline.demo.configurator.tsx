@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, TimelineProps } from '@mantine/core';
+import { Box, TimelineProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { TimelineBase } from './_base';
 
@@ -12,7 +12,7 @@ function Wrapper(props: TimelineProps) {
 }
 
 const code = `
-import { Timeline } from '@mantine/core';
+import { Timeline } from '@bds-react/core';
 
 function Demo() {
   return (

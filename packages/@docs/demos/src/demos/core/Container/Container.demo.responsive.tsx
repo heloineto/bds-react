@@ -1,12 +1,12 @@
 import React from 'react';
+import { Container, createTheme, MantineThemeProvider } from '@bds-react/core';
 import cx from 'clsx';
-import { Container, createTheme, MantineThemeProvider } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Container.demo.responsive.module.css';
 
 const code = `
 import cx from 'clsx';
-import { MantineProvider, Container, createTheme } from '@mantine/core';
+import { MantineProvider, Container, createTheme } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 const theme = createTheme({

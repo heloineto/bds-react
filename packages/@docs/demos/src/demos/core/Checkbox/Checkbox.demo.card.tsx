@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Checkbox, Text, UnstyledButton } from '@mantine/core';
+import { Checkbox, Text, UnstyledButton } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import classes from './Checkbox.demo.card.module.css';
 
@@ -50,7 +50,7 @@ const cssCode = `.root {
 
 const code = `
 import { useState } from 'react';
-import { Checkbox, UnstyledButton, Text } from '@mantine/core';
+import { Checkbox, UnstyledButton, Text } from '@bds-react/core';
 import classes from './Demo.module.css';
 
 function Demo() {
@@ -72,7 +72,7 @@ function Demo() {
         data-checked={checked || undefined}
         onClick={() => setChecked((c) => !c)}
       >
-        <Text className={classes.label}>@mantine/core</Text>
+        <Text className={classes.label}>@bds-react/core</Text>
         <Text className={classes.description}>
           Core components library: inputs, buttons, overlays, etc.
         </Text>
@@ -101,7 +101,7 @@ function Demo() {
         data-checked={checked || undefined}
         onClick={() => setChecked((c) => !c)}
       >
-        <Text className={classes.label}>@mantine/core</Text>
+        <Text className={classes.label}>@bds-react/core</Text>
         <Text className={classes.description}>
           Core components library: inputs, buttons, overlays, etc.
         </Text>

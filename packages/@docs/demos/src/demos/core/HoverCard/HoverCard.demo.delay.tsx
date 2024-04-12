@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Group, HoverCard, Text } from '@mantine/core';
+import { Button, Group, HoverCard, Text } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { HoverCard, Button, Text, Group } from '@mantine/core';
+import { HoverCard, Button, Text, Group } from '@bds-react/core';
 
 function Demo() {
   return (

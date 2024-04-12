@@ -1,11 +1,11 @@
 import React from 'react';
-import { Burger } from '@mantine/core';
+import { Burger } from '@bds-react/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useDisclosure } from '@mantine/hooks';
-import { Burger } from '@mantine/core';
+import { Burger } from '@bds-react/core';
 
 function Demo() {
   const [opened, { toggle }] = useDisclosure();

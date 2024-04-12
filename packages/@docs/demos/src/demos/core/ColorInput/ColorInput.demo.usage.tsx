@@ -1,10 +1,10 @@
 import React from 'react';
-import { ColorInput } from '@mantine/core';
+import { ColorInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { ColorInput } from '@mantine/core';
+import { ColorInput } from '@bds-react/core';
 
 
 function Demo() {

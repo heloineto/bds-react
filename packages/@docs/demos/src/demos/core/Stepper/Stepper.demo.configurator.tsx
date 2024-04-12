@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stepper, StepperProps } from '@mantine/core';
+import { Stepper, StepperProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: Partial<StepperProps>) {
@@ -12,7 +12,7 @@ function Wrapper(props: Partial<StepperProps>) {
 }
 
 const code = `
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@bds-react/core';
 
 function Demo() {
   return (

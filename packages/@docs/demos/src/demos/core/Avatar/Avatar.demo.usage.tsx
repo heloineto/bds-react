@@ -1,11 +1,11 @@
 import React from 'react';
+import { Avatar, Group } from '@bds-react/core';
 import { IconStar } from '@tabler/icons-react';
-import { Avatar, Group } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { avatars } from './_mockdata';
 
 const code = `
-import { Avatar } from '@mantine/core';
+import { Avatar } from '@bds-react/core';
 import { IconStar } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Rating, rem } from '@bds-react/core';
 import {
   IconMoodCrazyHappy,
   IconMoodCry,
@@ -6,11 +7,10 @@ import {
   IconMoodSad,
   IconMoodSmile,
 } from '@tabler/icons-react';
-import { Rating, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { Rating, rem } from '@mantine/core';
+import { Rating, rem } from '@bds-react/core';
 import {
   IconMoodCry,
   IconMoodSad,

@@ -1,9 +1,9 @@
 import React from 'react';
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@bds-react/core';
 
 function Demo() {
   return <FileInput clearable label="Upload files" placeholder="Upload files" />;

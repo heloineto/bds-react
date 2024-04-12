@@ -1,10 +1,10 @@
 import React from 'react';
+import { ActionIcon, CopyButton, rem, Tooltip } from '@bds-react/core';
 import { IconCheck, IconCopy } from '@tabler/icons-react';
-import { ActionIcon, CopyButton, rem, Tooltip } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { CopyButton, ActionIcon, Tooltip, rem } from '@mantine/core';
+import { CopyButton, ActionIcon, Tooltip, rem } from '@bds-react/core';
 import { IconCopy, IconCheck } from '@tabler/icons-react';
 
 function Demo() {

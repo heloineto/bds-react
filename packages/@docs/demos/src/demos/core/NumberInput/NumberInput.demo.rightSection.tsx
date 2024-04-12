@@ -1,10 +1,10 @@
 import React from 'react';
+import { NumberInput } from '@bds-react/core';
 import { IconChartBubble } from '@tabler/icons-react';
-import { NumberInput } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@bds-react/core';
 import { IconChartBubble } from '@tabler/icons-react';
 
 function Demo() {

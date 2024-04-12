@@ -1,12 +1,12 @@
 import React from 'react';
+import { Autocomplete, rem } from '@bds-react/core';
 import { IconAt } from '@tabler/icons-react';
-import { Autocomplete, rem } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { AutocompleteStylesApi } from '@docs/styles-api';
 
 const code = `
 import { IconAt } from '@tabler/icons-react';
-import { Autocomplete, rem } from '@mantine/core';
+import { Autocomplete, rem } from '@bds-react/core';
 
 function Demo() {
   return (

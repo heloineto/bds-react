@@ -1,10 +1,10 @@
 import React from 'react';
-import { Select } from '@mantine/core';
+import { Select } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 import { inputControls } from '../../../shared';
 
 const code = `
-import { Select } from '@mantine/core';
+import { Select } from '@bds-react/core';
 
 
 function Demo() {

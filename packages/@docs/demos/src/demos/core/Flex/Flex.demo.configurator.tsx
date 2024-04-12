@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex, FlexProps } from '@mantine/core';
+import { Button, Flex, FlexProps } from '@bds-react/core';
 import { MantineDemo } from '@mantinex/demo';
 
 function Wrapper(props: FlexProps) {
@@ -13,7 +13,7 @@ function Wrapper(props: FlexProps) {
 }
 
 const code = `
-import { Flex, Button } from '@mantine/core';
+import { Flex, Button } from '@bds-react/core';
 
 
 function Demo() {

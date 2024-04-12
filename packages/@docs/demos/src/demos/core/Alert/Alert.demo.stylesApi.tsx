@@ -1,11 +1,11 @@
 import React from 'react';
+import { Alert } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
-import { Alert } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
 import { AlertStylesApi } from '@docs/styles-api';
 
 const code = `
-import { Alert } from '@mantine/core';
+import { Alert } from '@bds-react/core';
 import { IconHeart } from '@tabler/icons-react';
 import classes from './Demo.module.css';
 
