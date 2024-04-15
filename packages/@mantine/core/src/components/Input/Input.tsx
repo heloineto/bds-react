@@ -36,7 +36,7 @@ export interface __BaseInputProps extends __InputWrapperProps, Omit<__InputProps
 export type __InputStylesNames = InputStylesNames | InputWrapperStylesNames;
 
 export type InputStylesNames = 'input' | 'wrapper' | 'section';
-export type InputVariant = 'default' | 'filled' | 'unstyled';
+export type InputVariant = 'primary' | 'default' | 'filled' | 'unstyled';
 export type InputCssVariables = {
   wrapper:
     | '--input-height'
@@ -101,6 +101,9 @@ export interface __InputProps {
 
   /** Determines whether the input should have red border and red text color when the `error` prop is set, `true` by default */
   withErrorStyles?: boolean;
+
+  /** Determines whether the input should have green border and green text color when the `success` prop is set, `true` by default */
+  withSuccessStyles?: boolean;
 }
 
 export interface InputProps extends BoxProps, __InputProps, StylesApiProps<InputFactory> {
@@ -111,6 +114,9 @@ export interface InputProps extends BoxProps, __InputProps, StylesApiProps<Input
 
   /** Determines whether the input should have error styles and `aria-invalid` attribute */
   error?: React.ReactNode;
+
+  /** Determines whether the input should have success styles */
+  success?: React.ReactNode;
 
   /** Determines whether the input can have multiple lines, for example when `component="textarea"`, `false` by default */
   multiline?: boolean;
@@ -140,11 +146,12 @@ export type InputFactory = PolymorphicFactory<{
 }>;
 
 const defaultProps: Partial<InputProps> = {
-  variant: 'default',
+  variant: 'primary',
   leftSectionPointerEvents: 'none',
   rightSectionPointerEvents: 'none',
   withAria: true,
   withErrorStyles: true,
+  withSuccessStyles: true,
 };
 
 const varsResolver = createVarsResolver<InputFactory>((_, props, ctx) => ({
@@ -178,6 +185,7 @@ export const Input = polymorphicFactory<InputFactory>((_props, ref) => {
     size,
     wrapperProps,
     error,
+    success,
     disabled,
     leftSection,
     leftSectionProps,
@@ -195,6 +203,7 @@ export const Input = polymorphicFactory<InputFactory>((_props, ref) => {
     id,
     withAria,
     withErrorStyles,
+    withSuccessStyles,
     mod,
     ...others
   } = props;
@@ -236,6 +245,7 @@ export const Input = polymorphicFactory<InputFactory>((_props, ref) => {
       mod={[
         {
           error: !!error && withErrorStyles,
+          success: !!success && withSuccessStyles,
           pointer,
           disabled,
           multiline,
@@ -266,7 +276,11 @@ export const Input = polymorphicFactory<InputFactory>((_props, ref) => {
         {...ariaAttributes}
         ref={ref}
         required={required}
-        mod={{ disabled, error: !!error && withErrorStyles }}
+        mod={{
+          disabled,
+          error: !!error && withErrorStyles,
+          success: !!success && withSuccessStyles,
+        }}
         variant={variant}
         {...getStyles('input')}
       />

@@ -31,7 +31,7 @@ export const usage: MantineDemo = {
     },
     { prop: 'fullWidth', type: 'boolean', initialValue: false, libraryValue: false },
     { prop: 'withItemsBorders', type: 'boolean', initialValue: true, libraryValue: true },
-    { type: 'size', prop: 'size', initialValue: 'sm', libraryValue: 'sm' },
+    { type: 'size', prop: 'size', initialValue: 'md', libraryValue: 'sm' },
     { type: 'size', prop: 'radius', initialValue: 'sm', libraryValue: 'sm' },
   ],
 };

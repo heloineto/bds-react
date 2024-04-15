@@ -1,7 +1,6 @@
 import React from 'react';
 import { Input } from '@mantine/core';
 import { MantineDemo } from '@mantinex/demo';
-import { inputOnlyControls } from '../../../shared';
 
 const code = `
 import { Input } from '@mantine/core';
@@ -21,5 +20,9 @@ export const usage: MantineDemo = {
   code,
   centered: true,
   maxWidth: 340,
-  controls: inputOnlyControls,
+  controls: [
+    { type: 'boolean', prop: 'disabled', initialValue: false, libraryValue: false },
+    { type: 'boolean', prop: 'error', initialValue: false, libraryValue: false },
+    { type: 'boolean', prop: 'success', initialValue: false, libraryValue: false },
+  ],
 };

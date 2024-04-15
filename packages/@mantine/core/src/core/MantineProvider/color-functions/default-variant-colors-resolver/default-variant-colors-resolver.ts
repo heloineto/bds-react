@@ -105,10 +105,10 @@ export const defaultVariantColorsResolver: VariantColorsResolver = ({
 
   if (variant === 'delete') {
     return {
-      background: 'var(--mantine-color-delete)',
-      hover: 'var(--mantine-color-delete-hover)',
+      background: 'var(--bds-color-delete)',
+      hover: 'var(--bds-color-delete-hover)',
       color: 'var(--mantine-color-white)',
-      activeColor: 'var(--mantine-color-delete-active)',
+      activeColor: 'var(--bds-color-delete-active)',
       border: `${rem(1)} solid transparent`,
     };
   }

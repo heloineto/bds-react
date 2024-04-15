@@ -90,12 +90,17 @@ body {
 /* ----- Default CSS variables ----- */
 
 :root {
-  --mantine-color-content-default: #454545;
-  --mantine-color-hover-active: #e3e3e3;
-  --mantine-color-pressed: #cecece;
-  --mantine-color-border-1: #a5a5a5;
-  --mantine-color-delete: #e60f0f;
-  --mantine-color-surface-2: #e0e0e0;
+  --bds-color-content-default: #454545;
+  --bds-color-hover-active: #e3e3e3;
+  --bds-color-pressed: #cecece;
+  --bds-color-border-1: #a5a5a5;
+  --bds-color-delete: #e60f0f;
+  --bds-color-surface-2: #e0e0e0;
+  --bds-color-primary: #1e6bf1;
+  --bds-color-system: #b2dffd;
+  --bds-color-error: #f99f9f;
+  --bds-color-positive: #10603b;
+  --bds-color-success: #84ebbc;
 
   color-scheme: var(--mantine-color-scheme);
 
@@ -350,8 +355,12 @@ body {
 }
 
 :root[data-mantine-color-scheme='dark'] {
+  --bds-color-system: #405677;
+  --bds-color-error: #622c2c;
+  --bds-color-success: #213b2f;
+
   --mantine-color-secondary: transparent;
-  --mantine-color-secondary-color: var(--mantine-color-surface-2);
+  --mantine-color-secondary-color: var(--bds-color-surface-2);
   --mantine-color-secondary-hover: #242424;
   --mantine-color-secondary-active: #1e1e1e;
   --mantine-color-tertiary: transparent;
@@ -359,8 +368,8 @@ body {
   --mantine-color-tertiary-hover: #242424;
   --mantine-color-tertiary-active: #1e1e1e;
   --mantine-color-tertiary-border: #595959;
-  --mantine-color-delete-hover: #d90e0e;
-  --mantine-color-delete-active: #cf0e0e;
+  --bds-color-delete-hover: #d90e0e;
+  --bds-color-delete-active: #cf0e0e;
   --mantine-color-blue-primary: #1e6bf1;
   --mantine-color-blue-primary-hover: #1c64e3;
   --mantine-color-blue-primary-active: #1b5fd7;
@@ -494,16 +503,16 @@ body {
 
 :root[data-mantine-color-scheme='light'] {
   --mantine-color-secondary: transparent;
-  --mantine-color-secondary-color: var(--mantine-color-content-default);
-  --mantine-color-secondary-hover: var(--mantine-color-hover-active);
-  --mantine-color-secondary-active: var(--mantine-color-pressed);
+  --mantine-color-secondary-color: var(--bds-color-content-default);
+  --mantine-color-secondary-hover: var(--bds-color-hover-active);
+  --mantine-color-secondary-active: var(--bds-color-pressed);
   --mantine-color-tertiary: transparent;
-  --mantine-color-tertiary-color: var(--mantine-color-content-default);
-  --mantine-color-tertiary-hover: var(--mantine-color-hover-active);
-  --mantine-color-tertiary-active: var(--mantine-color-pressed);
-  --mantine-color-tertiary-border: var(--mantine-color-border-1);
-  --mantine-color-delete-hover: #d90e0e;
-  --mantine-color-delete-active: #cf0e0e;
+  --mantine-color-tertiary-color: var(--bds-color-content-default);
+  --mantine-color-tertiary-hover: var(--bds-color-hover-active);
+  --mantine-color-tertiary-active: var(--bds-color-pressed);
+  --mantine-color-tertiary-border: var(--bds-color-border-1);
+  --bds-color-delete-hover: #d90e0e;
+  --bds-color-delete-active: #cf0e0e;
   --mantine-color-blue-primary: #1e6bf1;
   --mantine-color-blue-primary-hover: #1c64e3;
   --mantine-color-blue-primary-active: #1b5fd7;
