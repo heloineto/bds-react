@@ -38,11 +38,25 @@
     "./styles/*": "./styles/*"
   },
   "repository": {
-    "url": "https://github.com/heloineto/bds-react.git",
+    "url": "https://github.com/mantinedev/mantine.git",
     "type": "git",
-    "directory": "packages/@bds-react/core"
+    "directory": "packages/@mantine/core"
+  },
+  "peerDependencies": {
+    "@mantine/hooks": "7.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@mantine/core": "workspace:*"
+    "@floating-ui/react": "^0.26.9",
+    "clsx": "2.1.0",
+    "react-number-format": "^5.3.1",
+    "react-remove-scroll": "^2.5.7",
+    "react-textarea-autosize": "8.5.3",
+    "type-fest": "^4.12.0"
+  },
+  "devDependencies": {
+    "@mantine-tests/core": "workspace:*",
+    "@mantine/hooks": "workspace:*"
   }
 }
